@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import argparse
-import base64
+import ast
 from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -147,6 +147,19 @@ def github_request(
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"GitHub API {error.code}: {detail}") from error
+
+
+def public_text_request(url: str) -> str:
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "woonyong-profile-index"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=25) as response:
+            return response.read().decode("utf-8")
+    except urllib.error.HTTPError as error:
+        detail = error.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Public content {error.code}: {detail}") from error
 
 
 def repository_fields() -> str:
@@ -315,60 +328,50 @@ def discover_activity(login: str, token: str) -> ActivitySummary:
     )
 
 
-def frontmatter_value(source: str, key: str) -> str:
-    match = re.search(rf"(?m)^{re.escape(key)}:\s*(.*?)\s*$", source)
-    return match.group(1).strip().strip('"\'') if match else ""
-
-
-def frontmatter_list(source: str, key: str) -> tuple[str, ...]:
-    block = re.search(
-        rf"(?m)^{re.escape(key)}:[ \t]*\n"
-        rf"((?:[ \t]+-[ \t]+.*(?:\n|$))*)",
-        source,
+def discover_blog_posts(login: str) -> list[BlogPost]:
+    base_url = (
+        "https://raw.githubusercontent.com/"
+        f"{login}/{login}.github.io/main/"
     )
-    if not block:
-        return ()
-    return tuple(
-        item.strip().strip('"\'')
-        for item in re.findall(
-            r"(?m)^[ \t]+-[ \t]+(.*?)[ \t]*$", block.group(1)
-        )
+    manifest = json.loads(public_text_request(f"{base_url}asset-manifest.json"))
+    main_path = str(manifest.get("files", {}).get("main.js") or "").removeprefix(
+        "./"
     )
-
-
-def discover_blog_posts(login: str, token: str) -> list[BlogPost]:
-    source_repository = f"{login}/resume"
-    response = github_request(
-        f"https://api.github.com/repos/{source_repository}/contents/content/posts",
-        token,
+    if not main_path:
+        raise RuntimeError("Published blog JavaScript entrypoint is missing")
+    bundle = public_text_request(f"{base_url}{main_path}")
+    js_string = r'(?:"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\')'
+    pattern = re.compile(
+        r'\{type:"post",slug:(?P<slug>'
+        + js_string
+        + r"),name:(?P<name>"
+        + js_string
+        + r").*?,subtitle:(?P<subtitle>"
+        + js_string
+        + r").*?,date:(?P<date>"
+        + js_string
+        + r"),tags:\[(?P<tags>.*?)\]\}",
+        re.S,
     )
-    if not isinstance(response, list):
-        raise RuntimeError("Blog post directory lookup failed")
     posts: list[BlogPost] = []
-    for item in response:
-        if not str(item.get("name") or "").lower().endswith(".md"):
-            continue
-        document = github_request(str(item["url"]), token)
-        if not isinstance(document, dict) or not document.get("content"):
-            raise RuntimeError(f"Blog post lookup failed: {item.get('name')}")
-        source = base64.b64decode(str(document["content"])).decode("utf-8")
-        if frontmatter_value(source, "draft").lower() == "true":
-            continue
-        name = frontmatter_value(source, "name") or frontmatter_value(source, "title")
-        published_at = frontmatter_value(source, "date")
-        if not name or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", published_at):
-            raise RuntimeError(f"Blog post metadata is incomplete: {item.get('name')}")
-        order_text = frontmatter_value(source, "order")
+    for order, match in enumerate(pattern.finditer(bundle)):
+        decode = ast.literal_eval
+        published_at = str(decode(match.group("date")))
         posts.append(
             BlogPost(
-                slug=Path(str(item["name"])).stem,
-                name=name,
-                subtitle=frontmatter_value(source, "subtitle"),
+                slug=str(decode(match.group("slug"))),
+                name=str(decode(match.group("name"))),
+                subtitle=str(decode(match.group("subtitle"))),
                 published_at=published_at,
-                order=int(order_text) if order_text.isdigit() else 0,
-                tags=frontmatter_list(source, "tags"),
+                order=order,
+                tags=tuple(
+                    str(decode(item.group(0)))
+                    for item in re.finditer(js_string, match.group("tags"))
+                ),
             )
         )
+    if not posts:
+        raise RuntimeError("Published blog posts were not found")
     return sorted(
         posts,
         key=lambda post: (post.published_at, post.order, post.slug),
@@ -945,7 +948,7 @@ def main() -> None:
     token = os.environ.get("GH_TOKEN", "")
     profile = discover_profile(args.login, token)
     activity = discover_activity(args.login, token)
-    blog_posts = discover_blog_posts(args.login, token)
+    blog_posts = discover_blog_posts(args.login)
     public_repositories = discover_repositories(args.login, token)
     snapshots = collect_snapshots(public_repositories, token)
     featured = select_featured(snapshots, args.login)
