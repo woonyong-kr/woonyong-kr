@@ -9,7 +9,7 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,611" src="https://img.shields.io/badge/Contributions-10%2C611-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,613" src="https://img.shields.io/badge/Contributions-10%2C613-0969DA?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Commits 7,765" src="https://img.shields.io/badge/Commits-7%2C765-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
