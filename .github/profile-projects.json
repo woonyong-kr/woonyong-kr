@@ -1,18 +1,32 @@
 [
   {
     "name": "Kyro",
-    "repository": "woonyong-kr/k8s-ops"
+    "repository": "woonyong-kr/k8s-ops",
+    "workflow": "ci.yml",
+    "proof": "Backend 203 tests"
   },
   {
     "name": "MiniDB",
-    "repository": "woonyong-kr/minidb"
+    "repository": "woonyong-kr/minidb",
+    "workflow": "ci.yml",
+    "proof": "224/224 tests"
   },
   {
     "name": "PintOS",
-    "repository": "woonyong-kr/pintos"
+    "repository": "woonyong-kr/pintos",
+    "workflow": "ci.yml",
+    "proof": "141/141 CI"
   },
   {
     "name": "JFramework",
-    "repository": "woonyong-kr/dx_framework"
+    "repository": "woonyong-kr/dx_framework",
+    "workflow": "ci.yml",
+    "proof": "Coroutine contracts"
+  },
+  {
+    "name": "Jekyll Theme",
+    "repository": "woonyong-kr/jekyll-theme-velog",
+    "workflow": "deploy.yml",
+    "proof": "MIT · Public template"
   }
 ]
