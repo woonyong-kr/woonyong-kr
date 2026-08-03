@@ -30,6 +30,51 @@ jobs:
           config_display: large
           config_padding: 0, 3%
           config_timezone: Asia/Seoul
+          committer_message: "chore: GitHub 지표 자동 갱신 / ${filename}"
+          extras_js: |
+            const exact = new Map([
+              ["Activity", "공개 활동"],
+              ["Commits", "커밋"],
+              ["Pull requests reviewed", "리뷰한 PR"],
+              ["Pull requests opened", "연 PR"],
+              ["Issues opened", "연 이슈"],
+              ["Issue comments", "이슈 댓글"],
+              ["Languages", "사용 언어"],
+              ["Most used languages", "대표 저장소 언어 비중"],
+              ["Starred topics", "관심 주제"],
+              ["Followers", "팔로워"],
+              ["Achievements", "활동 배지"],
+              ["Coding habits", "코딩 활동"],
+              ["Recently starred repositories", "최근 별을 준 저장소"]
+            ])
+            const translateDuration = (value) => value
+              .replace(/years?/g, "년")
+              .replace(/months?/g, "개월")
+              .replace(/weeks?/g, "주")
+              .replace(/days?/g, "일")
+              .replace(/hours?/g, "시간")
+              .replace(/minutes?/g, "분")
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT)
+            while (walker.nextNode()) {
+              const node = walker.currentNode
+              const original = node.nodeValue
+              const compact = original.trim()
+              let translated = exact.get(compact) ?? compact
+              translated = translated
+                .replace(/^Joined GitHub (.+) ago$/, (_, duration) => `GitHub 가입 · ${translateDuration(duration)} 전`)
+                .replace(/^Followed by ([\d,]+) users$/, "팔로워 $1명")
+                .replace(/^([\d,]+) Commits$/, "$1 커밋")
+                .replace(/^([\d,]+) Pull requests reviewed$/, "리뷰한 PR $1건")
+                .replace(/^([\d,]+) Pull requests opened$/, "연 PR $1건")
+                .replace(/^([\d,]+) Issues opened$/, "연 이슈 $1건")
+                .replace(/^([\d,]+) Issue comments$/, "이슈 댓글 $1건")
+                .replace(/^([\d,]+) Languages$/, "사용 언어 $1개")
+                .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "마지막 갱신 · $1 · metrics@$2")
+                .replace(/^These metrics do not include all private contributions$/, "공개 저장소 기준 · 비공개 기여 일부 제외")
+              if (translated !== compact) {
+                node.nodeValue = original.replace(compact, translated)
+              }
+            }
           repositories_skipped: >-
             woonyong-kr,
             woonyong-kr.github.io,
