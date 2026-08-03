@@ -1,30 +1,23 @@
-# 프로필 지표 자동화
+# 프로필 자동화
 
-프로필의 `github-metrics.svg`는 매주 월요일과 수동 실행 시 갱신됩니다.
+## 기본 원칙
 
-## 기본 지표
+- README의 모든 프로젝트·코드·문서·CI 항목은 실제 URL로 연결한다.
+- GitHub가 기본 제공하는 기여 달력과 Pinned 저장소를 README에서 다시 그리지 않는다.
+- 언어 비중·커밋 수·streak처럼 채용 판단과 직접 연결되지 않는 지표는 첫 화면에서 제외한다.
+- 자동화는 문장을 새로 쓰지 않고 `최근 작업` 영역의 실제 커밋 링크만 갱신한다.
 
-- GitHub 공개 활동: 고정한 `lowlighter/metrics` v3.34 소스에서 생성
-- 대표 저장소 언어 비중: GitHub REST API의 Linguist 바이트를 네 저장소에서 직접 합산
-- 출력: 두 결과를 하나의 SVG로 병합한 뒤 변경이 있을 때만 커밋
+## 자동 갱신
 
-대표 저장소를 바꾸려면 [metrics.yml](./workflows/metrics.yml)의 `PROFILE_REPOSITORIES`만 수정합니다. 언어 색상은 [append_repository_languages.py](../scripts/append_repository_languages.py)의 `LANGUAGE_COLORS`에서 관리합니다.
+`scripts/update_recent_work.py`가 `.github/profile-projects.json`에 등록된 저장소의 최신 사람 커밋을 가져와 README의 다음 마커 사이를 교체한다.
+
+```text
+<!-- recent_work:start -->
+<!-- recent_work:end -->
+```
+
+GitHub Actions는 매주 월요일과 수동 실행 시 동작한다. `dependabot[bot]`과 `github-actions[bot]` 커밋은 제외한다.
 
 ## 선택 지표
 
-Actions의 `Profile metrics`를 수동 실행하고 `extended=true`를 선택하면 다음 지표가 활성화됩니다.
-
-- 팔로워
-- 별을 받은 저장소
-- 활동 배지
-- 코딩 습관 차트
-- 반년 기여 달력
-- PR·이슈 후속 활동
-- 코드 변경량
-- AniList 애니·만화·캐릭터
-
-AniList는 저장소 변수 `ANILIST_USERNAME`이 있을 때만 켜집니다. 사용자 범위 지표가 필요하면 저장소 secret `METRICS_TOKEN`을 추가하고, 기본 실행은 저장소 전용 `GITHUB_TOKEN`만 사용합니다.
-
-## 수치 해석
-
-언어 비중은 기여도나 숙련도를 뜻하지 않습니다. 지정한 공개 저장소의 GitHub Linguist 바이트 합계를 주 1회 스냅샷으로 보여주는 색인입니다.
+`Refresh profile index` workflow의 `extended_metrics` 입력을 켜면 lowlighter 확장 SVG를 별도 생성한다. 팔로워·별·업적·습관·애니 설정은 삭제하지 않았지만 기본 README에서는 노출하지 않는다. SVG 내부 링크는 GitHub 프로필에서 신뢰할 수 있는 탐색 수단이 아니므로 시각 참고용으로만 사용한다.
