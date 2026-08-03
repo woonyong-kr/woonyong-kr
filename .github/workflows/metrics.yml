@@ -1,12 +1,12 @@
-name: Profile metrics
+name: Refresh profile index
 
 on:
   schedule:
     - cron: "23 2 * * 1"
   workflow_dispatch:
     inputs:
-      extended:
-        description: "팔로워·별·업적·습관·기여 달력·애니 확장 지표"
+      extended_metrics:
+        description: "팔로워·별·업적·습관·애니 확장 SVG 생성"
         required: false
         type: boolean
         default: false
@@ -14,122 +14,81 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-index
+  cancel-in-progress: true
+
 jobs:
-  metrics:
+  refresh:
     runs-on: ubuntu-latest
-    env:
-      PROFILE_REPOSITORIES: >-
-        woonyong-kr/k8s-ops,
-        woonyong-kr/minidb,
-        woonyong-kr/pintos,
-        woonyong-kr/dx_framework
     steps:
       - name: Checkout profile source
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - name: Generate public GitHub metrics
+      - name: Update clickable recent work
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/update_recent_work.py \
+            --projects .github/profile-projects.json \
+            --readme README.md
+
+      - name: Verify profile links and generator
+        run: |
+          python3 -m py_compile scripts/update_recent_work.py
+          python3 - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          required = (
+              "https://github.com/woonyong-kr/k8s-ops",
+              "https://github.com/woonyong-kr/minidb",
+              "https://github.com/woonyong-kr/pintos",
+              "https://github.com/woonyong-kr/dx_framework",
+              "<!-- recent_work:start -->",
+              "<!-- recent_work:end -->",
+          )
+          missing = [value for value in required if value not in readme]
+          if missing:
+              raise SystemExit(f"Missing profile evidence links: {missing}")
+          PY
+
+      # 기본 프로필에서는 사용하지 않습니다. 필요할 때 수동 실행하면
+      # 보조 지표를 별도 파일로 생성하며 README 링크에는 영향을 주지 않습니다.
+      - name: Generate optional extended metrics
+        if: ${{ inputs.extended_metrics }}
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          filename: github-metrics.svg
+          filename: github-metrics-extended.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           output_action: none
           user: woonyong-kr
           template: classic
           base: header, activity, community, repositories
           config_display: large
-          config_padding: 0, 3%
           config_timezone: Asia/Seoul
-          extras_js: |
-            const exact = new Map([
-              ["Activity", "활동 기록"],
-              ["Community stats", "공개 활동"],
-              ["Repositories", "저장소"],
-              ["Starred topics", "기술 관심사"],
-              ["Achievements", "활동 배지"],
-              ["Coding habits", "코딩 패턴"],
-              ["Recently starred repositories", "최근 관심 저장소"]
-            ])
-            const translateDuration = (value) => value
-              .replace(/([\d,]+)\s+years?/g, "$1년")
-              .replace(/([\d,]+)\s+months?/g, "$1개월")
-              .replace(/([\d,]+)\s+weeks?/g, "$1주")
-              .replace(/([\d,]+)\s+days?/g, "$1일")
-              .replace(/([\d,]+)\s+hours?/g, "$1시간")
-              .replace(/([\d,]+)\s+minutes?/g, "$1분")
-            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT)
-            while (walker.nextNode()) {
-              const node = walker.currentNode
-              const original = node.nodeValue
-              const compact = original.trim()
-              let translated = exact.get(compact) ?? compact
-              translated = translated
-                .replace(/^Joined GitHub (.+) ago$/, (_, duration) => `GitHub · ${translateDuration(duration)}`)
-                .replace(/^Followed by ([\d,]+) users$/, "팔로워 · $1")
-                .replace(/^Contributed to ([\d,]+) repositories$/, "기여 저장소 · $1")
-                .replace(/^([\d,]+) Commits$/, (_, count) => `커밋 · ${Number(count.replace(/,/g, "")).toLocaleString("ko-KR")}`)
-                .replace(/^([\d,]+) Pull requests reviewed$/, "코드 리뷰 · $1")
-                .replace(/^([\d,]+) Pull requests opened$/, "Pull Request · $1")
-                .replace(/^([\d,]+) Issues opened$/, "Issue · $1")
-                .replace(/^([\d,]+) issue comments$/i, "Issue 대화 · $1")
-                .replace(/^Member of ([\d,]+) organizations$/, "참여 조직 · $1")
-                .replace(/^Following ([\d,]+) users$/, "팔로잉 · $1")
-                .replace(/^Sponsoring ([\d,]+) repositories$/, "후원 저장소 · $1")
-                .replace(/^([\d,]+) Repositories$/, "공개 저장소 · $1")
-                .replace(/^No license preference$/, "라이선스 · 미설정")
-                .replace(/^([\d,]+) Sponsors$/, "후원자 · $1")
-                .replace(/^([\d,]+) Stargazers$/, "별 · $1")
-                .replace(/^([\d,]+) Forkers$/, "포크 · $1")
-                .replace(/^([\d,]+) Watchers$/, "구독 · $1")
-                .replace(/^([\d,]+) Releases$/, "릴리스 · $1")
-                .replace(/^([\d,]+) Packages$/, "패키지 · $1")
-                .replace(/^([\d,.]+) (byte|KB|MB|GB) used$/i, "저장소 용량 · $1 $2")
-                .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "갱신 · $1 · metrics@$2")
-                .replace(/^These metrics do not include all private contributions$/, "공개 데이터 기준 · 비공개 기여 일부 제외")
-              if (translated !== compact) {
-                node.nodeValue = original.replace(compact, translated)
-              }
-            }
-          repositories_skipped: >-
-            woonyong-kr,
-            woonyong-kr.github.io,
-            k8s-ops-min,
-            jekyll-theme-velog
-          plugin_languages: no
-
           plugin_topics: yes
           plugin_topics_limit: 16
           plugin_topics_mode: icons
-
-          # 확장 지표는 Actions → Profile metrics → Run workflow에서
-          # extended를 선택한 경우에만 활성화합니다.
-          plugin_people: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_people: yes
           plugin_people_types: followers
           plugin_people_limit: 24
-
-          plugin_stars: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_stars: yes
           plugin_stars_limit: 8
-
-          plugin_achievements: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
-
-          plugin_habits: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
-
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-          plugin_followup: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_followup: yes
           plugin_followup_sections: repositories
-
-          plugin_lines: ${{ inputs.extended && 'yes' || 'no' }}
-
-          # Settings → Secrets and variables → Actions → Variables에서
-          # ANILIST_USERNAME을 등록해야 애니 지표가 활성화됩니다.
-          plugin_anilist: ${{ inputs.extended && vars.ANILIST_USERNAME != '' && 'yes' || 'no' }}
+          plugin_lines: yes
+          plugin_anilist: ${{ vars.ANILIST_USERNAME != '' && 'yes' || 'no' }}
           plugin_anilist_user: ${{ vars.ANILIST_USERNAME }}
           plugin_anilist_medias: anime, manga
           plugin_anilist_sections: characters, watching, reading, favorites
@@ -137,22 +96,21 @@ jobs:
           plugin_anilist_limit_characters: 22
           plugin_anilist_shuffle: yes
 
-      - name: Merge public repository language evidence
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 scripts/append_repository_languages.py \
-            --input /metrics_renders/github-metrics.svg \
-            --output github-metrics.svg
+      - name: Copy optional extended metrics
+        if: ${{ inputs.extended_metrics }}
+        run: cp /metrics_renders/github-metrics-extended.svg github-metrics-extended.svg
 
-      - name: Commit refreshed profile metrics
+      - name: Commit refreshed index
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-metrics.svg
+          git add README.md
+          if [ -f github-metrics-extended.svg ]; then
+            git add github-metrics-extended.svg
+          fi
           if git diff --cached --quiet; then
-            echo "No metrics changes"
+            echo "No profile changes"
             exit 0
           fi
-          git commit -m "chore: GitHub 지표 자동 갱신 / 공개 저장소 언어 비중"
+          git commit -m "chore: 프로필 색인 자동 갱신 / 최근 작업"
           git push
