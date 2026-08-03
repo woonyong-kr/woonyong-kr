@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="846" height="210" viewBox="0 0 846 210" role="img" aria-labelledby="title desc">
+  <title id="title">최우녕 · Production AI · Backend · Runtime</title>
+  <desc id="desc">운영 증거, 변경 경계, 재현 가능한 검증을 중심으로 시스템을 설계한다.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="0.52" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#30363d" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="844" height="208" rx="14" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="844" height="208" rx="14" fill="url(#grid)" opacity="0.45"/>
+  <rect x="32" y="35" width="5" height="68" rx="2.5" fill="url(#accent)"/>
+  <text x="58" y="63" fill="#f0f6fc" font-size="29" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif">최우녕</text>
+  <text x="58" y="91" fill="#58a6ff" font-size="15" font-weight="600" letter-spacing="0.8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">PRODUCTION AI · BACKEND · RUNTIME</text>
+  <text x="468" y="62" fill="#c9d1d9" font-size="15" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif">증거가 판단보다 먼저 남는 시스템</text>
+  <text x="468" y="88" fill="#8b949e" font-size="13" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif">실패 조건을 숨기지 않고, 허용된 변경만 실행한다</text>
+  <line x1="32" y1="122" x2="814" y2="122" stroke="#30363d"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif">
+    <text x="58" y="151" fill="#58a6ff" font-size="12" font-weight="700" letter-spacing="1.1">EVIDENCE</text>
+    <text x="58" y="176" fill="#f0f6fc" font-size="14" font-weight="600">출처 · 시점 · 실패 상태</text>
+    <circle cx="294" cy="156" r="3" fill="#30363d"/>
+    <text x="320" y="151" fill="#a371f7" font-size="12" font-weight="700" letter-spacing="1.1">BOUNDARY</text>
+    <text x="320" y="176" fill="#f0f6fc" font-size="14" font-weight="600">권한 · 책임 · 변경 범위</text>
+    <circle cx="552" cy="156" r="3" fill="#30363d"/>
+    <text x="578" y="151" fill="#3fb950" font-size="12" font-weight="700" letter-spacing="1.1">VERIFICATION</text>
+    <text x="578" y="176" fill="#f0f6fc" font-size="14" font-weight="600">측정 조건 · 회귀 검증</text>
+  </g>
+</svg>
