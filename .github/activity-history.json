@@ -1,0 +1,2733 @@
+{
+  "commits": [
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@927e76eb627b391354879342b477d64013c54cdd",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: Pages canonical URL / 배포 경로 재현 / SEO 검증",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/927e76eb627b391354879342b477d64013c54cdd",
+      "occurred_at": "2026-08-03T17:34:45Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@df36b865b4079574f6ee6bc8e6fed4bbb7f81441",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 공식 Pages 배포 / 템플릿 검증 / 설정 하드코딩 제거",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/df36b865b4079574f6ee6bc8e6fed4bbb7f81441",
+      "occurred_at": "2026-08-03T17:31:52Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@ea154f87730d9d3ac492bb234166382ca3531493",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6",
+      "url": "https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493",
+      "occurred_at": "2026-08-03T17:28:04Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: MLFQS 고정소수점 / 전체 스레드 갱신 / CI 분리",
+      "url": "https://github.com/woonyong-kr/pintos/commit/09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d",
+      "occurred_at": "2026-08-03T17:09:12Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@78c917a276b69c8746dcfb73c08803f698798ab9",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "test: 코루틴 계약 / 독립 실행 / CI 게이트",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9",
+      "occurred_at": "2026-08-03T16:50:12Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@e622a6115e2d66d587af59e19b7827d5e82286d0",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "fix: 부모 비활성 판정 / Enum 검색 / 코루틴 정리",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/e622a6115e2d66d587af59e19b7827d5e82286d0",
+      "occurred_at": "2026-08-03T16:50:06Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@7b7c43ff93e350a8feecc6d049d4e8e2828937bc",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "build: sanitizer 선택 / 224개 테스트 / CI 게이트",
+      "url": "https://github.com/woonyong-kr/minidb/commit/7b7c43ff93e350a8feecc6d049d4e8e2828937bc",
+      "occurred_at": "2026-08-03T16:47:20Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@063356a5abea75eb0ba6e60c1717de8c91d8d4f7",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "feat: C++/CLI 래핑 예시 문서 추가",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/063356a5abea75eb0ba6e60c1717de8c91d8d4f7",
+      "occurred_at": "2026-08-01T23:27:18Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@09d0c6b9f5ee54c19b222bc21bfb5f227926f450",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "fix: 소스 인코딩 UTF-8 통일",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/09d0c6b9f5ee54c19b222bc21bfb5f227926f450",
+      "occurred_at": "2026-08-01T23:27:18Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@4557df0ec270657c061cf4704ccbaf77f4fd7fd2",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "refactor: 백업·폐기 코드 정리",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/4557df0ec270657c061cf4704ccbaf77f4fd7fd2",
+      "occurred_at": "2026-08-01T23:27:18Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@993d4d873aeeaa08aae2a9de3d3dadc55123ea5d",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: 1M 행 INSERT O(N^2) 결함 2건 개선 (힙 재탐색 힌트, REPL lock 해제)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/993d4d873aeeaa08aae2a9de3d3dadc55123ea5d",
+      "occurred_at": "2026-08-01T20:44:22Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@c1049b0a02f15660fdb80568524eeed48ff27aa8",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: B+Tree 인덱스 범위 스캔 추가",
+      "url": "https://github.com/woonyong-kr/minidb/commit/c1049b0a02f15660fdb80568524eeed48ff27aa8",
+      "occurred_at": "2026-08-01T19:44:29Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@8c9e546fece4345fbac01c07c3d71f49c9b1da46",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: 평가로 찾은 규칙 판별 결함 5건 개선",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8c9e546fece4345fbac01c07c3d71f49c9b1da46",
+      "occurred_at": "2026-08-01T17:35:28Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@44862e5a7b202e2782f3434ce6a5573f19674bb3",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "test: 규칙 엔진 합성 골든셋 평가 하네스 추가",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/44862e5a7b202e2782f3434ce6a5573f19674bb3",
+      "occurred_at": "2026-08-01T17:02:19Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@8b88696384e2dfd69f519c35cfeb9e5963216af7",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 저장소 프로토콜 / 워커 계약 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8b88696384e2dfd69f519c35cfeb9e5963216af7",
+      "occurred_at": "2026-08-01T08:11:51Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@671d0cc2411f61d68cf930b9692ffe9909a8a136",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 컨테이너 정규화 / 중복 보조기 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/671d0cc2411f61d68cf930b9692ffe9909a8a136",
+      "occurred_at": "2026-08-01T08:10:53Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@0d8a85bd842330e8b843743196aa9e4e9c960fdb",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 대시보드 조회 / RCA 원장 보존",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/0d8a85bd842330e8b843743196aa9e4e9c960fdb",
+      "occurred_at": "2026-08-01T08:09:34Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3088215929240c49c1e3e72b8b1618936b836f67",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 제한 상수 / 시드 표식 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3088215929240c49c1e3e72b8b1618936b836f67",
+      "occurred_at": "2026-08-01T08:04:30Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@1b07db29fcf9e80ebdb8a3df9cc9ac33caab1c15",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 API 경로 / 공개 계약 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/1b07db29fcf9e80ebdb8a3df9cc9ac33caab1c15",
+      "occurred_at": "2026-08-01T08:02:59Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b42769ef6f368457757fbad895ee34d3a4594f5e",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 고립 재고 계약 / 접근 모델 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b42769ef6f368457757fbad895ee34d3a4594f5e",
+      "occurred_at": "2026-08-01T07:58:56Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@e5b55c06930ddb328aea332ab4e79f3c865d8446",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 응답 계약 / 공개 모델 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e5b55c06930ddb328aea332ab4e79f3c865d8446",
+      "occurred_at": "2026-08-01T07:57:10Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3d00d2f9dfc709ab71cc2217d86015810060dfe2",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 요청 계약 / 공개 모델 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3d00d2f9dfc709ab71cc2217d86015810060dfe2",
+      "occurred_at": "2026-08-01T07:54:18Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@ef27b85f5251ffb81e4b041868f74c1784a7d613",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 제어 설정 / 터미널 정책 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ef27b85f5251ffb81e4b041868f74c1784a7d613",
+      "occurred_at": "2026-08-01T07:48:57Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@64e017d11ff4bfb01b0aa036223780c749b49c34",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 진단 응답 / 상태 경로 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/64e017d11ff4bfb01b0aa036223780c749b49c34",
+      "occurred_at": "2026-08-01T07:47:27Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@2948e564a5a710e66d79402c0da72bb076d64e2b",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 새로고침 정책 / 브라우저 계약 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2948e564a5a710e66d79402c0da72bb076d64e2b",
+      "occurred_at": "2026-08-01T07:45:55Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@2988e379034050cca7aae75352e77ab2903077d7",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 권장 크기 기능 / 재고 저장소 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2988e379034050cca7aae75352e77ab2903077d7",
+      "occurred_at": "2026-08-01T07:44:36Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@565eb84812dfcf119d9cccc56c20f61cc7bb045a",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 GitOps 조회 계약 / 응답 모델 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/565eb84812dfcf119d9cccc56c20f61cc7bb045a",
+      "occurred_at": "2026-08-01T07:41:27Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@39ab3bb2c17eb78cb0c4183de3e89fc84f891882",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 제거 기능 계약 / 게이트웨이 재노출 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/39ab3bb2c17eb78cb0c4183de3e89fc84f891882",
+      "occurred_at": "2026-08-01T07:40:09Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@8da6a94dcc2f44cd3d27172a90a263ea06248bd8",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 선언 전용 경로 상수 / 공개 표면 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8da6a94dcc2f44cd3d27172a90a263ea06248bd8",
+      "occurred_at": "2026-08-01T07:37:43Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@89c1d8f7e1e1299f7a09ab78bd4f3ba880867cb6",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 타임라인 API / 원장 계약 보존",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/89c1d8f7e1e1299f7a09ab78bd4f3ba880867cb6",
+      "occurred_at": "2026-08-01T07:36:04Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@a858c2158ab357164b609d835f08299a289b30d6",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 이슈 조회 / 대시보드 경로 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a858c2158ab357164b609d835f08299a289b30d6",
+      "occurred_at": "2026-08-01T07:33:40Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@1e0323586bdd0ff4044628b3d72598ec7c68a2d9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 변경 조회 / 타임라인 경로 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/1e0323586bdd0ff4044628b3d72598ec7c68a2d9",
+      "occurred_at": "2026-08-01T07:32:25Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@9cc7c4d6ab6fb1729c666beeaa85660053ac81f3",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 GitOps 조회 / 저장소 상속 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/9cc7c4d6ab6fb1729c666beeaa85660053ac81f3",
+      "occurred_at": "2026-08-01T07:30:56Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@a436f7fdde7b5bcc622ca0562d8c63c66d774e15",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 애플리케이션 조회 / 경로 계약 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a436f7fdde7b5bcc622ca0562d8c63c66d774e15",
+      "occurred_at": "2026-08-01T07:29:20Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@ecaf99ef430e91055f3d6edb8d2b8c82f37ee5c0",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 활동 조회 / 경로 계약 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ecaf99ef430e91055f3d6edb8d2b8c82f37ee5c0",
+      "occurred_at": "2026-08-01T07:27:51Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@0248a959689f52cacd75d1f33190c561653c6d84",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 이슈 투영 / 변경 행 변환 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/0248a959689f52cacd75d1f33190c561653c6d84",
+      "occurred_at": "2026-08-01T07:25:06Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@73619897ad65520f07e0bdc7f3197793c47e3dd5",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 재고 수집기 / 변환 경로 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/73619897ad65520f07e0bdc7f3197793c47e3dd5",
+      "occurred_at": "2026-08-01T07:24:02Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@148b05e46ded48dbaeb133f09a44a6822d78ed02",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 GitOps 투영 / 자원 경로 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/148b05e46ded48dbaeb133f09a44a6822d78ed02",
+      "occurred_at": "2026-08-01T07:22:50Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@bfccd8e4fa18911fcdf119c9307fdaef9028a626",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 조회 보조기 / 승인 식별 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bfccd8e4fa18911fcdf119c9307fdaef9028a626",
+      "occurred_at": "2026-08-01T07:21:10Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@6ca45e31e6ac3144e10a098018c88fc9ceb41332",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 재고 표현 계층 / 단독 테스트 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6ca45e31e6ac3144e10a098018c88fc9ceb41332",
+      "occurred_at": "2026-08-01T07:17:43Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@93a6f7a84bba8d4eed522ccc3f9fa181aa3891af",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 검사 알림 경로 / 공개 계약 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/93a6f7a84bba8d4eed522ccc3f9fa181aa3891af",
+      "occurred_at": "2026-08-01T07:15:39Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b08db013a020550baf3656adb9ae5dcd2480b233",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 Helm 공개 표면 / 잔여 계약 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b08db013a020550baf3656adb9ae5dcd2480b233",
+      "occurred_at": "2026-08-01T07:14:44Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@cf4606168d68b1f703e82c2639818332c42ed089",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 Helm 계약 / 설정 잔여 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/cf4606168d68b1f703e82c2639818332c42ed089",
+      "occurred_at": "2026-08-01T07:12:52Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@5764fe36affa355c88aac5780b174a17df863566",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 진단 계약 / 라우트 잔여 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/5764fe36affa355c88aac5780b174a17df863566",
+      "occurred_at": "2026-08-01T07:11:45Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@6d8f407ff7d3242a588b423b4d601be8120eda14",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 비교 기능 / 라우트 계약 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6d8f407ff7d3242a588b423b4d601be8120eda14",
+      "occurred_at": "2026-08-01T07:10:38Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3eb44a8ebaa8bc6b17cde02dfdd589c1da11e642",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 검사 기능 / 계약 계층 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3eb44a8ebaa8bc6b17cde02dfdd589c1da11e642",
+      "occurred_at": "2026-08-01T07:09:27Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@d5fc91994cd59f07f9bffc005ce6a2ddf7f0a7ef",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 롤아웃 이벤트 / 계약 잔여 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d5fc91994cd59f07f9bffc005ce6a2ddf7f0a7ef",
+      "occurred_at": "2026-08-01T07:08:03Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@72d3a0d276971e42971bb682da0226b77534a374",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 알림 API 계약 / 공개 표면 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/72d3a0d276971e42971bb682da0226b77534a374",
+      "occurred_at": "2026-08-01T07:04:57Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@bf4fcc4b178a9339b43dffdd09b16529dc022394",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 알림 규칙 / 원장 저장소 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bf4fcc4b178a9339b43dffdd09b16529dc022394",
+      "occurred_at": "2026-08-01T07:04:42Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@e210082ca6aab571a35e7df7adcde7f33c6f7bbd",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: 소비자 없는 알림 발행 / 미연결 전송 계층 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e210082ca6aab571a35e7df7adcde7f33c6f7bbd",
+      "occurred_at": "2026-08-01T06:58:27Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3ca7496a8dcd481078a71798ab7885714316b7f6",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 재고 이벤트 / 계약 파일 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3ca7496a8dcd481078a71798ab7885714316b7f6",
+      "occurred_at": "2026-08-01T06:55:04Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@f9dd8693914b1d159f44122389a7dd5dfe38dd1a",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 대상 이벤트 / 계약 잔여 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f9dd8693914b1d159f44122389a7dd5dfe38dd1a",
+      "occurred_at": "2026-08-01T06:53:56Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@695b4007e16f949ef58eb51371f40afddc4934ee",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 이벤트 재노출 / 계약 표면 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/695b4007e16f949ef58eb51371f40afddc4934ee",
+      "occurred_at": "2026-08-01T06:52:09Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@05cad855b7c3e83bf88b141c02604dfdaa0a6ac9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 이벤트 주제 / 스트림 범위 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/05cad855b7c3e83bf88b141c02604dfdaa0a6ac9",
+      "occurred_at": "2026-08-01T06:51:03Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3c66494272ef3199a93dfbff6d272dcf82961312",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: 런타임 의존성 분류 / 잠금 파일 동기화",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3c66494272ef3199a93dfbff6d272dcf82961312",
+      "occurred_at": "2026-08-01T06:47:17Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@ee9882978fab7e09cdc144aa0c8b7a2ea5919c53",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: Python 버전 진단 / manifest 실행 환경",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ee9882978fab7e09cdc144aa0c8b7a2ea5919c53",
+      "occurred_at": "2026-08-01T06:41:19Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@7dc4cfc52fe38401af37af0994209cf8f4eafb1a",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "test: 삭제된 Bruno 계약 / 거짓 skip 제거",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/7dc4cfc52fe38401af37af0994209cf8f4eafb1a",
+      "occurred_at": "2026-08-01T06:36:29Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@4ec537fe55c39fc8f0634986f2402f3687442979",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미사용 정리 API / 저장소 표면 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/4ec537fe55c39fc8f0634986f2402f3687442979",
+      "occurred_at": "2026-08-01T06:34:35Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@ab29bbcc28a05a2f493bc9d08f3228aeac5bf0f9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 미연결 보존 계층 / 실행 근거 정합성",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ab29bbcc28a05a2f493bc9d08f3228aeac5bf0f9",
+      "occurred_at": "2026-08-01T06:32:52Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@338541591e2807b81a197d70603495c62d23650b",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: Python 런타임 선택 / uv 실행 복구",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/338541591e2807b81a197d70603495c62d23650b",
+      "occurred_at": "2026-08-01T06:29:44Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@f317ad950a17296742bf24d79c986a5775c8ebb9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 공개 명칭 / 개인 저장소 링크 / PR 안내",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f317ad950a17296742bf24d79c986a5775c8ebb9",
+      "occurred_at": "2026-07-30T16:12:51Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@256b1010f38fc6cc4847bd344b4a3c6af5c6035a",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: Alembic import 순서 / 품질 게이트",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/256b1010f38fc6cc4847bd344b4a3c6af5c6035a",
+      "occurred_at": "2026-07-30T16:12:46Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@bfcbf34760b9941bb64c330c93e17f2b0b9a2853",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: Draft PR 강제 / base SHA 재검증 / 직접 쓰기 차단",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bfcbf34760b9941bb64c330c93e17f2b0b9a2853",
+      "occurred_at": "2026-07-30T13:43:13Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@c2b3d9bb6795d70f680cbe64998578b5978ef329",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 명령 영속 계층 / 비실행 모델 격리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/c2b3d9bb6795d70f680cbe64998578b5978ef329",
+      "occurred_at": "2026-07-30T10:01:40Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@00af3957d58b572868e96b7c956fe2af036ba275",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 읽기 전용 증거 수집 / 직접 실행 경로 제거 / 핵심 서비스 축소",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/00af3957d58b572868e96b7c956fe2af036ba275",
+      "occurred_at": "2026-07-30T09:59:39Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@73ab5c333b8f68abb489de07b5ff0635037bdf75",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: Golden Path UI / 미사용 화면 제거 / 번들 분할",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/73ab5c333b8f68abb489de07b5ff0635037bdf75",
+      "occurred_at": "2026-07-30T09:12:56Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@18331a1eea8a3729f8688be6527bc3ab86e41957",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: 심화과정 연장 계획 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/18331a1eea8a3729f8688be6527bc3ab86e41957",
+      "occurred_at": "2026-07-28T23:40:28Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b1f04060be2a9593c57f6e16defb70d0cf289470",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: 심화과정 제출본 본문 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b1f04060be2a9593c57f6e16defb70d0cf289470",
+      "occurred_at": "2026-07-28T23:10:38Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@37813f13c7d5c57f0196f9018cb61a7f147303e9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: 심화과정 공통 계획 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/37813f13c7d5c57f0196f9018cb61a7f147303e9",
+      "occurred_at": "2026-07-28T22:39:15Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@2580e662b20b99b90cf805dc3377dfec7d982fb3",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: 심화과정 계획 인덱스 추가",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2580e662b20b99b90cf805dc3377dfec7d982fb3",
+      "occurred_at": "2026-07-28T22:15:35Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@892c4c71c00e61c7997ab2a1412418d54b013c5d",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: 외부 제품명 표현 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/892c4c71c00e61c7997ab2a1412418d54b013c5d",
+      "occurred_at": "2026-07-27T11:00:11Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@6be0c37ac3b676094e6b00b817fff75f16930106",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "문서: docs 루트와 검증 테스트 추가",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6be0c37ac3b676094e6b00b817fff75f16930106",
+      "occurred_at": "2026-07-26T20:29:04Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@2724af33d4dd52fd86422407c1dd31fc1a956a3f",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: isolate Safe PR branches per approval attempt",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2724af33d4dd52fd86422407c1dd31fc1a956a3f",
+      "occurred_at": "2026-07-25T02:36:28Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@d7399293d006c19a1f952bb1ed7b3aca1a5b887b",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: keep recovery outcome title readable",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d7399293d006c19a1f952bb1ed7b3aca1a5b887b",
+      "occurred_at": "2026-07-25T02:27:21Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@c4c5559e262cfbd3aa16dde5380f9ceb5bc1b68e",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: retry failed Safe PR creation with fresh authority",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/c4c5559e262cfbd3aa16dde5380f9ceb5bc1b68e",
+      "occurred_at": "2026-07-25T02:22:23Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@e50734a2a85598bfc8610f924fbd4046125d2859",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: preserve PIN attempts and allow already-applied recovery PRs",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e50734a2a85598bfc8610f924fbd4046125d2859",
+      "occurred_at": "2026-07-25T02:08:32Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@19bc83a242b03e821c4693701ce5745b5c46a734",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "test: reproduce stale recovery PIN and already-applied PR failures",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/19bc83a242b03e821c4693701ce5745b5c46a734",
+      "occurred_at": "2026-07-25T02:07:26Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@14fb964dd9bd79cd786821ea0d0982f24a8af6c7",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "fix: preserve recovery PIN authority through repeated analysis",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/14fb964dd9bd79cd786821ea0d0982f24a8af6c7",
+      "occurred_at": "2026-07-25T01:50:48Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@92e6c8376b3baa973994ae362dd444d45b2b2c72",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-session-gateway-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/92e6c8376b3baa973994ae362dd444d45b2b2c72",
+      "occurred_at": "2026-07-25T01:47:13Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@153a0e4117eef6ab8ca8149f9afbfcde92e744dc",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/153a0e4117eef6ab8ca8149f9afbfcde92e744dc",
+      "occurred_at": "2026-07-25T01:47:13Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@a43aa5cd78849c4277057eabcbacc884863d9765",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a43aa5cd78849c4277057eabcbacc884863d9765",
+      "occurred_at": "2026-07-25T01:47:11Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@30717613f232a3254cc991f304de3fd4b4ebc345",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-canary-room-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/30717613f232a3254cc991f304de3fd4b4ebc345",
+      "occurred_at": "2026-07-25T01:47:09Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b214ee93d5d55ca1ebbbd2a6dd358da84bbb15c3",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b214ee93d5d55ca1ebbbd2a6dd358da84bbb15c3",
+      "occurred_at": "2026-07-25T01:47:08Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@a37512c6b0c3d7c33f19eb3a4ef7ced14a9321dc",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a37512c6b0c3d7c33f19eb3a4ef7ced14a9321dc",
+      "occurred_at": "2026-07-25T01:47:07Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@48c2495b30080e88da7aa39e9c97e10fd9cc13ef",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-3-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/48c2495b30080e88da7aa39e9c97e10fd9cc13ef",
+      "occurred_at": "2026-07-25T01:47:05Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@e682250ca117459301ebc4603b50683e95dfa307",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e682250ca117459301ebc4603b50683e95dfa307",
+      "occurred_at": "2026-07-25T01:47:04Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@f3c9be520ea772a2deca636e46dce7976fe894ad",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f3c9be520ea772a2deca636e46dce7976fe894ad",
+      "occurred_at": "2026-07-25T01:47:02Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@bdeb8e4f058502b8640f0e34ec7aafc6a0f8201d",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-1-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bdeb8e4f058502b8640f0e34ec7aafc6a0f8201d",
+      "occurred_at": "2026-07-25T01:47:00Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b7dee67c4f1346cd27d117497e20dfe5248689a7",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b7dee67c4f1346cd27d117497e20dfe5248689a7",
+      "occurred_at": "2026-07-25T01:46:59Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@fe3bff5b6dbf8f6800e5afc55287476dd26c9cbd",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/fe3bff5b6dbf8f6800e5afc55287476dd26c9cbd",
+      "occurred_at": "2026-07-25T01:46:58Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@cc423b88cf7add5da3a875cb2626f7ddfbabe3a9",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-2-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/cc423b88cf7add5da3a875cb2626f7ddfbabe3a9",
+      "occurred_at": "2026-07-25T01:46:56Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@11bdccbdab3a902cfb5dbdf3d05eef84663d1d50",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/11bdccbdab3a902cfb5dbdf3d05eef84663d1d50",
+      "occurred_at": "2026-07-25T01:46:55Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@b5a0f786ec9032b16e6594e0f2cd53a76f6f93e6",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b5a0f786ec9032b16e6594e0f2cd53a76f6f93e6",
+      "occurred_at": "2026-07-25T01:46:54Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@839d3ac67fc676520031606749d7ce44f64c080f",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-0-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/839d3ac67fc676520031606749d7ce44f64c080f",
+      "occurred_at": "2026-07-25T01:46:51Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@a12834e2efbed0f30662487b0f78a52cf63cc455",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a12834e2efbed0f30662487b0f78a52cf63cc455",
+      "occurred_at": "2026-07-25T01:46:51Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@5afe5d93ceefb85d088cd85bae4c0c011b3e9d6d",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/5afe5d93ceefb85d088cd85bae4c0c011b3e9d6d",
+      "occurred_at": "2026-07-25T01:46:49Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@77fb019a2d5e8a2e1e04394e51a37bc77fb425b4",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-canary-validation-bot-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/77fb019a2d5e8a2e1e04394e51a37bc77fb425b4",
+      "occurred_at": "2026-07-25T01:46:47Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3fca415567b210be72679606316d30509a1bd000",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3fca415567b210be72679606316d30509a1bd000",
+      "occurred_at": "2026-07-25T01:46:46Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@30daf26a23d731d646b5cc955cc52ceb82c79e86",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/30daf26a23d731d646b5cc955cc52ceb82c79e86",
+      "occurred_at": "2026-07-25T01:46:45Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@e634e109ebb5943a468ef2c48f0b2b46337baf80",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-4-base.yaml",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e634e109ebb5943a468ef2c48f0b2b46337baf80",
+      "occurred_at": "2026-07-25T01:46:43Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@3225f62fe40c0e8008b39fdec89247290b43106a",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply manifest patch: deploy/k8s/base",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3225f62fe40c0e8008b39fdec89247290b43106a",
+      "occurred_at": "2026-07-25T01:46:42Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@d2c981afdb9ef1b3f38c7d049654c431a87bde93",
+      "kind": "commit",
+      "project": "Kyro",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d2c981afdb9ef1b3f38c7d049654c431a87bde93",
+      "occurred_at": "2026-07-25T01:46:40Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@c98f51bae9376fcf52b50fc461a8acfc18e447a3",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: VM 진입 전 userprog 경계 조건을 안정화",
+      "url": "https://github.com/woonyong-kr/pintos/commit/c98f51bae9376fcf52b50fc461a8acfc18e447a3",
+      "occurred_at": "2026-05-09T08:27:24Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@d19833ca99712c6938d74deed68b3c17d2f9e298",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: woonyong into dev",
+      "url": "https://github.com/woonyong-kr/pintos/commit/d19833ca99712c6938d74deed68b3c17d2f9e298",
+      "occurred_at": "2026-05-08T02:56:20Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@4d5ce5a836b88459764a5b417e91d6454778b16d",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: remove residual annotation tags from process.c",
+      "url": "https://github.com/woonyong-kr/pintos/commit/4d5ce5a836b88459764a5b417e91d6454778b16d",
+      "occurred_at": "2026-05-06T23:06:38Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@b4e8e44b34b6cb8821aaf9c73afe95f4bd254bad",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: orphaned 자식 종료 시 루트가 미회수 레코드를 정리",
+      "url": "https://github.com/woonyong-kr/pintos/commit/b4e8e44b34b6cb8821aaf9c73afe95f4bd254bad",
+      "occurred_at": "2026-05-06T16:32:08Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@ec67da821fa4a14fa416b491fc021dd2c12d062e",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: 어노테이션 태그(@bookmark) 잔류 5건 제거",
+      "url": "https://github.com/woonyong-kr/pintos/commit/ec67da821fa4a14fa416b491fc021dd2c12d062e",
+      "occurred_at": "2026-05-06T16:06:33Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@1bf5b3452bd92598f992f625f0372bd15bf816a2",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: 루트 스레드 종료 시 자식 재연결을 건너뛰어",
+      "url": "https://github.com/woonyong-kr/pintos/commit/1bf5b3452bd92598f992f625f0372bd15bf816a2",
+      "occurred_at": "2026-05-06T14:49:02Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@6bcb9d569ab29653dddc41d55f2e606e33853e77",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "feat: 루트 스레드 기반 자식 상태 재연결을 추가",
+      "url": "https://github.com/woonyong-kr/pintos/commit/6bcb9d569ab29653dddc41d55f2e606e33853e77",
+      "occurred_at": "2026-05-06T12:56:02Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@e81db931d5f45c0599cbd75d4da5eece4154dda2",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: initd 초기 파일 디스크립터 테이블을 준비",
+      "url": "https://github.com/woonyong-kr/pintos/commit/e81db931d5f45c0599cbd75d4da5eece4154dda2",
+      "occurred_at": "2026-05-06T10:41:36Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@ec01a5edf3a1b6c3ccf79baa05c5fe2fc8eb1520",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: dev 최신 변경을 woonyong에 동기화",
+      "url": "https://github.com/woonyong-kr/pintos/commit/ec01a5edf3a1b6c3ccf79baa05c5fe2fc8eb1520",
+      "occurred_at": "2026-05-06T07:16:02Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@7a608f9ea74e070a37d0e4c40051cfd894b34f88",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: read 시스템콜과 exec 경로를 보강",
+      "url": "https://github.com/woonyong-kr/pintos/commit/7a608f9ea74e070a37d0e4c40051cfd894b34f88",
+      "occurred_at": "2026-05-06T07:12:52Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@a8f7e3c78fa47eef405811afb82e82d3b2e38c65",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: exec 초기 파일 디스크립터 준비 조건을 바로잡아",
+      "url": "https://github.com/woonyong-kr/pintos/commit/a8f7e3c78fa47eef405811afb82e82d3b2e38c65",
+      "occurred_at": "2026-05-06T04:41:28Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@5cfdda283c36d4fe59d27cf920ca8f7fe0bed9f4",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "feat: fork 자식의 파일 디스크립터 복제를 추가",
+      "url": "https://github.com/woonyong-kr/pintos/commit/5cfdda283c36d4fe59d27cf920ca8f7fe0bed9f4",
+      "occurred_at": "2026-05-06T04:37:33Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@81c626ebb1cd2c15c8e04bb7ad277140e21fb00f",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: exec 시스템콜 문자열 검증과 재할당 흐름을 정리",
+      "url": "https://github.com/woonyong-kr/pintos/commit/81c626ebb1cd2c15c8e04bb7ad277140e21fb00f",
+      "occurred_at": "2026-05-06T04:35:16Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@ad88cbefddc9377bfbe8db9b9044ade81ec45088",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: dev 최신 변경을 woonyong에 동기화",
+      "url": "https://github.com/woonyong-kr/pintos/commit/ad88cbefddc9377bfbe8db9b9044ade81ec45088",
+      "occurred_at": "2026-05-05T15:37:09Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@e03f00d79aaa6b5462a3a0f0f44178b006f38d73",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: dev 최신 변경을 woonyong에 동기화",
+      "url": "https://github.com/woonyong-kr/pintos/commit/e03f00d79aaa6b5462a3a0f0f44178b006f38d73",
+      "occurred_at": "2026-05-05T15:37:09Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@b9ca5801661fcbbe46557c278d40fc1ba98d7c1c",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: wait와 exit 구현 브랜치를 dev에 반영",
+      "url": "https://github.com/woonyong-kr/pintos/commit/b9ca5801661fcbbe46557c278d40fc1ba98d7c1c",
+      "occurred_at": "2026-05-05T15:35:31Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@b82f5259a0d9c8aacd0d6d284ba660a117aec8c2",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "merge: wait와 exit 구현 브랜치를 dev에 반영",
+      "url": "https://github.com/woonyong-kr/pintos/commit/b82f5259a0d9c8aacd0d6d284ba660a117aec8c2",
+      "occurred_at": "2026-05-05T15:35:31Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@741eab39de3a5683c60043521438f9154d015991",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: exec 시스템콜 연결과 초기 스레드 fd 초기화를 바로잡아",
+      "url": "https://github.com/woonyong-kr/pintos/commit/741eab39de3a5683c60043521438f9154d015991",
+      "occurred_at": "2026-05-05T15:31:07Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@c980811aac096db064bfcd21a13c5520a44084dd",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: exec 시스템콜 연결과 초기 스레드 fd 초기화를 바로잡아",
+      "url": "https://github.com/woonyong-kr/pintos/commit/c980811aac096db064bfcd21a13c5520a44084dd",
+      "occurred_at": "2026-05-05T15:31:07Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@01a4ab27f7735803172f0d6d4f3cdb4522b4e90d",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: wait 시스템콜과 fork 실패 정리를 연결",
+      "url": "https://github.com/woonyong-kr/pintos/commit/01a4ab27f7735803172f0d6d4f3cdb4522b4e90d",
+      "occurred_at": "2026-05-05T12:03:01Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@8da296a404a1410dff7ed61ce98f2fb5b15a04a8",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: wait 시스템콜과 fork 실패 정리를 연결",
+      "url": "https://github.com/woonyong-kr/pintos/commit/8da296a404a1410dff7ed61ce98f2fb5b15a04a8",
+      "occurred_at": "2026-05-05T12:03:01Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@0c9ed7ec8a4516b237a912fb0440f9dc90ad5a88",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: 프로세스 경로의 현재 스레드 null 가드를 보강",
+      "url": "https://github.com/woonyong-kr/pintos/commit/0c9ed7ec8a4516b237a912fb0440f9dc90ad5a88",
+      "occurred_at": "2026-05-05T11:26:43Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@2539c19e4f0d5c7b4c82fabd7b60eaebfe98e33b",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: 프로세스 경로의 현재 스레드 null 가드를 보강",
+      "url": "https://github.com/woonyong-kr/pintos/commit/2539c19e4f0d5c7b4c82fabd7b60eaebfe98e33b",
+      "occurred_at": "2026-05-05T11:26:43Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@8fa4edcc3c758df3e40a7cea7411196a754f5b6c",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: process_exit null 현재 스레드 가드를 추가",
+      "url": "https://github.com/woonyong-kr/pintos/commit/8fa4edcc3c758df3e40a7cea7411196a754f5b6c",
+      "occurred_at": "2026-05-05T11:24:58Z"
+    },
+    {
+      "id": "woonyong-kr/pintos@affaceb26b62b86c98d6da5091477f09a003f8df",
+      "kind": "commit",
+      "project": "PintOS",
+      "repository": "woonyong-kr/pintos",
+      "title": "fix: process_exit null 현재 스레드 가드를 추가",
+      "url": "https://github.com/woonyong-kr/pintos/commit/affaceb26b62b86c98d6da5091477f09a003f8df",
+      "occurred_at": "2026-05-05T11:24:58Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@c5d39937cc3235727b41233a38db3627cf2c121c",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: 스트레스 대시보드 표시를 현재 서버 구조에 맞춰",
+      "url": "https://github.com/woonyong-kr/minidb/commit/c5d39937cc3235727b41233a38db3627cf2c121c",
+      "occurred_at": "2026-04-22T19:27:50Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@2222c7645bd929be9a8ed99e01dd6b57e89261b6",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: writer 우선 정책과 30초 유휴 타임아웃을 반영해",
+      "url": "https://github.com/woonyong-kr/minidb/commit/2222c7645bd929be9a8ed99e01dd6b57e89261b6",
+      "occurred_at": "2026-04-22T18:44:01Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@0471264191869c55c8c643e3494387800c5d5634",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "tools: 데드락 진단 도구를 추가해",
+      "url": "https://github.com/woonyong-kr/minidb/commit/0471264191869c55c8c643e3494387800c5d5634",
+      "occurred_at": "2026-04-22T15:13:16Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@763ba428923db11e8cc8e2621f1466ed359bfe1f",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "perf: pager와 스캔 경로의 병목을 줄여",
+      "url": "https://github.com/woonyong-kr/minidb/commit/763ba428923db11e8cc8e2621f1466ed359bfe1f",
+      "occurred_at": "2026-04-22T14:21:17Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@abfaeef5197d308434963b3326a721ad00f00cda",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: 스캔 DML 정합성과 B+트리 삭제 복구를 바로잡아",
+      "url": "https://github.com/woonyong-kr/minidb/commit/abfaeef5197d308434963b3326a721ad00f00cda",
+      "occurred_at": "2026-04-22T13:56:43Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@be78c776ecb44947816d0e778b1d2d38f020dec4",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "style: stress.c에 C 코딩 컨벤션을 적용",
+      "url": "https://github.com/woonyong-kr/minidb/commit/be78c776ecb44947816d0e778b1d2d38f020dec4",
+      "occurred_at": "2026-04-22T13:21:59Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@7e6988193cee9054deb84ad83c09bfc6a23c2477",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: 힙 체인 레이스와 TOCTOU 페이지 오버플로를 수정",
+      "url": "https://github.com/woonyong-kr/minidb/commit/7e6988193cee9054deb84ad83c09bfc6a23c2477",
+      "occurred_at": "2026-04-22T13:21:51Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@20e9b77b71a97b4828cdacdcc5ce1b4043aff191",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: keep-alive 응답 불일치를 해소",
+      "url": "https://github.com/woonyong-kr/minidb/commit/20e9b77b71a97b4828cdacdcc5ce1b4043aff191",
+      "occurred_at": "2026-04-22T13:18:53Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@e4cc4e0f5898ee0bc153882558d55b2e1ce1a7ed",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "style: C 코딩 컨벤션 적용 및 데드 코드 제거",
+      "url": "https://github.com/woonyong-kr/minidb/commit/e4cc4e0f5898ee0bc153882558d55b2e1ce1a7ed",
+      "occurred_at": "2026-04-22T12:41:20Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@af3b5b5c48fc3b2c0e6045f8fa89ea3c48a75d3c",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: 4-layer 동시성 제어 완성 — 래치 커플링, Range Lock, thread-per-connection",
+      "url": "https://github.com/woonyong-kr/minidb/commit/af3b5b5c48fc3b2c0e6045f8fa89ea3c48a75d3c",
+      "occurred_at": "2026-04-22T12:25:56Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@c90442dfbd48a54ad481325f524c78cc89a223e8",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: HTTP keep-alive + 대시보드 스트레스 테스트 도구",
+      "url": "https://github.com/woonyong-kr/minidb/commit/c90442dfbd48a54ad481325f524c78cc89a223e8",
+      "occurred_at": "2026-04-22T08:03:31Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@5fd2756c5bca636cc938b90740079b5f747f0790",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: 혼합 부하 스트레스 테스트 + GET /stats 서버 모니터링 엔드포인트",
+      "url": "https://github.com/woonyong-kr/minidb/commit/5fd2756c5bca636cc938b90740079b5f747f0790",
+      "occurred_at": "2026-04-22T07:53:06Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@2f72f8503db8ebee0dd88b7e2405ed342f868bb3",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: Dockerfile을 ubuntu:22.04로 고정 (libasan6 호환)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/2f72f8503db8ebee0dd88b7e2405ed342f868bb3",
+      "occurred_at": "2026-04-22T07:29:42Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@23d2cf81e03777993b97ab60c0d8aaf6335b7074",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "fix: devcontainer에 libasan6/libubsan1 추가",
+      "url": "https://github.com/woonyong-kr/minidb/commit/23d2cf81e03777993b97ab60c0d8aaf6335b7074",
+      "occurred_at": "2026-04-22T07:28:22Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@6f8e78baee5fd42ec4462cdeb869f1539472067e",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "test: 동시성 제어 테스트 추가 (Step 4)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/6f8e78baee5fd42ec4462cdeb869f1539472067e",
+      "occurred_at": "2026-04-22T07:16:27Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@0603f18b05a6389ddd85ace900301430e087bdc8",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: Row Lock을 db_execute()에 통합 (Step 3 L3 연결)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/0603f18b05a6389ddd85ace900301430e087bdc8",
+      "occurred_at": "2026-04-22T06:56:44Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@60ebadd729cbaa33010d663382b31b4e01bd4dc1",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: Row Lock + Strict 2PL 동시성 제어 (Step 3 L3)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/60ebadd729cbaa33010d663382b31b4e01bd4dc1",
+      "occurred_at": "2026-04-22T06:51:21Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@7096faee69dc34076ed0f3b6592ba687947f5e4e",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: TCP 소켓 서버 + 스레드 풀 (Step 2)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/7096faee69dc34076ed0f3b6592ba687947f5e4e",
+      "occurred_at": "2026-04-22T06:51:13Z"
+    },
+    {
+      "id": "woonyong-kr/minidb@9ac099ee6ea59fc56bfbc85d3177ed50e3273fad",
+      "kind": "commit",
+      "project": "MiniDB",
+      "repository": "woonyong-kr/minidb",
+      "title": "feat: SQL 엔진 기반 코드 + 확장 기능 + L2 동시성 제어 (Step 0-1)",
+      "url": "https://github.com/woonyong-kr/minidb/commit/9ac099ee6ea59fc56bfbc85d3177ed50e3273fad",
+      "occurred_at": "2026-04-22T06:51:05Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@b5fea312f257bc8041b563035052361b8ade6d91",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Prepare v1.01 starter release",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b5fea312f257bc8041b563035052361b8ade6d91",
+      "occurred_at": "2026-04-09T09:54:27Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@df9502084db703e250e8055e357677c8b35dd104",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Match dark Giscus button text with velog",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/df9502084db703e250e8055e357677c8b35dd104",
+      "occurred_at": "2026-04-09T09:34:38Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@35676f587b6a4a8ae3975bd56ed4971d3b8b09a3",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Refine Giscus button and form styling",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/35676f587b6a4a8ae3975bd56ed4971d3b8b09a3",
+      "occurred_at": "2026-04-09T09:24:31Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@2f85908bc473b300f0d3b55fbe8b1bd226af0a9c",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Add velog-style custom Giscus themes",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2f85908bc473b300f0d3b55fbe8b1bd226af0a9c",
+      "occurred_at": "2026-04-09T09:00:57Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@a86b5843e9180fce54d567d9fe5394cbdf578f5c",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Sync page metadata with GitHub profile",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/a86b5843e9180fce54d567d9fe5394cbdf578f5c",
+      "occurred_at": "2026-04-09T07:28:28Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@3bddfd2c0a6083161d8c8ba45f29884967c6229d",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Improve GitHub profile sync display",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3bddfd2c0a6083161d8c8ba45f29884967c6229d",
+      "occurred_at": "2026-04-09T07:17:06Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@4a31306d1e0ba8d4bf13a33cdbde4effee0f37c6",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Prepare repository for template use",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/4a31306d1e0ba8d4bf13a33cdbde4effee0f37c6",
+      "occurred_at": "2026-04-09T07:05:48Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@0fd020c0ab767b41e5c86dbc04cea710ca701535",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Remove unused head variables",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/0fd020c0ab767b41e5c86dbc04cea710ca701535",
+      "occurred_at": "2026-04-09T06:52:16Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@b1b6508fa0df7fa3bba3e8f4e033d378ec1fda97",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Adjust contribution graph colors to match theme",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b1b6508fa0df7fa3bba3e8f4e033d378ec1fda97",
+      "occurred_at": "2026-04-09T06:45:27Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@73a39192da518cc1111032e92f294f4302fc7ad9",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: Giscus iframe 로드 후 테마 동기화",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/73a39192da518cc1111032e92f294f4302fc7ad9",
+      "occurred_at": "2026-04-03T08:03:25Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@e271b6399ddc308894664c43b5d86abf7fd565f0",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: Giscus 테마 동기화 경고 제거",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/e271b6399ddc308894664c43b5d86abf7fd565f0",
+      "occurred_at": "2026-04-03T07:57:27Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@2f5ebb3c94def820bf1d1d4f9b889aff1b1babda",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: Giscus 댓글 연동 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2f5ebb3c94def820bf1d1d4f9b889aff1b1babda",
+      "occurred_at": "2026-04-03T07:53:44Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@afeda35912ac97b33cbf06b538c99f56dc3e83cd",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 커스텀 도메인 blog.woonyong.org 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/afeda35912ac97b33cbf06b538c99f56dc3e83cd",
+      "occurred_at": "2026-04-03T07:17:27Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@618970e5cdb8d6f47efe8e7d207cb3c61af063d4",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: Bundler 1.17.2 → 2.5.23 업그레이드 (Ruby 3.2 호환)",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/618970e5cdb8d6f47efe8e7d207cb3c61af063d4",
+      "occurred_at": "2026-04-03T06:52:58Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f8d642838734eeb4291c8628204f2f6dbc7ba26b",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: GitHub Actions 자동 배포 워크플로우 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f8d642838734eeb4291c8628204f2f6dbc7ba26b",
+      "occurred_at": "2026-04-03T06:46:17Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@ec015df411e365131d1c199adc6b9ebe346c1b82",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 사용하지 않는 스타일 선택자 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/ec015df411e365131d1c199adc6b9ebe346c1b82",
+      "occurred_at": "2026-04-03T06:09:49Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@abef5da2ce2cb4e10e1f729fb36d6b2f1db7cd63",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 사용하지 않는 테마 함수 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/abef5da2ce2cb4e10e1f729fb36d6b2f1db7cd63",
+      "occurred_at": "2026-04-03T06:04:51Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@801ee5ae1351165c70fdca27b342bc4bdef6bc19",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 시리즈 카드 썸네일 외곽선 제거",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/801ee5ae1351165c70fdca27b342bc4bdef6bc19",
+      "occurred_at": "2026-04-03T05:59:55Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@064c23b60003d3cfef528410140921a6deddc7f7",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 모든 페이지에서 PNG 파비콘을 공통 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/064c23b60003d3cfef528410140921a6deddc7f7",
+      "occurred_at": "2026-04-03T04:29:06Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@596e4b7f159d277184c096b7f9675fae06f07605",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 포스트 커버 이미지를 무료 PNG 사진으로 교체",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/596e4b7f159d277184c096b7f9675fae06f07605",
+      "occurred_at": "2026-04-03T04:24:08Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@364ad39b94102bfec77bdcb72cd12b91d128d9e5",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 브라우저 탭 파비콘을 원형 프로필 아이콘으로 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/364ad39b94102bfec77bdcb72cd12b91d128d9e5",
+      "occurred_at": "2026-04-03T04:16:58Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@5cc211a0cfb0529312c86a9483538fbc34f9cef6",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 오픈소스 테마 문서와 데모 콘텐츠 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/5cc211a0cfb0529312c86a9483538fbc34f9cef6",
+      "occurred_at": "2026-04-03T04:12:02Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@d4f3b503799aef80dbc75dbc51217964b1b5dcdd",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 브라우저 탭 아이콘을 프로필 이미지로 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d4f3b503799aef80dbc75dbc51217964b1b5dcdd",
+      "occurred_at": "2026-04-03T03:54:49Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@3a54d7d6228adcc43b8d548a7da5c43a23d5dbdd",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈과 시리즈 상단 레이아웃 폭 통일",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3a54d7d6228adcc43b8d548a7da5c43a23d5dbdd",
+      "occurred_at": "2026-04-03T02:39:41Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@76f9695d0ffe05549c63c9b1853748dc770cbe0e",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈 프로필 섹션을 상단 레이아웃으로 복원",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/76f9695d0ffe05549c63c9b1853748dc770cbe0e",
+      "occurred_at": "2026-04-03T02:33:18Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@257e1c572cc2f3c799b2e886d4832a0d53a45604",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈 탭 정렬과 시리즈 카드 레이아웃 개선",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/257e1c572cc2f3c799b2e886d4832a0d53a45604",
+      "occurred_at": "2026-04-03T02:24:00Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@6f91fd69070859bb1cc2c7e49f18f7a62d97c3e4",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 헤더 아이콘과 Pages 경로 설정 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6f91fd69070859bb1cc2c7e49f18f7a62d97c3e4",
+      "occurred_at": "2026-04-03T01:52:08Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f8622b9c674a685c7f1f61c2c171b77a8d347fab",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 헤더 아이콘 스타일을 범용 형태로 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f8622b9c674a685c7f1f61c2c171b77a8d347fab",
+      "occurred_at": "2026-04-03T01:48:46Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@454c52594f50eedbad8de482613070aca6d19c07",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 헤더 아이콘을 GitHub 프로필 기반으로 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/454c52594f50eedbad8de482613070aca6d19c07",
+      "occurred_at": "2026-04-03T01:05:48Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@faa5dfd804be552389237609fd5f69bf37d684c5",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈 탭 위치를 메인 컬럼으로 복원",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/faa5dfd804be552389237609fd5f69bf37d684c5",
+      "occurred_at": "2026-04-03T01:01:12Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@dec15a699ac363160fc08a71f92e30b6a6b01f03",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈 화면 타이포와 스케일 일체감 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/dec15a699ac363160fc08a71f92e30b6a6b01f03",
+      "occurred_at": "2026-04-02T14:13:36Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@17941339ceefa4a7059b91f017ea5c94556cb5e2",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 사용하지 않는 데모 소스와 자산 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/17941339ceefa4a7059b91f017ea5c94556cb5e2",
+      "occurred_at": "2026-04-02T14:06:51Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@6d6829492fd7764852eaddfd4c7b0a9d6f62ef8f",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 홈 히어로와 태그 사이드바 구조 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6d6829492fd7764852eaddfd4c7b0a9d6f62ef8f",
+      "occurred_at": "2026-04-02T14:03:16Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f1c232883dd7ef6e5e479ad52e244dee5ee438f2",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 오픈소스 테마 소개 콘텐츠와 샘플 자산 구성",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f1c232883dd7ef6e5e479ad52e244dee5ee438f2",
+      "occurred_at": "2026-04-02T13:56:07Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@bfed30419567632d86bebbb6211833947f0f6e90",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 사이트 아이콘 파일명을 profile로 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/bfed30419567632d86bebbb6211833947f0f6e90",
+      "occurred_at": "2026-04-02T13:48:30Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@6cb4f4050ce1bdb07f2327d7203f8f24bd363487",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: GitHub 프로필 동기화와 소개 탭 옵션 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6cb4f4050ce1bdb07f2327d7203f8f24bd363487",
+      "occurred_at": "2026-04-02T13:45:24Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@7570cf52e7a127dc0e75410958c6ed6b36079b80",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 프로필 플레이스홀더와 홈 사이드바 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/7570cf52e7a127dc0e75410958c6ed6b36079b80",
+      "occurred_at": "2026-04-02T13:35:14Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@3f4c95af88c8f7d2bae3545d3356802d9a9becd2",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 기본 프로필 플레이스홀더 아이콘 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3f4c95af88c8f7d2bae3545d3356802d9a9becd2",
+      "occurred_at": "2026-04-02T12:34:24Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@02b16c0cd4aa863d3bb7df193f987a8ab7b1ef89",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 범용 블로그 아이콘으로 교체",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/02b16c0cd4aa863d3bb7df193f987a8ab7b1ef89",
+      "occurred_at": "2026-04-02T12:30:16Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@1ab46bd0b5fb6e2ebc94d89267f7135885a19ab6",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 오픈소스 테마 샘플 콘텐츠 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/1ab46bd0b5fb6e2ebc94d89267f7135885a19ab6",
+      "occurred_at": "2026-04-02T12:27:17Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@e5366dbdc50ebc42767c53b5f7394dad74f3a522",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 테마 설정 구조와 홈 레이아웃 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/e5366dbdc50ebc42767c53b5f7394dad74f3a522",
+      "occurred_at": "2026-04-02T12:08:18Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@57c670c4b958d86c81fba738dd1acaf81723bb3b",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 잔디 그래프 레이아웃 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/57c670c4b958d86c81fba738dd1acaf81723bb3b",
+      "occurred_at": "2026-04-02T11:56:43Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@a1fe4766499b0bfac94e6be1591c198b1b48be37",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: GitHub 기여 그래프 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/a1fe4766499b0bfac94e6be1591c198b1b48be37",
+      "occurred_at": "2026-04-02T10:01:49Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@b9e98a736ed4f888643a70f7858ab25257ab590b",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 선택형 분석 댓글 검색 연동 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b9e98a736ed4f888643a70f7858ab25257ab590b",
+      "occurred_at": "2026-03-31T17:07:01Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@c70cbe6a09d0a957b5ea9a8b913d8f13a2c4620f",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "perf: 홈 포스트 인덱스 지연 로딩 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/c70cbe6a09d0a957b5ea9a8b913d8f13a2c4620f",
+      "occurred_at": "2026-03-31T12:05:53Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@d01da439266169c8bdcba03d689485369f67a720",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "perf: 포스트 인덱스 분리로 초기 렌더 최적화",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d01da439266169c8bdcba03d689485369f67a720",
+      "occurred_at": "2026-03-31T08:58:43Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@9747ca9f486971a5494ee3f45531d28780721f35",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 벨로그 기준으로 검색 입력 타입과 아이콘 반응 보정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/9747ca9f486971a5494ee3f45531d28780721f35",
+      "occurred_at": "2026-03-31T08:18:01Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@bf1800c81263dc0001f20ccb8f55443a8cbf407e",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 벨로그 기준으로 포스트 네비게이션 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/bf1800c81263dc0001f20ccb8f55443a8cbf407e",
+      "occurred_at": "2026-03-31T08:16:07Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@4d9599a30cd08e931171f5fa635888698c8a623d",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 정적 블로그 기준으로 헤더 프로필 버튼 제거",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/4d9599a30cd08e931171f5fa635888698c8a623d",
+      "occurred_at": "2026-03-31T08:07:41Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f2457547583c0da35cc44be9e64e201edd9b80fc",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 벨로그 기준으로 검색 필드 상호작용 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f2457547583c0da35cc44be9e64e201edd9b80fc",
+      "occurred_at": "2026-03-31T08:05:36Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@456004a97f2040cbf7497bc64056564073015698",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 시스템 테마와 더미 포스트 검증 세트 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/456004a97f2040cbf7497bc64056564073015698",
+      "occurred_at": "2026-03-31T07:59:40Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@91de1f1389244c8836b181ad71027be6fccd04f4",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 포스트 태그 링크 필터 동작 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/91de1f1389244c8836b181ad71027be6fccd04f4",
+      "occurred_at": "2026-03-31T07:25:35Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@6eb2818e7daa48905cc7fba4a80008a18a9164fa",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 벨로그 기준으로 글 탭 간격과 검색 위치 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6eb2818e7daa48905cc7fba4a80008a18a9164fa",
+      "occurred_at": "2026-03-31T07:23:24Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@d50841076fc0da9ee2cae05a24f9c2719371d468",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "fix: 정적 자산 캐시 무효화 적용",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d50841076fc0da9ee2cae05a24f9c2719371d468",
+      "occurred_at": "2026-03-31T07:03:27Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@6f531dae07f46f19086a3233702ab4df950b4124",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 상단 검색과 벨로그식 포스트 필터 반영",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6f531dae07f46f19086a3233702ab4df950b4124",
+      "occurred_at": "2026-03-31T07:00:11Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@2ebe610bb1e9ace2eeb4a86cb5fecd0767bd7fd9",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 썸네일 표시를 front matter 기준으로 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2ebe610bb1e9ace2eeb4a86cb5fecd0767bd7fd9",
+      "occurred_at": "2026-03-31T06:54:08Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f9558e10bc71c2c20aaa4471f578457b7be560c4",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 벨로그 기준으로 글과 시리즈 탭 레이아웃 조정",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f9558e10bc71c2c20aaa4471f578457b7be560c4",
+      "occurred_at": "2026-03-31T06:50:23Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@9969a55666eadfd940eaaafb1311fbb6964c8ff2",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 더미 아티클 이미지 추가",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/9969a55666eadfd940eaaafb1311fbb6964c8ff2",
+      "occurred_at": "2026-03-31T06:35:01Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@f4fdc9b03ffd324399dbce56b8ae4939d60a81a2",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "refactor: 벨로그 차이에 맞춰 블로그 레이아웃 정리",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f4fdc9b03ffd324399dbce56b8ae4939d60a81a2",
+      "occurred_at": "2026-03-31T06:30:46Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@ea6d6c2e30d0ff501c9b38451c72304f89bf8373",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "feat: 벨로그 스타일 자킬 블로그로 전환",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/ea6d6c2e30d0ff501c9b38451c72304f89bf8373",
+      "occurred_at": "2026-03-31T06:13:16Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@8dd2156c595aecd927d1b941e7f8da7b4f1996af",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Refine blog theme layout",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/8dd2156c595aecd927d1b941e7f8da7b4f1996af",
+      "occurred_at": "2026-03-31T05:28:50Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@d5f68d22f2abe7d582ddb621d9d2e7787acf1c2b",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "Set up AstroPaper blog",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d5f68d22f2abe7d582ddb621d9d2e7787acf1c2b",
+      "occurred_at": "2026-03-31T04:43:48Z"
+    },
+    {
+      "id": "woonyong-kr/jekyll-theme-velog@3c53124a80fe8ae40b7dd262e9e062b7036f5704",
+      "kind": "commit",
+      "project": "Jekyll Theme",
+      "repository": "woonyong-kr/jekyll-theme-velog",
+      "title": "첫 번째 커밋",
+      "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3c53124a80fe8ae40b7dd262e9e062b7036f5704",
+      "occurred_at": "2026-03-31T04:03:24Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@ea21b6527ad42b77f625a47317b96cf5fbe299fb",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "update",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/ea21b6527ad42b77f625a47317b96cf5fbe299fb",
+      "occurred_at": "2025-10-04T09:51:28Z"
+    },
+    {
+      "id": "woonyong-kr/dx_framework@a97daffd2d58e51ee4a77d7f94353612b43a9011",
+      "kind": "commit",
+      "project": "JFramework",
+      "repository": "woonyong-kr/dx_framework",
+      "title": "첫 번째 커밋",
+      "url": "https://github.com/woonyong-kr/dx_framework/commit/a97daffd2d58e51ee4a77d7f94353612b43a9011",
+      "occurred_at": "2025-09-29T01:26:18Z"
+    }
+  ],
+  "pull_requests": [
+    {
+      "id": "Jungle-303-04/demo-game#22",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: pin working admission toggle console",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/22",
+      "occurred_at": "2026-07-25T00:31:09Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#21",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "[복구] api-server - 로비 replicas 원복 PR",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/21",
+      "occurred_at": "2026-07-24T17:17:58Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#20",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "perf: 게임 파드 예약량 / 게임 노드 용량 / 스케줄링 여유",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/20",
+      "occurred_at": "2026-07-24T14:57:37Z"
+    },
+    {
+      "id": "Jungle-303-04/final#662",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: AI 입력창 고정 / 패널 스크롤 경계 / viewport 높이",
+      "url": "https://github.com/Jungle-303-04/final/pull/662",
+      "occurred_at": "2026-07-24T14:37:36Z"
+    },
+    {
+      "id": "Jungle-303-04/final#661",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "파드 상세 원인 표시와 사이드 패널 UX 통합",
+      "url": "https://github.com/Jungle-303-04/final/pull/661",
+      "occurred_at": "2026-07-24T13:50:31Z"
+    },
+    {
+      "id": "Jungle-303-04/final#660",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 위험 파드 클릭을 리소스 상세로 연결",
+      "url": "https://github.com/Jungle-303-04/final/pull/660",
+      "occurred_at": "2026-07-24T13:27:20Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#19",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "봇 목표 인원 직접 설정 및 자동 수렴",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/19",
+      "occurred_at": "2026-07-24T12:58:06Z"
+    },
+    {
+      "id": "Jungle-303-04/final#659",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 배포 제목 게이트 / 홈 요약 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/659",
+      "occurred_at": "2026-07-24T10:51:50Z"
+    },
+    {
+      "id": "Jungle-303-04/final#658",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 복구 PR 병합 / 안정화 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/658",
+      "occurred_at": "2026-07-24T10:33:10Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#18",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "[복구] api-server - 로비 replicas 원복 PR",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/18",
+      "occurred_at": "2026-07-24T09:37:34Z"
+    },
+    {
+      "id": "Jungle-303-04/final#657",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 다중 문서 매니페스트 Safe PR 복구",
+      "url": "https://github.com/Jungle-303-04/final/pull/657",
+      "occurred_at": "2026-07-24T09:01:02Z"
+    },
+    {
+      "id": "Jungle-303-04/final#656",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 원본 경보 범위 / 복구 조회 정합성",
+      "url": "https://github.com/Jungle-303-04/final/pull/656",
+      "occurred_at": "2026-07-24T08:14:26Z"
+    },
+    {
+      "id": "Jungle-303-04/final#655",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 해소 경보 원본 / 복구 사전검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/655",
+      "occurred_at": "2026-07-24T07:51:33Z"
+    },
+    {
+      "id": "Jungle-303-04/final#654",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: Safe PR base 전진 / 대상 필드 정합성",
+      "url": "https://github.com/Jungle-303-04/final/pull/654",
+      "occurred_at": "2026-07-24T07:27:29Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#17",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "feat: 시연 로비 비용 절감 replicas 2에서 1",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/17",
+      "occurred_at": "2026-07-24T06:55:15Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#16",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "chore: 시연 기준선 로비 replicas 2 복원",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/16",
+      "occurred_at": "2026-07-24T06:49:28Z"
+    },
+    {
+      "id": "Jungle-303-04/final#652",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 복구 연속성 / 근거 기반 권장 조치",
+      "url": "https://github.com/Jungle-303-04/final/pull/652",
+      "occurred_at": "2026-07-24T06:22:57Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#15",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "feat: 로비 비용 절감 / replicas 2→1",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/15",
+      "occurred_at": "2026-07-24T05:57:21Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#14",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "chore: 승인된 2대 기준선 재검증",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/14",
+      "occurred_at": "2026-07-24T05:49:22Z"
+    },
+    {
+      "id": "Jungle-303-04/final#651",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 복구 권위 분리 / 리소스 승인 식별",
+      "url": "https://github.com/Jungle-303-04/final/pull/651",
+      "occurred_at": "2026-07-24T05:35:57Z"
+    },
+    {
+      "id": "Jungle-303-04/final#649",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: GitOps 다중 승인·스냅샷·변경 이력 정합성",
+      "url": "https://github.com/Jungle-303-04/final/pull/649",
+      "occurred_at": "2026-07-24T05:21:49Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#13",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "chore: 로비 승인 기준선 / replicas 2",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/13",
+      "occurred_at": "2026-07-24T04:34:23Z"
+    },
+    {
+      "id": "Jungle-303-04/final#648",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: RCA 증거 연결 / 설치 경로 fail-closed / AI 범위",
+      "url": "https://github.com/Jungle-303-04/final/pull/648",
+      "occurred_at": "2026-07-24T04:29:38Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#12",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "feat: 로비 신버전 / 단일 레플리카 비용 절감",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/12",
+      "occurred_at": "2026-07-24T03:35:12Z"
+    },
+    {
+      "id": "Jungle-303-04/final#647",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 마이그레이션 헤드 정합성 / 배포 게이트 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/647",
+      "occurred_at": "2026-07-24T03:28:44Z"
+    },
+    {
+      "id": "Jungle-303-04/final#646",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: 병합 커밋 제외 / 실제 제목 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/646",
+      "occurred_at": "2026-07-24T03:13:30Z"
+    },
+    {
+      "id": "Jungle-303-04/final#645",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: RCA 근거 정합성 / 복구 PR / 연속 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/645",
+      "occurred_at": "2026-07-24T03:04:46Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#11",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 데모 노드 배치 역할 정합성 수정",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/11",
+      "occurred_at": "2026-07-24T02:52:08Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#10",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "chore: 데모 이미지 기준선 / 불변 리비전 고정",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/10",
+      "occurred_at": "2026-07-24T02:33:40Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#9",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 표준 SLI 결과 / 성공 실패 집계",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/9",
+      "occurred_at": "2026-07-24T02:25:08Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#8",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 게임 세션 연속성 식별 / 런타임 epoch 증명",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/8",
+      "occurred_at": "2026-07-24T02:14:33Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#7",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 실제 세션 연속성 지표 / 보호 워크로드 계약",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/7",
+      "occurred_at": "2026-07-24T02:01:20Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#6",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 로비 용량 장애 재현과 RCA 관측 근거 연결",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/6",
+      "occurred_at": "2026-07-24T01:21:29Z"
+    },
+    {
+      "id": "Jungle-303-04/final#644",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 리소스 UI 계약 / 워크플로 진행 / 화면 일관성",
+      "url": "https://github.com/Jungle-303-04/final/pull/644",
+      "occurred_at": "2026-07-24T00:21:32Z"
+    },
+    {
+      "id": "Jungle-303-04/final#642",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 정책 실패와 에이전트 업그레이드 핸드오프를 분리",
+      "url": "https://github.com/Jungle-303-04/final/pull/642",
+      "occurred_at": "2026-07-23T23:30:16Z"
+    },
+    {
+      "id": "Jungle-303-04/final#640",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 알림 상세 진입 / RCA 지연 동기화",
+      "url": "https://github.com/Jungle-303-04/final/pull/640",
+      "occurred_at": "2026-07-23T23:05:23Z"
+    },
+    {
+      "id": "Jungle-303-04/final#639",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 에이전트 업그레이드 / Tempo 정책 호환성",
+      "url": "https://github.com/Jungle-303-04/final/pull/639",
+      "occurred_at": "2026-07-23T22:51:35Z"
+    },
+    {
+      "id": "Jungle-303-04/final#638",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 클러스터 연결 installer namespace 계약 복구",
+      "url": "https://github.com/Jungle-303-04/final/pull/638",
+      "occurred_at": "2026-07-23T22:41:34Z"
+    },
+    {
+      "id": "Jungle-303-04/final#635",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: RCA 저장 계약과 상세 투영 복구",
+      "url": "https://github.com/Jungle-303-04/final/pull/635",
+      "occurred_at": "2026-07-23T22:31:26Z"
+    },
+    {
+      "id": "Jungle-303-04/final#637",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: Tempo 조회 범위 동작과 OOM 원인 설명 정정",
+      "url": "https://github.com/Jungle-303-04/final/pull/637",
+      "occurred_at": "2026-07-23T22:25:16Z"
+    },
+    {
+      "id": "Jungle-303-04/final#636",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: Tempo 메모리 경계와 추적 조회 범위",
+      "url": "https://github.com/Jungle-303-04/final/pull/636",
+      "occurred_at": "2026-07-23T22:16:39Z"
+    },
+    {
+      "id": "Jungle-303-04/final#634",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 클러스터 연결 설치 순서와 연동 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/634",
+      "occurred_at": "2026-07-23T22:06:03Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#5",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 핸드오프 이후 체크섬 전진 허용",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/5",
+      "occurred_at": "2026-07-23T21:37:24Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#3",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "Apply sandbox manifest",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/3",
+      "occurred_at": "2026-07-22T02:08:11Z"
+    },
+    {
+      "id": "Jungle-303-04/final#623",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: 병합 증거 / 게이트 재사용",
+      "url": "https://github.com/Jungle-303-04/final/pull/623",
+      "occurred_at": "2026-07-18T22:34:37Z"
+    },
+    {
+      "id": "Jungle-303-04/final#622",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 타임라인 범위 / 스냅샷 호환",
+      "url": "https://github.com/Jungle-303-04/final/pull/622",
+      "occurred_at": "2026-07-18T21:46:13Z"
+    },
+    {
+      "id": "Jungle-303-04/final#621",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: 스모크 범위 / 게이트 요약",
+      "url": "https://github.com/Jungle-303-04/final/pull/621",
+      "occurred_at": "2026-07-18T21:05:33Z"
+    },
+    {
+      "id": "Jungle-303-04/final#620",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: 알림 계약 / 경로 검사",
+      "url": "https://github.com/Jungle-303-04/final/pull/620",
+      "occurred_at": "2026-07-18T20:49:08Z"
+    },
+    {
+      "id": "Jungle-303-04/final#619",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: 워크스페이스 식별 / 경로 검사",
+      "url": "https://github.com/Jungle-303-04/final/pull/619",
+      "occurred_at": "2026-07-18T20:12:17Z"
+    },
+    {
+      "id": "Jungle-303-04/final#618",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 공개 배포 검사 / 변경 범위 게이트",
+      "url": "https://github.com/Jungle-303-04/final/pull/618",
+      "occurred_at": "2026-07-18T18:06:40Z"
+    },
+    {
+      "id": "Jungle-303-04/final#617",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "perf: 타임라인 커버리지 / 조회 투영",
+      "url": "https://github.com/Jungle-303-04/final/pull/617",
+      "occurred_at": "2026-07-18T17:13:22Z"
+    },
+    {
+      "id": "Jungle-303-04/final#616",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 배포 게이트 / 공개 경로 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/616",
+      "occurred_at": "2026-07-18T17:03:18Z"
+    },
+    {
+      "id": "Jungle-303-04/final#615",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "perf: 타임라인 요청 / StrictMode 중복 제거",
+      "url": "https://github.com/Jungle-303-04/final/pull/615",
+      "occurred_at": "2026-07-18T16:54:36Z"
+    },
+    {
+      "id": "Jungle-303-04/final#614",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 인시던트 평면 구조 / 증거 목록",
+      "url": "https://github.com/Jungle-303-04/final/pull/614",
+      "occurred_at": "2026-07-18T16:44:56Z"
+    },
+    {
+      "id": "Jungle-303-04/final#613",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 검사 평면 섹션 / 트래픽 흐름",
+      "url": "https://github.com/Jungle-303-04/final/pull/613",
+      "occurred_at": "2026-07-18T16:39:19Z"
+    },
+    {
+      "id": "Jungle-303-04/final#612",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 애플리케이션 지표 / 평면 카드",
+      "url": "https://github.com/Jungle-303-04/final/pull/612",
+      "occurred_at": "2026-07-18T16:31:04Z"
+    },
+    {
+      "id": "Jungle-303-04/final#611",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: Helm 평면 목록 / 설정 상태",
+      "url": "https://github.com/Jungle-303-04/final/pull/611",
+      "occurred_at": "2026-07-18T16:24:27Z"
+    },
+    {
+      "id": "Jungle-303-04/final#610",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 홈 평면 섹션 / 클러스터 지표",
+      "url": "https://github.com/Jungle-303-04/final/pull/610",
+      "occurred_at": "2026-07-18T16:24:05Z"
+    },
+    {
+      "id": "Jungle-303-04/final#609",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 평면 디자인 체계 / AI 대화 구조",
+      "url": "https://github.com/Jungle-303-04/final/pull/609",
+      "occurred_at": "2026-07-18T15:52:00Z"
+    },
+    {
+      "id": "Jungle-303-04/final#608",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: 관리 클러스터 권한 / 변경 제어",
+      "url": "https://github.com/Jungle-303-04/final/pull/608",
+      "occurred_at": "2026-07-18T15:12:19Z"
+    },
+    {
+      "id": "Jungle-303-04/yaml-demo#2",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/yaml-demo",
+      "repository": "Jungle-303-04/yaml-demo",
+      "title": "fix: 읽기 전용 런타임 / 임시 저장소",
+      "url": "https://github.com/Jungle-303-04/yaml-demo/pull/2",
+      "occurred_at": "2026-07-18T14:23:53Z"
+    },
+    {
+      "id": "Jungle-303-04/yaml-demo#1",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/yaml-demo",
+      "repository": "Jungle-303-04/yaml-demo",
+      "title": "feat: 데모 서버 GitOps 배포 경로",
+      "url": "https://github.com/Jungle-303-04/yaml-demo/pull/1",
+      "occurred_at": "2026-07-18T13:17:44Z"
+    },
+    {
+      "id": "Jungle-303-04/demo-game#1",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/demo-game",
+      "repository": "Jungle-303-04/demo-game",
+      "title": "fix: 게임 서버 클러스터 배포 경로 정합성",
+      "url": "https://github.com/Jungle-303-04/demo-game/pull/1",
+      "occurred_at": "2026-07-18T13:17:43Z"
+    },
+    {
+      "id": "Jungle-303-04/final#585",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "ci: Cloudflare mTLS 발급 / 수동 실행 경로",
+      "url": "https://github.com/Jungle-303-04/final/pull/585",
+      "occurred_at": "2026-07-10T20:02:22Z"
+    },
+    {
+      "id": "Jungle-303-04/final#571",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: dev 병합 / 타깃 에이전트 통합",
+      "url": "https://github.com/Jungle-303-04/final/pull/571",
+      "occurred_at": "2026-07-02T16:24:24Z"
+    },
+    {
+      "id": "Jungle-303-04/final#570",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: dev 병합 / 타깃 에이전트 통합",
+      "url": "https://github.com/Jungle-303-04/final/pull/570",
+      "occurred_at": "2026-07-02T16:22:52Z"
+    },
+    {
+      "id": "Jungle-303-04/final#569",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: workspace auth와 GitOps 권한 모델 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/569",
+      "occurred_at": "2026-06-30T14:06:55Z"
+    },
+    {
+      "id": "Jungle-303-04/final#555",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: Loki cache / kind 메모리 / 배포 안정화",
+      "url": "https://github.com/Jungle-303-04/final/pull/555",
+      "occurred_at": "2026-06-30T09:13:14Z"
+    },
+    {
+      "id": "Jungle-303-04/final#554",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "fix: dev 오류 수정 / TODO 정리 / 검증",
+      "url": "https://github.com/Jungle-303-04/final/pull/554",
+      "occurred_at": "2026-06-30T08:58:53Z"
+    },
+    {
+      "id": "Jungle-303-04/final#553",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 이벤트 기반 GitOps 백엔드 도메인 아키텍처와 보안 하드닝",
+      "url": "https://github.com/Jungle-303-04/final/pull/553",
+      "occurred_at": "2026-06-29T21:06:16Z"
+    },
+    {
+      "id": "Jungle-303-04/final#552",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "feat: 실제 연결 대시보드 / Kubernetes 배포 / 운영 런북",
+      "url": "https://github.com/Jungle-303-04/final/pull/552",
+      "occurred_at": "2026-06-29T21:06:01Z"
+    },
+    {
+      "id": "Jungle-303-04/final#551",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 이벤트 큐 / 문서 최신화 / main 반영",
+      "url": "https://github.com/Jungle-303-04/final/pull/551",
+      "occurred_at": "2026-06-29T02:18:47Z"
+    },
+    {
+      "id": "Jungle-303-04/final#550",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 이벤트 큐 / 팀 문서 / 최신화",
+      "url": "https://github.com/Jungle-303-04/final/pull/550",
+      "occurred_at": "2026-06-29T02:17:13Z"
+    },
+    {
+      "id": "Jungle-303-04/final#548",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 우현 GitOps / 이벤트 큐 / 원본 보존",
+      "url": "https://github.com/Jungle-303-04/final/pull/548",
+      "occurred_at": "2026-06-29T02:15:43Z"
+    },
+    {
+      "id": "Jungle-303-04/final#549",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 우현 Command / 이벤트 큐 / 원본 보존",
+      "url": "https://github.com/Jungle-303-04/final/pull/549",
+      "occurred_at": "2026-06-29T02:15:43Z"
+    },
+    {
+      "id": "Jungle-303-04/final#547",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "merge: 계약 경계와 diff body 네이밍 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/547",
+      "occurred_at": "2026-06-28T20:17:52Z"
+    },
+    {
+      "id": "Jungle-303-04/final#546",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 계약 경계와 diff body 네이밍 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/546",
+      "occurred_at": "2026-06-28T20:16:03Z"
+    },
+    {
+      "id": "Jungle-303-04/final#545",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: dev 문서 변경사항을 main에 반영",
+      "url": "https://github.com/Jungle-303-04/final/pull/545",
+      "occurred_at": "2026-06-28T19:54:56Z"
+    },
+    {
+      "id": "Jungle-303-04/final#544",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: 주간 보고서와 팀 문서 최신화",
+      "url": "https://github.com/Jungle-303-04/final/pull/544",
+      "occurred_at": "2026-06-28T19:53:18Z"
+    },
+    {
+      "id": "Jungle-303-04/final#543",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "chore: dev 변경사항을 main에 반영",
+      "url": "https://github.com/Jungle-303-04/final/pull/543",
+      "occurred_at": "2026-06-28T19:49:07Z"
+    },
+    {
+      "id": "Jungle-303-04/final#542",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "refactor: 이벤트 런타임과 GitOps 분할 워커 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/542",
+      "occurred_at": "2026-06-28T19:47:13Z"
+    },
+    {
+      "id": "Jungle-303-04/final#541",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: GitOps polling API 설계 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/541",
+      "occurred_at": "2026-06-27T14:13:43Z"
+    },
+    {
+      "id": "Jungle-303-04/final#540",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: GitOps polling API 설계 정리",
+      "url": "https://github.com/Jungle-303-04/final/pull/540",
+      "occurred_at": "2026-06-27T14:13:17Z"
+    },
+    {
+      "id": "Jungle-303-04/final#539",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: Evidence 학습 가이드와 데모 추가",
+      "url": "https://github.com/Jungle-303-04/final/pull/539",
+      "occurred_at": "2026-06-27T13:43:47Z"
+    },
+    {
+      "id": "Jungle-303-04/final#538",
+      "kind": "pull_request",
+      "project": "Jungle-303-04/final",
+      "repository": "Jungle-303-04/final",
+      "title": "docs: Evidence 학습 가이드와 데모 추가",
+      "url": "https://github.com/Jungle-303-04/final/pull/538",
+      "occurred_at": "2026-06-27T13:43:05Z"
+    },
+    {
+      "id": "Jungle-12-303/wk11_7#2",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk11_7",
+      "repository": "Jungle-12-303/wk11_7",
+      "title": "feat: 로컬 디버그 테스트 하네스를 추가",
+      "url": "https://github.com/Jungle-12-303/wk11_7/pull/2",
+      "occurred_at": "2026-05-11T10:45:55Z"
+    },
+    {
+      "id": "Jungle-12-303/wk09_1#155",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk09_1",
+      "repository": "Jungle-12-303/wk09_1",
+      "title": "merge: dev를 main에 반영",
+      "url": "https://github.com/Jungle-12-303/wk09_1/pull/155",
+      "occurred_at": "2026-05-06T10:48:47Z"
+    },
+    {
+      "id": "Jungle-12-303/wk09_1#154",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk09_1",
+      "repository": "Jungle-12-303/wk09_1",
+      "title": "sync: dev 최신 반영 후 userprog 변경 정리",
+      "url": "https://github.com/Jungle-12-303/wk09_1/pull/154",
+      "occurred_at": "2026-05-06T10:43:35Z"
+    },
+    {
+      "id": "Jungle-12-303/wk09_1#152",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk09_1",
+      "repository": "Jungle-12-303/wk09_1",
+      "title": "feat: userprog process lifecycle 구현과 read/exec 경로 보강",
+      "url": "https://github.com/Jungle-12-303/wk09_1/pull/152",
+      "occurred_at": "2026-05-06T07:16:44Z"
+    },
+    {
+      "id": "Jungle-12-303/wk09_1#151",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk09_1",
+      "repository": "Jungle-12-303/wk09_1",
+      "title": "feat: child_status 기반 wait와 exit 흐름 구현",
+      "url": "https://github.com/Jungle-12-303/wk09_1/pull/151",
+      "occurred_at": "2026-05-05T15:35:40Z"
+    },
+    {
+      "id": "Jungle-12-303/wk09_1#149",
+      "kind": "pull_request",
+      "project": "Jungle-12-303/wk09_1",
+      "repository": "Jungle-12-303/wk09_1",
+      "title": "feat: 포크 및 프로세스 관련 테스트 문서 추가",
+      "url": "https://github.com/Jungle-12-303/wk09_1/pull/149",
+      "occurred_at": "2026-05-05T02:42:36Z"
+    },
+    {
+      "id": "refactoringhq/tolaria#514",
+      "kind": "pull_request",
+      "project": "refactoringhq/tolaria",
+      "repository": "refactoringhq/tolaria",
+      "title": "fix: correct ko-KR translation for sidebar.group.views",
+      "url": "https://github.com/refactoringhq/tolaria/pull/514",
+      "occurred_at": "2026-05-03T10:53:52Z"
+    }
+  ]
+}

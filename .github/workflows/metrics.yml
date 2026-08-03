@@ -1,21 +1,15 @@
-name: Refresh profile index
+name: Refresh public activity
 
 on:
   schedule:
-    - cron: "23 2 * * 1"
+    - cron: "23 2 * * *"
   workflow_dispatch:
-    inputs:
-      extended_metrics:
-        description: "팔로워·별·업적·습관·애니 확장 SVG 생성"
-        required: false
-        type: boolean
-        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-index
+  group: public-activity
   cancel-in-progress: true
 
 jobs:
@@ -25,92 +19,47 @@ jobs:
       - name: Checkout profile source
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - name: Update clickable recent work
+      - name: Accumulate public activity
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python3 scripts/update_recent_work.py \
+          python3 scripts/update_profile.py \
+            --login woonyong-kr \
             --projects .github/profile-projects.json \
+            --history .github/activity-history.json \
             --readme README.md
 
-      - name: Verify profile links and generator
+      - name: Verify generated index
         run: |
-          python3 -m py_compile scripts/update_recent_work.py
+          python3 -m py_compile scripts/update_profile.py
           python3 - <<'PY'
+          import json
           from pathlib import Path
 
           readme = Path("README.md").read_text(encoding="utf-8")
-          required = (
-              "https://github.com/woonyong-kr/k8s-ops",
-              "https://github.com/woonyong-kr/minidb",
-              "https://github.com/woonyong-kr/pintos",
-              "https://github.com/woonyong-kr/dx_framework",
+          history = json.loads(Path(".github/activity-history.json").read_text())
+          markers = (
+              "<!-- repository_health:start -->",
+              "<!-- repository_health:end -->",
+              "<!-- collaboration:start -->",
+              "<!-- collaboration:end -->",
               "<!-- recent_work:start -->",
               "<!-- recent_work:end -->",
           )
-          missing = [value for value in required if value not in readme]
-          if missing:
-              raise SystemExit(f"Missing profile evidence links: {missing}")
+          if any(readme.count(marker) != 1 for marker in markers):
+              raise SystemExit("profile marker verification failed")
+          if not history["commits"]:
+              raise SystemExit("commit history is empty")
           PY
 
-      # 기본 프로필에서는 사용하지 않습니다. 필요할 때 수동 실행하면
-      # 보조 지표를 별도 파일로 생성하며 README 링크에는 영향을 주지 않습니다.
-      - name: Generate optional extended metrics
-        if: ${{ inputs.extended_metrics }}
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
-        with:
-          filename: github-metrics-extended.svg
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          output_action: none
-          user: woonyong-kr
-          template: classic
-          base: header, activity, community, repositories
-          config_display: large
-          config_timezone: Asia/Seoul
-          plugin_topics: yes
-          plugin_topics_limit: 16
-          plugin_topics_mode: icons
-          plugin_people: yes
-          plugin_people_types: followers
-          plugin_people_limit: 24
-          plugin_stars: yes
-          plugin_stars_limit: 8
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_lines: yes
-          plugin_anilist: ${{ vars.ANILIST_USERNAME != '' && 'yes' || 'no' }}
-          plugin_anilist_user: ${{ vars.ANILIST_USERNAME }}
-          plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: characters, watching, reading, favorites
-          plugin_anilist_limit: 2
-          plugin_anilist_limit_characters: 22
-          plugin_anilist_shuffle: yes
-
-      - name: Copy optional extended metrics
-        if: ${{ inputs.extended_metrics }}
-        run: cp /metrics_renders/github-metrics-extended.svg github-metrics-extended.svg
-
-      - name: Commit refreshed index
+      - name: Commit refreshed activity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if [ -f github-metrics-extended.svg ]; then
-            git add github-metrics-extended.svg
-          fi
+          git add README.md .github/activity-history.json
           if git diff --cached --quiet; then
-            echo "No profile changes"
+            echo "No public activity changes"
             exit 0
           fi
-          git commit -m "chore: 프로필 색인 자동 갱신 / 최근 작업"
+          git commit -m "chore: 공개 활동 원장 / 저장소 상태 / 협업 PR"
           git push
