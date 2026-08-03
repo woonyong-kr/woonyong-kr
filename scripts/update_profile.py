@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build a GitHub profile from pinned repositories and verified public activity."""
+"""Build a GitHub profile from verified public repositories and activity."""
 
 from __future__ import annotations
 
 import argparse
+import base64
 from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -25,6 +26,7 @@ MARKERS = {
     "intro": ("<!-- profile_intro:start -->", "<!-- profile_intro:end -->"),
     "activity": ("<!-- activity_summary:start -->", "<!-- activity_summary:end -->"),
     "cards": ("<!-- project_cards:start -->", "<!-- project_cards:end -->"),
+    "blog": ("<!-- recent_posts:start -->", "<!-- recent_posts:end -->"),
     "ci": ("<!-- ci_status:start -->", "<!-- ci_status:end -->"),
     "collaboration": ("<!-- collaboration:start -->", "<!-- collaboration:end -->"),
     "recent": ("<!-- recent_work:start -->", "<!-- recent_work:end -->"),
@@ -75,6 +77,17 @@ class RepositorySnapshot:
     commits: list[dict[str, object]]
     workflow: dict[str, object] | None
     workflow_conclusion: str
+    readme_size: int
+    test_files: int
+    documentation_files: int
+
+
+@dataclass(frozen=True)
+class RepositoryEvaluation:
+    snapshot: RepositorySnapshot
+    score: int
+    authored_commits: int
+    signals: tuple[str, ...]
 
 
 @dataclass(frozen=True)
@@ -98,6 +111,16 @@ class ActivitySummary:
     reviews: int
     restricted_contributions: int
     repositories: int
+
+
+@dataclass(frozen=True)
+class BlogPost:
+    slug: str
+    name: str
+    subtitle: str
+    published_at: str
+    order: int
+    tags: tuple[str, ...]
 
 
 def github_request(
@@ -158,17 +181,12 @@ def discover_profile(login: str, token: str) -> Profile:
     )
 
 
-def discover_repositories(
-    login: str, token: str
-) -> tuple[list[Repository], list[Repository]]:
+def discover_repositories(login: str, token: str) -> list[Repository]:
     if not token:
         raise RuntimeError("GH_TOKEN is required for repository discovery")
     query = f"""
     query($login: String!) {{
       user(login: $login) {{
-        pinnedItems(first: 6, types: REPOSITORY) {{
-          nodes {{ ... on Repository {{ {repository_fields()} }} }}
-        }}
         repositories(
           first: 100
           ownerAffiliations: OWNER
@@ -221,17 +239,11 @@ def discover_repositories(
             and repository.name_with_owner != f"{login}/{login}"
         )
 
-    pinned = [parse(node) for node in user["pinnedItems"]["nodes"]]
-    owned = [repository for repository in map(parse, user["repositories"]["nodes"]) if eligible(repository)]
-    featured = [
-        repository for repository in owned if "profile-featured" in repository.topics
+    return [
+        repository
+        for repository in map(parse, user["repositories"]["nodes"])
+        if eligible(repository)
     ]
-    if not featured:
-        featured = [repository for repository in pinned if eligible(repository)]
-    featured = sorted(featured, key=lambda repository: repository.pushed_at, reverse=True)
-    if len(featured) != 6:
-        raise RuntimeError("Six profile-featured repositories are required")
-    return featured, owned
 
 
 def discover_activity(login: str, token: str) -> ActivitySummary:
@@ -303,6 +315,67 @@ def discover_activity(login: str, token: str) -> ActivitySummary:
     )
 
 
+def frontmatter_value(source: str, key: str) -> str:
+    match = re.search(rf"(?m)^{re.escape(key)}:\s*(.*?)\s*$", source)
+    return match.group(1).strip().strip('"\'') if match else ""
+
+
+def frontmatter_list(source: str, key: str) -> tuple[str, ...]:
+    block = re.search(
+        rf"(?m)^{re.escape(key)}:[ \t]*\n"
+        rf"((?:[ \t]+-[ \t]+.*(?:\n|$))*)",
+        source,
+    )
+    if not block:
+        return ()
+    return tuple(
+        item.strip().strip('"\'')
+        for item in re.findall(
+            r"(?m)^[ \t]+-[ \t]+(.*?)[ \t]*$", block.group(1)
+        )
+    )
+
+
+def discover_blog_posts(login: str, token: str) -> list[BlogPost]:
+    source_repository = f"{login}/resume"
+    response = github_request(
+        f"https://api.github.com/repos/{source_repository}/contents/content/posts",
+        token,
+    )
+    if not isinstance(response, list):
+        raise RuntimeError("Blog post directory lookup failed")
+    posts: list[BlogPost] = []
+    for item in response:
+        if not str(item.get("name") or "").lower().endswith(".md"):
+            continue
+        document = github_request(str(item["url"]), token)
+        if not isinstance(document, dict) or not document.get("content"):
+            raise RuntimeError(f"Blog post lookup failed: {item.get('name')}")
+        source = base64.b64decode(str(document["content"])).decode("utf-8")
+        if frontmatter_value(source, "draft").lower() == "true":
+            continue
+        name = frontmatter_value(source, "name") or frontmatter_value(source, "title")
+        published_at = frontmatter_value(source, "date")
+        if not name or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", published_at):
+            raise RuntimeError(f"Blog post metadata is incomplete: {item.get('name')}")
+        order_text = frontmatter_value(source, "order")
+        posts.append(
+            BlogPost(
+                slug=Path(str(item["name"])).stem,
+                name=name,
+                subtitle=frontmatter_value(source, "subtitle"),
+                published_at=published_at,
+                order=int(order_text) if order_text.isdigit() else 0,
+                tags=frontmatter_list(source, "tags"),
+            )
+        )
+    return sorted(
+        posts,
+        key=lambda post: (post.published_at, post.order, post.slug),
+        reverse=True,
+    )[:6]
+
+
 def meaningful_subject(subject: str) -> bool:
     normalized = subject.strip().lower()
     return normalized not in SKIP_SUBJECTS and not normalized.startswith(
@@ -357,6 +430,54 @@ def collect_snapshots(
             raise RuntimeError(f"Commit history lookup failed: {repository.name_with_owner}")
         if not commits:
             continue
+        tree_response = github_request(
+            f"https://api.github.com/repos/{repository.name_with_owner}/git/trees/"
+            f"{urllib.parse.quote(repository.default_branch)}?recursive=1",
+            token,
+        )
+        tree = tree_response.get("tree", []) if isinstance(tree_response, dict) else []
+        files = [
+            item
+            for item in tree
+            if item.get("type") == "blob" and isinstance(item.get("path"), str)
+        ]
+        readme_size = max(
+            (
+                int(item.get("size") or 0)
+                for item in files
+                if re.fullmatch(r"readme(?:\.[a-z0-9]+)?", str(item["path"]), re.I)
+            ),
+            default=0,
+        )
+        excluded_parts = {"node_modules", "vendor", "third_party", "dist", "build"}
+
+        def project_file(item: dict[str, object]) -> bool:
+            parts = set(str(item["path"]).lower().split("/"))
+            return not parts.intersection(excluded_parts)
+
+        test_files = sum(
+            1
+            for item in files
+            if project_file(item)
+            and (
+                set(str(item["path"]).lower().split("/")).intersection(
+                    {"test", "tests", "spec", "specs", "eval", "evals"}
+                )
+                or re.search(
+                    r"(?:^|[._-])(test|spec)(?:[._-]|$)",
+                    Path(str(item["path"])).name.lower(),
+                )
+            )
+        )
+        documentation_files = sum(
+            1
+            for item in files
+            if project_file(item)
+            and (
+                str(item["path"]).lower().startswith("docs/")
+                or Path(str(item["path"])).suffix.lower() in {".md", ".mdx"}
+            )
+        )
         response = github_request(
             f"https://api.github.com/repos/{repository.name_with_owner}/actions/workflows?per_page=100",
             token,
@@ -374,8 +495,105 @@ def collect_snapshots(
             workflow_runs = runs.get("workflow_runs", []) if isinstance(runs, dict) else []
             if workflow_runs:
                 conclusion = str(workflow_runs[0].get("conclusion") or "")
-        snapshots.append(RepositorySnapshot(repository, commits, workflow, conclusion))
+        snapshots.append(
+            RepositorySnapshot(
+                repository,
+                commits,
+                workflow,
+                conclusion,
+                readme_size,
+                test_files,
+                documentation_files,
+            )
+        )
     return snapshots
+
+
+def authored_commits(
+    snapshot: RepositorySnapshot, login: str
+) -> list[dict[str, object]]:
+    return [
+        commit
+        for commit in snapshot.commits
+        if human_commit(commit)
+        and (commit.get("author") or {}).get("login") == login
+    ]
+
+
+def evaluate_repository(
+    snapshot: RepositorySnapshot, login: str, now: datetime
+) -> RepositoryEvaluation | None:
+    repository = snapshot.repository
+    authored = authored_commits(snapshot, login)
+    if not authored or not repository.description.strip() or snapshot.readme_size <= 0:
+        return None
+
+    score = min(25, 5 + len(authored) * 2)
+    signals = [f"본인 커밋 {len(authored)}"]
+
+    if snapshot.workflow_conclusion == "success":
+        score += 25
+        signals.append("CI 성공")
+    elif snapshot.workflow is not None:
+        score += 5
+        signals.append("CI 구성")
+
+    test_score = min(15, snapshot.test_files * 3)
+    score += test_score
+    if snapshot.test_files:
+        signals.append(f"테스트 파일 {snapshot.test_files}")
+
+    if snapshot.readme_size >= 5_000:
+        score += 7
+    elif snapshot.readme_size >= 1_000:
+        score += 5
+    else:
+        score += 3
+    score += min(3, snapshot.documentation_files)
+
+    latest_authored = datetime.fromisoformat(
+        str(authored[0]["commit"]["author"]["date"]).replace("Z", "+00:00")
+    )
+    age_days = max(0, (now - latest_authored).days)
+    if age_days <= 30:
+        score += 10
+    elif age_days <= 90:
+        score += 7
+    elif age_days <= 365:
+        score += 4
+    signals.append(f"최근 변경 {latest_authored.date().isoformat()}")
+
+    score += 3
+    score += min(4, len(repository.topics))
+    if repository.license_id != "—":
+        score += 3
+        signals.append(repository.license_id)
+    score += min(5, repository.stargazer_count + repository.fork_count * 2)
+
+    return RepositoryEvaluation(snapshot, score, len(authored), tuple(signals))
+
+
+def select_featured(
+    snapshots: list[RepositorySnapshot], login: str
+) -> list[RepositoryEvaluation]:
+    now = datetime.now(timezone.utc)
+    evaluated = [
+        evaluation
+        for snapshot in snapshots
+        if (evaluation := evaluate_repository(snapshot, login, now)) is not None
+    ]
+    selected = sorted(
+        evaluated,
+        key=lambda evaluation: (
+            evaluation.score,
+            evaluation.snapshot.repository.pushed_at,
+            evaluation.snapshot.repository.name.lower(),
+        ),
+        reverse=True,
+    )[:6]
+    if len(selected) != 6:
+        raise RuntimeError("Six repositories did not pass the automatic evidence gate")
+    return selected
 
 
 def collect_commits(
@@ -470,7 +688,9 @@ def card_filename(repository: Repository) -> str:
     return f"repo-{slug}.svg"
 
 
-def render_card_svg(repository: Repository) -> str:
+def render_card_svg(evaluation: RepositoryEvaluation) -> str:
+    snapshot = evaluation.snapshot
+    repository = snapshot.repository
     description = repository.description.strip() or "설명 없음"
     description_lines = textwrap.wrap(
         description, width=48, break_long_words=False, break_on_hyphens=False
@@ -479,6 +699,12 @@ def render_card_svg(repository: Repository) -> str:
         description_lines.append("")
     language = repository.primary_language or "Unknown"
     language_color = LANGUAGE_COLORS.get(language, "#8b949e")
+    if snapshot.workflow_conclusion == "success":
+        ci_label = "CI pass"
+    elif snapshot.workflow is not None:
+        ci_label = "CI configured"
+    else:
+        ci_label = "No CI"
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="410" height="132" viewBox="0 0 410 132" role="img" aria-label="{escape(repository.name)} repository card">
   <style>
     .card {{ fill: #ffffff; stroke: #d0d7de; }}
@@ -497,21 +723,28 @@ def render_card_svg(repository: Repository) -> str:
   <text class="body" x="18" y="72">{escape(description_lines[1])}</text>
   <circle cx="21" cy="101" r="5" fill="{language_color}"/>
   <text class="meta" x="32" y="105">{escape(language)}</text>
-  <text class="meta" x="145" y="105">Stars {repository.stargazer_count}</text>
-  <text class="meta" x="207" y="105">Forks {repository.fork_count}</text>
+  <text class="meta" x="112" y="105">{ci_label}</text>
+  <text class="meta" x="188" y="105">Test files {snapshot.test_files}</text>
   <text class="meta" x="282" y="105">Updated {repository.pushed_at[:10]}</text>
 </svg>
 '''
 
 
-def write_cards(repositories: list[Repository], directory: Path) -> None:
+def write_cards(
+    evaluations: list[RepositoryEvaluation], directory: Path
+) -> None:
     directory.mkdir(parents=True, exist_ok=True)
-    expected = {card_filename(repository) for repository in repositories}
+    expected = {
+        card_filename(evaluation.snapshot.repository) for evaluation in evaluations
+    }
     for existing in directory.glob("repo-*.svg"):
         if existing.name not in expected:
             existing.unlink()
-    for repository in repositories:
-        write_if_changed(directory / card_filename(repository), render_card_svg(repository))
+    for evaluation in evaluations:
+        repository = evaluation.snapshot.repository
+        write_if_changed(
+            directory / card_filename(repository), render_card_svg(evaluation)
+        )
 
 
 def render_intro(profile: Profile) -> str:
@@ -567,9 +800,14 @@ def render_activity(
     return "\n".join(badges)
 
 
-def render_cards(repositories: list[Repository]) -> str:
-    lines = ['<p align="center">']
-    for index, repository in enumerate(repositories):
+def render_cards(evaluations: list[RepositoryEvaluation]) -> str:
+    lines = [
+        "<sub>자동 선발 · 공개 증거 순위: 본인 커밋 25 · CI 25 · 테스트 구조 15 · 문서 10 · 최근 유지보수 10 · 메타데이터 10 · 공개 반응 5</sub>",
+        "",
+        '<p align="center">',
+    ]
+    for index, evaluation in enumerate(evaluations):
+        repository = evaluation.snapshot.repository
         lines.append(
             f'  <a href="{repository.url}"><img width="410" '
             f'src="assets/generated/{card_filename(repository)}" '
@@ -579,6 +817,25 @@ def render_cards(repositories: list[Repository]) -> str:
             lines.append("  <br>")
     lines.append("</p>")
     return "\n".join(lines)
+
+
+def escape_table(value: str) -> str:
+    return value.replace("|", "\\|").replace("\n", " ")
+
+
+def render_blog(posts: list[BlogPost]) -> str:
+    rows = ["| 글 | 주제 | 발행일 |", "|---|---|---:|"]
+    for post in posts:
+        url = (
+            "https://woonyong-kr.github.io/#/posts/"
+            f"{urllib.parse.quote(post.slug)}"
+        )
+        title = f"[{escape_table(post.name)}]({url})"
+        if post.subtitle:
+            title += f"<br><sub>{escape_table(post.subtitle)}</sub>"
+        tags = " · ".join(escape_table(tag) for tag in post.tags) or "—"
+        rows.append(f"| {title} | {tags} | {post.published_at} |")
+    return "\n".join(rows)
 
 
 def render_ci(snapshots: list[RepositorySnapshot], login: str) -> str:
@@ -688,13 +945,13 @@ def main() -> None:
     token = os.environ.get("GH_TOKEN", "")
     profile = discover_profile(args.login, token)
     activity = discover_activity(args.login, token)
-    featured, public_repositories = discover_repositories(args.login, token)
+    blog_posts = discover_blog_posts(args.login, token)
+    public_repositories = discover_repositories(args.login, token)
     snapshots = collect_snapshots(public_repositories, token)
-    snapshots_by_repository = {
-        snapshot.repository.name_with_owner: snapshot for snapshot in snapshots
-    }
-    featured_snapshots = [
-        snapshots_by_repository[repository.name_with_owner] for repository in featured
+    featured = select_featured(snapshots, args.login)
+    featured_snapshots = [evaluation.snapshot for evaluation in featured]
+    featured_repositories = [
+        evaluation.snapshot.repository for evaluation in featured
     ]
     history = merge_history(
         args.history,
@@ -708,13 +965,14 @@ def main() -> None:
         readme, "activity", render_activity(activity, featured_snapshots, profile)
     )
     readme = replace_section(readme, "cards", render_cards(featured))
+    readme = replace_section(readme, "blog", render_blog(blog_posts))
     readme = replace_section(readme, "ci", render_ci(featured_snapshots, args.login))
     readme = replace_section(readme, "collaboration", recent_collaboration(history))
     readme = replace_section(readme, "recent", recent_commits(history))
     readme = replace_section(
         readme,
         "technologies",
-        render_technologies(featured, featured_snapshots),
+        render_technologies(featured_repositories, featured_snapshots),
     )
     write_cards(featured, args.readme.parent / "assets" / "generated")
     write_if_changed(args.readme, readme)

@@ -46,6 +46,8 @@ jobs:
               "<!-- activity_summary:end -->",
               "<!-- project_cards:start -->",
               "<!-- project_cards:end -->",
+              "<!-- recent_posts:start -->",
+              "<!-- recent_posts:end -->",
               "<!-- ci_status:start -->",
               "<!-- ci_status:end -->",
               "<!-- collaboration:start -->",
@@ -61,6 +63,8 @@ jobs:
               raise SystemExit("commit history is empty")
           if readme.count("assets/generated/repo-") != 6:
               raise SystemExit("repository card count is not six")
+          if readme.count("https://woonyong-kr.github.io/#/posts/") != 6:
+              raise SystemExit("recent blog post count is not six")
           assets = sorted(Path("assets/generated").glob("repo-*.svg"))
           if len(assets) != 6:
               raise SystemExit("generated repository card count is not six")

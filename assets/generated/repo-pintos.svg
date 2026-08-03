@@ -16,7 +16,7 @@
   <text class="body" x="18" y="72">· COW fork)</text>
   <circle cx="21" cy="101" r="5" fill="#f34b7d"/>
   <text class="meta" x="32" y="105">C++</text>
-  <text class="meta" x="145" y="105">Stars 0</text>
-  <text class="meta" x="207" y="105">Forks 0</text>
+  <text class="meta" x="112" y="105">CI pass</text>
+  <text class="meta" x="188" y="105">Test files 490</text>
   <text class="meta" x="282" y="105">Updated 2026-08-03</text>
 </svg>
