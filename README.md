@@ -44,6 +44,6 @@
 
 ## 공개 코드 스냅샷
 
-공개 저장소 기준 언어 분포 · 최근 활동 · 관심 주제. 매주 GitHub Actions로 갱신.
+공개 저장소 기준 언어 분포 · 최근 활동 · 관심 주제. [예약 workflow](./.github/workflows/metrics.yml)로 매주 갱신. 수동 실행의 `extended` 옵션에 팔로워·별·업적·습관·기여 달력·PR/이슈·애니 지표 보존.
 
 ![Public GitHub metrics](./github-metrics.svg)
