@@ -77,7 +77,11 @@ def format_bytes(value: int) -> str:
     raise AssertionError("unreachable")
 
 
-def build_section(languages: Counter[str], repositories: tuple[str, ...]) -> str:
+def build_section(
+    languages: Counter[str],
+    repositories: tuple[str, ...],
+    repository_languages: dict[str, dict[str, int]],
+) -> str:
     total = sum(languages.values())
     if total <= 0:
         raise ValueError("No language bytes returned from GitHub")
@@ -104,20 +108,30 @@ def build_section(languages: Counter[str], repositories: tuple[str, ...]) -> str
             '</div>'
         )
 
-    repository_links = " · ".join(
-        f'<a href="https://github.com/{html.escape(repository)}">{html.escape(repository.split("/", 1)[1])}</a>'
-        for repository in repositories
-    )
+    repository_rows: list[str] = []
+    for repository in repositories:
+        breakdown = repository_languages[repository]
+        repository_total = sum(breakdown.values())
+        primary, primary_size = max(breakdown.items(), key=lambda item: item[1])
+        primary_percentage = primary_size / repository_total * 100
+        color = LANGUAGE_COLORS.get(primary, "#8b949e")
+        repository_rows.append(
+            '<div style="display:flex;align-items:center;gap:7px;width:48%;min-width:300px;">'
+            f'<span style="width:8px;height:8px;border-radius:50%;background:{color};"></span>'
+            f'<a href="https://github.com/{html.escape(repository)}">{html.escape(repository.split("/", 1)[1])}</a>'
+            f'<small style="margin-left:auto;">{html.escape(primary)} {primary_percentage:.1f}% · {format_bytes(repository_total)}</small>'
+            '</div>'
+        )
     return f"""
             <section id="portfolio-languages" style="margin-top:12px;">
                 <h2 style="margin:0 5px 5px;color:#0366d6;font-size:16px;font-weight:400;">대표 저장소 언어 비중</h2>
-                <small style="display:block;margin:0 5px 8px;">GitHub Linguist · 공개 저장소 {len(repositories)}개 · {format_bytes(total)}</small>
+                <small style="display:block;margin:0 5px 8px;">공개 저장소 {len(repositories)}개 합산 · GitHub Linguist {format_bytes(total)}</small>
                 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="10" style="margin:3px 8px 9px;">
                     <mask id="portfolio-language-mask"><rect width="920" height="10" rx="5" fill="white"/></mask>
                     {''.join(bars)}
                 </svg>
                 <div style="display:flex;flex-wrap:wrap;gap:5px 2%;margin:0 8px 7px;">{''.join(labels)}</div>
-                <small style="display:block;margin:0 8px;">{repository_links}</small>
+                <div style="display:flex;flex-wrap:wrap;gap:5px 4%;margin:8px 8px 0;">{''.join(repository_rows)}</div>
             </section>"""
 
 
@@ -131,7 +145,7 @@ def append_section(svg: str, section: str) -> str:
     match = height_pattern.search(svg)
     if not match:
         raise ValueError("Could not find SVG height")
-    height = int(match.group(2)) + 145
+    height = int(match.group(2)) + 180
     return height_pattern.sub(rf"\g<1>{height}\g<3>", svg, count=1)
 
 
@@ -140,11 +154,17 @@ def main() -> None:
     repositories = repositories_from_env()
     token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
     languages: Counter[str] = Counter()
+    repository_languages: dict[str, dict[str, int]] = {}
     for repository in repositories:
-        languages.update(fetch_languages(repository, token))
+        breakdown = fetch_languages(repository, token)
+        repository_languages[repository] = breakdown
+        languages.update(breakdown)
 
     base_svg = args.input.read_text(encoding="utf-8")
-    rendered = append_section(base_svg, build_section(languages, repositories))
+    rendered = append_section(
+        base_svg,
+        build_section(languages, repositories, repository_languages),
+    )
     args.output.write_text(rendered, encoding="utf-8")
     summary = ", ".join(f"{name}={size}" for name, size in languages.most_common())
     print(f"repositories={len(repositories)} total={sum(languages.values())} {summary}")

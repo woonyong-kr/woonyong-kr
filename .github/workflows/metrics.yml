@@ -35,25 +35,19 @@ jobs:
           output_action: none
           user: woonyong-kr
           template: classic
-          base: header, activity
+          base: header, activity, community, repositories
           config_display: large
           config_padding: 0, 3%
           config_timezone: Asia/Seoul
           extras_js: |
             const exact = new Map([
-              ["Activity", "공개 활동"],
-              ["Commits", "커밋"],
-              ["Pull requests reviewed", "리뷰한 PR"],
-              ["Pull requests opened", "연 PR"],
-              ["Issues opened", "연 이슈"],
-              ["Issue comments", "이슈 댓글"],
-              ["Languages", "언어 분포"],
-              ["Most used languages", "대표 저장소 코드 비중"],
-              ["Starred topics", "관심 주제"],
-              ["Followers", "팔로워"],
+              ["Activity", "활동 기록"],
+              ["Community stats", "공개 활동"],
+              ["Repositories", "저장소"],
+              ["Starred topics", "기술 관심사"],
               ["Achievements", "활동 배지"],
-              ["Coding habits", "코딩 활동"],
-              ["Recently starred repositories", "최근 별을 준 저장소"]
+              ["Coding habits", "코딩 패턴"],
+              ["Recently starred repositories", "최근 관심 저장소"]
             ])
             const translateDuration = (value) => value
               .replace(/([\d,]+)\s+years?/g, "$1년")
@@ -69,27 +63,28 @@ jobs:
               const compact = original.trim()
               let translated = exact.get(compact) ?? compact
               translated = translated
-                .replace(/^Joined GitHub (.+) ago$/, (_, duration) => `GitHub 가입 · ${translateDuration(duration)} 전`)
-                .replace(/^Followed by ([\d,]+) users$/, "팔로워 $1명")
-                .replace(/^Contributed to ([\d,]+) repositories$/, "$1개 저장소에 기여")
-                .replace(/^([\d,]+) Commits$/, "$1 커밋")
-                .replace(/^([\d,]+) Pull requests reviewed$/, "리뷰한 PR $1건")
-                .replace(/^([\d,]+) Pull requests opened$/, "연 PR $1건")
-                .replace(/^([\d,]+) Issues opened$/, "연 이슈 $1건")
-                .replace(/^([\d,]+) issue comments$/i, "이슈 댓글 $1건")
-                .replace(/^0 Languages$/, "언어 분포")
-                .replace(/^([\d,]+) Languages$/, "사용 언어 $1개")
-                .replace(/^estimation from ([\d.]+)([kmgt]?b) of code in ([\d,]+) edited files across ([\d,]+) commits$/i, "$4개 커밋 · 변경 파일 $3개 · 코드 $1$2 기준")
-                .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "마지막 갱신 · $1 · metrics@$2")
-                .replace(/^These metrics do not include all private contributions$/, "공개 저장소 기준 · 비공개 기여 일부 제외")
-                .replace(/^No license preference$/, "선호 라이선스 미설정")
-                .replace(/^([\d,]+) Sponsors$/, "후원자 $1명")
-                .replace(/^([\d,]+) Stargazers$/, "별 $1개")
-                .replace(/^([\d,]+) Forkers$/, "포크 $1개")
-                .replace(/^([\d,]+) Watchers$/, "구독 $1명")
-                .replace(/^([\d,]+) Releases$/, "릴리스 $1개")
-                .replace(/^([\d,]+) Packages$/, "패키지 $1개")
-                .replace(/^([\d,.]+) (byte|KB|MB|GB) used$/i, "저장소 사용량 $1 $2")
+                .replace(/^Joined GitHub (.+) ago$/, (_, duration) => `GitHub · ${translateDuration(duration)}`)
+                .replace(/^Followed by ([\d,]+) users$/, "팔로워 · $1")
+                .replace(/^Contributed to ([\d,]+) repositories$/, "기여 저장소 · $1")
+                .replace(/^([\d,]+) Commits$/, (_, count) => `커밋 · ${Number(count.replace(/,/g, "")).toLocaleString("ko-KR")}`)
+                .replace(/^([\d,]+) Pull requests reviewed$/, "코드 리뷰 · $1")
+                .replace(/^([\d,]+) Pull requests opened$/, "Pull Request · $1")
+                .replace(/^([\d,]+) Issues opened$/, "Issue · $1")
+                .replace(/^([\d,]+) issue comments$/i, "Issue 대화 · $1")
+                .replace(/^Member of ([\d,]+) organizations$/, "참여 조직 · $1")
+                .replace(/^Following ([\d,]+) users$/, "팔로잉 · $1")
+                .replace(/^Sponsoring ([\d,]+) repositories$/, "후원 저장소 · $1")
+                .replace(/^([\d,]+) Repositories$/, "공개 저장소 · $1")
+                .replace(/^No license preference$/, "라이선스 · 미설정")
+                .replace(/^([\d,]+) Sponsors$/, "후원자 · $1")
+                .replace(/^([\d,]+) Stargazers$/, "별 · $1")
+                .replace(/^([\d,]+) Forkers$/, "포크 · $1")
+                .replace(/^([\d,]+) Watchers$/, "구독 · $1")
+                .replace(/^([\d,]+) Releases$/, "릴리스 · $1")
+                .replace(/^([\d,]+) Packages$/, "패키지 · $1")
+                .replace(/^([\d,.]+) (byte|KB|MB|GB) used$/i, "저장소 용량 · $1 $2")
+                .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "갱신 · $1 · metrics@$2")
+                .replace(/^These metrics do not include all private contributions$/, "공개 데이터 기준 · 비공개 기여 일부 제외")
               if (translated !== compact) {
                 node.nodeValue = original.replace(compact, translated)
               }
@@ -101,7 +96,7 @@ jobs:
             jekyll-theme-velog
           plugin_languages: no
 
-          plugin_topics: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_topics: yes
           plugin_topics_limit: 16
           plugin_topics_mode: icons
 
@@ -124,7 +119,7 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
 
-          plugin_isocalendar: ${{ inputs.extended && 'yes' || 'no' }}
+          plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
           plugin_followup: ${{ inputs.extended && 'yes' || 'no' }}
