@@ -24,7 +24,7 @@ Kubernetes 장애 당시의 증거를 보존하고, 규칙으로 원인을 판�
 [안전 계약 테스트](https://github.com/woonyong-kr/k8s-ops/blob/main/tests/test_golden_path_safety_contracts.py) ·
 [CI](https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml)
 
-## Systems work
+## 시스템 구현
 
 | 프로젝트 | 구현한 경계 | 확인 가능한 결과 |
 |---|---|---|
