@@ -493,8 +493,8 @@ def render_technologies(
 def recent_commits(history: dict[str, list[dict[str, str]]], limit: int = 6) -> str:
     items = history["commits"][:limit]
     return "\n".join(
-        f"- **{item['project']}** · [{item['title']}]({item['url']}) · "
-        f"{item['occurred_at'][:10]}"
+        f"- <span lang=\"ko\">**{item['project']}** · "
+        f"[{item['title']}]({item['url']}) · {item['occurred_at'][:10]}</span>"
         for item in items
     )
 
@@ -506,8 +506,8 @@ def recent_collaboration(
     if not items:
         return "현재 공개된 merged PR 기록 없음"
     return "\n".join(
-        f"- **{item['repository']}** · [{item['title']}]({item['url']}) · "
-        f"{item['occurred_at'][:10]}"
+        f"- <span lang=\"ko\">**{item['repository']}** · "
+        f"[{item['title']}]({item['url']}) · {item['occurred_at'][:10]}</span>"
         for item in items
     )
 
