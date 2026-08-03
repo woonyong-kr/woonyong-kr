@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="132" viewBox="0 0 410 132" role="img" aria-label="woonyong-kr.github.io repository card">
+  <style>
+    .card { fill: #ffffff; stroke: #d0d7de; }
+    .title { fill: #0969da; font: 600 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .body { fill: #57606a; font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .meta { fill: #57606a; font: 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #0d1117; stroke: #30363d; }
+      .title { fill: #58a6ff; }
+      .body, .meta { fill: #8b949e; }
+    }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="409" height="131" rx="6"/>
+  <text class="title" x="18" y="28">woonyong-kr.github.io</text>
+  <text class="body" x="18" y="54">최우녕의 이력서·포트폴리오·기술 기록 배포 저장소</text>
+  <text class="body" x="18" y="72"></text>
+  <circle cx="21" cy="101" r="5" fill="#e34c26"/>
+  <text class="meta" x="32" y="105">HTML</text>
+  <text class="meta" x="145" y="105">Stars 0</text>
+  <text class="meta" x="207" y="105">Forks 0</text>
+  <text class="meta" x="282" y="105">Updated 2026-08-03</text>
+</svg>
