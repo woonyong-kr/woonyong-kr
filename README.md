@@ -53,4 +53,4 @@ C++ 엔진 655개 API ↔ C# 공용 계층 ↔ 10개 협력사 콘텐츠
 - [Copy-on-Write 이후 swap slot의 소유권 문제](https://woonyong-kr.github.io/#/posts/swap-sharing)
 - [655개 엔진 함수와 10개 협력사 사이에 경계를 둔 이유](https://woonyong-kr.github.io/#/posts/cli-proxy)
 
-<sub>팀 기여와 종료 후 확장 분리 · 성능 수치에 실행 환경과 입력 규모 명시 · 미구현 범위와 재현 불가 수치 제외</sub>
+<sub>팀 기여와 종료 후 확장 분리 · 성능 수치에 실행 환경과 입력 규모 명시 · 미구현 범위와 재현 불가 수치 제외 · [지표 자동화](./.github/PROFILE-METRICS.md)</sub>

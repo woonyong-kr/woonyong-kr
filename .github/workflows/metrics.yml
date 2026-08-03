@@ -17,20 +17,28 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    env:
+      PROFILE_REPOSITORIES: >-
+        woonyong-kr/k8s-ops,
+        woonyong-kr/minidb,
+        woonyong-kr/pintos,
+        woonyong-kr/dx_framework
     steps:
+      - name: Checkout profile source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
       - name: Generate public GitHub metrics
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: none
           user: woonyong-kr
           template: classic
           base: header, activity
           config_display: large
           config_padding: 0, 3%
           config_timezone: Asia/Seoul
-          committer_message: "chore: GitHub 지표 자동 갱신 / ${filename}"
           extras_js: |
             const exact = new Map([
               ["Activity", "공개 활동"],
@@ -63,6 +71,7 @@ jobs:
               translated = translated
                 .replace(/^Joined GitHub (.+) ago$/, (_, duration) => `GitHub 가입 · ${translateDuration(duration)} 전`)
                 .replace(/^Followed by ([\d,]+) users$/, "팔로워 $1명")
+                .replace(/^Contributed to ([\d,]+) repositories$/, "$1개 저장소에 기여")
                 .replace(/^([\d,]+) Commits$/, "$1 커밋")
                 .replace(/^([\d,]+) Pull requests reviewed$/, "리뷰한 PR $1건")
                 .replace(/^([\d,]+) Pull requests opened$/, "연 PR $1건")
@@ -73,6 +82,14 @@ jobs:
                 .replace(/^estimation from ([\d.]+)([kmgt]?b) of code in ([\d,]+) edited files across ([\d,]+) commits$/i, "$4개 커밋 · 변경 파일 $3개 · 코드 $1$2 기준")
                 .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "마지막 갱신 · $1 · metrics@$2")
                 .replace(/^These metrics do not include all private contributions$/, "공개 저장소 기준 · 비공개 기여 일부 제외")
+                .replace(/^No license preference$/, "선호 라이선스 미설정")
+                .replace(/^([\d,]+) Sponsors$/, "후원자 $1명")
+                .replace(/^([\d,]+) Stargazers$/, "별 $1개")
+                .replace(/^([\d,]+) Forkers$/, "포크 $1개")
+                .replace(/^([\d,]+) Watchers$/, "구독 $1명")
+                .replace(/^([\d,]+) Releases$/, "릴리스 $1개")
+                .replace(/^([\d,]+) Packages$/, "패키지 $1개")
+                .replace(/^([\d,.]+) (byte|KB|MB|GB) used$/i, "저장소 사용량 $1 $2")
               if (translated !== compact) {
                 node.nodeValue = original.replace(compact, translated)
               }
@@ -82,21 +99,7 @@ jobs:
             woonyong-kr.github.io,
             k8s-ops-min,
             jekyll-theme-velog
-          plugin_languages: yes
-          plugin_languages_categories: programming, markup
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_threshold: 1%
-          plugin_languages_indepth: yes
-          plugin_languages_indepth_custom: >-
-            woonyong-kr/k8s-ops,
-            woonyong-kr/minidb,
-            woonyong-kr/pintos,
-            woonyong-kr/dx_framework
-          plugin_languages_analysis_timeout: 120
-          plugin_languages_analysis_timeout_repositories: 30
+          plugin_languages: no
 
           plugin_topics: ${{ inputs.extended && 'yes' || 'no' }}
           plugin_topics_limit: 16
@@ -138,3 +141,23 @@ jobs:
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
           plugin_anilist_shuffle: yes
+
+      - name: Merge public repository language evidence
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/append_repository_languages.py \
+            --input /metrics_renders/github-metrics.svg \
+            --output github-metrics.svg
+
+      - name: Commit refreshed profile metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          if git diff --cached --quiet; then
+            echo "No metrics changes"
+            exit 0
+          fi
+          git commit -m "chore: GitHub 지표 자동 갱신 / 공개 저장소 언어 비중"
+          git push
