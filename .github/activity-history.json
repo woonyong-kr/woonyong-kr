@@ -3,7 +3,7 @@
     {
       "id": "woonyong-kr/jekyll-theme-velog@927e76eb627b391354879342b477d64013c54cdd",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: Pages canonical URL / 배포 경로 재현 / SEO 검증",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/927e76eb627b391354879342b477d64013c54cdd",
@@ -12,7 +12,7 @@
     {
       "id": "woonyong-kr/jekyll-theme-velog@df36b865b4079574f6ee6bc8e6fed4bbb7f81441",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 공식 Pages 배포 / 템플릿 검증 / 설정 하드코딩 제거",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/df36b865b4079574f6ee6bc8e6fed4bbb7f81441",
@@ -21,7 +21,7 @@
     {
       "id": "woonyong-kr/pintos@ea154f87730d9d3ac492bb234166382ca3531493",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6",
       "url": "https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493",
@@ -30,16 +30,25 @@
     {
       "id": "woonyong-kr/pintos@09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: MLFQS 고정소수점 / 전체 스레드 갱신 / CI 분리",
       "url": "https://github.com/woonyong-kr/pintos/commit/09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d",
       "occurred_at": "2026-08-03T17:09:12Z"
     },
     {
+      "id": "woonyong-kr/k8s-ops-min@854b15d6f91b126473233f2bbd13abf618b4b10b",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "style: payload 계측 코드 / Python 3.13 lint / import 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b",
+      "occurred_at": "2026-08-03T16:56:53Z"
+    },
+    {
       "id": "woonyong-kr/dx_framework@78c917a276b69c8746dcfb73c08803f698798ab9",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "test: 코루틴 계약 / 독립 실행 / CI 게이트",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9",
@@ -48,7 +57,7 @@
     {
       "id": "woonyong-kr/dx_framework@e622a6115e2d66d587af59e19b7827d5e82286d0",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "fix: 부모 비활성 판정 / Enum 검색 / 코루틴 정리",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/e622a6115e2d66d587af59e19b7827d5e82286d0",
@@ -57,16 +66,34 @@
     {
       "id": "woonyong-kr/minidb@7b7c43ff93e350a8feecc6d049d4e8e2828937bc",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "build: sanitizer 선택 / 224개 테스트 / CI 게이트",
       "url": "https://github.com/woonyong-kr/minidb/commit/7b7c43ff93e350a8feecc6d049d4e8e2828937bc",
       "occurred_at": "2026-08-03T16:47:20Z"
     },
     {
+      "id": "woonyong-kr/k8s-ops-min@f06bd4f32d98de22ca845a67b3e8f493b0be96a2",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "feat: Evidence 실험 / 신뢰 경계 / Grafana 증거",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/f06bd4f32d98de22ca845a67b3e8f493b0be96a2",
+      "occurred_at": "2026-08-02T12:42:50Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@43f95db0960e0545add7df01ae05119e0b417f45",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "feat: Evidence 페이로드 실험 / Grafana 계측",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/43f95db0960e0545add7df01ae05119e0b417f45",
+      "occurred_at": "2026-08-02T11:08:38Z"
+    },
+    {
       "id": "woonyong-kr/dx_framework@063356a5abea75eb0ba6e60c1717de8c91d8d4f7",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "feat: C++/CLI 래핑 예시 문서 추가",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/063356a5abea75eb0ba6e60c1717de8c91d8d4f7",
@@ -75,7 +102,7 @@
     {
       "id": "woonyong-kr/dx_framework@09d0c6b9f5ee54c19b222bc21bfb5f227926f450",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "fix: 소스 인코딩 UTF-8 통일",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/09d0c6b9f5ee54c19b222bc21bfb5f227926f450",
@@ -84,7 +111,7 @@
     {
       "id": "woonyong-kr/dx_framework@4557df0ec270657c061cf4704ccbaf77f4fd7fd2",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "refactor: 백업·폐기 코드 정리",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/4557df0ec270657c061cf4704ccbaf77f4fd7fd2",
@@ -93,7 +120,7 @@
     {
       "id": "woonyong-kr/minidb@993d4d873aeeaa08aae2a9de3d3dadc55123ea5d",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: 1M 행 INSERT O(N^2) 결함 2건 개선 (힙 재탐색 힌트, REPL lock 해제)",
       "url": "https://github.com/woonyong-kr/minidb/commit/993d4d873aeeaa08aae2a9de3d3dadc55123ea5d",
@@ -102,7 +129,7 @@
     {
       "id": "woonyong-kr/minidb@c1049b0a02f15660fdb80568524eeed48ff27aa8",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: B+Tree 인덱스 범위 스캔 추가",
       "url": "https://github.com/woonyong-kr/minidb/commit/c1049b0a02f15660fdb80568524eeed48ff27aa8",
@@ -541,6 +568,78 @@
       "occurred_at": "2026-08-01T06:29:44Z"
     },
     {
+      "id": "woonyong-kr/k8s-ops-min@dee0773353d51fbd8385147d7822983b556c84db",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "fix: private 문서 추적 / 검증 회귀 / lint 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/dee0773353d51fbd8385147d7822983b556c84db",
+      "occurred_at": "2026-08-01T02:35:29Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@653ce247a3a103008cac0f81ea0ea24ac5ced6f8",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "fix(catalog): 문서 주장과 코드를 일치시키고 응답이 잘림을 실패로 합치던 것을 고침",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/653ce247a3a103008cac0f81ea0ea24ac5ced6f8",
+      "occurred_at": "2026-08-01T02:16:37Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@00b5ae1c4df551b3dc20947ff3d8d7b15dacd2e3",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "fix: 카탈로그 검증 경계 / 문서 줄끝 / 회귀 차단",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/00b5ae1c4df551b3dc20947ff3d8d7b15dacd2e3",
+      "occurred_at": "2026-07-31T23:42:44Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@1f812ca0054ac48e1967853286584e7135e28d21",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "fix: 카탈로그 집계 경계 / 공개 문서 경로 / 줄끝 정리",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/1f812ca0054ac48e1967853286584e7135e28d21",
+      "occurred_at": "2026-07-31T23:13:55Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@ae3c410049dc2efa939d7be3c48e5bfd43c4273d",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "feat: 포트폴리오 검증 / AWS 원장 / 이력서 정합",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/ae3c410049dc2efa939d7be3c48e5bfd43c4273d",
+      "occurred_at": "2026-07-31T16:41:25Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@ff8195be52ccbf97f19a8a9f997fc5ceeba08a9d",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "feat: 카탈로그 재처리와 이벤트 전송 검증을 보강",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/ff8195be52ccbf97f19a8a9f997fc5ceeba08a9d",
+      "occurred_at": "2026-07-31T16:04:04Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@d927ccc82fe0279bf94b003b7f90056e6a41096c",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "Kyro: 운영 데이터 수집·정규화 계층과 데이터 파운데이션 확장",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/d927ccc82fe0279bf94b003b7f90056e6a41096c",
+      "occurred_at": "2026-07-31T14:14:06Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops-min@128b5e8c955f4f1450819f5a36ec390dfe395b1a",
+      "kind": "commit",
+      "project": "k8s-ops-min",
+      "repository": "woonyong-kr/k8s-ops-min",
+      "title": "first commit",
+      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/128b5e8c955f4f1450819f5a36ec390dfe395b1a",
+      "occurred_at": "2026-07-31T13:57:13Z"
+    },
+    {
       "id": "woonyong-kr/k8s-ops@f317ad950a17296742bf24d79c986a5775c8ebb9",
       "kind": "commit",
       "project": "Kyro",
@@ -921,7 +1020,7 @@
     {
       "id": "woonyong-kr/pintos@c98f51bae9376fcf52b50fc461a8acfc18e447a3",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: VM 진입 전 userprog 경계 조건을 안정화",
       "url": "https://github.com/woonyong-kr/pintos/commit/c98f51bae9376fcf52b50fc461a8acfc18e447a3",
@@ -930,7 +1029,7 @@
     {
       "id": "woonyong-kr/pintos@d19833ca99712c6938d74deed68b3c17d2f9e298",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: woonyong into dev",
       "url": "https://github.com/woonyong-kr/pintos/commit/d19833ca99712c6938d74deed68b3c17d2f9e298",
@@ -939,7 +1038,7 @@
     {
       "id": "woonyong-kr/pintos@4d5ce5a836b88459764a5b417e91d6454778b16d",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: remove residual annotation tags from process.c",
       "url": "https://github.com/woonyong-kr/pintos/commit/4d5ce5a836b88459764a5b417e91d6454778b16d",
@@ -948,7 +1047,7 @@
     {
       "id": "woonyong-kr/pintos@b4e8e44b34b6cb8821aaf9c73afe95f4bd254bad",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: orphaned 자식 종료 시 루트가 미회수 레코드를 정리",
       "url": "https://github.com/woonyong-kr/pintos/commit/b4e8e44b34b6cb8821aaf9c73afe95f4bd254bad",
@@ -957,7 +1056,7 @@
     {
       "id": "woonyong-kr/pintos@ec67da821fa4a14fa416b491fc021dd2c12d062e",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: 어노테이션 태그(@bookmark) 잔류 5건 제거",
       "url": "https://github.com/woonyong-kr/pintos/commit/ec67da821fa4a14fa416b491fc021dd2c12d062e",
@@ -966,7 +1065,7 @@
     {
       "id": "woonyong-kr/pintos@1bf5b3452bd92598f992f625f0372bd15bf816a2",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: 루트 스레드 종료 시 자식 재연결을 건너뛰어",
       "url": "https://github.com/woonyong-kr/pintos/commit/1bf5b3452bd92598f992f625f0372bd15bf816a2",
@@ -975,7 +1074,7 @@
     {
       "id": "woonyong-kr/pintos@6bcb9d569ab29653dddc41d55f2e606e33853e77",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "feat: 루트 스레드 기반 자식 상태 재연결을 추가",
       "url": "https://github.com/woonyong-kr/pintos/commit/6bcb9d569ab29653dddc41d55f2e606e33853e77",
@@ -984,7 +1083,7 @@
     {
       "id": "woonyong-kr/pintos@e81db931d5f45c0599cbd75d4da5eece4154dda2",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: initd 초기 파일 디스크립터 테이블을 준비",
       "url": "https://github.com/woonyong-kr/pintos/commit/e81db931d5f45c0599cbd75d4da5eece4154dda2",
@@ -993,7 +1092,7 @@
     {
       "id": "woonyong-kr/pintos@ec01a5edf3a1b6c3ccf79baa05c5fe2fc8eb1520",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: dev 최신 변경을 woonyong에 동기화",
       "url": "https://github.com/woonyong-kr/pintos/commit/ec01a5edf3a1b6c3ccf79baa05c5fe2fc8eb1520",
@@ -1002,7 +1101,7 @@
     {
       "id": "woonyong-kr/pintos@7a608f9ea74e070a37d0e4c40051cfd894b34f88",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: read 시스템콜과 exec 경로를 보강",
       "url": "https://github.com/woonyong-kr/pintos/commit/7a608f9ea74e070a37d0e4c40051cfd894b34f88",
@@ -1011,7 +1110,7 @@
     {
       "id": "woonyong-kr/pintos@a8f7e3c78fa47eef405811afb82e82d3b2e38c65",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: exec 초기 파일 디스크립터 준비 조건을 바로잡아",
       "url": "https://github.com/woonyong-kr/pintos/commit/a8f7e3c78fa47eef405811afb82e82d3b2e38c65",
@@ -1020,7 +1119,7 @@
     {
       "id": "woonyong-kr/pintos@5cfdda283c36d4fe59d27cf920ca8f7fe0bed9f4",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "feat: fork 자식의 파일 디스크립터 복제를 추가",
       "url": "https://github.com/woonyong-kr/pintos/commit/5cfdda283c36d4fe59d27cf920ca8f7fe0bed9f4",
@@ -1029,7 +1128,7 @@
     {
       "id": "woonyong-kr/pintos@81c626ebb1cd2c15c8e04bb7ad277140e21fb00f",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: exec 시스템콜 문자열 검증과 재할당 흐름을 정리",
       "url": "https://github.com/woonyong-kr/pintos/commit/81c626ebb1cd2c15c8e04bb7ad277140e21fb00f",
@@ -1038,7 +1137,7 @@
     {
       "id": "woonyong-kr/pintos@ad88cbefddc9377bfbe8db9b9044ade81ec45088",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: dev 최신 변경을 woonyong에 동기화",
       "url": "https://github.com/woonyong-kr/pintos/commit/ad88cbefddc9377bfbe8db9b9044ade81ec45088",
@@ -1047,7 +1146,7 @@
     {
       "id": "woonyong-kr/pintos@e03f00d79aaa6b5462a3a0f0f44178b006f38d73",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: dev 최신 변경을 woonyong에 동기화",
       "url": "https://github.com/woonyong-kr/pintos/commit/e03f00d79aaa6b5462a3a0f0f44178b006f38d73",
@@ -1056,7 +1155,7 @@
     {
       "id": "woonyong-kr/pintos@b9ca5801661fcbbe46557c278d40fc1ba98d7c1c",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: wait와 exit 구현 브랜치를 dev에 반영",
       "url": "https://github.com/woonyong-kr/pintos/commit/b9ca5801661fcbbe46557c278d40fc1ba98d7c1c",
@@ -1065,7 +1164,7 @@
     {
       "id": "woonyong-kr/pintos@b82f5259a0d9c8aacd0d6d284ba660a117aec8c2",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "merge: wait와 exit 구현 브랜치를 dev에 반영",
       "url": "https://github.com/woonyong-kr/pintos/commit/b82f5259a0d9c8aacd0d6d284ba660a117aec8c2",
@@ -1074,7 +1173,7 @@
     {
       "id": "woonyong-kr/pintos@741eab39de3a5683c60043521438f9154d015991",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: exec 시스템콜 연결과 초기 스레드 fd 초기화를 바로잡아",
       "url": "https://github.com/woonyong-kr/pintos/commit/741eab39de3a5683c60043521438f9154d015991",
@@ -1083,7 +1182,7 @@
     {
       "id": "woonyong-kr/pintos@c980811aac096db064bfcd21a13c5520a44084dd",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: exec 시스템콜 연결과 초기 스레드 fd 초기화를 바로잡아",
       "url": "https://github.com/woonyong-kr/pintos/commit/c980811aac096db064bfcd21a13c5520a44084dd",
@@ -1092,7 +1191,7 @@
     {
       "id": "woonyong-kr/pintos@01a4ab27f7735803172f0d6d4f3cdb4522b4e90d",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: wait 시스템콜과 fork 실패 정리를 연결",
       "url": "https://github.com/woonyong-kr/pintos/commit/01a4ab27f7735803172f0d6d4f3cdb4522b4e90d",
@@ -1101,7 +1200,7 @@
     {
       "id": "woonyong-kr/pintos@8da296a404a1410dff7ed61ce98f2fb5b15a04a8",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: wait 시스템콜과 fork 실패 정리를 연결",
       "url": "https://github.com/woonyong-kr/pintos/commit/8da296a404a1410dff7ed61ce98f2fb5b15a04a8",
@@ -1110,7 +1209,7 @@
     {
       "id": "woonyong-kr/pintos@0c9ed7ec8a4516b237a912fb0440f9dc90ad5a88",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: 프로세스 경로의 현재 스레드 null 가드를 보강",
       "url": "https://github.com/woonyong-kr/pintos/commit/0c9ed7ec8a4516b237a912fb0440f9dc90ad5a88",
@@ -1119,7 +1218,7 @@
     {
       "id": "woonyong-kr/pintos@2539c19e4f0d5c7b4c82fabd7b60eaebfe98e33b",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: 프로세스 경로의 현재 스레드 null 가드를 보강",
       "url": "https://github.com/woonyong-kr/pintos/commit/2539c19e4f0d5c7b4c82fabd7b60eaebfe98e33b",
@@ -1128,7 +1227,7 @@
     {
       "id": "woonyong-kr/pintos@8fa4edcc3c758df3e40a7cea7411196a754f5b6c",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: process_exit null 현재 스레드 가드를 추가",
       "url": "https://github.com/woonyong-kr/pintos/commit/8fa4edcc3c758df3e40a7cea7411196a754f5b6c",
@@ -1137,7 +1236,7 @@
     {
       "id": "woonyong-kr/pintos@affaceb26b62b86c98d6da5091477f09a003f8df",
       "kind": "commit",
-      "project": "PintOS",
+      "project": "pintos",
       "repository": "woonyong-kr/pintos",
       "title": "fix: process_exit null 현재 스레드 가드를 추가",
       "url": "https://github.com/woonyong-kr/pintos/commit/affaceb26b62b86c98d6da5091477f09a003f8df",
@@ -1146,7 +1245,7 @@
     {
       "id": "woonyong-kr/minidb@c5d39937cc3235727b41233a38db3627cf2c121c",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: 스트레스 대시보드 표시를 현재 서버 구조에 맞춰",
       "url": "https://github.com/woonyong-kr/minidb/commit/c5d39937cc3235727b41233a38db3627cf2c121c",
@@ -1155,7 +1254,7 @@
     {
       "id": "woonyong-kr/minidb@2222c7645bd929be9a8ed99e01dd6b57e89261b6",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: writer 우선 정책과 30초 유휴 타임아웃을 반영해",
       "url": "https://github.com/woonyong-kr/minidb/commit/2222c7645bd929be9a8ed99e01dd6b57e89261b6",
@@ -1164,7 +1263,7 @@
     {
       "id": "woonyong-kr/minidb@0471264191869c55c8c643e3494387800c5d5634",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "tools: 데드락 진단 도구를 추가해",
       "url": "https://github.com/woonyong-kr/minidb/commit/0471264191869c55c8c643e3494387800c5d5634",
@@ -1173,7 +1272,7 @@
     {
       "id": "woonyong-kr/minidb@763ba428923db11e8cc8e2621f1466ed359bfe1f",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "perf: pager와 스캔 경로의 병목을 줄여",
       "url": "https://github.com/woonyong-kr/minidb/commit/763ba428923db11e8cc8e2621f1466ed359bfe1f",
@@ -1182,7 +1281,7 @@
     {
       "id": "woonyong-kr/minidb@abfaeef5197d308434963b3326a721ad00f00cda",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: 스캔 DML 정합성과 B+트리 삭제 복구를 바로잡아",
       "url": "https://github.com/woonyong-kr/minidb/commit/abfaeef5197d308434963b3326a721ad00f00cda",
@@ -1191,7 +1290,7 @@
     {
       "id": "woonyong-kr/minidb@be78c776ecb44947816d0e778b1d2d38f020dec4",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "style: stress.c에 C 코딩 컨벤션을 적용",
       "url": "https://github.com/woonyong-kr/minidb/commit/be78c776ecb44947816d0e778b1d2d38f020dec4",
@@ -1200,7 +1299,7 @@
     {
       "id": "woonyong-kr/minidb@7e6988193cee9054deb84ad83c09bfc6a23c2477",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: 힙 체인 레이스와 TOCTOU 페이지 오버플로를 수정",
       "url": "https://github.com/woonyong-kr/minidb/commit/7e6988193cee9054deb84ad83c09bfc6a23c2477",
@@ -1209,7 +1308,7 @@
     {
       "id": "woonyong-kr/minidb@20e9b77b71a97b4828cdacdcc5ce1b4043aff191",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: keep-alive 응답 불일치를 해소",
       "url": "https://github.com/woonyong-kr/minidb/commit/20e9b77b71a97b4828cdacdcc5ce1b4043aff191",
@@ -1218,7 +1317,7 @@
     {
       "id": "woonyong-kr/minidb@e4cc4e0f5898ee0bc153882558d55b2e1ce1a7ed",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "style: C 코딩 컨벤션 적용 및 데드 코드 제거",
       "url": "https://github.com/woonyong-kr/minidb/commit/e4cc4e0f5898ee0bc153882558d55b2e1ce1a7ed",
@@ -1227,7 +1326,7 @@
     {
       "id": "woonyong-kr/minidb@af3b5b5c48fc3b2c0e6045f8fa89ea3c48a75d3c",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: 4-layer 동시성 제어 완성 — 래치 커플링, Range Lock, thread-per-connection",
       "url": "https://github.com/woonyong-kr/minidb/commit/af3b5b5c48fc3b2c0e6045f8fa89ea3c48a75d3c",
@@ -1236,7 +1335,7 @@
     {
       "id": "woonyong-kr/minidb@c90442dfbd48a54ad481325f524c78cc89a223e8",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: HTTP keep-alive + 대시보드 스트레스 테스트 도구",
       "url": "https://github.com/woonyong-kr/minidb/commit/c90442dfbd48a54ad481325f524c78cc89a223e8",
@@ -1245,7 +1344,7 @@
     {
       "id": "woonyong-kr/minidb@5fd2756c5bca636cc938b90740079b5f747f0790",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: 혼합 부하 스트레스 테스트 + GET /stats 서버 모니터링 엔드포인트",
       "url": "https://github.com/woonyong-kr/minidb/commit/5fd2756c5bca636cc938b90740079b5f747f0790",
@@ -1254,7 +1353,7 @@
     {
       "id": "woonyong-kr/minidb@2f72f8503db8ebee0dd88b7e2405ed342f868bb3",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: Dockerfile을 ubuntu:22.04로 고정 (libasan6 호환)",
       "url": "https://github.com/woonyong-kr/minidb/commit/2f72f8503db8ebee0dd88b7e2405ed342f868bb3",
@@ -1263,7 +1362,7 @@
     {
       "id": "woonyong-kr/minidb@23d2cf81e03777993b97ab60c0d8aaf6335b7074",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "fix: devcontainer에 libasan6/libubsan1 추가",
       "url": "https://github.com/woonyong-kr/minidb/commit/23d2cf81e03777993b97ab60c0d8aaf6335b7074",
@@ -1272,7 +1371,7 @@
     {
       "id": "woonyong-kr/minidb@6f8e78baee5fd42ec4462cdeb869f1539472067e",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "test: 동시성 제어 테스트 추가 (Step 4)",
       "url": "https://github.com/woonyong-kr/minidb/commit/6f8e78baee5fd42ec4462cdeb869f1539472067e",
@@ -1281,7 +1380,7 @@
     {
       "id": "woonyong-kr/minidb@0603f18b05a6389ddd85ace900301430e087bdc8",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: Row Lock을 db_execute()에 통합 (Step 3 L3 연결)",
       "url": "https://github.com/woonyong-kr/minidb/commit/0603f18b05a6389ddd85ace900301430e087bdc8",
@@ -1290,7 +1389,7 @@
     {
       "id": "woonyong-kr/minidb@60ebadd729cbaa33010d663382b31b4e01bd4dc1",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: Row Lock + Strict 2PL 동시성 제어 (Step 3 L3)",
       "url": "https://github.com/woonyong-kr/minidb/commit/60ebadd729cbaa33010d663382b31b4e01bd4dc1",
@@ -1299,7 +1398,7 @@
     {
       "id": "woonyong-kr/minidb@7096faee69dc34076ed0f3b6592ba687947f5e4e",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: TCP 소켓 서버 + 스레드 풀 (Step 2)",
       "url": "https://github.com/woonyong-kr/minidb/commit/7096faee69dc34076ed0f3b6592ba687947f5e4e",
@@ -1308,7 +1407,7 @@
     {
       "id": "woonyong-kr/minidb@9ac099ee6ea59fc56bfbc85d3177ed50e3273fad",
       "kind": "commit",
-      "project": "MiniDB",
+      "project": "minidb",
       "repository": "woonyong-kr/minidb",
       "title": "feat: SQL 엔진 기반 코드 + 확장 기능 + L2 동시성 제어 (Step 0-1)",
       "url": "https://github.com/woonyong-kr/minidb/commit/9ac099ee6ea59fc56bfbc85d3177ed50e3273fad",
@@ -1317,7 +1416,7 @@
     {
       "id": "woonyong-kr/jekyll-theme-velog@b5fea312f257bc8041b563035052361b8ade6d91",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Prepare v1.01 starter release",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b5fea312f257bc8041b563035052361b8ade6d91",
@@ -1326,574 +1425,1177 @@
     {
       "id": "woonyong-kr/jekyll-theme-velog@df9502084db703e250e8055e357677c8b35dd104",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Match dark Giscus button text with velog",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/df9502084db703e250e8055e357677c8b35dd104",
       "occurred_at": "2026-04-09T09:34:38Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@0379f5cbcded380c078481b2db5f9fb43fc1e9c7",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "style: 다크 Giscus 버튼 문구를 벨로그 기준에 맞춰",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/0379f5cbcded380c078481b2db5f9fb43fc1e9c7",
+      "occurred_at": "2026-04-09T09:34:38Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@35676f587b6a4a8ae3975bd56ed4971d3b8b09a3",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Refine Giscus button and form styling",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/35676f587b6a4a8ae3975bd56ed4971d3b8b09a3",
       "occurred_at": "2026-04-09T09:24:31Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@97859f12dc3f8c078c124c2f1a4de1e037bb7225",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "style: Giscus 버튼과 폼 스타일을 다듬어",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/97859f12dc3f8c078c124c2f1a4de1e037bb7225",
+      "occurred_at": "2026-04-09T09:24:31Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@14233114cbf9b1c955e42e5fe1c462bb11bba3d8",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "style: Giscus 버튼과 폼 스타일을 다듬어",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/14233114cbf9b1c955e42e5fe1c462bb11bba3d8",
+      "occurred_at": "2026-04-09T09:24:18Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@2f85908bc473b300f0d3b55fbe8b1bd226af0a9c",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Add velog-style custom Giscus themes",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2f85908bc473b300f0d3b55fbe8b1bd226af0a9c",
       "occurred_at": "2026-04-09T09:00:57Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@9cd7160221563d92b5a89647645a352c36e15cb1",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 벨로그 스타일 Giscus 테마를 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/9cd7160221563d92b5a89647645a352c36e15cb1",
+      "occurred_at": "2026-04-09T09:00:57Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@6cdd73a00165fd0af70aa18efd13437e4b48decb",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 벨로그 스타일 Giscus 테마를 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/6cdd73a00165fd0af70aa18efd13437e4b48decb",
+      "occurred_at": "2026-04-09T09:00:33Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@a86b5843e9180fce54d567d9fe5394cbdf578f5c",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Sync page metadata with GitHub profile",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/a86b5843e9180fce54d567d9fe5394cbdf578f5c",
       "occurred_at": "2026-04-09T07:28:28Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@55abd7c18c289182dacbd250e704bd49bda47370",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 페이지 메타데이터를 GitHub 프로필과 동기화",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/55abd7c18c289182dacbd250e704bd49bda47370",
+      "occurred_at": "2026-04-09T07:28:28Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@9a90913ad8462181bb105a35b1e060f7788a5584",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 페이지 메타데이터를 GitHub 프로필과 동기화",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/9a90913ad8462181bb105a35b1e060f7788a5584",
+      "occurred_at": "2026-04-09T07:28:16Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@3bddfd2c0a6083161d8c8ba45f29884967c6229d",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Improve GitHub profile sync display",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3bddfd2c0a6083161d8c8ba45f29884967c6229d",
       "occurred_at": "2026-04-09T07:17:06Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@f8c386e33ac066797ab2fc19ddbc5d99bbc21b61",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: GitHub 프로필 동기화 표시를 다듬어",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/f8c386e33ac066797ab2fc19ddbc5d99bbc21b61",
+      "occurred_at": "2026-04-09T07:17:06Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@e0c29fa0501c98d5b4486889594e5c2009814cd3",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: GitHub 프로필 동기화 표시를 다듬어",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/e0c29fa0501c98d5b4486889594e5c2009814cd3",
+      "occurred_at": "2026-04-09T07:16:57Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@4a31306d1e0ba8d4bf13a33cdbde4effee0f37c6",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Prepare repository for template use",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/4a31306d1e0ba8d4bf13a33cdbde4effee0f37c6",
       "occurred_at": "2026-04-09T07:05:48Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@a9d7091926853e41d6378067f670971f31f538d2",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 저장소를 템플릿 사용 구조로 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/a9d7091926853e41d6378067f670971f31f538d2",
+      "occurred_at": "2026-04-09T07:05:48Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@7d874f378d23d6a345332e3c5463fe2c97461caa",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 블로그 댓글 설정을 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/7d874f378d23d6a345332e3c5463fe2c97461caa",
+      "occurred_at": "2026-04-09T07:04:18Z"
+    },
+    {
+      "id": "woonyong-kr/woonyong-kr.github.io@963b0cd8e7da7d5a9afbff45aef672c4a40bbd7a",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 개인 블로그 저장소 초기 구성을 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/963b0cd8e7da7d5a9afbff45aef672c4a40bbd7a",
+      "occurred_at": "2026-04-09T07:03:14Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@0fd020c0ab767b41e5c86dbc04cea710ca701535",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Remove unused head variables",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/0fd020c0ab767b41e5c86dbc04cea710ca701535",
       "occurred_at": "2026-04-09T06:52:16Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@940ea007e5017c081f7c961b40474e58d96b5f46",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 사용하지 않는 head 변수를 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/940ea007e5017c081f7c961b40474e58d96b5f46",
+      "occurred_at": "2026-04-09T06:52:16Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@b1b6508fa0df7fa3bba3e8f4e033d378ec1fda97",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Adjust contribution graph colors to match theme",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b1b6508fa0df7fa3bba3e8f4e033d378ec1fda97",
       "occurred_at": "2026-04-09T06:45:27Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@c6321b36dcef736cfaba21652b2904304534db9e",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "style: 기여 그래프 색상을 테마에 맞춰 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/c6321b36dcef736cfaba21652b2904304534db9e",
+      "occurred_at": "2026-04-09T06:45:27Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@73a39192da518cc1111032e92f294f4302fc7ad9",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: Giscus iframe 로드 후 테마 동기화",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/73a39192da518cc1111032e92f294f4302fc7ad9",
       "occurred_at": "2026-04-03T08:03:25Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@1e921ada72a50b7159c3d08db83f1433d2045a7d",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: Giscus iframe 로드 후 테마 동기화",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/1e921ada72a50b7159c3d08db83f1433d2045a7d",
+      "occurred_at": "2026-04-03T08:03:25Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@e271b6399ddc308894664c43b5d86abf7fd565f0",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: Giscus 테마 동기화 경고 제거",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/e271b6399ddc308894664c43b5d86abf7fd565f0",
       "occurred_at": "2026-04-03T07:57:27Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@4116de065f3e6fbd5f8e3f264056f3f7b9862d42",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: Giscus 테마 동기화 경고 제거",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/4116de065f3e6fbd5f8e3f264056f3f7b9862d42",
+      "occurred_at": "2026-04-03T07:57:27Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@2f5ebb3c94def820bf1d1d4f9b889aff1b1babda",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: Giscus 댓글 연동 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2f5ebb3c94def820bf1d1d4f9b889aff1b1babda",
       "occurred_at": "2026-04-03T07:53:44Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@8e308bd7e34021c8461c6af00ac2cc78f61187bb",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: Giscus 댓글 연동 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/8e308bd7e34021c8461c6af00ac2cc78f61187bb",
+      "occurred_at": "2026-04-03T07:53:44Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@afeda35912ac97b33cbf06b538c99f56dc3e83cd",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 커스텀 도메인 blog.woonyong.org 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/afeda35912ac97b33cbf06b538c99f56dc3e83cd",
       "occurred_at": "2026-04-03T07:17:27Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@27a34106418995cd64f484ea6afcd169b823e1a1",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 커스텀 도메인 blog.woonyong.org 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/27a34106418995cd64f484ea6afcd169b823e1a1",
+      "occurred_at": "2026-04-03T07:17:27Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@618970e5cdb8d6f47efe8e7d207cb3c61af063d4",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: Bundler 1.17.2 → 2.5.23 업그레이드 (Ruby 3.2 호환)",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/618970e5cdb8d6f47efe8e7d207cb3c61af063d4",
       "occurred_at": "2026-04-03T06:52:58Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@06e7a1c38d868ed07339f68b9e9bc3cdeaca5eed",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: Bundler 1.17.2 → 2.5.23 업그레이드 (Ruby 3.2 호환)",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/06e7a1c38d868ed07339f68b9e9bc3cdeaca5eed",
+      "occurred_at": "2026-04-03T06:52:58Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f8d642838734eeb4291c8628204f2f6dbc7ba26b",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: GitHub Actions 자동 배포 워크플로우 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f8d642838734eeb4291c8628204f2f6dbc7ba26b",
       "occurred_at": "2026-04-03T06:46:17Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@c1a09422c6aa4167edec1a7e729e6fbb4c7f8a6d",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: GitHub Actions 자동 배포 워크플로우 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/c1a09422c6aa4167edec1a7e729e6fbb4c7f8a6d",
+      "occurred_at": "2026-04-03T06:46:17Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@ec015df411e365131d1c199adc6b9ebe346c1b82",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 사용하지 않는 스타일 선택자 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/ec015df411e365131d1c199adc6b9ebe346c1b82",
       "occurred_at": "2026-04-03T06:09:49Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@e385016796dae05c2c782699db4a5f04e1d852d4",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 사용하지 않는 스타일 선택자 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/e385016796dae05c2c782699db4a5f04e1d852d4",
+      "occurred_at": "2026-04-03T06:09:49Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@abef5da2ce2cb4e10e1f729fb36d6b2f1db7cd63",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 사용하지 않는 테마 함수 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/abef5da2ce2cb4e10e1f729fb36d6b2f1db7cd63",
       "occurred_at": "2026-04-03T06:04:51Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@fd5d0bf49f73d8a197fe5979febcf72cd47be95c",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 사용하지 않는 테마 함수 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/fd5d0bf49f73d8a197fe5979febcf72cd47be95c",
+      "occurred_at": "2026-04-03T06:04:51Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@801ee5ae1351165c70fdca27b342bc4bdef6bc19",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 시리즈 카드 썸네일 외곽선 제거",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/801ee5ae1351165c70fdca27b342bc4bdef6bc19",
       "occurred_at": "2026-04-03T05:59:55Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@5c616fb4b938ef7a1e629fdc96a4096aa9603bc9",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 시리즈 카드 썸네일 외곽선 제거",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/5c616fb4b938ef7a1e629fdc96a4096aa9603bc9",
+      "occurred_at": "2026-04-03T05:59:55Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@064c23b60003d3cfef528410140921a6deddc7f7",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 모든 페이지에서 PNG 파비콘을 공통 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/064c23b60003d3cfef528410140921a6deddc7f7",
       "occurred_at": "2026-04-03T04:29:06Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@49c46bd9fcc0b291af1abc4b17a93b08bcab1731",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 모든 페이지에서 PNG 파비콘을 공통 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/49c46bd9fcc0b291af1abc4b17a93b08bcab1731",
+      "occurred_at": "2026-04-03T04:29:06Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@596e4b7f159d277184c096b7f9675fae06f07605",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 포스트 커버 이미지를 무료 PNG 사진으로 교체",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/596e4b7f159d277184c096b7f9675fae06f07605",
       "occurred_at": "2026-04-03T04:24:08Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@3c069f1a559e580cf58d60d3005bdeb29d4187b1",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 포스트 커버 이미지를 무료 PNG 사진으로 교체",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/3c069f1a559e580cf58d60d3005bdeb29d4187b1",
+      "occurred_at": "2026-04-03T04:24:08Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@364ad39b94102bfec77bdcb72cd12b91d128d9e5",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 브라우저 탭 파비콘을 원형 프로필 아이콘으로 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/364ad39b94102bfec77bdcb72cd12b91d128d9e5",
       "occurred_at": "2026-04-03T04:16:58Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@7893828de93cd930591e330c6dc53107c27c85ad",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 브라우저 탭 파비콘을 원형 프로필 아이콘으로 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/7893828de93cd930591e330c6dc53107c27c85ad",
+      "occurred_at": "2026-04-03T04:16:58Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@5cc211a0cfb0529312c86a9483538fbc34f9cef6",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 오픈소스 테마 문서와 데모 콘텐츠 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/5cc211a0cfb0529312c86a9483538fbc34f9cef6",
       "occurred_at": "2026-04-03T04:12:02Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@175c8246dfcfc66fede2b81b599b7a38f826e068",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 오픈소스 테마 문서와 데모 콘텐츠 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/175c8246dfcfc66fede2b81b599b7a38f826e068",
+      "occurred_at": "2026-04-03T04:12:02Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@d4f3b503799aef80dbc75dbc51217964b1b5dcdd",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 브라우저 탭 아이콘을 프로필 이미지로 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d4f3b503799aef80dbc75dbc51217964b1b5dcdd",
       "occurred_at": "2026-04-03T03:54:49Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@ac446fb659998ce164256752efcb00844dc1e54c",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 브라우저 탭 아이콘을 프로필 이미지로 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/ac446fb659998ce164256752efcb00844dc1e54c",
+      "occurred_at": "2026-04-03T03:54:49Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@3a54d7d6228adcc43b8d548a7da5c43a23d5dbdd",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈과 시리즈 상단 레이아웃 폭 통일",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3a54d7d6228adcc43b8d548a7da5c43a23d5dbdd",
       "occurred_at": "2026-04-03T02:39:41Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@c33e08b788c151876e19069fb28f85f27360f113",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈과 시리즈 상단 레이아웃 폭 통일",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/c33e08b788c151876e19069fb28f85f27360f113",
+      "occurred_at": "2026-04-03T02:39:41Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@76f9695d0ffe05549c63c9b1853748dc770cbe0e",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈 프로필 섹션을 상단 레이아웃으로 복원",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/76f9695d0ffe05549c63c9b1853748dc770cbe0e",
       "occurred_at": "2026-04-03T02:33:18Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@19930699857425d95eae06fce5691f08eb4ca237",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈 프로필 섹션을 상단 레이아웃으로 복원",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/19930699857425d95eae06fce5691f08eb4ca237",
+      "occurred_at": "2026-04-03T02:33:18Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@257e1c572cc2f3c799b2e886d4832a0d53a45604",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈 탭 정렬과 시리즈 카드 레이아웃 개선",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/257e1c572cc2f3c799b2e886d4832a0d53a45604",
       "occurred_at": "2026-04-03T02:24:00Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@833d2fe416572f62189fdc1dc12eea4d4512f7da",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈 탭 정렬과 시리즈 카드 레이아웃 개선",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/833d2fe416572f62189fdc1dc12eea4d4512f7da",
+      "occurred_at": "2026-04-03T02:24:00Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@6f91fd69070859bb1cc2c7e49f18f7a62d97c3e4",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 헤더 아이콘과 Pages 경로 설정 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6f91fd69070859bb1cc2c7e49f18f7a62d97c3e4",
       "occurred_at": "2026-04-03T01:52:08Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@f0375261b2797f6ceb95a5c0abc2bcc426e1c1f9",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 헤더 아이콘과 Pages 경로 설정 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/f0375261b2797f6ceb95a5c0abc2bcc426e1c1f9",
+      "occurred_at": "2026-04-03T01:52:08Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f8622b9c674a685c7f1f61c2c171b77a8d347fab",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 헤더 아이콘 스타일을 범용 형태로 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f8622b9c674a685c7f1f61c2c171b77a8d347fab",
       "occurred_at": "2026-04-03T01:48:46Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@13584ec27123e2787cbf643c29a63610dd1bb644",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 헤더 아이콘 스타일을 범용 형태로 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/13584ec27123e2787cbf643c29a63610dd1bb644",
+      "occurred_at": "2026-04-03T01:48:46Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@454c52594f50eedbad8de482613070aca6d19c07",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 헤더 아이콘을 GitHub 프로필 기반으로 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/454c52594f50eedbad8de482613070aca6d19c07",
       "occurred_at": "2026-04-03T01:05:48Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@44d17c9d4e464c227856ac8118bb9481fe9e03bb",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 헤더 아이콘을 GitHub 프로필 기반으로 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/44d17c9d4e464c227856ac8118bb9481fe9e03bb",
+      "occurred_at": "2026-04-03T01:05:48Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@faa5dfd804be552389237609fd5f69bf37d684c5",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈 탭 위치를 메인 컬럼으로 복원",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/faa5dfd804be552389237609fd5f69bf37d684c5",
       "occurred_at": "2026-04-03T01:01:12Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@8364bcd9f7ad0ad88a11365271e25af9b3e914d2",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈 탭 위치를 메인 컬럼으로 복원",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/8364bcd9f7ad0ad88a11365271e25af9b3e914d2",
+      "occurred_at": "2026-04-03T01:01:12Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@dec15a699ac363160fc08a71f92e30b6a6b01f03",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈 화면 타이포와 스케일 일체감 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/dec15a699ac363160fc08a71f92e30b6a6b01f03",
       "occurred_at": "2026-04-02T14:13:36Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@0cea7451d2492b3c47042b334ba75e11af152123",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈 화면 타이포와 스케일 일체감 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/0cea7451d2492b3c47042b334ba75e11af152123",
+      "occurred_at": "2026-04-02T14:13:36Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@17941339ceefa4a7059b91f017ea5c94556cb5e2",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 사용하지 않는 데모 소스와 자산 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/17941339ceefa4a7059b91f017ea5c94556cb5e2",
       "occurred_at": "2026-04-02T14:06:51Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@2bff1ce4e9ef7dd16526563a6d741a61b5672f0b",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 사용하지 않는 데모 소스와 자산 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/2bff1ce4e9ef7dd16526563a6d741a61b5672f0b",
+      "occurred_at": "2026-04-02T14:06:51Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@6d6829492fd7764852eaddfd4c7b0a9d6f62ef8f",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 홈 히어로와 태그 사이드바 구조 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6d6829492fd7764852eaddfd4c7b0a9d6f62ef8f",
       "occurred_at": "2026-04-02T14:03:16Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@d6905913e70928c5d36c2eafdce3e01292fba689",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 홈 히어로와 태그 사이드바 구조 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/d6905913e70928c5d36c2eafdce3e01292fba689",
+      "occurred_at": "2026-04-02T14:03:16Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f1c232883dd7ef6e5e479ad52e244dee5ee438f2",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 오픈소스 테마 소개 콘텐츠와 샘플 자산 구성",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f1c232883dd7ef6e5e479ad52e244dee5ee438f2",
       "occurred_at": "2026-04-02T13:56:07Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@db72bc94d1587d41e72c46b364ab8a2fdac18757",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 오픈소스 테마 소개 콘텐츠와 샘플 자산 구성",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/db72bc94d1587d41e72c46b364ab8a2fdac18757",
+      "occurred_at": "2026-04-02T13:56:07Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@bfed30419567632d86bebbb6211833947f0f6e90",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 사이트 아이콘 파일명을 profile로 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/bfed30419567632d86bebbb6211833947f0f6e90",
       "occurred_at": "2026-04-02T13:48:30Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@5c4c32130850c88375e0bbec8f6dabaddcaf9bb6",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 사이트 아이콘 파일명을 profile로 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/5c4c32130850c88375e0bbec8f6dabaddcaf9bb6",
+      "occurred_at": "2026-04-02T13:48:30Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@6cb4f4050ce1bdb07f2327d7203f8f24bd363487",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: GitHub 프로필 동기화와 소개 탭 옵션 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6cb4f4050ce1bdb07f2327d7203f8f24bd363487",
       "occurred_at": "2026-04-02T13:45:24Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@663d3e9cc2f21885d73f03b497dfaf99aa3334ee",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: GitHub 프로필 동기화와 소개 탭 옵션 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/663d3e9cc2f21885d73f03b497dfaf99aa3334ee",
+      "occurred_at": "2026-04-02T13:45:24Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@7570cf52e7a127dc0e75410958c6ed6b36079b80",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 프로필 플레이스홀더와 홈 사이드바 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/7570cf52e7a127dc0e75410958c6ed6b36079b80",
       "occurred_at": "2026-04-02T13:35:14Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@63f8aca2d934c8e0b4899ebaf28441ede23cf6b5",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 프로필 플레이스홀더와 홈 사이드바 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/63f8aca2d934c8e0b4899ebaf28441ede23cf6b5",
+      "occurred_at": "2026-04-02T13:35:14Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@3f4c95af88c8f7d2bae3545d3356802d9a9becd2",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 기본 프로필 플레이스홀더 아이콘 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3f4c95af88c8f7d2bae3545d3356802d9a9becd2",
       "occurred_at": "2026-04-02T12:34:24Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@55b235399b58c841e2fd114923a7771b56b8782e",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 기본 프로필 플레이스홀더 아이콘 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/55b235399b58c841e2fd114923a7771b56b8782e",
+      "occurred_at": "2026-04-02T12:34:24Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@02b16c0cd4aa863d3bb7df193f987a8ab7b1ef89",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 범용 블로그 아이콘으로 교체",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/02b16c0cd4aa863d3bb7df193f987a8ab7b1ef89",
       "occurred_at": "2026-04-02T12:30:16Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@bc5f014f2a45ba6e37a6d401e47526025a842515",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 범용 블로그 아이콘으로 교체",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/bc5f014f2a45ba6e37a6d401e47526025a842515",
+      "occurred_at": "2026-04-02T12:30:16Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@1ab46bd0b5fb6e2ebc94d89267f7135885a19ab6",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 오픈소스 테마 샘플 콘텐츠 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/1ab46bd0b5fb6e2ebc94d89267f7135885a19ab6",
       "occurred_at": "2026-04-02T12:27:17Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@cace8a91642bc76fd086309f86150b4891c2051b",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 오픈소스 테마 샘플 콘텐츠 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/cace8a91642bc76fd086309f86150b4891c2051b",
+      "occurred_at": "2026-04-02T12:27:17Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@e5366dbdc50ebc42767c53b5f7394dad74f3a522",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 테마 설정 구조와 홈 레이아웃 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/e5366dbdc50ebc42767c53b5f7394dad74f3a522",
       "occurred_at": "2026-04-02T12:08:18Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@1e83074256813bb09346a9a7af38812b9c732efe",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 테마 설정 구조와 홈 레이아웃 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/1e83074256813bb09346a9a7af38812b9c732efe",
+      "occurred_at": "2026-04-02T12:08:18Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@57c670c4b958d86c81fba738dd1acaf81723bb3b",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 잔디 그래프 레이아웃 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/57c670c4b958d86c81fba738dd1acaf81723bb3b",
       "occurred_at": "2026-04-02T11:56:43Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@88cb7d6912edb1925da76f79a5605061a5c176f9",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 잔디 그래프 레이아웃 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/88cb7d6912edb1925da76f79a5605061a5c176f9",
+      "occurred_at": "2026-04-02T11:56:43Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@a1fe4766499b0bfac94e6be1591c198b1b48be37",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: GitHub 기여 그래프 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/a1fe4766499b0bfac94e6be1591c198b1b48be37",
       "occurred_at": "2026-04-02T10:01:49Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@6f6968acb80a4e706e425f2d3f3bcceaf9ba20da",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: GitHub 기여 그래프 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/6f6968acb80a4e706e425f2d3f3bcceaf9ba20da",
+      "occurred_at": "2026-04-02T10:01:49Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@b9e98a736ed4f888643a70f7858ab25257ab590b",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 선택형 분석 댓글 검색 연동 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/b9e98a736ed4f888643a70f7858ab25257ab590b",
       "occurred_at": "2026-03-31T17:07:01Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@8a3319192199de7d4a844896f7f6763266e285f4",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 선택형 분석 댓글 검색 연동 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/8a3319192199de7d4a844896f7f6763266e285f4",
+      "occurred_at": "2026-03-31T17:07:01Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@c70cbe6a09d0a957b5ea9a8b913d8f13a2c4620f",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "perf: 홈 포스트 인덱스 지연 로딩 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/c70cbe6a09d0a957b5ea9a8b913d8f13a2c4620f",
       "occurred_at": "2026-03-31T12:05:53Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@65e19f8bad7dbaa671b44452c7e4ae11c0f76a62",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "perf: 홈 포스트 인덱스 지연 로딩 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/65e19f8bad7dbaa671b44452c7e4ae11c0f76a62",
+      "occurred_at": "2026-03-31T12:05:53Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@d01da439266169c8bdcba03d689485369f67a720",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "perf: 포스트 인덱스 분리로 초기 렌더 최적화",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d01da439266169c8bdcba03d689485369f67a720",
       "occurred_at": "2026-03-31T08:58:43Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@ae18a6e7673ea96c146711ad1092ab6aaf95f24c",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "perf: 포스트 인덱스 분리로 초기 렌더 최적화",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/ae18a6e7673ea96c146711ad1092ab6aaf95f24c",
+      "occurred_at": "2026-03-31T08:58:43Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@9747ca9f486971a5494ee3f45531d28780721f35",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 벨로그 기준으로 검색 입력 타입과 아이콘 반응 보정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/9747ca9f486971a5494ee3f45531d28780721f35",
       "occurred_at": "2026-03-31T08:18:01Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@442f684c73436cf2b52241251406d2b1e97a7275",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 벨로그 기준으로 검색 입력 타입과 아이콘 반응 보정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/442f684c73436cf2b52241251406d2b1e97a7275",
+      "occurred_at": "2026-03-31T08:18:01Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@bf1800c81263dc0001f20ccb8f55443a8cbf407e",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 벨로그 기준으로 포스트 네비게이션 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/bf1800c81263dc0001f20ccb8f55443a8cbf407e",
       "occurred_at": "2026-03-31T08:16:07Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@010cab0716f320ff833367796c1e059afe850805",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 벨로그 기준으로 포스트 네비게이션 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/010cab0716f320ff833367796c1e059afe850805",
+      "occurred_at": "2026-03-31T08:16:07Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@4d9599a30cd08e931171f5fa635888698c8a623d",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 정적 블로그 기준으로 헤더 프로필 버튼 제거",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/4d9599a30cd08e931171f5fa635888698c8a623d",
       "occurred_at": "2026-03-31T08:07:41Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@0fecd7e54f8ebbb78b974b001aeb17b138ca3ad0",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 정적 블로그 기준으로 헤더 프로필 버튼 제거",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/0fecd7e54f8ebbb78b974b001aeb17b138ca3ad0",
+      "occurred_at": "2026-03-31T08:07:41Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f2457547583c0da35cc44be9e64e201edd9b80fc",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 벨로그 기준으로 검색 필드 상호작용 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f2457547583c0da35cc44be9e64e201edd9b80fc",
       "occurred_at": "2026-03-31T08:05:36Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@83e4b14c9b4012aab37f33671518e6a731c1fc65",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 벨로그 기준으로 검색 필드 상호작용 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/83e4b14c9b4012aab37f33671518e6a731c1fc65",
+      "occurred_at": "2026-03-31T08:05:36Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@456004a97f2040cbf7497bc64056564073015698",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 시스템 테마와 더미 포스트 검증 세트 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/456004a97f2040cbf7497bc64056564073015698",
       "occurred_at": "2026-03-31T07:59:40Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@3175f870b9f019b4dfa37959fd32f33402d1a5d4",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 시스템 테마와 더미 포스트 검증 세트 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/3175f870b9f019b4dfa37959fd32f33402d1a5d4",
+      "occurred_at": "2026-03-31T07:59:40Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@91de1f1389244c8836b181ad71027be6fccd04f4",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 포스트 태그 링크 필터 동작 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/91de1f1389244c8836b181ad71027be6fccd04f4",
       "occurred_at": "2026-03-31T07:25:35Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@ccaa5896684ebebb9444899bb3db854b094cdbbc",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 포스트 태그 링크 필터 동작 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/ccaa5896684ebebb9444899bb3db854b094cdbbc",
+      "occurred_at": "2026-03-31T07:25:35Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@6eb2818e7daa48905cc7fba4a80008a18a9164fa",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 벨로그 기준으로 글 탭 간격과 검색 위치 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6eb2818e7daa48905cc7fba4a80008a18a9164fa",
       "occurred_at": "2026-03-31T07:23:24Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@b8eb7a4ca4cb38c450b6f7649328584657a189e8",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 벨로그 기준으로 글 탭 간격과 검색 위치 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/b8eb7a4ca4cb38c450b6f7649328584657a189e8",
+      "occurred_at": "2026-03-31T07:23:24Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@d50841076fc0da9ee2cae05a24f9c2719371d468",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "fix: 정적 자산 캐시 무효화 적용",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d50841076fc0da9ee2cae05a24f9c2719371d468",
       "occurred_at": "2026-03-31T07:03:27Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@4f2f94d6b143b04bfef957643d2a7e7a2ffeb051",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "fix: 정적 자산 캐시 무효화 적용",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/4f2f94d6b143b04bfef957643d2a7e7a2ffeb051",
+      "occurred_at": "2026-03-31T07:03:27Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@6f531dae07f46f19086a3233702ab4df950b4124",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 상단 검색과 벨로그식 포스트 필터 반영",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/6f531dae07f46f19086a3233702ab4df950b4124",
       "occurred_at": "2026-03-31T07:00:11Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@e409bddd53c2c82cfa8fe0cf69ab7969dcfd1348",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 상단 검색과 벨로그식 포스트 필터 반영",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/e409bddd53c2c82cfa8fe0cf69ab7969dcfd1348",
+      "occurred_at": "2026-03-31T07:00:11Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@2ebe610bb1e9ace2eeb4a86cb5fecd0767bd7fd9",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 썸네일 표시를 front matter 기준으로 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/2ebe610bb1e9ace2eeb4a86cb5fecd0767bd7fd9",
       "occurred_at": "2026-03-31T06:54:08Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@7b4e1528232e8f97679b8ebe582fb0b8a6da0f0a",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 썸네일 표시를 front matter 기준으로 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/7b4e1528232e8f97679b8ebe582fb0b8a6da0f0a",
+      "occurred_at": "2026-03-31T06:54:08Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f9558e10bc71c2c20aaa4471f578457b7be560c4",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 벨로그 기준으로 글과 시리즈 탭 레이아웃 조정",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f9558e10bc71c2c20aaa4471f578457b7be560c4",
       "occurred_at": "2026-03-31T06:50:23Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@cabc2ff15a52a9b6b0407b4a31d88412036b8307",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 벨로그 기준으로 글과 시리즈 탭 레이아웃 조정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/cabc2ff15a52a9b6b0407b4a31d88412036b8307",
+      "occurred_at": "2026-03-31T06:50:23Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@9969a55666eadfd940eaaafb1311fbb6964c8ff2",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 더미 아티클 이미지 추가",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/9969a55666eadfd940eaaafb1311fbb6964c8ff2",
       "occurred_at": "2026-03-31T06:35:01Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@69676399d67c1ab35c7b9bd30fb2a167186cdb53",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 더미 아티클 이미지 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/69676399d67c1ab35c7b9bd30fb2a167186cdb53",
+      "occurred_at": "2026-03-31T06:35:01Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@f4fdc9b03ffd324399dbce56b8ae4939d60a81a2",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "refactor: 벨로그 차이에 맞춰 블로그 레이아웃 정리",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/f4fdc9b03ffd324399dbce56b8ae4939d60a81a2",
       "occurred_at": "2026-03-31T06:30:46Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@ee252546ed63d7c0d3814103a885cce8de16352b",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 벨로그 차이에 맞춰 블로그 레이아웃 정리",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/ee252546ed63d7c0d3814103a885cce8de16352b",
+      "occurred_at": "2026-03-31T06:30:46Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@ea6d6c2e30d0ff501c9b38451c72304f89bf8373",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "feat: 벨로그 스타일 자킬 블로그로 전환",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/ea6d6c2e30d0ff501c9b38451c72304f89bf8373",
       "occurred_at": "2026-03-31T06:13:16Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@f26fb5b2df1d10bed8dce7b096b4e9069c5bbb78",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 벨로그 스타일 자킬 블로그로 전환",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/f26fb5b2df1d10bed8dce7b096b4e9069c5bbb78",
+      "occurred_at": "2026-03-31T06:13:16Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@8dd2156c595aecd927d1b941e7f8da7b4f1996af",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Refine blog theme layout",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/8dd2156c595aecd927d1b941e7f8da7b4f1996af",
       "occurred_at": "2026-03-31T05:28:50Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@588e4cdb2c6f636fa8f3a917d2df23c4f51b0bec",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "refactor: 블로그 테마 레이아웃을 다듬어",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/588e4cdb2c6f636fa8f3a917d2df23c4f51b0bec",
+      "occurred_at": "2026-03-31T05:28:50Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@d5f68d22f2abe7d582ddb621d9d2e7787acf1c2b",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "Set up AstroPaper blog",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/d5f68d22f2abe7d582ddb621d9d2e7787acf1c2b",
       "occurred_at": "2026-03-31T04:43:48Z"
     },
     {
+      "id": "woonyong-kr/woonyong-kr.github.io@bef43d55fe851242e5a81fa7f9288bd56ac0422a",
+      "kind": "commit",
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: AstroPaper 블로그 기반을 설정",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/bef43d55fe851242e5a81fa7f9288bd56ac0422a",
+      "occurred_at": "2026-03-31T04:43:48Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@3c53124a80fe8ae40b7dd262e9e062b7036f5704",
       "kind": "commit",
-      "project": "Jekyll Theme",
+      "project": "jekyll-theme-velog",
       "repository": "woonyong-kr/jekyll-theme-velog",
       "title": "첫 번째 커밋",
       "url": "https://github.com/woonyong-kr/jekyll-theme-velog/commit/3c53124a80fe8ae40b7dd262e9e062b7036f5704",
       "occurred_at": "2026-03-31T04:03:24Z"
     },
     {
-      "id": "woonyong-kr/dx_framework@ea21b6527ad42b77f625a47317b96cf5fbe299fb",
+      "id": "woonyong-kr/woonyong-kr.github.io@19507cd4ac05269b3dc09a727bc16200ad0fdfa7",
       "kind": "commit",
-      "project": "JFramework",
-      "repository": "woonyong-kr/dx_framework",
-      "title": "update",
-      "url": "https://github.com/woonyong-kr/dx_framework/commit/ea21b6527ad42b77f625a47317b96cf5fbe299fb",
-      "occurred_at": "2025-10-04T09:51:28Z"
+      "project": "woonyong-kr.github.io",
+      "repository": "woonyong-kr/woonyong-kr.github.io",
+      "title": "feat: 블로그 저장소 초기 구조를 추가",
+      "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/19507cd4ac05269b3dc09a727bc16200ad0fdfa7",
+      "occurred_at": "2026-03-31T04:03:24Z"
     },
     {
       "id": "woonyong-kr/dx_framework@a97daffd2d58e51ee4a77d7f94353612b43a9011",
       "kind": "commit",
-      "project": "JFramework",
+      "project": "dx_framework",
       "repository": "woonyong-kr/dx_framework",
       "title": "첫 번째 커밋",
       "url": "https://github.com/woonyong-kr/dx_framework/commit/a97daffd2d58e51ee4a77d7f94353612b43a9011",

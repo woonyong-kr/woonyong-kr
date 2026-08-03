@@ -2,7 +2,7 @@ name: Refresh public activity
 
 on:
   schedule:
-    - cron: "23 2 * * *"
+    - cron: "23 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,7 +25,6 @@ jobs:
         run: |
           python3 scripts/update_profile.py \
             --login woonyong-kr \
-            --projects .github/profile-projects.json \
             --history .github/activity-history.json \
             --readme README.md
 
@@ -35,28 +34,48 @@ jobs:
           python3 - <<'PY'
           import json
           from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
 
           readme = Path("README.md").read_text(encoding="utf-8")
           history = json.loads(Path(".github/activity-history.json").read_text())
           markers = (
-              "<!-- repository_health:start -->",
-              "<!-- repository_health:end -->",
+              "<!-- profile_intro:start -->",
+              "<!-- profile_intro:end -->",
+              "<!-- project_cards:start -->",
+              "<!-- project_cards:end -->",
+              "<!-- ci_status:start -->",
+              "<!-- ci_status:end -->",
               "<!-- collaboration:start -->",
               "<!-- collaboration:end -->",
               "<!-- recent_work:start -->",
               "<!-- recent_work:end -->",
+              "<!-- technologies:start -->",
+              "<!-- technologies:end -->",
           )
           if any(readme.count(marker) != 1 for marker in markers):
               raise SystemExit("profile marker verification failed")
           if not history["commits"]:
               raise SystemExit("commit history is empty")
+          if readme.count("assets/generated/repo-") != 6:
+              raise SystemExit("repository card count is not six")
+          assets = sorted(Path("assets/generated").glob("repo-*.svg"))
+          if len(assets) != 6:
+              raise SystemExit("generated repository card count is not six")
+          referenced = set(re.findall(r'assets/generated/(repo-[^" ]+\.svg)', readme))
+          if referenced != {asset.name for asset in assets}:
+              raise SystemExit("README and generated repository cards differ")
+          for asset in assets:
+              ET.parse(asset)
+          if "<details>" in readme or "assets/project-" in readme:
+              raise SystemExit("manual or folded presentation detected")
           PY
 
       - name: Commit refreshed activity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md .github/activity-history.json
+          git add README.md .github/activity-history.json assets/generated
           if git diff --cached --quiet; then
             echo "No public activity changes"
             exit 0
