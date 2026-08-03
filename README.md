@@ -1,44 +1,50 @@
 <!-- profile_intro:start -->
 # 최우녕
 
-**Production AI · Runtime Architecture · Kubernetes · DB · OS · C#/C++**
+**프로덕션 AI · 런타임 아키텍처 · 쿠버네티스 · 데이터베이스 · 운영체제 · C#/C++**
 
-[GitHub](https://github.com/woonyong-kr) · [기술 기록](https://woonyong-kr.github.io) · [Email](mailto:woonyong.kr@gmail.com)
+[블로그](https://woonyong-kr.github.io/#/blog) · [이메일](mailto:woonyong.kr@gmail.com)
 <!-- profile_intro:end -->
+
+## <span lang="ko">지난 12개월</span>
+
+<!-- activity_summary:start -->
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,611" src="https://img.shields.io/badge/Contributions-10%2C611-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Commits 7,765" src="https://img.shields.io/badge/Commits-7%2C765-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Repositories 32" src="https://img.shields.io/badge/Repositories-32-57606A?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="CI 5/5 passing" src="https://img.shields.io/badge/CI-5/5_passing-238636?style=flat-square"></a>
+<!-- activity_summary:end -->
 
 ## <span lang="ko">대표 저장소</span>
 
 <!-- project_cards:start -->
 <p align="center">
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
-  <a href="https://github.com/woonyong-kr/dx_framework"><img width="410" src="assets/generated/repo-dx_framework.svg" alt="dx_framework 저장소"></a>
-  <br>
-  <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
   <a href="https://github.com/woonyong-kr/pintos"><img width="410" src="assets/generated/repo-pintos.svg" alt="pintos 저장소"></a>
+  <br>
+  <a href="https://github.com/woonyong-kr/dx_framework"><img width="410" src="assets/generated/repo-dx_framework.svg" alt="dx_framework 저장소"></a>
+  <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
   <br>
   <a href="https://github.com/woonyong-kr/k8s-ops-min"><img width="410" src="assets/generated/repo-k8s-ops-min.svg" alt="k8s-ops-min 저장소"></a>
   <a href="https://github.com/woonyong-kr/woonyong-kr.github.io"><img width="410" src="assets/generated/repo-woonyong-kr.github.io.svg" alt="woonyong-kr.github.io 저장소"></a>
 </p>
 <!-- project_cards:end -->
 
+## <span lang="ko">검증 상태</span>
+
 <!-- ci_status:start -->
-<a href="https://github.com/woonyong-kr/jekyll-theme-velog/actions"><img alt="jekyll-theme-velog CI" src="https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main"></a>
-<a href="https://github.com/woonyong-kr/dx_framework/actions"><img alt="dx_framework CI" src="https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-<a href="https://github.com/woonyong-kr/minidb/actions"><img alt="minidb CI" src="https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-<a href="https://github.com/woonyong-kr/pintos/actions"><img alt="pintos CI" src="https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main"></a>
-<a href="https://github.com/woonyong-kr/k8s-ops-min/actions"><img alt="k8s-ops-min CI" src="https://github.com/woonyong-kr/k8s-ops-min/actions/workflows/portfolio-ci.yml/badge.svg?branch=main"></a>
+| 저장소 | CI | License | 최근 변경 |
+|---|---|---|---|
+| [jekyll-theme-velog](https://github.com/woonyong-kr/jekyll-theme-velog) | [![jekyll-theme-velog CI](https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/jekyll-theme-velog/actions) | MIT | [fix: Pages canonical URL / 배포 경로 재현 / SEO 검증](https://github.com/woonyong-kr/jekyll-theme-velog/commit/927e76eb627b391354879342b477d64013c54cdd) · 2026-08-03 |
+| [pintos](https://github.com/woonyong-kr/pintos) | [![pintos CI](https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/pintos/actions) | — | [fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6](https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493) · 2026-08-03 |
+| [dx_framework](https://github.com/woonyong-kr/dx_framework) | [![dx_framework CI](https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/dx_framework/actions) | — | [test: 코루틴 계약 / 독립 실행 / CI 게이트](https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9) · 2026-08-03 |
+| [minidb](https://github.com/woonyong-kr/minidb) | [![minidb CI](https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/minidb/actions) | — | [build: sanitizer 선택 / 224개 테스트 / CI 게이트](https://github.com/woonyong-kr/minidb/commit/7b7c43ff93e350a8feecc6d049d4e8e2828937bc) · 2026-08-03 |
+| [k8s-ops-min](https://github.com/woonyong-kr/k8s-ops-min) | [![k8s-ops-min CI](https://github.com/woonyong-kr/k8s-ops-min/actions/workflows/portfolio-ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/k8s-ops-min/actions) | — | [style: payload 계측 코드 / Python 3.13 lint / import 정리](https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b) · 2026-08-03 |
+| [woonyong-kr.github.io](https://github.com/woonyong-kr/woonyong-kr.github.io) | — | — | [style: 다크 Giscus 버튼 문구를 벨로그 기준에 맞춰](https://github.com/woonyong-kr/woonyong-kr.github.io/commit/0379f5cbcded380c078481b2db5f9fb43fc1e9c7) · 2026-04-09 |
 <!-- ci_status:end -->
-
-## <span lang="ko">협업 저장소 기여</span>
-
-<!-- collaboration:start -->
-- <span lang="ko">**Jungle-303-04/demo-game** · [fix: pin working admission toggle console](https://github.com/Jungle-303-04/demo-game/pull/22) · 2026-07-25</span>
-- <span lang="ko">**Jungle-303-04/demo-game** · [[복구] api-server - 로비 replicas 원복 PR](https://github.com/Jungle-303-04/demo-game/pull/21) · 2026-07-24</span>
-- <span lang="ko">**Jungle-303-04/demo-game** · [perf: 게임 파드 예약량 / 게임 노드 용량 / 스케줄링 여유](https://github.com/Jungle-303-04/demo-game/pull/20) · 2026-07-24</span>
-- <span lang="ko">**Jungle-303-04/final** · [fix: AI 입력창 고정 / 패널 스크롤 경계 / viewport 높이](https://github.com/Jungle-303-04/final/pull/662) · 2026-07-24</span>
-- <span lang="ko">**Jungle-303-04/final** · [파드 상세 원인 표시와 사이드 패널 UX 통합](https://github.com/Jungle-303-04/final/pull/661) · 2026-07-24</span>
-- <span lang="ko">**Jungle-303-04/final** · [fix: 위험 파드 클릭을 리소스 상세로 연결](https://github.com/Jungle-303-04/final/pull/660) · 2026-07-24</span>
-<!-- collaboration:end -->
 
 ## <span lang="ko">최근 공개 작업</span>
 
@@ -50,6 +56,17 @@
 - <span lang="ko">**k8s-ops-min** · [style: payload 계측 코드 / Python 3.13 lint / import 정리](https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b) · 2026-08-03</span>
 - <span lang="ko">**dx_framework** · [test: 코루틴 계약 / 독립 실행 / CI 게이트](https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9) · 2026-08-03</span>
 <!-- recent_work:end -->
+
+## <span lang="ko">외부 저장소 기여</span>
+
+<!-- collaboration:start -->
+- <span lang="ko">**Jungle-303-04/demo-game** · [fix: pin working admission toggle console](https://github.com/Jungle-303-04/demo-game/pull/22) · 2026-07-25</span>
+- <span lang="ko">**Jungle-303-04/demo-game** · [[복구] api-server - 로비 replicas 원복 PR](https://github.com/Jungle-303-04/demo-game/pull/21) · 2026-07-24</span>
+- <span lang="ko">**Jungle-303-04/demo-game** · [perf: 게임 파드 예약량 / 게임 노드 용량 / 스케줄링 여유](https://github.com/Jungle-303-04/demo-game/pull/20) · 2026-07-24</span>
+- <span lang="ko">**Jungle-303-04/final** · [fix: AI 입력창 고정 / 패널 스크롤 경계 / viewport 높이](https://github.com/Jungle-303-04/final/pull/662) · 2026-07-24</span>
+- <span lang="ko">**Jungle-303-04/final** · [파드 상세 원인 표시와 사이드 패널 UX 통합](https://github.com/Jungle-303-04/final/pull/661) · 2026-07-24</span>
+- <span lang="ko">**Jungle-303-04/final** · [fix: 위험 파드 클릭을 리소스 상세로 연결](https://github.com/Jungle-303-04/final/pull/660) · 2026-07-24</span>
+<!-- collaboration:end -->
 
 ## <span lang="ko">사용 기술</span>
 

@@ -42,6 +42,8 @@ jobs:
           markers = (
               "<!-- profile_intro:start -->",
               "<!-- profile_intro:end -->",
+              "<!-- activity_summary:start -->",
+              "<!-- activity_summary:end -->",
               "<!-- project_cards:start -->",
               "<!-- project_cards:end -->",
               "<!-- ci_status:start -->",
