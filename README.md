@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://woonyong-kr.github.io/"><img alt="기술 기록" src="https://custom-icon-badges.demolab.com/badge/기술_기록-0969DA?style=for-the-badge&logo=book&logoColor=white"></a>
-  <a href="mailto:woonyong.kr@gmail.com"><img alt="이메일" src="https://custom-icon-badges.demolab.com/badge/이메일-30363D?style=for-the-badge&logo=mail&logoColor=white"></a>
-  <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img alt="공개 템플릿" src="https://custom-icon-badges.demolab.com/badge/공개_템플릿-238636?style=for-the-badge&logo=repo-template&logoColor=white"></a>
+  <a href="https://woonyong-kr.github.io/"><img alt="기술 기록" src="https://custom-icon-badges.demolab.com/badge/TECH_NOTES-0969DA?style=for-the-badge&logo=book&logoColor=white"></a>
+  <a href="mailto:woonyong.kr@gmail.com"><img alt="이메일" src="https://custom-icon-badges.demolab.com/badge/EMAIL-30363D?style=for-the-badge&logo=mail&logoColor=white"></a>
+  <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img alt="공개 템플릿" src="https://custom-icon-badges.demolab.com/badge/OPEN_SOURCE-238636?style=for-the-badge&logo=repo-template&logoColor=white"></a>
 </p>
 
 ## 대표 프로젝트
