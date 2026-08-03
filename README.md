@@ -25,8 +25,12 @@
 <a href="https://html.spec.whatwg.org/"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"></a>
 <a href="https://dotnet.microsoft.com/"><img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"></a>
 <a href="https://isocpp.org/"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"></a>
+<a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"></a>
 <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a>
+<a href="https://opengitops.dev/"><img alt="GitOps" src="https://img.shields.io/badge/GitOps-F05032?style=flat-square&logo=git&logoColor=white"></a>
 <a href="https://kubernetes.io/"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"></a>
+<a href="https://nats.io/"><img alt="NATS" src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white"></a>
+<a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"></a>
 <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
 <a href="https://en.wikipedia.org/wiki/SQL"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white"></a>
 <!-- technologies:end -->
@@ -40,7 +44,7 @@
   <a href="https://github.com/woonyong-kr/pintos"><img width="410" src="assets/generated/repo-pintos.svg" alt="pintos 저장소"></a>
   <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
   <br>
-  <a href="https://github.com/woonyong-kr/k8s-ops-min"><img width="410" src="assets/generated/repo-k8s-ops-min.svg" alt="k8s-ops-min 저장소"></a>
+  <a href="https://github.com/woonyong-kr/k8s-ops"><img width="410" src="assets/generated/repo-k8s-ops.svg" alt="k8s-ops 저장소"></a>
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
   <br>
   <a href="https://github.com/woonyong-kr/dx_framework"><img width="410" src="assets/generated/repo-dx_framework.svg" alt="dx_framework 저장소"></a>
@@ -64,14 +68,14 @@
 ## <span lang="ko">검증 상태</span>
 
 <!-- ci_status:start -->
-| 저장소 | CI | License | 최근 변경 |
-|---|---|---|---|
-| [pintos](https://github.com/woonyong-kr/pintos) | [![pintos CI](https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/pintos/actions) | — | [fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6](https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493) · 2026-08-03 |
-| [minidb](https://github.com/woonyong-kr/minidb) | [![minidb CI](https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/minidb/actions) | — | [build: sanitizer 선택 / 224개 테스트 / CI 게이트](https://github.com/woonyong-kr/minidb/commit/7b7c43ff93e350a8feecc6d049d4e8e2828937bc) · 2026-08-03 |
-| [k8s-ops-min](https://github.com/woonyong-kr/k8s-ops-min) | [![k8s-ops-min CI](https://github.com/woonyong-kr/k8s-ops-min/actions/workflows/portfolio-ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/k8s-ops-min/actions) | — | [style: payload 계측 코드 / Python 3.13 lint / import 정리](https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b) · 2026-08-03 |
-| [jekyll-theme-velog](https://github.com/woonyong-kr/jekyll-theme-velog) | [![jekyll-theme-velog CI](https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/jekyll-theme-velog/actions) | MIT | [fix: Pages canonical URL / 배포 경로 재현 / SEO 검증](https://github.com/woonyong-kr/jekyll-theme-velog/commit/927e76eb627b391354879342b477d64013c54cdd) · 2026-08-03 |
-| [dx_framework](https://github.com/woonyong-kr/dx_framework) | [![dx_framework CI](https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/dx_framework/actions) | — | [test: 코루틴 계약 / 독립 실행 / CI 게이트](https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9) · 2026-08-03 |
-| [woonyong-kr.github.io](https://github.com/woonyong-kr/woonyong-kr.github.io) | — | — | [style: 다크 Giscus 버튼 문구를 벨로그 기준에 맞춰](https://github.com/woonyong-kr/woonyong-kr.github.io/commit/0379f5cbcded380c078481b2db5f9fb43fc1e9c7) · 2026-04-09 |
+| 저장소 | CI | 테스트 파일 | License |
+|---|---|---:|---:|
+| [pintos](https://github.com/woonyong-kr/pintos) | [![pintos CI](https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/pintos/actions) | 490 | — |
+| [minidb](https://github.com/woonyong-kr/minidb) | [![minidb CI](https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/minidb/actions) | 5 | — |
+| [k8s-ops](https://github.com/woonyong-kr/k8s-ops) | [![k8s-ops CI](https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/k8s-ops/actions) | 35 | — |
+| [jekyll-theme-velog](https://github.com/woonyong-kr/jekyll-theme-velog) | [![jekyll-theme-velog CI](https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/jekyll-theme-velog/actions) | 0 | MIT |
+| [dx_framework](https://github.com/woonyong-kr/dx_framework) | [![dx_framework CI](https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/dx_framework/actions) | 2 | — |
+| [woonyong-kr.github.io](https://github.com/woonyong-kr/woonyong-kr.github.io) | — | 0 | — |
 <!-- ci_status:end -->
 
 ## <span lang="ko">최근 공개 작업</span>

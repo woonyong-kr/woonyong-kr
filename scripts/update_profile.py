@@ -247,8 +247,9 @@ def discover_repositories(login: str, token: str) -> list[Repository]:
 
     def eligible(repository: Repository) -> bool:
         return (
-            not repository.is_fork
-            and not repository.is_archived
+            not repository.is_archived
+            and "profile-exclude" not in repository.topics
+            and (not repository.is_fork or "profile-owned" in repository.topics)
             and repository.name_with_owner != f"{login}/{login}"
         )
 
@@ -841,8 +842,8 @@ def render_blog(posts: list[BlogPost]) -> str:
     return "\n".join(rows)
 
 
-def render_ci(snapshots: list[RepositorySnapshot], login: str) -> str:
-    rows = ["| 저장소 | CI | License | 최근 변경 |", "|---|---|---|---|"]
+def render_ci(snapshots: list[RepositorySnapshot]) -> str:
+    rows = ["| 저장소 | CI | 테스트 파일 | License |", "|---|---|---:|---:|"]
     for snapshot in snapshots:
         workflow = snapshot.workflow
         repository = snapshot.repository
@@ -856,23 +857,9 @@ def render_ci(snapshots: list[RepositorySnapshot], login: str) -> str:
             )
             actions = f"https://github.com/{repository.name_with_owner}/actions"
             ci = f'[![{repository.name} CI]({badge})]({actions})'
-        latest = next(
-            (
-                commit
-                for commit in snapshot.commits
-                if human_commit(commit)
-                and (commit.get("author") or {}).get("login") == login
-            ),
-            None,
-        )
-        latest_text = "—"
-        if latest is not None:
-            subject = str(latest["commit"]["message"]).splitlines()[0]
-            date = str(latest["commit"]["author"]["date"])[:10]
-            latest_text = f"[{subject}]({latest['html_url']}) · {date}"
         rows.append(
             f"| [{repository.name}]({repository.url}) | {ci} | "
-            f"{repository.license_id} | {latest_text} |"
+            f"{snapshot.test_files} | {repository.license_id} |"
         )
     return "\n".join(rows)
 
@@ -969,7 +956,7 @@ def main() -> None:
     )
     readme = replace_section(readme, "cards", render_cards(featured))
     readme = replace_section(readme, "blog", render_blog(blog_posts))
-    readme = replace_section(readme, "ci", render_ci(featured_snapshots, args.login))
+    readme = replace_section(readme, "ci", render_ci(featured_snapshots))
     readme = replace_section(readme, "collaboration", recent_collaboration(history))
     readme = replace_section(readme, "recent", recent_commits(history))
     readme = replace_section(
