@@ -1,6 +1,15 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/k8s-ops@b749f3b1999201b5237f12aa78862b65b43f7d26",
+      "kind": "commit",
+      "project": "k8s-ops",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "feat: Kubernetes 장애 복구 / GitOps 워크플로 / 검증 기준",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b749f3b1999201b5237f12aa78862b65b43f7d26",
+      "occurred_at": "2026-08-03T20:07:29Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@927e76eb627b391354879342b477d64013c54cdd",
       "kind": "commit",
       "project": "jekyll-theme-velog",

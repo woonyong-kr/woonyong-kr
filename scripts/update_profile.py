@@ -247,9 +247,9 @@ def discover_repositories(login: str, token: str) -> list[Repository]:
 
     def eligible(repository: Repository) -> bool:
         return (
-            not repository.is_archived
+            not repository.is_fork
+            and not repository.is_archived
             and "profile-exclude" not in repository.topics
-            and (not repository.is_fork or "profile-owned" in repository.topics)
             and repository.name_with_owner != f"{login}/{login}"
         )
 
