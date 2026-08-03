@@ -86,6 +86,8 @@ jobs:
           ]
           if '<table width="100%">' not in ci_section:
               raise SystemExit("verification table is not full width")
+          if "기술 범위" not in ci_section or "최근 검증" not in ci_section:
+              raise SystemExit("verification evidence columns are missing")
           if "| 글 | 주제 | 발행일 |" in blog_section or "- <span" not in blog_section:
               raise SystemExit("recent posts are not rendered as an activity list")
           assets = sorted(Path("assets/generated").glob("repo-*.svg"))

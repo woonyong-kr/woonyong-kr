@@ -856,10 +856,12 @@ def render_ci(snapshots: list[RepositorySnapshot]) -> str:
         '<table width="100%">',
         "  <thead>",
         "    <tr>",
-        '      <th align="left" width="34%">저장소</th>',
-        '      <th align="left" width="30%">CI</th>',
-        '      <th align="right" width="18%">테스트 파일</th>',
-        '      <th align="right" width="18%">라이선스</th>',
+        '      <th align="left">저장소</th>',
+        '      <th align="left">기술 범위</th>',
+        '      <th align="left">CI</th>',
+        '      <th align="right">테스트 파일</th>',
+        '      <th align="right">최근 검증</th>',
+        '      <th align="right">라이선스</th>',
         "    </tr>",
         "  </thead>",
         "  <tbody>",
@@ -867,6 +869,29 @@ def render_ci(snapshots: list[RepositorySnapshot]) -> str:
     for snapshot in snapshots:
         workflow = snapshot.workflow
         repository = snapshot.repository
+        language_topics = {
+            "C": {"c"},
+            "C#": {"csharp", "dotnet"},
+            "C++": {"c", "cpp"},
+            "HTML": {"html"},
+            "Python": {"python"},
+            "TypeScript": {"typescript"},
+        }
+        excluded_topics = {
+            "profile-exclude",
+            "profile-featured",
+            "profile-owned",
+            *language_topics.get(
+                repository.primary_language,
+                {repository.primary_language.lower()},
+            ),
+        }
+        topics = [
+            topic for topic in repository.topics if topic not in excluded_topics
+        ][:2]
+        technologies = " · ".join(
+            item for item in (repository.primary_language, *topics) if item
+        ) or "—"
         ci = "—"
         if workflow is not None:
             path = str(workflow["path"])
@@ -884,8 +909,10 @@ def render_ci(snapshots: list[RepositorySnapshot]) -> str:
             [
                 "    <tr>",
                 f'      <td><a href="{repository.url}">{escape(repository.name)}</a></td>',
+                f"      <td>{escape(technologies)}</td>",
                 f"      <td>{ci}</td>",
                 f'      <td align="right">{snapshot.test_files}</td>',
+                f'      <td align="right">{repository.pushed_at[:10]}</td>',
                 f'      <td align="right">{escape(repository.license_id)}</td>',
                 "    </tr>",
             ]

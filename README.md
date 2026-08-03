@@ -58,47 +58,61 @@
 <table width="100%">
   <thead>
     <tr>
-      <th align="left" width="34%">저장소</th>
-      <th align="left" width="30%">CI</th>
-      <th align="right" width="18%">테스트 파일</th>
-      <th align="right" width="18%">라이선스</th>
+      <th align="left">저장소</th>
+      <th align="left">기술 범위</th>
+      <th align="left">CI</th>
+      <th align="right">테스트 파일</th>
+      <th align="right">최근 검증</th>
+      <th align="right">라이선스</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><a href="https://github.com/woonyong-kr/pintos">pintos</a></td>
+      <td>C++ · copy-on-write · operating-system</td>
       <td><a href="https://github.com/woonyong-kr/pintos/actions"><img alt="pintos CI" src="https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">490</td>
+      <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/minidb">minidb</a></td>
+      <td>C · b-plus-tree · database</td>
       <td><a href="https://github.com/woonyong-kr/minidb/actions"><img alt="minidb CI" src="https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">5</td>
+      <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog">jekyll-theme-velog</a></td>
+      <td>HTML · github-pages · jekyll-theme</td>
       <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog/actions"><img alt="jekyll-theme-velog CI" src="https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main"></a></td>
       <td align="right">0</td>
+      <td align="right">2026-08-03</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/k8s-ops">k8s-ops</a></td>
+      <td>Python · fastapi · gitops</td>
       <td><a href="https://github.com/woonyong-kr/k8s-ops/actions"><img alt="k8s-ops CI" src="https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">35</td>
+      <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/dx_framework">dx_framework</a></td>
+      <td>C# · framework · game-engine</td>
       <td><a href="https://github.com/woonyong-kr/dx_framework/actions"><img alt="dx_framework CI" src="https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">2</td>
+      <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/woonyong-kr.github.io">woonyong-kr.github.io</a></td>
+      <td>HTML · giscus</td>
       <td>—</td>
       <td align="right">0</td>
+      <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
   </tbody>
