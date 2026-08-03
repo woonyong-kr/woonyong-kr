@@ -39,8 +39,8 @@ jobs:
               ["Pull requests opened", "연 PR"],
               ["Issues opened", "연 이슈"],
               ["Issue comments", "이슈 댓글"],
-              ["Languages", "사용 언어"],
-              ["Most used languages", "대표 저장소 언어 비중"],
+              ["Languages", "언어 분포"],
+              ["Most used languages", "대표 저장소 코드 비중"],
               ["Starred topics", "관심 주제"],
               ["Followers", "팔로워"],
               ["Achievements", "활동 배지"],
@@ -48,12 +48,12 @@ jobs:
               ["Recently starred repositories", "최근 별을 준 저장소"]
             ])
             const translateDuration = (value) => value
-              .replace(/years?/g, "년")
-              .replace(/months?/g, "개월")
-              .replace(/weeks?/g, "주")
-              .replace(/days?/g, "일")
-              .replace(/hours?/g, "시간")
-              .replace(/minutes?/g, "분")
+              .replace(/([\d,]+)\s+years?/g, "$1년")
+              .replace(/([\d,]+)\s+months?/g, "$1개월")
+              .replace(/([\d,]+)\s+weeks?/g, "$1주")
+              .replace(/([\d,]+)\s+days?/g, "$1일")
+              .replace(/([\d,]+)\s+hours?/g, "$1시간")
+              .replace(/([\d,]+)\s+minutes?/g, "$1분")
             const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT)
             while (walker.nextNode()) {
               const node = walker.currentNode
@@ -67,8 +67,10 @@ jobs:
                 .replace(/^([\d,]+) Pull requests reviewed$/, "리뷰한 PR $1건")
                 .replace(/^([\d,]+) Pull requests opened$/, "연 PR $1건")
                 .replace(/^([\d,]+) Issues opened$/, "연 이슈 $1건")
-                .replace(/^([\d,]+) Issue comments$/, "이슈 댓글 $1건")
+                .replace(/^([\d,]+) issue comments$/i, "이슈 댓글 $1건")
+                .replace(/^0 Languages$/, "언어 분포")
                 .replace(/^([\d,]+) Languages$/, "사용 언어 $1개")
+                .replace(/^estimation from ([\d.]+)([kmgt]?b) of code in ([\d,]+) edited files across ([\d,]+) commits$/i, "$4개 커밋 · 변경 파일 $3개 · 코드 $1$2 기준")
                 .replace(/^Last updated (.+) with lowlighter\/(.+)$/, "마지막 갱신 · $1 · metrics@$2")
                 .replace(/^These metrics do not include all private contributions$/, "공개 저장소 기준 · 비공개 기여 일부 제외")
               if (translated !== compact) {
@@ -93,7 +95,8 @@ jobs:
             woonyong-kr/minidb,
             woonyong-kr/pintos,
             woonyong-kr/dx_framework
-          plugin_languages_analysis_timeout: 20
+          plugin_languages_analysis_timeout: 120
+          plugin_languages_analysis_timeout_repositories: 30
 
           plugin_topics: ${{ inputs.extended && 'yes' || 'no' }}
           plugin_topics_limit: 16
