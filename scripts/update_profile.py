@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
 from html import escape
 import json
 import os
@@ -22,6 +23,7 @@ SKIP_SUBJECT_PREFIXES = ("chore:", "ci:", "docs:", "merge ")
 SKIP_SUBJECTS = {"initial commit", "update", "updates"}
 MARKERS = {
     "intro": ("<!-- profile_intro:start -->", "<!-- profile_intro:end -->"),
+    "activity": ("<!-- activity_summary:start -->", "<!-- activity_summary:end -->"),
     "cards": ("<!-- project_cards:start -->", "<!-- project_cards:end -->"),
     "ci": ("<!-- ci_status:start -->", "<!-- ci_status:end -->"),
     "collaboration": ("<!-- collaboration:start -->", "<!-- collaboration:end -->"),
@@ -60,6 +62,7 @@ class Repository:
     is_archived: bool
     stargazer_count: int
     fork_count: int
+    license_id: str
     primary_language: str
     topics: tuple[str, ...]
     default_branch: str
@@ -71,6 +74,7 @@ class RepositorySnapshot:
     repository: Repository
     commits: list[dict[str, object]]
     workflow: dict[str, object] | None
+    workflow_conclusion: str
 
 
 @dataclass(frozen=True)
@@ -81,6 +85,19 @@ class Profile:
     blog: str
     email: str
     url: str
+
+
+@dataclass(frozen=True)
+class ActivitySummary:
+    from_date: str
+    to_date: str
+    total_contributions: int
+    commit_contributions: int
+    pull_requests: int
+    issues: int
+    reviews: int
+    restricted_contributions: int
+    repositories: int
 
 
 def github_request(
@@ -119,6 +136,7 @@ def repository_fields() -> str:
       isArchived
       stargazerCount
       forkCount
+      licenseInfo { spdxId }
       pushedAt
       defaultBranchRef { name }
       primaryLanguage { name }
@@ -140,7 +158,9 @@ def discover_profile(login: str, token: str) -> Profile:
     )
 
 
-def discover_repositories(login: str, token: str) -> list[Repository]:
+def discover_repositories(
+    login: str, token: str
+) -> tuple[list[Repository], list[Repository]]:
     if not token:
         raise RuntimeError("GH_TOKEN is required for repository discovery")
     query = f"""
@@ -187,6 +207,7 @@ def discover_repositories(login: str, token: str) -> list[Repository]:
             is_archived=bool(node["isArchived"]),
             stargazer_count=int(node["stargazerCount"]),
             fork_count=int(node["forkCount"]),
+            license_id=str((node.get("licenseInfo") or {}).get("spdxId") or "—"),
             primary_language=str(language),
             topics=topics,
             default_branch=str(branch),
@@ -198,24 +219,88 @@ def discover_repositories(login: str, token: str) -> list[Repository]:
             not repository.is_fork
             and not repository.is_archived
             and repository.name_with_owner != f"{login}/{login}"
-            and bool(repository.description)
         )
 
     pinned = [parse(node) for node in user["pinnedItems"]["nodes"]]
-    owned = [parse(node) for node in user["repositories"]["nodes"]]
-    selected: list[Repository] = []
-    seen: set[str] = set()
-    for repository in [*pinned, *owned]:
-        if (
-            eligible(repository)
-            and repository.name_with_owner not in seen
-            and len(selected) < 6
-        ):
-            selected.append(repository)
-            seen.add(repository.name_with_owner)
-    if len(selected) != 6:
-        raise RuntimeError("Six eligible repositories are required for a full card grid")
-    return selected
+    owned = [repository for repository in map(parse, user["repositories"]["nodes"]) if eligible(repository)]
+    featured = [
+        repository for repository in owned if "profile-featured" in repository.topics
+    ]
+    if not featured:
+        featured = [repository for repository in pinned if eligible(repository)]
+    featured = sorted(featured, key=lambda repository: repository.pushed_at, reverse=True)
+    if len(featured) != 6:
+        raise RuntimeError("Six profile-featured repositories are required")
+    return featured, owned
+
+
+def discover_activity(login: str, token: str) -> ActivitySummary:
+    now = datetime.now(timezone.utc)
+    start = now - timedelta(days=365)
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar { totalContributions }
+          totalCommitContributions
+          totalIssueContributions
+          totalPullRequestContributions
+          totalPullRequestReviewContributions
+          restrictedContributionsCount
+          commitContributionsByRepository(maxRepositories: 100) {
+            repository { nameWithOwner }
+          }
+          issueContributionsByRepository(maxRepositories: 100) {
+            repository { nameWithOwner }
+          }
+          pullRequestContributionsByRepository(maxRepositories: 100) {
+            repository { nameWithOwner }
+          }
+          pullRequestReviewContributionsByRepository(maxRepositories: 100) {
+            repository { nameWithOwner }
+          }
+        }
+      }
+    }
+    """
+    response = github_request(
+        "https://api.github.com/graphql",
+        token,
+        payload={
+            "query": query,
+            "variables": {
+                "login": login,
+                "from": start.isoformat(),
+                "to": now.isoformat(),
+            },
+        },
+    )
+    if not isinstance(response, dict) or response.get("errors"):
+        raise RuntimeError(f"GitHub contribution query failed: {response}")
+    collection = response.get("data", {}).get("user", {}).get("contributionsCollection")
+    if not collection:
+        raise RuntimeError("GitHub contribution summary is empty")
+    repository_names: set[str] = set()
+    for key in (
+        "commitContributionsByRepository",
+        "issueContributionsByRepository",
+        "pullRequestContributionsByRepository",
+        "pullRequestReviewContributionsByRepository",
+    ):
+        repository_names.update(
+            item["repository"]["nameWithOwner"] for item in collection.get(key, [])
+        )
+    return ActivitySummary(
+        from_date=start.date().isoformat(),
+        to_date=now.date().isoformat(),
+        total_contributions=int(collection["contributionCalendar"]["totalContributions"]),
+        commit_contributions=int(collection["totalCommitContributions"]),
+        pull_requests=int(collection["totalPullRequestContributions"]),
+        issues=int(collection["totalIssueContributions"]),
+        reviews=int(collection["totalPullRequestReviewContributions"]),
+        restricted_contributions=int(collection["restrictedContributionsCount"]),
+        repositories=len(repository_names),
+    )
 
 
 def meaningful_subject(subject: str) -> bool:
@@ -268,16 +353,28 @@ def collect_snapshots(
             f"https://api.github.com/repos/{repository.name_with_owner}/commits?per_page=100",
             token,
         )
-        if not isinstance(commits, list) or not commits:
-            raise RuntimeError(f"Commit history is empty: {repository.name_with_owner}")
+        if not isinstance(commits, list):
+            raise RuntimeError(f"Commit history lookup failed: {repository.name_with_owner}")
+        if not commits:
+            continue
         response = github_request(
             f"https://api.github.com/repos/{repository.name_with_owner}/actions/workflows?per_page=100",
             token,
         )
         workflows = response.get("workflows", []) if isinstance(response, dict) else []
-        snapshots.append(
-            RepositorySnapshot(repository, commits, select_workflow(workflows))
-        )
+        workflow = select_workflow(workflows)
+        conclusion = ""
+        if workflow is not None:
+            runs = github_request(
+                f"https://api.github.com/repos/{repository.name_with_owner}/actions/"
+                f"workflows/{workflow['id']}/runs?branch="
+                f"{urllib.parse.quote(repository.default_branch)}&status=completed&per_page=1",
+                token,
+            )
+            workflow_runs = runs.get("workflow_runs", []) if isinstance(runs, dict) else []
+            if workflow_runs:
+                conclusion = str(workflow_runs[0].get("conclusion") or "")
+        snapshots.append(RepositorySnapshot(repository, commits, workflow, conclusion))
     return snapshots
 
 
@@ -422,14 +519,52 @@ def render_intro(profile: Profile) -> str:
     if profile.bio:
         lines.append(f"**{profile.bio}**")
         lines.append("")
-    links = [f"[GitHub]({profile.url})"]
+    links: list[str] = []
     if profile.blog:
         blog = profile.blog if "://" in profile.blog else f"https://{profile.blog}"
-        links.append(f"[기술 기록]({blog})")
+        links.append(f"[블로그]({blog})")
     if profile.email:
-        links.append(f"[Email](mailto:{profile.email})")
-    lines.append(" · ".join(links))
+        links.append(f"[이메일](mailto:{profile.email})")
+    if links:
+        lines.append(" · ".join(links))
     return "\n".join(lines)
+
+
+def shields_segment(value: str) -> str:
+    return urllib.parse.quote(value.replace("-", "--").replace("_", "__").replace(" ", "_"))
+
+
+def render_activity(
+    activity: ActivitySummary,
+    featured_snapshots: list[RepositorySnapshot],
+    profile: Profile,
+) -> str:
+    verified = [snapshot for snapshot in featured_snapshots if snapshot.workflow_conclusion]
+    passing = sum(snapshot.workflow_conclusion == "success" for snapshot in verified)
+    metrics = [
+        ("Contributions", f"{activity.total_contributions:,}", "0969DA"),
+        ("Commits", f"{activity.commit_contributions:,}", "238636"),
+        ("Pull Requests", f"{activity.pull_requests:,}", "8250DF"),
+        ("Issues", f"{activity.issues:,}", "D29922"),
+        ("Reviews", f"{activity.reviews:,}", "1F6FEB"),
+        ("Repositories", f"{activity.repositories:,}", "57606A"),
+    ]
+    if verified:
+        color = "238636" if passing == len(verified) else "D29922"
+        metrics.append(("CI", f"{passing}/{len(verified)} passing", color))
+    contribution_url = (
+        f"{profile.url}?tab=overview&from={activity.from_date}&to={activity.to_date}"
+    )
+    badges = []
+    for label, value, color in metrics:
+        source = (
+            "https://img.shields.io/badge/"
+            f"{shields_segment(label)}-{shields_segment(value)}-{color}?style=flat-square"
+        )
+        badges.append(
+            f'<a href="{contribution_url}"><img alt="{label} {value}" src="{source}"></a>'
+        )
+    return "\n".join(badges)
 
 
 def render_cards(repositories: list[Repository]) -> str:
@@ -446,24 +581,40 @@ def render_cards(repositories: list[Repository]) -> str:
     return "\n".join(lines)
 
 
-def render_ci(snapshots: list[RepositorySnapshot]) -> str:
-    badges: list[str] = []
+def render_ci(snapshots: list[RepositorySnapshot], login: str) -> str:
+    rows = ["| 저장소 | CI | License | 최근 변경 |", "|---|---|---|---|"]
     for snapshot in snapshots:
         workflow = snapshot.workflow
-        if workflow is None:
-            continue
         repository = snapshot.repository
-        path = str(workflow["path"])
-        path_url = urllib.parse.quote(path.rsplit("/", 1)[-1], safe="")
-        badge = (
-            f"https://github.com/{repository.name_with_owner}/actions/workflows/"
-            f"{path_url}/badge.svg?branch={urllib.parse.quote(repository.default_branch)}"
+        ci = "—"
+        if workflow is not None:
+            path = str(workflow["path"])
+            path_url = urllib.parse.quote(path.rsplit("/", 1)[-1], safe="")
+            badge = (
+                f"https://github.com/{repository.name_with_owner}/actions/workflows/"
+                f"{path_url}/badge.svg?branch={urllib.parse.quote(repository.default_branch)}"
+            )
+            actions = f"https://github.com/{repository.name_with_owner}/actions"
+            ci = f'[![{repository.name} CI]({badge})]({actions})'
+        latest = next(
+            (
+                commit
+                for commit in snapshot.commits
+                if human_commit(commit)
+                and (commit.get("author") or {}).get("login") == login
+            ),
+            None,
         )
-        actions = f"https://github.com/{repository.name_with_owner}/actions"
-        badges.append(
-            f'<a href="{actions}"><img alt="{repository.name} CI" src="{badge}"></a>'
+        latest_text = "—"
+        if latest is not None:
+            subject = str(latest["commit"]["message"]).splitlines()[0]
+            date = str(latest["commit"]["author"]["date"])[:10]
+            latest_text = f"[{subject}]({latest['html_url']}) · {date}"
+        rows.append(
+            f"| [{repository.name}]({repository.url}) | {ci} | "
+            f"{repository.license_id} | {latest_text} |"
         )
-    return "\n".join(badges) or "Actions workflow가 확인된 저장소 없음"
+    return "\n".join(rows)
 
 
 def render_technologies(
@@ -536,8 +687,15 @@ def main() -> None:
 
     token = os.environ.get("GH_TOKEN", "")
     profile = discover_profile(args.login, token)
-    repositories = discover_repositories(args.login, token)
-    snapshots = collect_snapshots(repositories, token)
+    activity = discover_activity(args.login, token)
+    featured, public_repositories = discover_repositories(args.login, token)
+    snapshots = collect_snapshots(public_repositories, token)
+    snapshots_by_repository = {
+        snapshot.repository.name_with_owner: snapshot for snapshot in snapshots
+    }
+    featured_snapshots = [
+        snapshots_by_repository[repository.name_with_owner] for repository in featured
+    ]
     history = merge_history(
         args.history,
         collect_commits(snapshots, args.login),
@@ -546,14 +704,19 @@ def main() -> None:
 
     readme = args.readme.read_text(encoding="utf-8")
     readme = replace_section(readme, "intro", render_intro(profile))
-    readme = replace_section(readme, "cards", render_cards(repositories))
-    readme = replace_section(readme, "ci", render_ci(snapshots))
+    readme = replace_section(
+        readme, "activity", render_activity(activity, featured_snapshots, profile)
+    )
+    readme = replace_section(readme, "cards", render_cards(featured))
+    readme = replace_section(readme, "ci", render_ci(featured_snapshots, args.login))
     readme = replace_section(readme, "collaboration", recent_collaboration(history))
     readme = replace_section(readme, "recent", recent_commits(history))
     readme = replace_section(
-        readme, "technologies", render_technologies(repositories, snapshots)
+        readme,
+        "technologies",
+        render_technologies(featured, featured_snapshots),
     )
-    write_cards(repositories, args.readme.parent / "assets" / "generated")
+    write_cards(featured, args.readme.parent / "assets" / "generated")
     write_if_changed(args.readme, readme)
     write_if_changed(
         args.history,
