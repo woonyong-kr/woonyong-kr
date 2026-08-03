@@ -9,7 +9,7 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,613" src="https://img.shields.io/badge/Contributions-10%2C613-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,611" src="https://img.shields.io/badge/Contributions-10%2C611-0969DA?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Commits 7,765" src="https://img.shields.io/badge/Commits-7%2C765-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
@@ -52,30 +52,57 @@
 </p>
 <!-- project_cards:end -->
 
-## <span lang="ko">최근 글</span>
-
-<!-- recent_posts:start -->
-| 글 | 주제 | 발행일 |
-|---|---|---:|
-| [서비스 47개의 값은 청구서에 적혀 있었다](https://woonyong-kr.github.io/#/posts/cost-postmortem)<br><sub>아키텍처 결정을 AWS 청구서와 대조한 비용 회고</sub> | 프로젝트 · AWS · Kubernetes | 2026-08-02 |
-| [정글에 온 이유를 묻길래](https://woonyong-kr.github.io/#/posts/jungle-interview)<br><sub>크래프톤 정글 공식 채널 인터뷰 — 스타트업 임원 출신 89년생 정글러</sub> | 회고 | 2026-08-02 |
-| [게임 세 개의 기록](https://woonyong-kr.github.io/#/posts/game-projects)<br><sub>스토어에 남은 두 건과 내부에서 끝난 한 건, 리드로서의 기록</sub> | 프로젝트 · Unity · C# | 2026-08-02 |
-| [열 개 회사의 소스를 한곳으로](https://woonyong-kr.github.io/#/posts/source-integration)<br><sub>각자 고치던 엔진을 중앙 관리로 모으고 PM 이 된 과정</sub> | 회고 | 2026-08-02 |
-| [655개 함수와 열 개 회사 사이](https://woonyong-kr.github.io/#/posts/cli-proxy)<br><sub>C++/CLI 프록시로 엔진과 콘텐츠의 경계를 고정한 기록</sub> | 프로젝트 · C++ | 2026-08-02 |
-| [엔진 위에 올린 C# 한 겹](https://woonyong-kr.github.io/#/posts/jengine-layer)<br><sub>액터 생명주기 · 코루틴 · 이벤트 시스템을 C# 로 직접 만든 기록</sub> | 프로젝트 · C# | 2026-08-02 |
-<!-- recent_posts:end -->
-
 ## <span lang="ko">검증 상태</span>
 
 <!-- ci_status:start -->
-| 저장소 | CI | 테스트 파일 | License |
-|---|---|---:|---:|
-| [pintos](https://github.com/woonyong-kr/pintos) | [![pintos CI](https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/pintos/actions) | 490 | — |
-| [minidb](https://github.com/woonyong-kr/minidb) | [![minidb CI](https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/minidb/actions) | 5 | — |
-| [jekyll-theme-velog](https://github.com/woonyong-kr/jekyll-theme-velog) | [![jekyll-theme-velog CI](https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/jekyll-theme-velog/actions) | 0 | MIT |
-| [k8s-ops](https://github.com/woonyong-kr/k8s-ops) | [![k8s-ops CI](https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/k8s-ops/actions) | 35 | — |
-| [dx_framework](https://github.com/woonyong-kr/dx_framework) | [![dx_framework CI](https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/woonyong-kr/dx_framework/actions) | 2 | — |
-| [woonyong-kr.github.io](https://github.com/woonyong-kr/woonyong-kr.github.io) | — | 0 | — |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="34%">저장소</th>
+      <th align="left" width="30%">CI</th>
+      <th align="right" width="18%">테스트 파일</th>
+      <th align="right" width="18%">라이선스</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/pintos">pintos</a></td>
+      <td><a href="https://github.com/woonyong-kr/pintos/actions"><img alt="pintos CI" src="https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">490</td>
+      <td align="right">—</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/minidb">minidb</a></td>
+      <td><a href="https://github.com/woonyong-kr/minidb/actions"><img alt="minidb CI" src="https://github.com/woonyong-kr/minidb/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">5</td>
+      <td align="right">—</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog">jekyll-theme-velog</a></td>
+      <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog/actions"><img alt="jekyll-theme-velog CI" src="https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main"></a></td>
+      <td align="right">0</td>
+      <td align="right">MIT</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/k8s-ops">k8s-ops</a></td>
+      <td><a href="https://github.com/woonyong-kr/k8s-ops/actions"><img alt="k8s-ops CI" src="https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">35</td>
+      <td align="right">—</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/dx_framework">dx_framework</a></td>
+      <td><a href="https://github.com/woonyong-kr/dx_framework/actions"><img alt="dx_framework CI" src="https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">2</td>
+      <td align="right">—</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/woonyong-kr.github.io">woonyong-kr.github.io</a></td>
+      <td>—</td>
+      <td align="right">0</td>
+      <td align="right">—</td>
+    </tr>
+  </tbody>
+</table>
 <!-- ci_status:end -->
 
 ## <span lang="ko">최근 공개 작업</span>
@@ -99,3 +126,14 @@
 - <span lang="ko">**Jungle-303-04/final** · [파드 상세 원인 표시와 사이드 패널 UX 통합](https://github.com/Jungle-303-04/final/pull/661) · 2026-07-24</span>
 - <span lang="ko">**Jungle-303-04/final** · [fix: 위험 파드 클릭을 리소스 상세로 연결](https://github.com/Jungle-303-04/final/pull/660) · 2026-07-24</span>
 <!-- collaboration:end -->
+
+## <span lang="ko">최근 글</span>
+
+<!-- recent_posts:start -->
+- <span lang="ko">**프로젝트 · AWS · Kubernetes** · [서비스 47개의 값은 청구서에 적혀 있었다](https://woonyong-kr.github.io/#/posts/cost-postmortem) · 2026-08-02<br><sub>아키텍처 결정을 AWS 청구서와 대조한 비용 회고</sub></span>
+- <span lang="ko">**회고** · [정글에 온 이유를 묻길래](https://woonyong-kr.github.io/#/posts/jungle-interview) · 2026-08-02<br><sub>크래프톤 정글 공식 채널 인터뷰 — 스타트업 임원 출신 89년생 정글러</sub></span>
+- <span lang="ko">**프로젝트 · Unity · C#** · [게임 세 개의 기록](https://woonyong-kr.github.io/#/posts/game-projects) · 2026-08-02<br><sub>스토어에 남은 두 건과 내부에서 끝난 한 건, 리드로서의 기록</sub></span>
+- <span lang="ko">**회고** · [열 개 회사의 소스를 한곳으로](https://woonyong-kr.github.io/#/posts/source-integration) · 2026-08-02<br><sub>각자 고치던 엔진을 중앙 관리로 모으고 PM 이 된 과정</sub></span>
+- <span lang="ko">**프로젝트 · C++** · [655개 함수와 열 개 회사 사이](https://woonyong-kr.github.io/#/posts/cli-proxy) · 2026-08-02<br><sub>C++/CLI 프록시로 엔진과 콘텐츠의 경계를 고정한 기록</sub></span>
+- <span lang="ko">**프로젝트 · C#** · [엔진 위에 올린 C# 한 겹](https://woonyong-kr.github.io/#/posts/jengine-layer) · 2026-08-02<br><sub>액터 생명주기 · 코루틴 · 이벤트 시스템을 C# 로 직접 만든 기록</sub></span>
+<!-- recent_posts:end -->

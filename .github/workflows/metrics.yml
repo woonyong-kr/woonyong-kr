@@ -59,12 +59,35 @@ jobs:
           )
           if any(readme.count(marker) != 1 for marker in markers):
               raise SystemExit("profile marker verification failed")
+          ordered_markers = (
+              "<!-- project_cards:start -->",
+              "<!-- ci_status:start -->",
+              "<!-- recent_work:start -->",
+              "<!-- collaboration:start -->",
+              "<!-- recent_posts:start -->",
+          )
+          if [readme.index(marker) for marker in ordered_markers] != sorted(
+              readme.index(marker) for marker in ordered_markers
+          ):
+              raise SystemExit("profile section order differs")
           if not history["commits"]:
               raise SystemExit("commit history is empty")
           if readme.count("assets/generated/repo-") != 6:
               raise SystemExit("repository card count is not six")
           if readme.count("https://woonyong-kr.github.io/#/posts/") != 6:
               raise SystemExit("recent blog post count is not six")
+          ci_section = readme[
+              readme.index("<!-- ci_status:start -->"):
+              readme.index("<!-- ci_status:end -->")
+          ]
+          blog_section = readme[
+              readme.index("<!-- recent_posts:start -->"):
+              readme.index("<!-- recent_posts:end -->")
+          ]
+          if '<table width="100%">' not in ci_section:
+              raise SystemExit("verification table is not full width")
+          if "| 글 | 주제 | 발행일 |" in blog_section or "- <span" not in blog_section:
+              raise SystemExit("recent posts are not rendered as an activity list")
           assets = sorted(Path("assets/generated").glob("repo-*.svg"))
           if len(assets) != 6:
               raise SystemExit("generated repository card count is not six")

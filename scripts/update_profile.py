@@ -834,22 +834,36 @@ def escape_table(value: str) -> str:
 
 
 def render_blog(posts: list[BlogPost]) -> str:
-    rows = ["| 글 | 주제 | 발행일 |", "|---|---|---:|"]
+    rows: list[str] = []
     for post in posts:
         url = (
             "https://woonyong-kr.github.io/#/posts/"
             f"{urllib.parse.quote(post.slug)}"
         )
-        title = f"[{escape_table(post.name)}]({url})"
+        tags = " · ".join(escape_table(tag) for tag in post.tags) or "기록"
+        row = (
+            f'- <span lang="ko">**{tags}** · '
+            f"[{escape_table(post.name)}]({url}) · {post.published_at}"
+        )
         if post.subtitle:
-            title += f"<br><sub>{escape_table(post.subtitle)}</sub>"
-        tags = " · ".join(escape_table(tag) for tag in post.tags) or "—"
-        rows.append(f"| {title} | {tags} | {post.published_at} |")
+            row += f"<br><sub>{escape_table(post.subtitle)}</sub>"
+        rows.append(f"{row}</span>")
     return "\n".join(rows)
 
 
 def render_ci(snapshots: list[RepositorySnapshot]) -> str:
-    rows = ["| 저장소 | CI | 테스트 파일 | License |", "|---|---|---:|---:|"]
+    rows = [
+        '<table width="100%">',
+        "  <thead>",
+        "    <tr>",
+        '      <th align="left" width="34%">저장소</th>',
+        '      <th align="left" width="30%">CI</th>',
+        '      <th align="right" width="18%">테스트 파일</th>',
+        '      <th align="right" width="18%">라이선스</th>',
+        "    </tr>",
+        "  </thead>",
+        "  <tbody>",
+    ]
     for snapshot in snapshots:
         workflow = snapshot.workflow
         repository = snapshot.repository
@@ -862,11 +876,21 @@ def render_ci(snapshots: list[RepositorySnapshot]) -> str:
                 f"{path_url}/badge.svg?branch={urllib.parse.quote(repository.default_branch)}"
             )
             actions = f"https://github.com/{repository.name_with_owner}/actions"
-            ci = f'[![{repository.name} CI]({badge})]({actions})'
-        rows.append(
-            f"| [{repository.name}]({repository.url}) | {ci} | "
-            f"{snapshot.test_files} | {repository.license_id} |"
+            ci = (
+                f'<a href="{actions}"><img alt="{escape(repository.name)} CI" '
+                f'src="{badge}"></a>'
+            )
+        rows.extend(
+            [
+                "    <tr>",
+                f'      <td><a href="{repository.url}">{escape(repository.name)}</a></td>',
+                f"      <td>{ci}</td>",
+                f'      <td align="right">{snapshot.test_files}</td>',
+                f'      <td align="right">{escape(repository.license_id)}</td>',
+                "    </tr>",
+            ]
         )
+    rows.extend(["  </tbody>", "</table>"])
     return "\n".join(rows)
 
 
