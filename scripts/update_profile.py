@@ -659,6 +659,7 @@ def merge_history(
     history_path: Path,
     commits: list[dict[str, str]],
     pull_requests: list[dict[str, str]],
+    eligible_repositories: set[str],
 ) -> dict[str, list[dict[str, str]]]:
     if history_path.exists():
         history = json.loads(history_path.read_text(encoding="utf-8"))
@@ -669,7 +670,12 @@ def merge_history(
         merged.update({item["id"]: item for item in incoming})
         items = merged.values()
         if key == "commits":
-            items = (item for item in items if meaningful_subject(item["title"]))
+            items = (
+                item
+                for item in items
+                if meaningful_subject(item["title"])
+                and item["repository"] in eligible_repositories
+            )
         history[key] = sorted(
             items, key=lambda item: item["occurred_at"], reverse=True
         )[:1000]
@@ -947,6 +953,7 @@ def main() -> None:
         args.history,
         collect_commits(snapshots, args.login),
         collect_merged_prs(args.login, token),
+        {repository.name_with_owner for repository in public_repositories},
     )
 
     readme = args.readme.read_text(encoding="utf-8")

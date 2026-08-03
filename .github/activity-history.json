@@ -46,15 +46,6 @@
       "occurred_at": "2026-08-03T17:09:12Z"
     },
     {
-      "id": "woonyong-kr/k8s-ops-min@854b15d6f91b126473233f2bbd13abf618b4b10b",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "style: payload 계측 코드 / Python 3.13 lint / import 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b",
-      "occurred_at": "2026-08-03T16:56:53Z"
-    },
-    {
       "id": "woonyong-kr/dx_framework@78c917a276b69c8746dcfb73c08803f698798ab9",
       "kind": "commit",
       "project": "dx_framework",
@@ -80,24 +71,6 @@
       "title": "build: sanitizer 선택 / 224개 테스트 / CI 게이트",
       "url": "https://github.com/woonyong-kr/minidb/commit/7b7c43ff93e350a8feecc6d049d4e8e2828937bc",
       "occurred_at": "2026-08-03T16:47:20Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@f06bd4f32d98de22ca845a67b3e8f493b0be96a2",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "feat: Evidence 실험 / 신뢰 경계 / Grafana 증거",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/f06bd4f32d98de22ca845a67b3e8f493b0be96a2",
-      "occurred_at": "2026-08-02T12:42:50Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@43f95db0960e0545add7df01ae05119e0b417f45",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "feat: Evidence 페이로드 실험 / Grafana 계측",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/43f95db0960e0545add7df01ae05119e0b417f45",
-      "occurred_at": "2026-08-02T11:08:38Z"
     },
     {
       "id": "woonyong-kr/dx_framework@063356a5abea75eb0ba6e60c1717de8c91d8d4f7",
@@ -575,78 +548,6 @@
       "title": "fix: Python 런타임 선택 / uv 실행 복구",
       "url": "https://github.com/woonyong-kr/k8s-ops/commit/338541591e2807b81a197d70603495c62d23650b",
       "occurred_at": "2026-08-01T06:29:44Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@dee0773353d51fbd8385147d7822983b556c84db",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "fix: private 문서 추적 / 검증 회귀 / lint 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/dee0773353d51fbd8385147d7822983b556c84db",
-      "occurred_at": "2026-08-01T02:35:29Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@653ce247a3a103008cac0f81ea0ea24ac5ced6f8",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "fix(catalog): 문서 주장과 코드를 일치시키고 응답이 잘림을 실패로 합치던 것을 고침",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/653ce247a3a103008cac0f81ea0ea24ac5ced6f8",
-      "occurred_at": "2026-08-01T02:16:37Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@00b5ae1c4df551b3dc20947ff3d8d7b15dacd2e3",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "fix: 카탈로그 검증 경계 / 문서 줄끝 / 회귀 차단",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/00b5ae1c4df551b3dc20947ff3d8d7b15dacd2e3",
-      "occurred_at": "2026-07-31T23:42:44Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@1f812ca0054ac48e1967853286584e7135e28d21",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "fix: 카탈로그 집계 경계 / 공개 문서 경로 / 줄끝 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/1f812ca0054ac48e1967853286584e7135e28d21",
-      "occurred_at": "2026-07-31T23:13:55Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@ae3c410049dc2efa939d7be3c48e5bfd43c4273d",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "feat: 포트폴리오 검증 / AWS 원장 / 이력서 정합",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/ae3c410049dc2efa939d7be3c48e5bfd43c4273d",
-      "occurred_at": "2026-07-31T16:41:25Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@ff8195be52ccbf97f19a8a9f997fc5ceeba08a9d",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "feat: 카탈로그 재처리와 이벤트 전송 검증을 보강",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/ff8195be52ccbf97f19a8a9f997fc5ceeba08a9d",
-      "occurred_at": "2026-07-31T16:04:04Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@d927ccc82fe0279bf94b003b7f90056e6a41096c",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "Kyro: 운영 데이터 수집·정규화 계층과 데이터 파운데이션 확장",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/d927ccc82fe0279bf94b003b7f90056e6a41096c",
-      "occurred_at": "2026-07-31T14:14:06Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops-min@128b5e8c955f4f1450819f5a36ec390dfe395b1a",
-      "kind": "commit",
-      "project": "k8s-ops-min",
-      "repository": "woonyong-kr/k8s-ops-min",
-      "title": "first commit",
-      "url": "https://github.com/woonyong-kr/k8s-ops-min/commit/128b5e8c955f4f1450819f5a36ec390dfe395b1a",
-      "occurred_at": "2026-07-31T13:57:13Z"
     },
     {
       "id": "woonyong-kr/k8s-ops@f317ad950a17296742bf24d79c986a5775c8ebb9",

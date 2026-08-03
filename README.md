@@ -9,7 +9,7 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,613" src="https://img.shields.io/badge/Contributions-10%2C613-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Contributions 10,611" src="https://img.shields.io/badge/Contributions-10%2C611-0969DA?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Commits 7,765" src="https://img.shields.io/badge/Commits-7%2C765-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-03&to=2026-08-03"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
@@ -86,7 +86,7 @@
 - <span lang="ko">**jekyll-theme-velog** · [feat: 공식 Pages 배포 / 템플릿 검증 / 설정 하드코딩 제거](https://github.com/woonyong-kr/jekyll-theme-velog/commit/df36b865b4079574f6ee6bc8e6fed4bbb7f81441) · 2026-08-03</span>
 - <span lang="ko">**pintos** · [fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6](https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493) · 2026-08-03</span>
 - <span lang="ko">**pintos** · [fix: MLFQS 고정소수점 / 전체 스레드 갱신 / CI 분리](https://github.com/woonyong-kr/pintos/commit/09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d) · 2026-08-03</span>
-- <span lang="ko">**k8s-ops-min** · [style: payload 계측 코드 / Python 3.13 lint / import 정리](https://github.com/woonyong-kr/k8s-ops-min/commit/854b15d6f91b126473233f2bbd13abf618b4b10b) · 2026-08-03</span>
+- <span lang="ko">**dx_framework** · [test: 코루틴 계약 / 독립 실행 / CI 게이트](https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9) · 2026-08-03</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
