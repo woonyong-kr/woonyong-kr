@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="205" viewBox="0 0 410 205" role="img" aria-labelledby="title desc">
+  <title id="title">PintOS</title>
+  <desc id="desc">Copy-on-Write, 공유 frame 소유권과 swap slot 수명을 구현하고 검증한다.</desc>
+  <rect x="1" y="1" width="408" height="203" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="6" height="203" rx="3" fill="#db61a2"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans KR',sans-serif">
+    <text x="26" y="30" fill="#db61a2" font-size="11" font-weight="700" letter-spacing="1.1">OPERATING SYSTEM · MEMORY · C</text>
+    <text x="26" y="62" fill="#f0f6fc" font-size="24" font-weight="700">PintOS</text>
+    <text x="26" y="89" fill="#c9d1d9" font-size="13">fork → Copy-on-Write → shared frame ownership</text>
+    <text x="26" y="111" fill="#8b949e" font-size="12">frame 참조 계수와 swap slot 수명을 함께 관리한다</text>
+    <line x1="26" y1="128" x2="384" y2="128" stroke="#30363d"/>
+    <text x="26" y="158" fill="#f0f6fc" font-size="21" font-weight="700">141 / 141</text>
+    <text x="126" y="158" fill="#8b949e" font-size="11">tests</text>
+    <text x="238" y="158" fill="#3fb950" font-size="14" font-weight="700">27 thread · 114 VM</text>
+    <rect x="26" y="174" width="38" height="19" rx="9.5" fill="#b6236c"/><text x="39" y="188" fill="#fff" font-size="10">C</text>
+    <rect x="70" y="174" width="48" height="19" rx="9.5" fill="#21262d"/><text x="81" y="188" fill="#c9d1d9" font-size="10">COW</text>
+    <rect x="124" y="174" width="70" height="19" rx="9.5" fill="#21262d"/><text x="136" y="188" fill="#c9d1d9" font-size="10">x86-64</text>
+    <text x="348" y="188" fill="#58a6ff" font-size="12" font-weight="700">OPEN →</text>
+  </g>
+</svg>
