@@ -9,25 +9,25 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Contributions 10,693" src="https://img.shields.io/badge/Contributions-10%2C693-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Commits 7,839" src="https://img.shields.io/badge/Commits-7%2C839-238636?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="Repositories 35" src="https://img.shields.io/badge/Repositories-35-57606A?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-05&to=2026-08-05"><img alt="CI 5/5 passing" src="https://img.shields.io/badge/CI-5/5_passing-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Contributions 10,659" src="https://img.shields.io/badge/Contributions-10%2C659-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Commits 7,872" src="https://img.shields.io/badge/Commits-7%2C872-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="CI 6/6 passing" src="https://img.shields.io/badge/CI-6/6_passing-238636?style=flat-square"></a>
 <!-- activity_summary:end -->
 
 ## <span lang="ko">사용 기술</span>
 
 <!-- technologies:start -->
 <a href="https://www.c-language.org/"><img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white"></a>
-<a href="https://html.spec.whatwg.org/"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"></a>
 <a href="https://dotnet.microsoft.com/"><img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"></a>
 <a href="https://isocpp.org/"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"></a>
 <a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"></a>
 <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a>
 <a href="https://opengitops.dev/"><img alt="GitOps" src="https://img.shields.io/badge/GitOps-F05032?style=flat-square&logo=git&logoColor=white"></a>
+<a href="https://html.spec.whatwg.org/"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"></a>
 <a href="https://kubernetes.io/"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"></a>
 <a href="https://nats.io/"><img alt="NATS" src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white"></a>
 <a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"></a>
@@ -44,11 +44,11 @@
   <a href="https://github.com/woonyong-kr/pintos"><img width="410" src="assets/generated/repo-pintos.svg" alt="pintos 저장소"></a>
   <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
   <br>
+  <a href="https://github.com/woonyong-kr/woon-core"><img width="410" src="assets/generated/repo-woon-core.svg" alt="woon-core 저장소"></a>
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
-  <a href="https://github.com/woonyong-kr/k8s-ops"><img width="410" src="assets/generated/repo-k8s-ops.svg" alt="k8s-ops 저장소"></a>
   <br>
+  <a href="https://github.com/woonyong-kr/k8s-ops"><img width="410" src="assets/generated/repo-k8s-ops.svg" alt="k8s-ops 저장소"></a>
   <a href="https://github.com/woonyong-kr/dx_framework"><img width="410" src="assets/generated/repo-dx_framework.svg" alt="dx_framework 저장소"></a>
-  <a href="https://github.com/woonyong-kr/woonyong-kr.github.io"><img width="410" src="assets/generated/repo-woonyong-kr.github.io.svg" alt="woonyong-kr.github.io 저장소"></a>
 </p>
 <!-- project_cards:end -->
 
@@ -84,6 +84,14 @@
       <td align="right">—</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/woonyong-kr/woon-core">woon-core</a></td>
+      <td>Go</td>
+      <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">5</td>
+      <td align="right">2026-08-06</td>
+      <td align="right">MIT</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog">jekyll-theme-velog</a></td>
       <td>HTML · github-pages · jekyll-theme</td>
       <td><a href="https://github.com/woonyong-kr/jekyll-theme-velog/actions"><img alt="jekyll-theme-velog CI" src="https://github.com/woonyong-kr/jekyll-theme-velog/actions/workflows/deploy.yml/badge.svg?branch=main"></a></td>
@@ -107,14 +115,6 @@
       <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/woonyong-kr/woonyong-kr.github.io">woonyong-kr.github.io</a></td>
-      <td>HTML · giscus</td>
-      <td>—</td>
-      <td align="right">0</td>
-      <td align="right">2026-08-04</td>
-      <td align="right">—</td>
-    </tr>
   </tbody>
 </table>
 <!-- ci_status:end -->
@@ -122,12 +122,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
-- <span lang="ko">**k8s-ops** · [feat: Kubernetes 장애 복구 / GitOps 워크플로 / 검증 기준](https://github.com/woonyong-kr/k8s-ops/commit/b749f3b1999201b5237f12aa78862b65b43f7d26) · 2026-08-03</span>
-- <span lang="ko">**jekyll-theme-velog** · [fix: Pages canonical URL / 배포 경로 재현 / SEO 검증](https://github.com/woonyong-kr/jekyll-theme-velog/commit/927e76eb627b391354879342b477d64013c54cdd) · 2026-08-03</span>
-- <span lang="ko">**jekyll-theme-velog** · [feat: 공식 Pages 배포 / 템플릿 검증 / 설정 하드코딩 제거](https://github.com/woonyong-kr/jekyll-theme-velog/commit/df36b865b4079574f6ee6bc8e6fed4bbb7f81441) · 2026-08-03</span>
-- <span lang="ko">**pintos** · [fix: 실제 우선순위 선점 / 141개 회귀 검증 / checkout v6](https://github.com/woonyong-kr/pintos/commit/ea154f87730d9d3ac492bb234166382ca3531493) · 2026-08-03</span>
-- <span lang="ko">**pintos** · [fix: MLFQS 고정소수점 / 전체 스레드 갱신 / CI 분리](https://github.com/woonyong-kr/pintos/commit/09df7c8e83a5c5a46d0c0b8aa36a3fa7ce59745d) · 2026-08-03</span>
-- <span lang="ko">**dx_framework** · [test: 코루틴 계약 / 독립 실행 / CI 게이트](https://github.com/woonyong-kr/dx_framework/commit/78c917a276b69c8746dcfb73c08803f698798ab9) · 2026-08-03</span>
+- <span lang="ko">**woon-core** · [feat: 문서화된 단일 파일 경로 감사 예외](https://github.com/woonyong-kr/woon-core/commit/27f700f65dff7667e890ac9ecdfa652cbbb60e4c) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [fix: 폐기 보관함을 경로 감사에서 제외](https://github.com/woonyong-kr/woon-core/commit/eb02b4963663b56f90aa86105700c36dd1be72e8) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [feat: site publishing profile 추가](https://github.com/woonyong-kr/woon-skills/commit/8dd649655f081b1c50f0790d1cce8b154ba87cd3) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [feat: 전체 스킬 카탈로그 무결성 검증](https://github.com/woonyong-kr/woon-core/commit/edb6f454adcfdd0d714ac42cce2232c0bc4c046d) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [fix: web profile description 예산 준수](https://github.com/woonyong-kr/woon-skills/commit/ab259ee966b15ad8e3c5e127a3e880546d0b090f) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [refactor: 이전 전체 설치 스크립트 제거](https://github.com/woonyong-kr/woon-skills/commit/8ab345de5cdca6323f51a62a077da046eb99224e) · 2026-08-06</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>

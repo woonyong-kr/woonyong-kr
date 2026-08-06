@@ -1,6 +1,141 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@27f700f65dff7667e890ac9ecdfa652cbbb60e4c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 문서화된 단일 파일 경로 감사 예외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/27f700f65dff7667e890ac9ecdfa652cbbb60e4c",
+      "occurred_at": "2026-08-06T04:36:58Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@eb02b4963663b56f90aa86105700c36dd1be72e8",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 폐기 보관함을 경로 감사에서 제외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/eb02b4963663b56f90aa86105700c36dd1be72e8",
+      "occurred_at": "2026-08-06T04:35:10Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@8dd649655f081b1c50f0790d1cce8b154ba87cd3",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: site publishing profile 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/8dd649655f081b1c50f0790d1cce8b154ba87cd3",
+      "occurred_at": "2026-08-06T04:31:57Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@edb6f454adcfdd0d714ac42cce2232c0bc4c046d",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 전체 스킬 카탈로그 무결성 검증",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/edb6f454adcfdd0d714ac42cce2232c0bc4c046d",
+      "occurred_at": "2026-08-06T04:28:41Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@ab259ee966b15ad8e3c5e127a3e880546d0b090f",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "fix: web profile description 예산 준수",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/ab259ee966b15ad8e3c5e127a3e880546d0b090f",
+      "occurred_at": "2026-08-06T04:27:58Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@8ab345de5cdca6323f51a62a077da046eb99224e",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "refactor: 이전 전체 설치 스크립트 제거",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/8ab345de5cdca6323f51a62a077da046eb99224e",
+      "occurred_at": "2026-08-06T04:27:00Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@b288cb110758d95acf386fcf7578f2af8ae6b0e8",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: profile 기반 스킬 설치 CLI 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/b288cb110758d95acf386fcf7578f2af8ae6b0e8",
+      "occurred_at": "2026-08-06T04:25:23Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@b18eac17ee4bcc86410016edfb2800925afe8fc2",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: profile 기반 스킬 선택 규칙 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/b18eac17ee4bcc86410016edfb2800925afe8fc2",
+      "occurred_at": "2026-08-06T04:23:45Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@729f18b9bf38d4e7ebf281d54396c8c3d74d84c7",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: 개인 스킬 두 개를 선별 복원",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/729f18b9bf38d4e7ebf281d54396c8c3d74d84c7",
+      "occurred_at": "2026-08-06T04:23:34Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@55714851f3e6ef51f05a8bd7e13d7d531b6ffd06",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "refactor: 스킬 원본을 personal과 vendor로 분리",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/55714851f3e6ef51f05a8bd7e13d7d531b6ffd06",
+      "occurred_at": "2026-08-06T04:23:25Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8f045b75e107ffd07458ea1416b0ab48d14a367b",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: Windows config 경로 / portable test",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8f045b75e107ffd07458ea1416b0ab48d14a367b",
+      "occurred_at": "2026-08-06T04:16:06Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8584890912fac11ff053d3ef9b95f481426000d2",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: toolchain lock 검증 / version 단일 정본",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8584890912fac11ff053d3ef9b95f481426000d2",
+      "occurred_at": "2026-08-06T04:15:12Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@2a9b37f656054de174636d6c2787f0033ac77d70",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: extension 동기화 / adapter 회귀 / rollback",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/2a9b37f656054de174636d6c2787f0033ac77d70",
+      "occurred_at": "2026-08-06T04:13:29Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@01cbb5e737bbda6a5dbadaa7a295fb1e375d8ed9",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: IDE 결정적 생성 / atomic 적용 / semantic 검증",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/01cbb5e737bbda6a5dbadaa7a295fb1e375d8ed9",
+      "occurred_at": "2026-08-06T04:11:50Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8e574f4482ede59cc44c068c30d135ae18be319c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 경로 독립 CLI / 공통 표준 / 결정적 지침",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8e574f4482ede59cc44c068c30d135ae18be319c",
+      "occurred_at": "2026-08-06T04:00:44Z"
+    },
+    {
       "id": "woonyong-kr/k8s-ops@b749f3b1999201b5237f12aa78862b65b43f7d26",
       "kind": "commit",
       "project": "k8s-ops",
@@ -1324,6 +1459,15 @@
       "occurred_at": "2026-04-22T06:51:05Z"
     },
     {
+      "id": "woonyong-kr/woon-skills@c18d95ca865cc16a7a5ba0ddfabc026eec6a1a3e",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: ECC 스킬 170개를 가져오고 커밋 컨벤션에 Git 워크플로우를 통합",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/c18d95ca865cc16a7a5ba0ddfabc026eec6a1a3e",
+      "occurred_at": "2026-04-09T12:41:30Z"
+    },
+    {
       "id": "woonyong-kr/jekyll-theme-velog@b5fea312f257bc8041b563035052361b8ade6d91",
       "kind": "commit",
       "project": "jekyll-theme-velog",
@@ -2501,6 +2645,42 @@
       "title": "feat: 블로그 저장소 초기 구조를 추가",
       "url": "https://github.com/woonyong-kr/woonyong-kr.github.io/commit/19507cd4ac05269b3dc09a727bc16200ad0fdfa7",
       "occurred_at": "2026-03-31T04:03:24Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@a7571a11a7945d6730ef015cbbde3a8975d0cd73",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: Claude와 Codex를 모두 지원하도록 skill-syncer를 확장하고 github 스킬을 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/a7571a11a7945d6730ef015cbbde3a8975d0cd73",
+      "occurred_at": "2026-03-30T13:00:10Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@38aeab7b5e240309cf2a4ef0e741185bb8584ec9",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: skill-syncer 스킬을 추가하고 README에 사용법을 정리",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/38aeab7b5e240309cf2a4ef0e741185bb8584ec9",
+      "occurred_at": "2026-03-27T02:11:37Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@3171e06b07067131269610271aab8ed88f5396ae",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: commit-convention 스킬을 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/3171e06b07067131269610271aab8ed88f5396ae",
+      "occurred_at": "2026-03-27T01:55:20Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@da546156b74b291455158e789f61abe9f6f433d7",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "first commit",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/da546156b74b291455158e789f61abe9f6f433d7",
+      "occurred_at": "2026-03-27T01:46:33Z"
     },
     {
       "id": "woonyong-kr/dx_framework@a97daffd2d58e51ee4a77d7f94353612b43a9011",
