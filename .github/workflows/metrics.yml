@@ -48,6 +48,7 @@ jobs:
       - name: Verify generated index
         run: |
           python3 -m py_compile scripts/update_profile.py
+          python3 -m unittest discover -s scripts -p 'test_*.py'
           python3 - <<'PY'
           import json
           from pathlib import Path
