@@ -334,16 +334,22 @@ def discover_blog_posts(login: str) -> list[BlogPost]:
         "https://raw.githubusercontent.com/"
         f"{login}/{login}.github.io/main/"
     )
-    manifest = json.loads(public_text_request(f"{base_url}asset-manifest.json"))
-    main_path = str(manifest.get("files", {}).get("main.js") or "").removeprefix(
-        "./"
+    index = public_text_request(f"{base_url}index.html")
+    entry = re.search(
+        r'<script[^>]+type="module"[^>]+src="(?P<src>[^"?]+\.js)[^">]*"',
+        index,
     )
-    if not main_path:
-        raise RuntimeError("Published blog JavaScript entrypoint is missing")
+    if not entry:
+        raise RuntimeError("Published Vite JavaScript entrypoint is missing")
+    main_path = entry.group("src").removeprefix("./").removeprefix("/")
     bundle = public_text_request(f"{base_url}{main_path}")
-    js_string = r'(?:"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\')'
+    return parse_blog_posts(bundle)
+
+
+def parse_blog_posts(bundle: str) -> list[BlogPost]:
+    js_string = r'(?:"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'|`(?:\\.|[^`\\])*`)'
     pattern = re.compile(
-        r'\{type:"post",slug:(?P<slug>'
+        r'\{type:["\'`]post["\'`],slug:(?P<slug>'
         + js_string
         + r"),name:(?P<name>"
         + js_string
@@ -351,12 +357,12 @@ def discover_blog_posts(login: str) -> list[BlogPost]:
         + js_string
         + r").*?,date:(?P<date>"
         + js_string
-        + r"),tags:\[(?P<tags>.*?)\]\}",
+        + r"),tags:\[(?P<tags>.*?)\]",
         re.S,
     )
     posts: list[BlogPost] = []
     for order, match in enumerate(pattern.finditer(bundle)):
-        decode = ast.literal_eval
+        decode = decode_javascript_string
         published_at = str(decode(match.group("date")))
         posts.append(
             BlogPost(
@@ -378,6 +384,15 @@ def discover_blog_posts(login: str) -> list[BlogPost]:
         key=lambda post: (post.published_at, post.order, post.slug),
         reverse=True,
     )[:6]
+
+
+def decode_javascript_string(value: str) -> str:
+    if value.startswith(("\"", "'")):
+        return str(ast.literal_eval(value))
+    if not value.startswith("`") or not value.endswith("`") or "${" in value:
+        raise RuntimeError("Unsupported JavaScript string literal")
+    escapes = {"\\": "\\", "`": "`", "n": "\n", "r": "\r", "t": "\t"}
+    return re.sub(r"\\([\\`nrt])", lambda match: escapes[match.group(1)], value[1:-1])
 
 
 def meaningful_subject(subject: str) -> bool:
