@@ -19,6 +19,23 @@ jobs:
       - name: Checkout profile source
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
+      - name: Record static profile marker
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          start = "<!-- profile_intro:start -->"
+          end = "<!-- profile_intro:end -->"
+          if readme.count(start) != 1 or readme.count(end) != 1:
+              raise SystemExit("profile_intro ownership markers are invalid")
+          owned = readme[readme.index(start):readme.index(end) + len(end)]
+          digest = hashlib.sha256(owned.encode()).hexdigest()
+          Path(os.environ["RUNNER_TEMP"], "profile-intro.sha256").write_text(digest)
+          PY
+
       - name: Accumulate public activity
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -100,6 +117,23 @@ jobs:
               ET.parse(asset)
           if "<details>" in readme or "assets/project-" in readme:
               raise SystemExit("manual or folded presentation detected")
+          PY
+
+      - name: Verify static profile marker ownership
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          start = "<!-- profile_intro:start -->"
+          end = "<!-- profile_intro:end -->"
+          owned = readme[readme.index(start):readme.index(end) + len(end)]
+          actual = hashlib.sha256(owned.encode()).hexdigest()
+          expected = Path(os.environ["RUNNER_TEMP"], "profile-intro.sha256").read_text()
+          if actual != expected:
+              raise SystemExit("dynamic workflow changed profile_intro")
           PY
 
       - name: Commit refreshed activity
