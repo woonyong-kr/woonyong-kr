@@ -1,6 +1,114 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-skills@2477b381a0d2d5b80734929d1704a05cd6cc5892",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "test: 스킬 profile routing 회귀 고정",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/2477b381a0d2d5b80734929d1704a05cd6cc5892",
+      "occurred_at": "2026-08-06T05:32:38Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@6ea91ec94d31eebafc9117fa4d42d404e7023ca6",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 스킬 routing 회귀 검증 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/6ea91ec94d31eebafc9117fa4d42d404e7023ca6",
+      "occurred_at": "2026-08-06T05:32:33Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@51c707a3ee95d802e2b50df754c425a03b56465a",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: context compiler 줄바꿈 정규화",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/51c707a3ee95d802e2b50df754c425a03b56465a",
+      "occurred_at": "2026-08-06T05:23:09Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@3455845aae2fe40679d8816d00dc0f85225338a2",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: 선택형 컨테이너와 리뷰 프로필 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/3455845aae2fe40679d8816d00dc0f85225338a2",
+      "occurred_at": "2026-08-06T05:18:20Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@2a60c9c76956edbe9775fc11c10cd7b1afcb6ff9",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: 최신 선택형 스킬 원본 반영",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/2a60c9c76956edbe9775fc11c10cd7b1afcb6ff9",
+      "occurred_at": "2026-08-06T05:18:15Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8075c0b83cb88a388e495c96eb7f3fd8249e1106",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: context compiler에서 출력 저장소 제외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8075c0b83cb88a388e495c96eb7f3fd8249e1106",
+      "occurred_at": "2026-08-06T05:08:58Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@63066965eef38a496d3e04ada2190a8fffce4ff7",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "test: 경로 감사 fixture의 literal 경로 제거",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/63066965eef38a496d3e04ada2190a8fffce4ff7",
+      "occurred_at": "2026-08-06T05:08:17Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@94cd16cd59c43bbb5bba28651f9096336bcb1dca",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "merge: migration 보존 이력을 main에 연결",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/94cd16cd59c43bbb5bba28651f9096336bcb1dca",
+      "occurred_at": "2026-08-06T04:59:21Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@a6776e9e90d7baf5f2f21485dfa5e4b857e8916c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: release 버전을 Git tag에서 주입",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/a6776e9e90d7baf5f2f21485dfa5e4b857e8916c",
+      "occurred_at": "2026-08-06T04:57:09Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@cfc4374d9b81f85f7f42bf19a75e4b2e6b7cc341",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 저장소별 생성 경로 감사 제외 지원",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/cfc4374d9b81f85f7f42bf19a75e4b2e6b7cc341",
+      "occurred_at": "2026-08-06T04:51:21Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@556c3924d1e7c5bab84cb6d1fe458e5057ffc338",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 지식 원문과 운영 파일의 경로 감사 분리",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/556c3924d1e7c5bab84cb6d1fe458e5057ffc338",
+      "occurred_at": "2026-08-06T04:48:05Z"
+    },
+    {
+      "id": "woonyong-kr/woon-skills@9d174400a46cb1ebf9537fcb2466b2c0ae233c54",
+      "kind": "commit",
+      "project": "woon-skills",
+      "repository": "woonyong-kr/woon-skills",
+      "title": "feat: knowledge repository profile 추가",
+      "url": "https://github.com/woonyong-kr/woon-skills/commit/9d174400a46cb1ebf9537fcb2466b2c0ae233c54",
+      "occurred_at": "2026-08-06T04:46:40Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@27f700f65dff7667e890ac9ecdfa652cbbb60e4c",
       "kind": "commit",
       "project": "woon-core",

@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Contributions 10,659" src="https://img.shields.io/badge/Contributions-10%2C659-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Commits 7,872" src="https://img.shields.io/badge/Commits-7%2C872-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Contributions 10,810" src="https://img.shields.io/badge/Contributions-10%2C810-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Commits 7,925" src="https://img.shields.io/badge/Commits-7%2C925-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -22,7 +22,7 @@
 
 <!-- technologies:start -->
 <a href="https://www.c-language.org/"><img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white"></a>
-<a href="https://dotnet.microsoft.com/"><img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"></a>
+<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
 <a href="https://isocpp.org/"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"></a>
 <a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"></a>
 <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a>
@@ -31,7 +31,6 @@
 <a href="https://kubernetes.io/"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"></a>
 <a href="https://nats.io/"><img alt="NATS" src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white"></a>
 <a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"></a>
-<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
 <a href="https://en.wikipedia.org/wiki/SQL"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white"></a>
 <!-- technologies:end -->
 
@@ -47,8 +46,8 @@
   <a href="https://github.com/woonyong-kr/woon-core"><img width="410" src="assets/generated/repo-woon-core.svg" alt="woon-core 저장소"></a>
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
   <br>
+  <a href="https://github.com/woonyong-kr/woon-skills"><img width="410" src="assets/generated/repo-woon-skills.svg" alt="woon-skills 저장소"></a>
   <a href="https://github.com/woonyong-kr/k8s-ops"><img width="410" src="assets/generated/repo-k8s-ops.svg" alt="k8s-ops 저장소"></a>
-  <a href="https://github.com/woonyong-kr/dx_framework"><img width="410" src="assets/generated/repo-dx_framework.svg" alt="dx_framework 저장소"></a>
 </p>
 <!-- project_cards:end -->
 
@@ -100,18 +99,18 @@
       <td align="right">MIT</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/woonyong-kr/woon-skills">woon-skills</a></td>
+      <td>Python</td>
+      <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">1</td>
+      <td align="right">2026-08-06</td>
+      <td align="right">—</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/woonyong-kr/k8s-ops">k8s-ops</a></td>
       <td>Python · fastapi · gitops</td>
       <td><a href="https://github.com/woonyong-kr/k8s-ops/actions"><img alt="k8s-ops CI" src="https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">35</td>
-      <td align="right">2026-08-03</td>
-      <td align="right">—</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/woonyong-kr/dx_framework">dx_framework</a></td>
-      <td>C# · framework · game-engine</td>
-      <td><a href="https://github.com/woonyong-kr/dx_framework/actions"><img alt="dx_framework CI" src="https://github.com/woonyong-kr/dx_framework/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
-      <td align="right">2</td>
       <td align="right">2026-08-03</td>
       <td align="right">—</td>
     </tr>
@@ -122,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
-- <span lang="ko">**woon-core** · [feat: 문서화된 단일 파일 경로 감사 예외](https://github.com/woonyong-kr/woon-core/commit/27f700f65dff7667e890ac9ecdfa652cbbb60e4c) · 2026-08-06</span>
-- <span lang="ko">**woon-core** · [fix: 폐기 보관함을 경로 감사에서 제외](https://github.com/woonyong-kr/woon-core/commit/eb02b4963663b56f90aa86105700c36dd1be72e8) · 2026-08-06</span>
-- <span lang="ko">**woon-skills** · [feat: site publishing profile 추가](https://github.com/woonyong-kr/woon-skills/commit/8dd649655f081b1c50f0790d1cce8b154ba87cd3) · 2026-08-06</span>
-- <span lang="ko">**woon-core** · [feat: 전체 스킬 카탈로그 무결성 검증](https://github.com/woonyong-kr/woon-core/commit/edb6f454adcfdd0d714ac42cce2232c0bc4c046d) · 2026-08-06</span>
-- <span lang="ko">**woon-skills** · [fix: web profile description 예산 준수](https://github.com/woonyong-kr/woon-skills/commit/ab259ee966b15ad8e3c5e127a3e880546d0b090f) · 2026-08-06</span>
-- <span lang="ko">**woon-skills** · [refactor: 이전 전체 설치 스크립트 제거](https://github.com/woonyong-kr/woon-skills/commit/8ab345de5cdca6323f51a62a077da046eb99224e) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [test: 스킬 profile routing 회귀 고정](https://github.com/woonyong-kr/woon-skills/commit/2477b381a0d2d5b80734929d1704a05cd6cc5892) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [feat: 스킬 routing 회귀 검증 추가](https://github.com/woonyong-kr/woon-core/commit/6ea91ec94d31eebafc9117fa4d42d404e7023ca6) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [fix: context compiler 줄바꿈 정규화](https://github.com/woonyong-kr/woon-core/commit/51c707a3ee95d802e2b50df754c425a03b56465a) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [feat: 선택형 컨테이너와 리뷰 프로필 추가](https://github.com/woonyong-kr/woon-skills/commit/3455845aae2fe40679d8816d00dc0f85225338a2) · 2026-08-06</span>
+- <span lang="ko">**woon-skills** · [feat: 최신 선택형 스킬 원본 반영](https://github.com/woonyong-kr/woon-skills/commit/2a60c9c76956edbe9775fc11c10cd7b1afcb6ff9) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [fix: context compiler에서 출력 저장소 제외](https://github.com/woonyong-kr/woon-core/commit/8075c0b83cb88a388e495c96eb7f3fd8249e1106) · 2026-08-06</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
