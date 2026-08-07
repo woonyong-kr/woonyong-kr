@@ -9,13 +9,13 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Contributions 10,810" src="https://img.shields.io/badge/Contributions-10%2C810-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Commits 7,925" src="https://img.shields.io/badge/Commits-7%2C925-238636?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-06&to=2026-08-06"><img alt="CI 6/6 passing" src="https://img.shields.io/badge/CI-6/6_passing-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Contributions 10,810" src="https://img.shields.io/badge/Contributions-10%2C810-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Commits 7,925" src="https://img.shields.io/badge/Commits-7%2C925-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-07&to=2026-08-07"><img alt="CI 6/6 passing" src="https://img.shields.io/badge/CI-6/6_passing-238636?style=flat-square"></a>
 <!-- activity_summary:end -->
 
 ## <span lang="ko">사용 기술</span>
