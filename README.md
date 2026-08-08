@@ -87,7 +87,7 @@
       <td>Go</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">5</td>
-      <td align="right">2026-08-07</td>
+      <td align="right">2026-08-08</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">1</td>
-      <td align="right">2026-08-07</td>
+      <td align="right">2026-08-08</td>
       <td align="right">—</td>
     </tr>
     <tr>
