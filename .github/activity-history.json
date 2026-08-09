@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@bf7713bd8c4a3b3ca25796f1d9d15df7401c156d",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 라우팅 결과를 등록된 스킬로 제한",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/bf7713bd8c4a3b3ca25796f1d9d15df7401c156d",
+      "occurred_at": "2026-08-09T14:31:39Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8e0f982e33efec6091919bbebb8ad5c8adeb6762",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 다중 실행기 스킬 라우팅을 지원",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8e0f982e33efec6091919bbebb8ad5c8adeb6762",
+      "occurred_at": "2026-08-09T14:23:12Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@6a1735afd8e4d6110c1cdc730fc2de64f8979583",
       "kind": "commit",
       "project": "woon-core",
