@@ -1,6 +1,249 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@6a1735afd8e4d6110c1cdc730fc2de64f8979583",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: PDF 감사 / 런타임 의존성 / 기본 설치",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/6a1735afd8e4d6110c1cdc730fc2de64f8979583",
+      "occurred_at": "2026-08-09T11:00:10Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@9e2b71cd5a593f05af75c9dd8d48b2e170936930",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 문서 색인 / 구간 검색 / 검색 평가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/9e2b71cd5a593f05af75c9dd8d48b2e170936930",
+      "occurred_at": "2026-08-09T10:56:18Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@13a83221e82a18bb1f63923e8f3e6b440e911505",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 정본 경로를 플랫폼과 무관하게 통일",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/13a83221e82a18bb1f63923e8f3e6b440e911505",
+      "occurred_at": "2026-08-09T09:28:58Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@ea07ad5339a1a20d9dd2aa408f4209a1e7a53c88",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 텍스트 파일을 UTF-8로 읽도록 통일",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/ea07ad5339a1a20d9dd2aa408f4209a1e7a53c88",
+      "occurred_at": "2026-08-09T09:26:58Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@deec0b155dad547b0e436acbc6511329f96d01ea",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "refactor: 저장소 구조와 폴더 규칙 통일",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/deec0b155dad547b0e436acbc6511329f96d01ea",
+      "occurred_at": "2026-08-09T09:15:08Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@0f522e600a16f34936ed68a6f89d3725e1229ffe",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "refactor: 제어 도구를 Python 기반으로 전환",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/0f522e600a16f34936ed68a6f89d3725e1229ffe",
+      "occurred_at": "2026-08-09T09:15:04Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@b7809b3d2c1a2d007af41f0753101662d2cbf9bd",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "refactor: Fullplate Helm을 독립 저장소로 분리",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/b7809b3d2c1a2d007af41f0753101662d2cbf9bd",
+      "occurred_at": "2026-08-08T18:18:01Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@451fc11f021d3e6b74be89609ef02a81034c7f20",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: Fullplate Helm 독립 실행 경로를 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/451fc11f021d3e6b74be89609ef02a81034c7f20",
+      "occurred_at": "2026-08-08T18:03:08Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@8d73cc7786f3d104147cd013ea7084d44cdd2772",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: launchd 실행 경로에서 세션 임시 경로를 제외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8d73cc7786f3d104147cd013ea7084d44cdd2772",
+      "occurred_at": "2026-08-08T13:25:25Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@bcb757353635cc08767b52e2254ca5b0219cce3e",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 지식 자동화를 core 단일 실행 경로로 통합",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/bcb757353635cc08767b52e2254ca5b0219cce3e",
+      "occurred_at": "2026-08-08T13:24:09Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@1c33c4a4aa8eb86f92f80f0f8f24c74314867c2c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 계층 정제 ID를 schema에 맞춰 생성",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/1c33c4a4aa8eb86f92f80f0f8f24c74314867c2c",
+      "occurred_at": "2026-08-08T12:23:15Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@a30c2e86221475fcd16fdb3f1f7a58d220d6073e",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 계층 정제 순서와 streaming 정규화를 보장",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/a30c2e86221475fcd16fdb3f1f7a58d220d6073e",
+      "occurred_at": "2026-08-08T12:21:51Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@d97d9e1186884400f1e622e60364eeeda5d3c124",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: streaming 처리 한계를 설정으로 분리",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/d97d9e1186884400f1e622e60364eeeda5d3c124",
+      "occurred_at": "2026-08-08T12:19:57Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@a12068600465e9b0d9a0034ebe9055eb6f4ce4ba",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 대용량 원본 검사를 streaming으로 전환",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/a12068600465e9b0d9a0034ebe9055eb6f4ce4ba",
+      "occurred_at": "2026-08-08T12:18:26Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@438cb06e50c36a8e9af0c4e204a2853e2a83caef",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 대용량 문서를 계층적으로 정제",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/438cb06e50c36a8e9af0c4e204a2853e2a83caef",
+      "occurred_at": "2026-08-08T12:18:20Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@6590d9ff99ef1fe9fa172452eff63c11081c2f11",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 지식 색인을 streaming batch로 전환",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/6590d9ff99ef1fe9fa172452eff63c11081c2f11",
+      "occurred_at": "2026-08-08T12:18:17Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@9595bc13013155eb8b8f977a4094a03f6c07fbf5",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 지식 자동화 설정 불변식을 검증",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/9595bc13013155eb8b8f977a4094a03f6c07fbf5",
+      "occurred_at": "2026-08-08T12:01:30Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@0766600f8789831128bcd5d2e7eaa15bc7716eda",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 안정화 확인 결과를 재사용",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/0766600f8789831128bcd5d2e7eaa15bc7716eda",
+      "occurred_at": "2026-08-08T12:00:00Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@ed12ad83d62442b7ea260a011fa4b0267fd6b2ce",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 민감 원본의 로컬 격리를 보장",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/ed12ad83d62442b7ea260a011fa4b0267fd6b2ce",
+      "occurred_at": "2026-08-08T11:59:41Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@9ff2b382f12cb9ebc659a291ac71fdb2acf85c3b",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 승인된 지식 파일만 안전하게 스테이징",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/9ff2b382f12cb9ebc659a291ac71fdb2acf85c3b",
+      "occurred_at": "2026-08-08T11:58:49Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@261d4bc735b1cc02cb66c05fdd8c6afbada2044a",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 비밀 값 파일을 개별 정제",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/261d4bc735b1cc02cb66c05fdd8c6afbada2044a",
+      "occurred_at": "2026-08-08T11:56:50Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@25f7932d006b3bdc0ac7fec0adf70972006cb22e",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 안정화된 지식 원본만 수집",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/25f7932d006b3bdc0ac7fec0adf70972006cb22e",
+      "occurred_at": "2026-08-08T11:55:19Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@2330b22db85976008b05d7f335b7fd975bc80654",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 구조 보존형 지식 검색을 구현",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/2330b22db85976008b05d7f335b7fd975bc80654",
+      "occurred_at": "2026-08-08T11:53:54Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@91dd7a506e354747ce223c456565e7001f357795",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 비상주 지식 정제와 검색 파이프라인을 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/91dd7a506e354747ce223c456565e7001f357795",
+      "occurred_at": "2026-08-07T14:42:49Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@fb84c74ec8df4d38bcf2a7e973f9d74ab882a8e7",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 로컬 파생 상태를 경로 감사에서 제외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/fb84c74ec8df4d38bcf2a7e973f9d74ab882a8e7",
+      "occurred_at": "2026-08-07T14:13:37Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@4e58ec7d70114aca8c012b1f5bc38f84ca42e458",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 교체 가능한 벡터 어댑터와 마이그레이션 검증을 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/4e58ec7d70114aca8c012b1f5bc38f84ca42e458",
+      "occurred_at": "2026-08-07T14:11:13Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@abb416bc3153e2ddb94c04383548af414e5317a2",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 앱 독립 지식 수집과 계보 명령을 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/abb416bc3153e2ddb94c04383548af414e5317a2",
+      "occurred_at": "2026-08-07T14:11:13Z"
+    },
+    {
       "id": "woonyong-kr/woon-skills@2477b381a0d2d5b80734929d1704a05cd6cc5892",
       "kind": "commit",
       "project": "woon-skills",

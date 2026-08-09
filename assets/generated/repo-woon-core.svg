@@ -14,9 +14,9 @@
   <text class="title" x="18" y="28">woon-core</text>
   <text class="body" x="18" y="54">Portable, deterministic control plane for the</text>
   <text class="body" x="18" y="72">Woon development system.</text>
-  <circle cx="21" cy="101" r="5" fill="#8b949e"/>
-  <text class="meta" x="32" y="105">Go</text>
+  <circle cx="21" cy="101" r="5" fill="#3572A5"/>
+  <text class="meta" x="32" y="105">Python</text>
   <text class="meta" x="112" y="105">CI pass</text>
-  <text class="meta" x="188" y="105">Test files 5</text>
-  <text class="meta" x="282" y="105">Updated 2026-08-08</text>
+  <text class="meta" x="188" y="105">Test files 7</text>
+  <text class="meta" x="282" y="105">Updated 2026-08-09</text>
 </svg>

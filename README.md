@@ -9,9 +9,9 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Contributions 10,813" src="https://img.shields.io/badge/Contributions-10%2C813-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Commits 7,930" src="https://img.shields.io/badge/Commits-7%2C930-238636?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Pull Requests 120" src="https://img.shields.io/badge/Pull_Requests-120-8250DF?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Contributions 10,866" src="https://img.shields.io/badge/Contributions-10%2C866-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Commits 7,962" src="https://img.shields.io/badge/Commits-7%2C962-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Pull Requests 121" src="https://img.shields.io/badge/Pull_Requests-121-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
@@ -84,10 +84,10 @@
     </tr>
     <tr>
       <td><a href="https://github.com/woonyong-kr/woon-core">woon-core</a></td>
-      <td>Go</td>
+      <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
-      <td align="right">5</td>
-      <td align="right">2026-08-08</td>
+      <td align="right">7</td>
+      <td align="right">2026-08-09</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">1</td>
-      <td align="right">2026-08-08</td>
+      <td align="right">2026-08-09</td>
       <td align="right">—</td>
     </tr>
     <tr>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
-- <span lang="ko">**woon-skills** · [test: 스킬 profile routing 회귀 고정](https://github.com/woonyong-kr/woon-skills/commit/2477b381a0d2d5b80734929d1704a05cd6cc5892) · 2026-08-06</span>
-- <span lang="ko">**woon-core** · [feat: 스킬 routing 회귀 검증 추가](https://github.com/woonyong-kr/woon-core/commit/6ea91ec94d31eebafc9117fa4d42d404e7023ca6) · 2026-08-06</span>
-- <span lang="ko">**woon-core** · [fix: context compiler 줄바꿈 정규화](https://github.com/woonyong-kr/woon-core/commit/51c707a3ee95d802e2b50df754c425a03b56465a) · 2026-08-06</span>
-- <span lang="ko">**woon-skills** · [feat: 선택형 컨테이너와 리뷰 프로필 추가](https://github.com/woonyong-kr/woon-skills/commit/3455845aae2fe40679d8816d00dc0f85225338a2) · 2026-08-06</span>
-- <span lang="ko">**woon-skills** · [feat: 최신 선택형 스킬 원본 반영](https://github.com/woonyong-kr/woon-skills/commit/2a60c9c76956edbe9775fc11c10cd7b1afcb6ff9) · 2026-08-06</span>
-- <span lang="ko">**woon-core** · [fix: context compiler에서 출력 저장소 제외](https://github.com/woonyong-kr/woon-core/commit/8075c0b83cb88a388e495c96eb7f3fd8249e1106) · 2026-08-06</span>
+- <span lang="ko">**woon-core** · [fix: PDF 감사 / 런타임 의존성 / 기본 설치](https://github.com/woonyong-kr/woon-core/commit/6a1735afd8e4d6110c1cdc730fc2de64f8979583) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [feat: 문서 색인 / 구간 검색 / 검색 평가](https://github.com/woonyong-kr/woon-core/commit/9e2b71cd5a593f05af75c9dd8d48b2e170936930) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [fix: 정본 경로를 플랫폼과 무관하게 통일](https://github.com/woonyong-kr/woon-core/commit/13a83221e82a18bb1f63923e8f3e6b440e911505) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [fix: 텍스트 파일을 UTF-8로 읽도록 통일](https://github.com/woonyong-kr/woon-core/commit/ea07ad5339a1a20d9dd2aa408f4209a1e7a53c88) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [refactor: 저장소 구조와 폴더 규칙 통일](https://github.com/woonyong-kr/woon-core/commit/deec0b155dad547b0e436acbc6511329f96d01ea) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [refactor: 제어 도구를 Python 기반으로 전환](https://github.com/woonyong-kr/woon-core/commit/0f522e600a16f34936ed68a6f89d3725e1229ffe) · 2026-08-09</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
