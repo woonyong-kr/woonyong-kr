@@ -1,6 +1,51 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@33a8d8f113978b9fbf4fb56e465bceac41906674",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 지식 병합 문맥과 중복 판정 최적화",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/33a8d8f113978b9fbf4fb56e465bceac41906674",
+      "occurred_at": "2026-08-10T08:00:05Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@d79aa5a8ca8b4e81f8e004703005a595d2f2ed0a",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 지식 검색 부분 일치 보강",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/d79aa5a8ca8b4e81f8e004703005a595d2f2ed0a",
+      "occurred_at": "2026-08-10T07:19:34Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@5440bc5a68e4bc120d173a9531efec3b89d982df",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 퇴역 지식 검색 제외",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/5440bc5a68e4bc120d173a9531efec3b89d982df",
+      "occurred_at": "2026-08-10T07:14:20Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@881e91a77ecf9694bb4bd0c3c67e02eca5cc41b7",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 지식 검색 최신성 검사 최적화",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/881e91a77ecf9694bb4bd0c3c67e02eca5cc41b7",
+      "occurred_at": "2026-08-10T07:09:13Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@d9e696e926d5f8db75b42a620c2affc149226b7c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 지식 병합의 하위 절 삽입을 지원",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/d9e696e926d5f8db75b42a620c2affc149226b7c",
+      "occurred_at": "2026-08-10T03:45:10Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@767f767d8d36e1267a9f18cd8f21aa0f1e42ac71",
       "kind": "commit",
       "project": "woon-core",
