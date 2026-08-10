@@ -1,6 +1,15 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@51f11b8a4eeb2c62aed8f46c9d26e4153c8be7f6",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 지식 병합 판정을 해시 기반으로 압축",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/51f11b8a4eeb2c62aed8f46c9d26e4153c8be7f6",
+      "occurred_at": "2026-08-10T08:29:46Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@33a8d8f113978b9fbf4fb56e465bceac41906674",
       "kind": "commit",
       "project": "woon-core",

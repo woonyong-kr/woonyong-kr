@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Contributions 10,901" src="https://img.shields.io/badge/Contributions-10%2C901-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Commits 7,979" src="https://img.shields.io/badge/Commits-7%2C979-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Contributions 10,907" src="https://img.shields.io/badge/Contributions-10%2C907-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Commits 7,980" src="https://img.shields.io/badge/Commits-7%2C980-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Pull Requests 121" src="https://img.shields.io/badge/Pull_Requests-121-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**woon-core** · [feat: 지식 병합 판정을 해시 기반으로 압축](https://github.com/woonyong-kr/woon-core/commit/51f11b8a4eeb2c62aed8f46c9d26e4153c8be7f6) · 2026-08-10</span>
 - <span lang="ko">**woon-core** · [perf: 지식 병합 문맥과 중복 판정 최적화](https://github.com/woonyong-kr/woon-core/commit/33a8d8f113978b9fbf4fb56e465bceac41906674) · 2026-08-10</span>
 - <span lang="ko">**woon-core** · [feat: 지식 검색 부분 일치 보강](https://github.com/woonyong-kr/woon-core/commit/d79aa5a8ca8b4e81f8e004703005a595d2f2ed0a) · 2026-08-10</span>
 - <span lang="ko">**woon-core** · [fix: 퇴역 지식 검색 제외](https://github.com/woonyong-kr/woon-core/commit/5440bc5a68e4bc120d173a9531efec3b89d982df) · 2026-08-10</span>
 - <span lang="ko">**woon-core** · [perf: 지식 검색 최신성 검사 최적화](https://github.com/woonyong-kr/woon-core/commit/881e91a77ecf9694bb4bd0c3c67e02eca5cc41b7) · 2026-08-10</span>
 - <span lang="ko">**woon-core** · [fix: 지식 병합의 하위 절 삽입을 지원](https://github.com/woonyong-kr/woon-core/commit/d9e696e926d5f8db75b42a620c2affc149226b7c) · 2026-08-10</span>
-- <span lang="ko">**woon-core** · [fix: 제목의 인라인 코드를 구조로 보존](https://github.com/woonyong-kr/woon-core/commit/767f767d8d36e1267a9f18cd8f21aa0f1e42ac71) · 2026-08-10</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
