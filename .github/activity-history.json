@@ -1,6 +1,96 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@767f767d8d36e1267a9f18cd8f21aa0f1e42ac71",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 제목의 인라인 코드를 구조로 보존",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/767f767d8d36e1267a9f18cd8f21aa0f1e42ac71",
+      "occurred_at": "2026-08-10T02:05:23Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@d2cb7d56c5f5eda865ba781a14a45c50be22ae99",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "perf: 위키 독립 검토의 중복 문맥 제거",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/d2cb7d56c5f5eda865ba781a14a45c50be22ae99",
+      "occurred_at": "2026-08-10T01:00:18Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@1609746759483e85ca8ea4508aa4c2a8d35e1b15",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 코드 블록을 위키 절로 오인하지 않음",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/1609746759483e85ca8ea4508aa4c2a8d35e1b15",
+      "occurred_at": "2026-08-10T00:54:34Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@818e7460b284d26c00a25e0991171bdf61d07f4a",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 위키 지식의 추가 병합 안전장치 도입",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/818e7460b284d26c00a25e0991171bdf61d07f4a",
+      "occurred_at": "2026-08-10T00:51:09Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@4042bb3660f436c83444e6d1765e42c8c94c544c",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 지식 수집 문맥과 토큰 계측 강화",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/4042bb3660f436c83444e6d1765e42c8c94c544c",
+      "occurred_at": "2026-08-10T00:10:52Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@849b9ab2b04fc2b14ac3e361bd8c02890c78ef38",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 지식 수집의 활성 링크 경계를 강화",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/849b9ab2b04fc2b14ac3e361bd8c02890c78ef38",
+      "occurred_at": "2026-08-09T23:37:56Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@132f78a6e67c23db9a359988b89bf91ff9649774",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 운영체제별 파일 잠금 타입 검사 정리",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/132f78a6e67c23db9a359988b89bf91ff9649774",
+      "occurred_at": "2026-08-09T23:25:12Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@76b392bf0ce044882b786cf279d7f07e32a1868a",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 외부 지식 문서 원자적 수집 체계 추가",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/76b392bf0ce044882b786cf279d7f07e32a1868a",
+      "occurred_at": "2026-08-09T23:22:14Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@965bec7cdc008c2fd90fbdfc449778d06f5f97bf",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat: 지식 기준의 저장소 참조 지원",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/965bec7cdc008c2fd90fbdfc449778d06f5f97bf",
+      "occurred_at": "2026-08-09T21:54:30Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@3db9c1e5aad7a8179fc979263f2bef954b6676a5",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix: 격리된 스킬 설치 경로 지원",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/3db9c1e5aad7a8179fc979263f2bef954b6676a5",
+      "occurred_at": "2026-08-09T20:34:23Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@bf7713bd8c4a3b3ca25796f1d9d15df7401c156d",
       "kind": "commit",
       "project": "woon-core",

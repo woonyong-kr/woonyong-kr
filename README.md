@@ -9,13 +9,13 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Contributions 10,868" src="https://img.shields.io/badge/Contributions-10%2C868-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Commits 7,964" src="https://img.shields.io/badge/Commits-7%2C964-238636?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Pull Requests 121" src="https://img.shields.io/badge/Pull_Requests-121-8250DF?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-09&to=2026-08-09"><img alt="CI 6/6 passing" src="https://img.shields.io/badge/CI-6/6_passing-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Contributions 10,882" src="https://img.shields.io/badge/Contributions-10%2C882-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Commits 7,974" src="https://img.shields.io/badge/Commits-7%2C974-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Pull Requests 121" src="https://img.shields.io/badge/Pull_Requests-121-8250DF?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="Repositories 37" src="https://img.shields.io/badge/Repositories-37-57606A?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-10&to=2026-08-10"><img alt="CI 6/6 passing" src="https://img.shields.io/badge/CI-6/6_passing-238636?style=flat-square"></a>
 <!-- activity_summary:end -->
 
 ## <span lang="ko">사용 기술</span>
@@ -86,8 +86,8 @@
       <td><a href="https://github.com/woonyong-kr/woon-core">woon-core</a></td>
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
-      <td align="right">7</td>
-      <td align="right">2026-08-09</td>
+      <td align="right">10</td>
+      <td align="right">2026-08-10</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
-- <span lang="ko">**woon-core** · [fix: 라우팅 결과를 등록된 스킬로 제한](https://github.com/woonyong-kr/woon-core/commit/bf7713bd8c4a3b3ca25796f1d9d15df7401c156d) · 2026-08-09</span>
-- <span lang="ko">**woon-core** · [feat: 다중 실행기 스킬 라우팅을 지원](https://github.com/woonyong-kr/woon-core/commit/8e0f982e33efec6091919bbebb8ad5c8adeb6762) · 2026-08-09</span>
-- <span lang="ko">**woon-core** · [fix: PDF 감사 / 런타임 의존성 / 기본 설치](https://github.com/woonyong-kr/woon-core/commit/6a1735afd8e4d6110c1cdc730fc2de64f8979583) · 2026-08-09</span>
-- <span lang="ko">**woon-core** · [feat: 문서 색인 / 구간 검색 / 검색 평가](https://github.com/woonyong-kr/woon-core/commit/9e2b71cd5a593f05af75c9dd8d48b2e170936930) · 2026-08-09</span>
-- <span lang="ko">**woon-core** · [fix: 정본 경로를 플랫폼과 무관하게 통일](https://github.com/woonyong-kr/woon-core/commit/13a83221e82a18bb1f63923e8f3e6b440e911505) · 2026-08-09</span>
-- <span lang="ko">**woon-core** · [fix: 텍스트 파일을 UTF-8로 읽도록 통일](https://github.com/woonyong-kr/woon-core/commit/ea07ad5339a1a20d9dd2aa408f4209a1e7a53c88) · 2026-08-09</span>
+- <span lang="ko">**woon-core** · [fix: 제목의 인라인 코드를 구조로 보존](https://github.com/woonyong-kr/woon-core/commit/767f767d8d36e1267a9f18cd8f21aa0f1e42ac71) · 2026-08-10</span>
+- <span lang="ko">**woon-core** · [perf: 위키 독립 검토의 중복 문맥 제거](https://github.com/woonyong-kr/woon-core/commit/d2cb7d56c5f5eda865ba781a14a45c50be22ae99) · 2026-08-10</span>
+- <span lang="ko">**woon-core** · [fix: 코드 블록을 위키 절로 오인하지 않음](https://github.com/woonyong-kr/woon-core/commit/1609746759483e85ca8ea4508aa4c2a8d35e1b15) · 2026-08-10</span>
+- <span lang="ko">**woon-core** · [feat: 위키 지식의 추가 병합 안전장치 도입](https://github.com/woonyong-kr/woon-core/commit/818e7460b284d26c00a25e0991171bdf61d07f4a) · 2026-08-10</span>
+- <span lang="ko">**woon-core** · [feat: 지식 수집 문맥과 토큰 계측 강화](https://github.com/woonyong-kr/woon-core/commit/4042bb3660f436c83444e6d1765e42c8c94c544c) · 2026-08-10</span>
+- <span lang="ko">**woon-core** · [fix: 지식 수집의 활성 링크 경계를 강화](https://github.com/woonyong-kr/woon-core/commit/849b9ab2b04fc2b14ac3e361bd8c02890c78ef38) · 2026-08-09</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
