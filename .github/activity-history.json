@@ -1,6 +1,51 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@5cd2d8dbc0cff22c71583b0a613f0afff1f90876",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix(mcp): initialize FastMCP settings annotations",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/5cd2d8dbc0cff22c71583b0a613f0afff1f90876",
+      "occurred_at": "2026-08-13T18:33:14Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@9514eef3d6f142acafd371f2be08ae57c6140a7b",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat(knowledge): require source retention purpose",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/9514eef3d6f142acafd371f2be08ae57c6140a7b",
+      "occurred_at": "2026-08-13T18:31:33Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@076f8dacbfcf46b467cf9bb9580f117fc24a9f35",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix(knowledge): derive legacy wiki relations",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/076f8dacbfcf46b467cf9bb9580f117fc24a9f35",
+      "occurred_at": "2026-08-13T17:47:26Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@3e663525ec34fc4948e82006083376aa6b42fe99",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "fix(knowledge): preserve compiled archive source ownership",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/3e663525ec34fc4948e82006083376aa6b42fe99",
+      "occurred_at": "2026-08-13T16:29:52Z"
+    },
+    {
+      "id": "woonyong-kr/woon-core@e6df401d2788012671696d261ff7aa3b938b02dc",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat(knowledge): add source-schema LLM Wiki compiler",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/e6df401d2788012671696d261ff7aa3b938b02dc",
+      "occurred_at": "2026-08-13T15:20:12Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@51f11b8a4eeb2c62aed8f46c9d26e4153c8be7f6",
       "kind": "commit",
       "project": "woon-core",
