@@ -19,6 +19,15 @@
       "occurred_at": "2026-08-14T07:16:05Z"
     },
     {
+      "id": "woonyong-kr/k8s-ops@ff2e8c98807f879856258e7785bd8912f7ffc9ed",
+      "kind": "commit",
+      "project": "k8s-ops",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: Opsia를 Kyro로 명칭 전환",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ff2e8c98807f879856258e7785bd8912f7ffc9ed",
+      "occurred_at": "2026-08-14T07:16:05Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@5cd2d8dbc0cff22c71583b0a613f0afff1f90876",
       "kind": "commit",
       "project": "woon-core",
