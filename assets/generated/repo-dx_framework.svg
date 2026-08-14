@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="410" height="132" viewBox="0 0 410 132" role="img" aria-label="k8s-ops repository card">
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="132" viewBox="0 0 410 132" role="img" aria-label="dx_framework repository card">
   <style>
     .card { fill: #ffffff; stroke: #d0d7de; }
     .title { fill: #0969da; font: 600 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
@@ -11,12 +11,12 @@
     }
   </style>
   <rect class="card" x="0.5" y="0.5" width="409" height="131" rx="6"/>
-  <text class="title" x="18" y="28">k8s-ops</text>
-  <text class="body" x="18" y="54">Kubernetes 장애 증거를 규칙으로 판정하고 허용된 변경만 Draft PR로</text>
-  <text class="body" x="18" y="72">제안하는 GitOps 도구</text>
-  <circle cx="21" cy="101" r="5" fill="#3572A5"/>
-  <text class="meta" x="32" y="105">Python</text>
+  <text class="title" x="18" y="28">dx_framework</text>
+  <text class="body" x="18" y="54">C++ XR 엔진 변경을 콘텐츠에서 격리한 C# 프레임워크 계층</text>
+  <text class="body" x="18" y="72"></text>
+  <circle cx="21" cy="101" r="5" fill="#178600"/>
+  <text class="meta" x="32" y="105">C#</text>
   <text class="meta" x="112" y="105">CI pass</text>
-  <text class="meta" x="188" y="105">Test files 35</text>
+  <text class="meta" x="188" y="105">Test files 2</text>
   <text class="meta" x="282" y="105">Updated 2026-08-03</text>
 </svg>

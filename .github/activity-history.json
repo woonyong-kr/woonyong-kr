@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/woon-core@8cdad80656dbed8d7e4bb91a6ab68613deb9b192",
+      "kind": "commit",
+      "project": "woon-core",
+      "repository": "woonyong-kr/woon-core",
+      "title": "feat(context): enforce global Woon skill routing",
+      "url": "https://github.com/woonyong-kr/woon-core/commit/8cdad80656dbed8d7e4bb91a6ab68613deb9b192",
+      "occurred_at": "2026-08-14T07:25:03Z"
+    },
+    {
+      "id": "woonyong-kr/k8s-ops@572abb78cf52b20369b27a99e22b751a2fc83807",
+      "kind": "commit",
+      "project": "k8s-ops",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "리팩터링: Opsia를 Kyro로 명칭 전환",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/572abb78cf52b20369b27a99e22b751a2fc83807",
+      "occurred_at": "2026-08-14T07:16:05Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@5cd2d8dbc0cff22c71583b0a613f0afff1f90876",
       "kind": "commit",
       "project": "woon-core",
