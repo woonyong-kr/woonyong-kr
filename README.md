@@ -9,7 +9,7 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Contributions 10,937" src="https://img.shields.io/badge/Contributions-10%2C937-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Contributions 10,943" src="https://img.shields.io/badge/Contributions-10%2C943-0969DA?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Commits 7,991" src="https://img.shields.io/badge/Commits-7%2C991-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Pull Requests 122" src="https://img.shields.io/badge/Pull_Requests-122-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
@@ -83,7 +83,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">13</td>
-      <td align="right">2026-08-14</td>
+      <td align="right">2026-08-15</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">1</td>
-      <td align="right">2026-08-14</td>
+      <td align="right">2026-08-15</td>
       <td align="right">—</td>
     </tr>
     <tr>
