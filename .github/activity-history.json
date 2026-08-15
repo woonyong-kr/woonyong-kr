@@ -1,6 +1,15 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/k8s-ops@a8219c3059c53bfc128cd197a8c881f35ef631c1",
+      "kind": "commit",
+      "project": "k8s-ops",
+      "repository": "woonyong-kr/k8s-ops",
+      "title": "refactor: 이벤트 버스 모드 검증과 생성을 분리",
+      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a8219c3059c53bfc128cd197a8c881f35ef631c1",
+      "occurred_at": "2026-08-15T04:39:59Z"
+    },
+    {
       "id": "woonyong-kr/woon-core@8cdad80656dbed8d7e4bb91a6ab68613deb9b192",
       "kind": "commit",
       "project": "woon-core",

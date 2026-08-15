@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Contributions 10,935" src="https://img.shields.io/badge/Contributions-10%2C935-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Commits 7,990" src="https://img.shields.io/badge/Commits-7%2C990-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Contributions 10,936" src="https://img.shields.io/badge/Contributions-10%2C936-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Commits 7,991" src="https://img.shields.io/badge/Commits-7%2C991-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Pull Requests 122" src="https://img.shields.io/badge/Pull_Requests-122-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-15&to=2026-08-15"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -117,12 +117,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**k8s-ops** · [refactor: 이벤트 버스 모드 검증과 생성을 분리](https://github.com/woonyong-kr/k8s-ops/commit/a8219c3059c53bfc128cd197a8c881f35ef631c1) · 2026-08-15</span>
 - <span lang="ko">**woon-core** · [feat(context): enforce global Woon skill routing](https://github.com/woonyong-kr/woon-core/commit/8cdad80656dbed8d7e4bb91a6ab68613deb9b192) · 2026-08-14</span>
 - <span lang="ko">**k8s-ops** · [리팩터링: Opsia를 Kyro로 명칭 전환](https://github.com/woonyong-kr/k8s-ops/commit/572abb78cf52b20369b27a99e22b751a2fc83807) · 2026-08-14</span>
 - <span lang="ko">**k8s-ops** · [refactor: Opsia를 Kyro로 명칭 전환](https://github.com/woonyong-kr/k8s-ops/commit/ff2e8c98807f879856258e7785bd8912f7ffc9ed) · 2026-08-14</span>
 - <span lang="ko">**woon-core** · [fix(mcp): initialize FastMCP settings annotations](https://github.com/woonyong-kr/woon-core/commit/5cd2d8dbc0cff22c71583b0a613f0afff1f90876) · 2026-08-13</span>
 - <span lang="ko">**woon-core** · [feat(knowledge): require source retention purpose](https://github.com/woonyong-kr/woon-core/commit/9514eef3d6f142acafd371f2be08ae57c6140a7b) · 2026-08-13</span>
-- <span lang="ko">**woon-core** · [fix(knowledge): derive legacy wiki relations](https://github.com/woonyong-kr/woon-core/commit/076f8dacbfcf46b467cf9bb9580f117fc24a9f35) · 2026-08-13</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
