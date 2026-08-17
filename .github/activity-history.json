@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@1ec7c0476e3f9df000b4a7e5da841bc3173b1de3",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: edit context cards in place",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/1ec7c0476e3f9df000b4a7e5da841bc3173b1de3",
+      "occurred_at": "2026-08-17T07:46:17Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@bfd42e99e142b25d3511c05d91c1eb101dadf6e4",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: render knowledge as force-directed context graph",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/bfd42e99e142b25d3511c05d91c1eb101dadf6e4",
+      "occurred_at": "2026-08-17T07:36:20Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@17e0719e9683870d91db60f1296830180c649633",
       "kind": "commit",
       "project": "context-tree",

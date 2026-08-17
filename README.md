@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Contributions 10,955" src="https://img.shields.io/badge/Contributions-10%2C955-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Commits 7,997" src="https://img.shields.io/badge/Commits-7%2C997-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Contributions 10,957" src="https://img.shields.io/badge/Contributions-10%2C957-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Commits 7,999" src="https://img.shields.io/badge/Commits-7%2C999-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-17&to=2026-08-17"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**context-tree** · [feat: edit context cards in place](https://github.com/woonyong-kr/context-tree/commit/1ec7c0476e3f9df000b4a7e5da841bc3173b1de3) · 2026-08-17</span>
+- <span lang="ko">**context-tree** · [feat: render knowledge as force-directed context graph](https://github.com/woonyong-kr/context-tree/commit/bfd42e99e142b25d3511c05d91c1eb101dadf6e4) · 2026-08-17</span>
 - <span lang="ko">**context-tree** · [feat: add radial knowledge canvas](https://github.com/woonyong-kr/context-tree/commit/17e0719e9683870d91db60f1296830180c649633) · 2026-08-17</span>
 - <span lang="ko">**context-tree** · [fix: preserve malformed topic links](https://github.com/woonyong-kr/context-tree/commit/b70d120967586d50ce5d96a8abee32523f95df79) · 2026-08-17</span>
 - <span lang="ko">**context-tree** · [fix: make test command portable](https://github.com/woonyong-kr/context-tree/commit/2a0029c777fd63dd5f034226cd87ad706e65b7cb) · 2026-08-17</span>
 - <span lang="ko">**context-tree** · [feat: add expandable Markdown context tree](https://github.com/woonyong-kr/context-tree/commit/8f84487fecf5c7c1e951f2acd03d828a9e2ea02a) · 2026-08-17</span>
-- <span lang="ko">**k8s-ops** · [fix: requirements 재현성 / OpenTelemetry 정렬 / CI 게이트](https://github.com/woonyong-kr/k8s-ops/commit/e1a9c795cffd2658268e66a7f2be2835bde76f18) · 2026-08-17</span>
-- <span lang="ko">**k8s-ops** · [refactor: 이벤트 버스 모드 검증과 생성을 분리](https://github.com/woonyong-kr/k8s-ops/commit/a8219c3059c53bfc128cd197a8c881f35ef631c1) · 2026-08-15</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
