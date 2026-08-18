@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/simple-calendar@6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: increase calendar card text scale",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
+      "occurred_at": "2026-08-18T14:03:31Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@149c766c9d112aff946c3c4b47ded1f2908cc5f7",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: 카드 편집과 그래프 상호작용 안정화",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/149c766c9d112aff946c3c4b47ded1f2908cc5f7",
+      "occurred_at": "2026-08-18T13:16:55Z"
+    },
+    {
       "id": "woonyong-kr/simple-calendar@463aad59a8a0bdde742f6d9168ae25a75ca7c471",
       "kind": "commit",
       "project": "simple-calendar",
