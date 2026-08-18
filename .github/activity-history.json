@@ -1,6 +1,78 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/simple-calendar@463aad59a8a0bdde742f6d9168ae25a75ca7c471",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: reduce calendar card text scale",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/463aad59a8a0bdde742f6d9168ae25a75ca7c471",
+      "occurred_at": "2026-08-18T13:09:14Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: compact calendar card typography",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
+      "occurred_at": "2026-08-18T13:06:30Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@ceb3c94ea0d8cd234e197e347a6a000b800f4391",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: 카드 편집 전환 레이아웃 안정화",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/ceb3c94ea0d8cd234e197e347a6a000b800f4391",
+      "occurred_at": "2026-08-18T11:30:17Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@638bd0aef3fb5edd01d2893538836b1a03d54431",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: 지식 그래프 작업공간을 확장",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/638bd0aef3fb5edd01d2893538836b1a03d54431",
+      "occurred_at": "2026-08-18T11:22:47Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: tighten calendar card density",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
+      "occurred_at": "2026-08-18T11:15:51Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@fe0da1de938f3033d60a9e1b627946b585b78a18",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: refine calendar card emphasis",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fe0da1de938f3033d60a9e1b627946b585b78a18",
+      "occurred_at": "2026-08-18T11:08:48Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: package dashboard layout with the plugin",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
+      "occurred_at": "2026-08-18T11:01:59Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@c5709af66fcd6c22f55ff68bec634137d737050c",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "feat: add simple calendar Obsidian plugin",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/c5709af66fcd6c22f55ff68bec634137d737050c",
+      "occurred_at": "2026-08-18T11:01:23Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@1ec7c0476e3f9df000b4a7e5da841bc3173b1de3",
       "kind": "commit",
       "project": "context-tree",
