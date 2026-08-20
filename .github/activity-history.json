@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@8a8761a9fb31b495427a787f1369dd3528785882",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: 저장된 그래프 화면 위치 복원",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/8a8761a9fb31b495427a787f1369dd3528785882",
+      "occurred_at": "2026-08-20T15:58:39Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@8290a7c07e7b9e2a083ebc9c6ea9188215e78157",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: simplify graph toolbar",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/8290a7c07e7b9e2a083ebc9c6ea9188215e78157",
+      "occurred_at": "2026-08-20T13:57:37Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@e3694f662f06db68cce5b8056befa221363a454b",
       "kind": "commit",
       "project": "context-tree",

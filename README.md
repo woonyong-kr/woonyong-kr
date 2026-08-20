@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Contributions 11,000" src="https://img.shields.io/badge/Contributions-11%2C000-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Commits 8,026" src="https://img.shields.io/badge/Commits-8%2C026-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Contributions 11,001" src="https://img.shields.io/badge/Contributions-11%2C001-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Commits 8,027" src="https://img.shields.io/badge/Commits-8%2C027-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**context-tree** · [fix: 저장된 그래프 화면 위치 복원](https://github.com/woonyong-kr/context-tree/commit/8a8761a9fb31b495427a787f1369dd3528785882) · 2026-08-20</span>
+- <span lang="ko">**context-tree** · [fix: simplify graph toolbar](https://github.com/woonyong-kr/context-tree/commit/8290a7c07e7b9e2a083ebc9c6ea9188215e78157) · 2026-08-20</span>
 - <span lang="ko">**context-tree** · [fix: make card headers draggable](https://github.com/woonyong-kr/context-tree/commit/e3694f662f06db68cce5b8056befa221363a454b) · 2026-08-20</span>
 - <span lang="ko">**context-tree** · [fix: keep source card frame draggable](https://github.com/woonyong-kr/context-tree/commit/26741bb566f56c1c92abf221a2447d190c452ff1) · 2026-08-20</span>
 - <span lang="ko">**context-tree** · [fix: keep edited cards anchored](https://github.com/woonyong-kr/context-tree/commit/b0d7283abbc9ceec219e2b73d6a807cb1b95a099) · 2026-08-20</span>
 - <span lang="ko">**simple-calendar** · [fix: render events before metadata cache settles](https://github.com/woonyong-kr/simple-calendar/commit/7e70db6a622ebfc6fd4e412e93368b79dcd74996) · 2026-08-20</span>
-- <span lang="ko">**simple-calendar** · [feat: make calendar sources and categories portable](https://github.com/woonyong-kr/simple-calendar/commit/6703d0b42c2a42b20c310e36e6c71f26c54f8d12) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [test: cover pointer-owned wheel surface](https://github.com/woonyong-kr/context-tree/commit/a2bbeb3d04c8b8655206ad8be5de8137eba494a7) · 2026-08-20</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
