@@ -1,6 +1,51 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@e3694f662f06db68cce5b8056befa221363a454b",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: make card headers draggable",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/e3694f662f06db68cce5b8056befa221363a454b",
+      "occurred_at": "2026-08-20T12:15:03Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@26741bb566f56c1c92abf221a2447d190c452ff1",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: keep source card frame draggable",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/26741bb566f56c1c92abf221a2447d190c452ff1",
+      "occurred_at": "2026-08-20T12:09:34Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@b0d7283abbc9ceec219e2b73d6a807cb1b95a099",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: keep edited cards anchored",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/b0d7283abbc9ceec219e2b73d6a807cb1b95a099",
+      "occurred_at": "2026-08-20T10:07:10Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@7e70db6a622ebfc6fd4e412e93368b79dcd74996",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: render events before metadata cache settles",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/7e70db6a622ebfc6fd4e412e93368b79dcd74996",
+      "occurred_at": "2026-08-20T09:25:03Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "feat: make calendar sources and categories portable",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
+      "occurred_at": "2026-08-20T09:17:41Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@a2bbeb3d04c8b8655206ad8be5de8137eba494a7",
       "kind": "commit",
       "project": "context-tree",

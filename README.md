@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Contributions 10,978" src="https://img.shields.io/badge/Contributions-10%2C978-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Commits 8,016" src="https://img.shields.io/badge/Commits-8%2C016-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Contributions 11,000" src="https://img.shields.io/badge/Contributions-11%2C000-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Commits 8,026" src="https://img.shields.io/badge/Commits-8%2C026-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-20&to=2026-08-20"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -87,7 +87,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">13</td>
-      <td align="right">2026-08-18</td>
+      <td align="right">2026-08-20</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -111,7 +111,7 @@
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">1</td>
-      <td align="right">2026-08-18</td>
+      <td align="right">2026-08-20</td>
       <td align="right">—</td>
     </tr>
   </tbody>
@@ -121,12 +121,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**context-tree** · [fix: make card headers draggable](https://github.com/woonyong-kr/context-tree/commit/e3694f662f06db68cce5b8056befa221363a454b) · 2026-08-20</span>
+- <span lang="ko">**context-tree** · [fix: keep source card frame draggable](https://github.com/woonyong-kr/context-tree/commit/26741bb566f56c1c92abf221a2447d190c452ff1) · 2026-08-20</span>
+- <span lang="ko">**context-tree** · [fix: keep edited cards anchored](https://github.com/woonyong-kr/context-tree/commit/b0d7283abbc9ceec219e2b73d6a807cb1b95a099) · 2026-08-20</span>
+- <span lang="ko">**simple-calendar** · [fix: render events before metadata cache settles](https://github.com/woonyong-kr/simple-calendar/commit/7e70db6a622ebfc6fd4e412e93368b79dcd74996) · 2026-08-20</span>
+- <span lang="ko">**simple-calendar** · [feat: make calendar sources and categories portable](https://github.com/woonyong-kr/simple-calendar/commit/6703d0b42c2a42b20c310e36e6c71f26c54f8d12) · 2026-08-20</span>
 - <span lang="ko">**context-tree** · [test: cover pointer-owned wheel surface](https://github.com/woonyong-kr/context-tree/commit/a2bbeb3d04c8b8655206ad8be5de8137eba494a7) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: complete context graph text scale contract](https://github.com/woonyong-kr/context-tree/commit/413bf6731fcba0498f3b15799c77dd440118dd1e) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: harden graph UX and release readiness](https://github.com/woonyong-kr/context-tree/commit/8706b59c817dd4c194a70bcc801d283f945c4901) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: enforce context graph UX contract](https://github.com/woonyong-kr/context-tree/commit/f790116fe4b2d2ff739d8bb8934437ca34e7f071) · 2026-08-20</span>
-- <span lang="ko">**simple-calendar** · [fix: increase calendar card text scale](https://github.com/woonyong-kr/simple-calendar/commit/6f6590cd796ce1a9dad425d145952cbb8f1e28ff) · 2026-08-18</span>
-- <span lang="ko">**context-tree** · [fix: 카드 편집과 그래프 상호작용 안정화](https://github.com/woonyong-kr/context-tree/commit/149c766c9d112aff946c3c4b47ded1f2908cc5f7) · 2026-08-18</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
@@ -143,7 +143,7 @@
 ## <span lang="ko">최근 글</span>
 
 <!-- recent_posts:start -->
-- <span lang="ko">**프로젝트 · AWS · Kubernetes** · [서비스 47개의 값은 청구서에 적혀 있었다](https://woonyong-kr.github.io/#/posts/cost-postmortem) · 2026-08-02<br><sub>아키텍처 결정을 AWS 청구서와 대조한 비용 회고</sub></span>
+- <span lang="ko">**프로젝트 · AWS · Kubernetes** · [비용 회고에서 원인을 단정하지 않는 법](https://woonyong-kr.github.io/#/posts/cost-postmortem) · 2026-08-02<br><sub>아키텍처 결정을 AWS 청구서와 대조한 비용 회고</sub></span>
 - <span lang="ko">**회고** · [정글에 온 이유를 묻길래](https://woonyong-kr.github.io/#/posts/jungle-interview) · 2026-08-02<br><sub>크래프톤 정글 공식 채널 인터뷰 — 스타트업 임원 출신 89년생 정글러</sub></span>
 - <span lang="ko">**프로젝트 · Unity · C#** · [게임 세 개의 기록](https://woonyong-kr.github.io/#/posts/game-projects) · 2026-08-02<br><sub>스토어에 남은 두 건과 내부에서 끝난 한 건, 리드로서의 기록</sub></span>
 - <span lang="ko">**회고** · [열 개 회사의 소스를 한곳으로](https://woonyong-kr.github.io/#/posts/source-integration) · 2026-08-02<br><sub>각자 고치던 엔진을 중앙 관리로 모으고 PM 이 된 과정</sub></span>
