@@ -1,6 +1,42 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@a2bbeb3d04c8b8655206ad8be5de8137eba494a7",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "test: cover pointer-owned wheel surface",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/a2bbeb3d04c8b8655206ad8be5de8137eba494a7",
+      "occurred_at": "2026-08-20T02:51:39Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@413bf6731fcba0498f3b15799c77dd440118dd1e",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: complete context graph text scale contract",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/413bf6731fcba0498f3b15799c77dd440118dd1e",
+      "occurred_at": "2026-08-20T02:47:04Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@8706b59c817dd4c194a70bcc801d283f945c4901",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: harden graph UX and release readiness",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/8706b59c817dd4c194a70bcc801d283f945c4901",
+      "occurred_at": "2026-08-20T02:39:41Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@f790116fe4b2d2ff739d8bb8934437ca34e7f071",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: enforce context graph UX contract",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/f790116fe4b2d2ff739d8bb8934437ca34e7f071",
+      "occurred_at": "2026-08-20T02:15:36Z"
+    },
+    {
       "id": "woonyong-kr/simple-calendar@6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
       "kind": "commit",
       "project": "simple-calendar",
