@@ -1,6 +1,24 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@3628289e4ac27b3a906aabc0521161880a46503f",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: use native Obsidian Markdown reading frame",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/3628289e4ac27b3a906aabc0521161880a46503f",
+      "occurred_at": "2026-08-21T00:19:59Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@165764196e916041908e71a37369ee4d248c3c2d",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: stabilize canvas zoom and markdown reading",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/165764196e916041908e71a37369ee4d248c3c2d",
+      "occurred_at": "2026-08-21T00:06:36Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@8a8761a9fb31b495427a787f1369dd3528785882",
       "kind": "commit",
       "project": "context-tree",
