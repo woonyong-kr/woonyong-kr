@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Contributions 11,032" src="https://img.shields.io/badge/Contributions-11%2C032-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Commits 8,046" src="https://img.shields.io/badge/Commits-8%2C046-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Contributions 11,033" src="https://img.shields.io/badge/Contributions-11%2C033-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Commits 8,047" src="https://img.shields.io/badge/Commits-8%2C047-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -40,9 +40,9 @@
   <a href="https://github.com/woonyong-kr/pintos"><img width="410" src="assets/generated/repo-pintos.svg" alt="pintos 저장소"></a>
   <br>
   <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
-  <a href="https://github.com/woonyong-kr/context-tree"><img width="410" src="assets/generated/repo-context-tree.svg" alt="context-tree 저장소"></a>
-  <br>
   <a href="https://github.com/woonyong-kr/woon-core"><img width="410" src="assets/generated/repo-woon-core.svg" alt="woon-core 저장소"></a>
+  <br>
+  <a href="https://github.com/woonyong-kr/context-tree"><img width="410" src="assets/generated/repo-context-tree.svg" alt="context-tree 저장소"></a>
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
 </p>
 <!-- project_cards:end -->
@@ -87,18 +87,18 @@
       <td align="right">—</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/woonyong-kr/context-tree">context-tree</a></td>
-      <td>TypeScript</td>
-      <td><a href="https://github.com/woonyong-kr/context-tree/actions"><img alt="context-tree CI" src="https://github.com/woonyong-kr/context-tree/actions/workflows/lint.yml/badge.svg?branch=main"></a></td>
-      <td align="right">29</td>
-      <td align="right">2026-08-23</td>
-      <td align="right">MIT</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/woonyong-kr/woon-core">woon-core</a></td>
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">13</td>
+      <td align="right">2026-08-23</td>
+      <td align="right">MIT</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/woonyong-kr/context-tree">context-tree</a></td>
+      <td>TypeScript</td>
+      <td><a href="https://github.com/woonyong-kr/context-tree/actions"><img alt="context-tree CI" src="https://github.com/woonyong-kr/context-tree/actions/workflows/lint.yml/badge.svg?branch=main"></a></td>
+      <td align="right">29</td>
       <td align="right">2026-08-23</td>
       <td align="right">MIT</td>
     </tr>
@@ -117,12 +117,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
+- <span lang="ko">**context-tree** · [fix: clear Community release review warnings](https://github.com/woonyong-kr/context-tree/commit/0f388f7bc07a44a38b3bc76a8fdca02f8b37e0d6) · 2026-08-23</span>
 - <span lang="ko">**context-tree** · [feat: refine document-first reading maps](https://github.com/woonyong-kr/context-tree/commit/2da74c5e5626455412bd0505a8977510042d909e) · 2026-08-23</span>
 - <span lang="ko">**simple-calendar** · [feat: improve calendar source and context navigation](https://github.com/woonyong-kr/simple-calendar/commit/fbc2cd64f1de3fc485b29552c87cc0805c47b09d) · 2026-08-23</span>
 - <span lang="ko">**context-tree** · [feat: focus Context Graph on linked-note reading](https://github.com/woonyong-kr/context-tree/commit/207e431b5686172f33781c93c59f6fe6101076b8) · 2026-08-23</span>
 - <span lang="ko">**simple-calendar** · [fix: remove redundant input event assertion](https://github.com/woonyong-kr/simple-calendar/commit/fd3fca553f4ae321cb4a876338f6f5cbec783f6f) · 2026-08-23</span>
 - <span lang="ko">**context-tree** · [perf: narrow Vault enumeration in focus graphs](https://github.com/woonyong-kr/context-tree/commit/b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7) · 2026-08-23</span>
-- <span lang="ko">**simple-calendar** · [fix: satisfy Obsidian automated review](https://github.com/woonyong-kr/simple-calendar/commit/e77007dc12c5afc8f8c5f1f0de493017493a453a) · 2026-08-23</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>
