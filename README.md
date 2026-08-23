@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Contributions 11,009" src="https://img.shields.io/badge/Contributions-11%2C009-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Commits 8,031" src="https://img.shields.io/badge/Commits-8%2C031-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Contributions 11,032" src="https://img.shields.io/badge/Contributions-11%2C032-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Commits 8,046" src="https://img.shields.io/badge/Commits-8%2C046-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Issues 113" src="https://img.shields.io/badge/Issues-113-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-08-23&to=2026-08-23"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
@@ -22,15 +22,11 @@
 
 <!-- technologies:start -->
 <a href="https://www.c-language.org/"><img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white"></a>
-<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
+<a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"></a>
 <a href="https://isocpp.org/"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"></a>
-<a href="https://fastapi.tiangolo.com/"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"></a>
 <a href="https://github.com/features/actions"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"></a>
-<a href="https://opengitops.dev/"><img alt="GitOps" src="https://img.shields.io/badge/GitOps-F05032?style=flat-square&logo=git&logoColor=white"></a>
 <a href="https://html.spec.whatwg.org/"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"></a>
-<a href="https://kubernetes.io/"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"></a>
-<a href="https://nats.io/"><img alt="NATS" src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white"></a>
-<a href="https://www.postgresql.org/"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"></a>
+<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
 <a href="https://en.wikipedia.org/wiki/SQL"><img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=sqlite&logoColor=white"></a>
 <!-- technologies:end -->
 
@@ -40,14 +36,14 @@
 <sub>자동 선발 · 공개 증거 순위: 본인 커밋 25 · CI 25 · 테스트 구조 15 · 문서 10 · 최근 유지보수 10 · 메타데이터 10 · 공개 반응 5</sub>
 
 <p align="center">
+  <a href="https://github.com/woonyong-kr/simple-calendar"><img width="410" src="assets/generated/repo-simple-calendar.svg" alt="simple-calendar 저장소"></a>
   <a href="https://github.com/woonyong-kr/pintos"><img width="410" src="assets/generated/repo-pintos.svg" alt="pintos 저장소"></a>
+  <br>
   <a href="https://github.com/woonyong-kr/minidb"><img width="410" src="assets/generated/repo-minidb.svg" alt="minidb 저장소"></a>
+  <a href="https://github.com/woonyong-kr/context-tree"><img width="410" src="assets/generated/repo-context-tree.svg" alt="context-tree 저장소"></a>
   <br>
   <a href="https://github.com/woonyong-kr/woon-core"><img width="410" src="assets/generated/repo-woon-core.svg" alt="woon-core 저장소"></a>
   <a href="https://github.com/woonyong-kr/jekyll-theme-velog"><img width="410" src="assets/generated/repo-jekyll-theme-velog.svg" alt="jekyll-theme-velog 저장소"></a>
-  <br>
-  <a href="https://github.com/woonyong-kr/k8s-ops"><img width="410" src="assets/generated/repo-k8s-ops.svg" alt="k8s-ops 저장소"></a>
-  <a href="https://github.com/woonyong-kr/woon-skills"><img width="410" src="assets/generated/repo-woon-skills.svg" alt="woon-skills 저장소"></a>
 </p>
 <!-- project_cards:end -->
 
@@ -67,6 +63,14 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/woonyong-kr/simple-calendar">simple-calendar</a></td>
+      <td>TypeScript · calendar · knowledge-management</td>
+      <td><a href="https://github.com/woonyong-kr/simple-calendar/actions"><img alt="simple-calendar CI" src="https://github.com/woonyong-kr/simple-calendar/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
+      <td align="right">5</td>
+      <td align="right">2026-08-23</td>
+      <td align="right">MIT</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/woonyong-kr/pintos">pintos</a></td>
       <td>C++ · copy-on-write · operating-system</td>
       <td><a href="https://github.com/woonyong-kr/pintos/actions"><img alt="pintos CI" src="https://github.com/woonyong-kr/pintos/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
@@ -83,11 +87,19 @@
       <td align="right">—</td>
     </tr>
     <tr>
+      <td><a href="https://github.com/woonyong-kr/context-tree">context-tree</a></td>
+      <td>TypeScript</td>
+      <td><a href="https://github.com/woonyong-kr/context-tree/actions"><img alt="context-tree CI" src="https://github.com/woonyong-kr/context-tree/actions/workflows/lint.yml/badge.svg?branch=main"></a></td>
+      <td align="right">29</td>
+      <td align="right">2026-08-23</td>
+      <td align="right">MIT</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/woonyong-kr/woon-core">woon-core</a></td>
       <td>Python</td>
       <td><a href="https://github.com/woonyong-kr/woon-core/actions"><img alt="woon-core CI" src="https://github.com/woonyong-kr/woon-core/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
       <td align="right">13</td>
-      <td align="right">2026-08-20</td>
+      <td align="right">2026-08-23</td>
       <td align="right">MIT</td>
     </tr>
     <tr>
@@ -98,22 +110,6 @@
       <td align="right">2026-08-03</td>
       <td align="right">MIT</td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/woonyong-kr/k8s-ops">k8s-ops</a></td>
-      <td>Python · fastapi · gitops</td>
-      <td><a href="https://github.com/woonyong-kr/k8s-ops/actions"><img alt="k8s-ops CI" src="https://github.com/woonyong-kr/k8s-ops/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
-      <td align="right">36</td>
-      <td align="right">2026-08-17</td>
-      <td align="right">—</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/woonyong-kr/woon-skills">woon-skills</a></td>
-      <td>Python</td>
-      <td><a href="https://github.com/woonyong-kr/woon-skills/actions"><img alt="woon-skills CI" src="https://github.com/woonyong-kr/woon-skills/actions/workflows/ci.yml/badge.svg?branch=main"></a></td>
-      <td align="right">1</td>
-      <td align="right">2026-08-20</td>
-      <td align="right">—</td>
-    </tr>
   </tbody>
 </table>
 <!-- ci_status:end -->
@@ -121,12 +117,12 @@
 ## <span lang="ko">최근 공개 작업</span>
 
 <!-- recent_work:start -->
-- <span lang="ko">**context-tree** · [fix: use native Obsidian Markdown reading frame](https://github.com/woonyong-kr/context-tree/commit/3628289e4ac27b3a906aabc0521161880a46503f) · 2026-08-21</span>
-- <span lang="ko">**context-tree** · [fix: stabilize canvas zoom and markdown reading](https://github.com/woonyong-kr/context-tree/commit/165764196e916041908e71a37369ee4d248c3c2d) · 2026-08-21</span>
-- <span lang="ko">**context-tree** · [fix: 저장된 그래프 화면 위치 복원](https://github.com/woonyong-kr/context-tree/commit/8a8761a9fb31b495427a787f1369dd3528785882) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: simplify graph toolbar](https://github.com/woonyong-kr/context-tree/commit/8290a7c07e7b9e2a083ebc9c6ea9188215e78157) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: make card headers draggable](https://github.com/woonyong-kr/context-tree/commit/e3694f662f06db68cce5b8056befa221363a454b) · 2026-08-20</span>
-- <span lang="ko">**context-tree** · [fix: keep source card frame draggable](https://github.com/woonyong-kr/context-tree/commit/26741bb566f56c1c92abf221a2447d190c452ff1) · 2026-08-20</span>
+- <span lang="ko">**context-tree** · [feat: refine document-first reading maps](https://github.com/woonyong-kr/context-tree/commit/2da74c5e5626455412bd0505a8977510042d909e) · 2026-08-23</span>
+- <span lang="ko">**simple-calendar** · [feat: improve calendar source and context navigation](https://github.com/woonyong-kr/simple-calendar/commit/fbc2cd64f1de3fc485b29552c87cc0805c47b09d) · 2026-08-23</span>
+- <span lang="ko">**context-tree** · [feat: focus Context Graph on linked-note reading](https://github.com/woonyong-kr/context-tree/commit/207e431b5686172f33781c93c59f6fe6101076b8) · 2026-08-23</span>
+- <span lang="ko">**simple-calendar** · [fix: remove redundant input event assertion](https://github.com/woonyong-kr/simple-calendar/commit/fd3fca553f4ae321cb4a876338f6f5cbec783f6f) · 2026-08-23</span>
+- <span lang="ko">**context-tree** · [perf: narrow Vault enumeration in focus graphs](https://github.com/woonyong-kr/context-tree/commit/b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7) · 2026-08-23</span>
+- <span lang="ko">**simple-calendar** · [fix: satisfy Obsidian automated review](https://github.com/woonyong-kr/simple-calendar/commit/e77007dc12c5afc8f8c5f1f0de493017493a453a) · 2026-08-23</span>
 <!-- recent_work:end -->
 
 ## <span lang="ko">외부 저장소 기여</span>

@@ -1,6 +1,123 @@
 {
   "commits": [
     {
+      "id": "woonyong-kr/context-tree@2da74c5e5626455412bd0505a8977510042d909e",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: refine document-first reading maps",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/2da74c5e5626455412bd0505a8977510042d909e",
+      "occurred_at": "2026-08-23T12:59:38Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "feat: improve calendar source and context navigation",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
+      "occurred_at": "2026-08-23T11:56:44Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@207e431b5686172f33781c93c59f6fe6101076b8",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: focus Context Graph on linked-note reading",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/207e431b5686172f33781c93c59f6fe6101076b8",
+      "occurred_at": "2026-08-23T11:54:42Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: remove redundant input event assertion",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
+      "occurred_at": "2026-08-23T11:12:50Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "perf: narrow Vault enumeration in focus graphs",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7",
+      "occurred_at": "2026-08-23T11:09:33Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@e77007dc12c5afc8f8c5f1f0de493017493a453a",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "fix: satisfy Obsidian automated review",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/e77007dc12c5afc8f8c5f1f0de493017493a453a",
+      "occurred_at": "2026-08-23T11:01:34Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@2975c369f56acad11262e88663b07e93de77589c",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: satisfy Community review recommendations",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/2975c369f56acad11262e88663b07e93de77589c",
+      "occurred_at": "2026-08-23T10:58:56Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@37f4e6b487b5e243752496019bd8a2d768aa9ee9",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "release: prepare Context Graph 0.5.1",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/37f4e6b487b5e243752496019bd8a2d768aa9ee9",
+      "occurred_at": "2026-08-23T10:51:03Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@e8492834fcc820959f537295982a2a995b106a62",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "feat: redesign the month calendar experience",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/e8492834fcc820959f537295982a2a995b106a62",
+      "occurred_at": "2026-08-23T10:41:03Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "refactor: remove inline calendar styling",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
+      "occurred_at": "2026-08-23T10:30:29Z"
+    },
+    {
+      "id": "woonyong-kr/simple-calendar@683b14216d5d964c2efc47c643502c7d046df0fb",
+      "kind": "commit",
+      "project": "simple-calendar",
+      "repository": "woonyong-kr/simple-calendar",
+      "title": "feat: prepare Context Calendar 2.0.0",
+      "url": "https://github.com/woonyong-kr/simple-calendar/commit/683b14216d5d964c2efc47c643502c7d046df0fb",
+      "occurred_at": "2026-08-23T10:20:38Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@53817096f1b1a1875df5361c057e1da738c95604",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "fix: simplify graph actions and preserve exploration layout",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/53817096f1b1a1875df5361c057e1da738c95604",
+      "occurred_at": "2026-08-23T09:50:58Z"
+    },
+    {
+      "id": "woonyong-kr/context-tree@e1496fdc296be25d78a6fd9fa44cd57312d65a5e",
+      "kind": "commit",
+      "project": "context-tree",
+      "repository": "woonyong-kr/context-tree",
+      "title": "feat: complete current-note graph workflow",
+      "url": "https://github.com/woonyong-kr/context-tree/commit/e1496fdc296be25d78a6fd9fa44cd57312d65a5e",
+      "occurred_at": "2026-08-23T07:47:47Z"
+    },
+    {
       "id": "woonyong-kr/context-tree@3628289e4ac27b3a906aabc0521161880a46503f",
       "kind": "commit",
       "project": "context-tree",
