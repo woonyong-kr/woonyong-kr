@@ -1,408 +1,1362 @@
 {
   "commits": [
     {
-      "id": "woonyong-kr/context-tree@0f388f7bc07a44a38b3bc76a8fdca02f8b37e0d6",
+      "id": "woonyong-kr/linked-graph@06d8d18f37134fac0878095f4ab918b6becae414",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: hide only non-canonical graph destinations",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/06d8d18f37134fac0878095f4ab918b6becae414",
+      "occurred_at": "2026-09-03T17:49:27Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@4575c80b0d4781697beb4dd70c2d726fd2fc4894",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: 선택한 일정을 Google Calendar로 안전하게 동기화",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/4575c80b0d4781697beb4dd70c2d726fd2fc4894",
+      "occurred_at": "2026-09-03T16:50:02Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@2025e60c34c5c3253c4c4b6ea38f4ee1e1d406a5",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: 본문 일정 시간과 표시 형식을 지원",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/2025e60c34c5c3253c4c4b6ea38f4ee1e1d406a5",
+      "occurred_at": "2026-09-02T13:06:41Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@0359a97c62a2b4626f897aef4b6fd4de61d2d556",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: resolve graph colour precedence",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/0359a97c62a2b4626f897aef4b6fd4de61d2d556",
+      "occurred_at": "2026-09-01T17:27:38Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@e71fa2913a7c03c5984f6928baff1493124b52c6",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: prioritize semantic graph colours",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/e71fa2913a7c03c5984f6928baff1493124b52c6",
+      "occurred_at": "2026-09-01T17:25:50Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@642a0003dd89561035d86f68a2a22da7ee30b814",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: distinguish graph node kinds by color",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/642a0003dd89561035d86f68a2a22da7ee30b814",
+      "occurred_at": "2026-09-01T17:01:58Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@cf60acf355ab654222f976977b8727b4f4768a7b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: remove month event accent stripe",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/cf60acf355ab654222f976977b8727b4f4768a7b",
+      "occurred_at": "2026-09-01T13:37:19Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@4a6e5586af6fd9141b0786c1cef2383a9dd99f8b",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: clarify editor focus and publish sharp preview",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/4a6e5586af6fd9141b0786c1cef2383a9dd99f8b",
+      "occurred_at": "2026-09-01T08:56:11Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@6d4dbdf406ded12372a2efa6612e0d363405b757",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: show explicit timeline entries as text rows",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/6d4dbdf406ded12372a2efa6612e0d363405b757",
+      "occurred_at": "2026-09-01T08:01:45Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@f8ae70d70ddbab5e253f6173982b262443ccb584",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: keep archive evidence out of timeline canonicals",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/f8ae70d70ddbab5e253f6173982b262443ccb584",
+      "occurred_at": "2026-09-01T07:33:46Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@406df9591462e3ed9f03e4f1239b19ba445742eb",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: index Vault dates as a canonical timeline",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/406df9591462e3ed9f03e4f1239b19ba445742eb",
+      "occurred_at": "2026-09-01T07:29:10Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@0fb1c99b37bb0750d3a7ac47d830ca8ac19a055b",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: Community 호환성 경고를 제거",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/0fb1c99b37bb0750d3a7ac47d830ca8ac19a055b",
+      "occurred_at": "2026-09-01T06:43:14Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@6eb50ef5c878fe0f01f9be4c00800a7ac7b47fdd",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "refactor: 실행기 검증과 0.2.7 공개 문서를 정비",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/6eb50ef5c878fe0f01f9be4c00800a7ac7b47fdd",
+      "occurred_at": "2026-09-01T06:29:15Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@50839ee2366edd46435ad56e939c87c5ddc9c443",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "refactor: 그래프 미리보기 배치를 독립 모듈로 분리",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/50839ee2366edd46435ad56e939c87c5ddc9c443",
+      "occurred_at": "2026-09-01T06:29:06Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@0efd8ead32ff365fc3c0c47cae512b22c3e7d261",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "refactor: 캘린더 모달을 lifecycle에서 분리",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/0efd8ead32ff365fc3c0c47cae512b22c3e7d261",
+      "occurred_at": "2026-09-01T06:29:06Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@4e9daa6d828868cc2bde230e1c77276ebcfa9c28",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: untangle graph pointer interactions",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/4e9daa6d828868cc2bde230e1c77276ebcfa9c28",
+      "occurred_at": "2026-08-31T19:13:36Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@9649579b9df562dfca87c6bc566b5b07c49d3716",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: centralize graph pointer completion",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/9649579b9df562dfca87c6bc566b5b07c49d3716",
+      "occurred_at": "2026-08-31T18:59:33Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@17b8e0011895ded3e100ee3d14f820c03c126f0f",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "refactor: flatten graph node interactions",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/17b8e0011895ded3e100ee3d14f820c03c126f0f",
+      "occurred_at": "2026-08-31T18:54:39Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@ba08ca302f7b6d2a6f55b5865f53ea9f8b14378d",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: activate nodes on pointer release",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/ba08ca302f7b6d2a6f55b5865f53ea9f8b14378d",
+      "occurred_at": "2026-08-31T18:51:52Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@39f9a6f65e61093e22409c8eb00da8e0409dfec4",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: preserve native node click events",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/39f9a6f65e61093e22409c8eb00da8e0409dfec4",
+      "occurred_at": "2026-08-31T18:50:38Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@0f15fcd919798ea7baf0a2454ab7e4350adcdc82",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: unify graph node hit targets",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/0f15fcd919798ea7baf0a2454ab7e4350adcdc82",
+      "occurred_at": "2026-08-31T18:49:18Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@6a4df258a65d932a968397e5fdf9cc1e13db27ad",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: keep clicks outside drag capture",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/6a4df258a65d932a968397e5fdf9cc1e13db27ad",
+      "occurred_at": "2026-08-31T18:47:45Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@f091f7702639b60795efb0a5b6edf90bbdc2054e",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: simplify graph interaction ownership",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/f091f7702639b60795efb0a5b6edf90bbdc2054e",
+      "occurred_at": "2026-08-31T18:45:49Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@94a313587d83cfc73a0666e1d9d051311f968e13",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: Obsidian CSS 호환 경고를 제거",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/94a313587d83cfc73a0666e1d9d051311f968e13",
+      "occurred_at": "2026-08-31T18:04:35Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@bab77293908a71f42b3cf362eab576a170c45d18",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "feat: 실행 데모와 안전한 프리뷰를 제공",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/bab77293908a71f42b3cf362eab576a170c45d18",
+      "occurred_at": "2026-08-31T17:48:01Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@eb701ab5ab6882c4ebd14cf8e84617754c52bf4a",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: fit complete graph labels by default",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/eb701ab5ab6882c4ebd14cf8e84617754c52bf4a",
+      "occurred_at": "2026-08-31T17:12:58Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@0dbd70d59fc039ff393f9bfc7252b65eef2e509f",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: fit full sparse labels",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/0dbd70d59fc039ff393f9bfc7252b65eef2e509f",
+      "occurred_at": "2026-08-31T17:09:23Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@b4fda0128168f4fad448e45162f1b89409dd2619",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: fit sparse graph labels",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/b4fda0128168f4fad448e45162f1b89409dd2619",
+      "occurred_at": "2026-08-31T17:08:33Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@d2b7e4b42146184bcfd7a710538bfb2117bef987",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: stagger compact preview rings",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/d2b7e4b42146184bcfd7a710538bfb2117bef987",
+      "occurred_at": "2026-08-31T17:05:43Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@4b8513065a889fe199dad0eadb4c636030c4e5b1",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: simplify compact next-route preview",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/4b8513065a889fe199dad0eadb4c636030c4e5b1",
+      "occurred_at": "2026-08-31T17:04:13Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@4e37820aff68d25757bc91310a47c0f7b13f4d5d",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: bound dense hover previews",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/4e37820aff68d25757bc91310a47c0f7b13f4d5d",
+      "occurred_at": "2026-08-31T17:02:58Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@61735e8cd0ed6c024be2e3a4ac305eff1250e236",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: restore controlled graph motion",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/61735e8cd0ed6c024be2e3a4ac305eff1250e236",
+      "occurred_at": "2026-08-31T16:59:36Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@b802bb83f085b7e845d768b98745c43c3b0e981e",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: preserve graph interaction scale",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/b802bb83f085b7e845d768b98745c43c3b0e981e",
+      "occurred_at": "2026-08-31T16:50:11Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@7b1aa2e3f211a882387fc13447320671dc307d8c",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: stabilize graph node interaction",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/7b1aa2e3f211a882387fc13447320671dc307d8c",
+      "occurred_at": "2026-08-31T16:47:34Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@176fb6d5b59eb1ecf26858578cc6fdf195679fa2",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: keep graph node labels visible",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/176fb6d5b59eb1ecf26858578cc6fdf195679fa2",
+      "occurred_at": "2026-08-31T16:23:54Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@ac6de79c1d31288ae68c16467e2aa5f4a07436dc",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: restore node-only graph navigation",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/ac6de79c1d31288ae68c16467e2aa5f4a07436dc",
+      "occurred_at": "2026-08-31T16:09:21Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@6292608b73fa417e9eb09b927f848e0ac9375c35",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: Community 검토 경고를 제거",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/6292608b73fa417e9eb09b927f848e0ac9375c35",
+      "occurred_at": "2026-08-31T15:55:04Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@5d5200030f55d56843aa7a7b3a1154aeb05405c3",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: Dart 실행 프레임을 CSS class로 이동",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/5d5200030f55d56843aa7a7b3a1154aeb05405c3",
+      "occurred_at": "2026-08-31T15:22:50Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@c5215d8f2f18bd17e580148ec357159687b3299e",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: Community Directory 심사 오류를 제거",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/c5215d8f2f18bd17e580148ec357159687b3299e",
+      "occurred_at": "2026-08-31T15:19:38Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@4f8213bd7559f23368d667ae3501bb2054338388",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "test: make calendar view date deterministic",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/4f8213bd7559f23368d667ae3501bb2054338388",
+      "occurred_at": "2026-08-31T15:13:08Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@6f2501705db6694a99aab0f2900d1b03f7c8e2fe",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: Dart 브라우저 실행을 공식 compile API로 교체",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/6f2501705db6694a99aab0f2900d1b03f7c8e2fe",
+      "occurred_at": "2026-08-31T14:48:04Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@1254f63e1fa731b7f7c6ac2e225a52e5e1aefb9a",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "test: verify session navigation history",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/1254f63e1fa731b7f7c6ac2e225a52e5e1aefb9a",
+      "occurred_at": "2026-08-31T14:41:21Z"
+    },
+    {
+      "id": "woonyong-kr/obsidian-navigator-demo-vault@2e58b0f7cca7858b4f6082babe21a4d82370d785",
+      "kind": "commit",
+      "project": "obsidian-navigator-demo-vault",
+      "repository": "woonyong-kr/obsidian-navigator-demo-vault",
+      "title": "feat: add public navigator demo vault",
+      "url": "https://github.com/woonyong-kr/obsidian-navigator-demo-vault/commit/2e58b0f7cca7858b4f6082babe21a4d82370d785",
+      "occurred_at": "2026-08-31T14:40:07Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@2924c3720b808115288a2279a9729de3b30462b7",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: add contextual keyboard navigation",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/2924c3720b808115288a2279a9729de3b30462b7",
+      "occurred_at": "2026-08-31T14:37:55Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@c75968b03cd7bc7a12405614e6eaa217b591f782",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: add guided source onboarding",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/c75968b03cd7bc7a12405614e6eaa217b591f782",
+      "occurred_at": "2026-08-31T14:37:55Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@2983b0806223237489b834a7f6ed9d574eea3508",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "feat: 21개 언어 실행 어댑터를 추가",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/2983b0806223237489b834a7f6ed9d574eea3508",
+      "occurred_at": "2026-08-31T14:23:36Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@51fae0633042045b6ddee9fc8da041038b3ef99f",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: refresh diagnostics after initial index build",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/51fae0633042045b6ddee9fc8da041038b3ef99f",
+      "occurred_at": "2026-08-31T13:54:26Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@e5e14afeb06bbef2f95051bc5cbb5987270ed236",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: derive source health from live index",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/e5e14afeb06bbef2f95051bc5cbb5987270ed236",
+      "occurred_at": "2026-08-31T13:52:59Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@36d5688023be0705155d861d552b334886d2e536",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: group source health setting",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/36d5688023be0705155d861d552b334886d2e536",
+      "occurred_at": "2026-08-31T13:49:22Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@a9e5eb34b05bbf0edeb50743ea6ae4fee6f66e09",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: render source health inside settings page",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/a9e5eb34b05bbf0edeb50743ea6ae4fee6f66e09",
+      "occurred_at": "2026-08-31T13:48:44Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@091f2fe65ed6faaecd65bc191fdc31151efe8a01",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: surface calendar source diagnostics",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/091f2fe65ed6faaecd65bc191fdc31151efe8a01",
+      "occurred_at": "2026-08-31T13:47:32Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@d968c78ab7ee389e7a145f3aa59484ee767daeb9",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: expose graph preview disclosure to keyboard",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/d968c78ab7ee389e7a145f3aa59484ee767daeb9",
+      "occurred_at": "2026-08-31T13:44:28Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@a9379da389da093ae373cb59924a49cf06424979",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: bound and improve graph navigation",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/a9379da389da093ae373cb59924a49cf06424979",
+      "occurred_at": "2026-08-31T13:39:33Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@4788eb1d3a3493610b5516df274465e772530aff",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: harden calendar note mutations",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/4788eb1d3a3493610b5516df274465e772530aff",
+      "occurred_at": "2026-08-31T13:39:33Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@fb4cc9d6d34d58527c18ee03a82c9ca9f33e56d4",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "feat: 지원 언어와 실행 환경을 표시",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/fb4cc9d6d34d58527c18ee03a82c9ca9f33e56d4",
+      "occurred_at": "2026-08-31T13:03:41Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@59cee209275e4fb98a0e33be6f4258146af42b5f",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: add numbered editor lines and IntelliJ highlighting",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/59cee209275e4fb98a0e33be6f4258146af42b5f",
+      "occurred_at": "2026-08-31T12:55:48Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@6e092e0a93f20fce3c2ac62419a38ac3def1c0d8",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "fix: refine editor spacing and output panel",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/6e092e0a93f20fce3c2ac62419a38ac3def1c0d8",
+      "occurred_at": "2026-08-31T12:24:46Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@a1e38e9d444ebb2d0e34fc7a455ae06f4274e8c3",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "release: add verified graph walkthrough",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/a1e38e9d444ebb2d0e34fc7a455ae06f4274e8c3",
+      "occurred_at": "2026-08-31T12:22:27Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@6933ec0fc456a7e49c4660d86bf1b6eaaac9085b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "release: add verified product walkthrough",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/6933ec0fc456a7e49c4660d86bf1b6eaaac9085b",
+      "occurred_at": "2026-08-31T12:22:27Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@ee03d8c2c1beb6579ec9a5ef6652fcc59289ff86",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "feat: polish compact IntelliJ-style cells",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/ee03d8c2c1beb6579ec9a5ef6652fcc59289ff86",
+      "occurred_at": "2026-08-31T12:13:18Z"
+    },
+    {
+      "id": "woonyong-kr/runnable-code-blocks@e49e7762a67e9ba7d03118f5f8fe6226297ffa41",
+      "kind": "commit",
+      "project": "runnable-code-blocks",
+      "repository": "woonyong-kr/runnable-code-blocks",
+      "title": "feat: add environment-adapted runnable code blocks",
+      "url": "https://github.com/woonyong-kr/runnable-code-blocks/commit/e49e7762a67e9ba7d03118f5f8fe6226297ffa41",
+      "occurred_at": "2026-08-31T11:43:43Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@dc26c2518b41d79bdba9cff4883839da37155ecd",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: satisfy Community Directory review checks",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/dc26c2518b41d79bdba9cff4883839da37155ecd",
+      "occurred_at": "2026-08-31T11:20:11Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@b40bb1a684dc03ce5042afb0e060d1b331f6d6e6",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "release: publish Linked Graph Navigator 1.4.1",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/b40bb1a684dc03ce5042afb0e060d1b331f6d6e6",
+      "occurred_at": "2026-08-31T11:14:23Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@ca47ebb3c372c5694a6c19ae997dd58c107e0b73",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "release: publish Link Calendar Navigator 3.1.4",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/ca47ebb3c372c5694a6c19ae997dd58c107e0b73",
+      "occurred_at": "2026-08-31T11:14:23Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@1dcc824f978e8c5124eae8556dafdcef47573123",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: use direct agenda title links",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/1dcc824f978e8c5124eae8556dafdcef47573123",
+      "occurred_at": "2026-08-28T12:34:17Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@8a06756af520b54284464ec1e28760e2ca02f251",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: make current-note graph an unbounded force canvas",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/8a06756af520b54284464ec1e28760e2ca02f251",
+      "occurred_at": "2026-08-26T15:49:46Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@9822aeea741eae7c1fd0547c207c642e59cfc5b6",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "style: place graph labels below nodes",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/9822aeea741eae7c1fd0547c207c642e59cfc5b6",
+      "occurred_at": "2026-08-26T11:58:21Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@269291b48096007f7f9ba9cb2d1abf0b56bb8c0d",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "style: inherit Obsidian graph colors",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/269291b48096007f7f9ba9cb2d1abf0b56bb8c0d",
+      "occurred_at": "2026-08-26T11:52:38Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@8754c98557bd50827b977c719cbe55f8f972e09a",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: connect edges to node dots",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/8754c98557bd50827b977c719cbe55f8f972e09a",
+      "occurred_at": "2026-08-26T11:48:50Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@81e3c41f11638ec0b3c4caf073f93df64565ea26",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: stabilize and expand current-note graph",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/81e3c41f11638ec0b3c4caf073f93df64565ea26",
+      "occurred_at": "2026-08-26T11:45:13Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@d6da574b4f78ef564079941187fbdece0b3a352e",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: suppress inactive root focus outline",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/d6da574b4f78ef564079941187fbdece0b3a352e",
+      "occurred_at": "2026-08-26T11:28:43Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@e9787968536d93f8c4720bbed082749485b95a70",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "style: strengthen graph line contrast",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/e9787968536d93f8c4720bbed082749485b95a70",
+      "occurred_at": "2026-08-26T11:26:26Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@af81acc779c487360a5d2cf011fdf8d3cf498b12",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: clarify graph edges and root semantics",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/af81acc779c487360a5d2cf011fdf8d3cf498b12",
+      "occurred_at": "2026-08-26T11:24:36Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@e9e13a1779572a35237b632774fc7d4db4dd97c4",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: remove graph node focus card",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/e9e13a1779572a35237b632774fc7d4db4dd97c4",
+      "occurred_at": "2026-08-26T09:34:07Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@16a562bdbd84c2241d912ddaa56c12802cd89b96",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: match Obsidian graph interaction",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/16a562bdbd84c2241d912ddaa56c12802cd89b96",
+      "occurred_at": "2026-08-26T09:30:58Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@2979f23170162dadc5700a750c060fedc8215d22",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: increase graph edge contrast",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/2979f23170162dadc5700a750c060fedc8215d22",
+      "occurred_at": "2026-08-26T08:10:19Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@db71eaa19eeb1928e052c85780152a37bbba7760",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: stabilize hover graph layout",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/db71eaa19eeb1928e052c85780152a37bbba7760",
+      "occurred_at": "2026-08-26T07:47:57Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@b7c65bd9c63837b95597ec7207c8631b36003ded",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: widen local graph spacing",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/b7c65bd9c63837b95597ec7207c8631b36003ded",
+      "occurred_at": "2026-08-26T07:39:19Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@001bb19be01379160fc4d5ffd0de4f025b0c6dd5",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: add upward and hover graph navigation",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/001bb19be01379160fc4d5ffd0de4f025b0c6dd5",
+      "occurred_at": "2026-08-26T07:32:59Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@1dba0836bb8d31bd0b791a03cf9e623994cf46a3",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: keep moving graph nodes in view",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/1dba0836bb8d31bd0b791a03cf9e623994cf46a3",
+      "occurred_at": "2026-08-26T06:16:52Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@317650a951e43d6e0caa2e831bb3551d926cb77d",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: use supported canonical-link icon",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/317650a951e43d6e0caa2e831bb3551d926cb77d",
+      "occurred_at": "2026-08-26T06:14:06Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@6ad064eb7dfe97c0d21e86010fd3660ebcf4bbe3",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: keep force graph node titles visible",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/6ad064eb7dfe97c0d21e86010fd3660ebcf4bbe3",
+      "occurred_at": "2026-08-26T06:11:13Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@f7af03f21c6eb45774bf9e2bd018fa9d68bb76d9",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: match native graph motion and labels",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/f7af03f21c6eb45774bf9e2bd018fa9d68bb76d9",
+      "occurred_at": "2026-08-26T06:10:36Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@80d60e0f4c2abc5128d697db848bfc8bf61b0c01",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: rebuild current-note view as one-hop graph",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/80d60e0f4c2abc5128d697db848bfc8bf61b0c01",
+      "occurred_at": "2026-08-26T06:05:09Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@b18d3f61342d1aa02b09cbe643ce33bb735ae585",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: use icon-only canonical note links",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/b18d3f61342d1aa02b09cbe643ce33bb735ae585",
+      "occurred_at": "2026-08-26T06:05:09Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@d86f7e99299f0b96e375c9a9ebe31fac27dff25e",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Preserve calendar wall-clock times",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/d86f7e99299f0b96e375c9a9ebe31fac27dff25e",
+      "occurred_at": "2026-08-26T05:50:13Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@bff246752a47bfe5cb5425e8ddaa8b7955749683",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Remove obsolete card reference",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/bff246752a47bfe5cb5425e8ddaa8b7955749683",
+      "occurred_at": "2026-08-26T05:45:52Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@3a88326f43ccafd72b62d59ecb1e7fb6807e5197",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Refresh cardless navigation evidence",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/3a88326f43ccafd72b62d59ecb1e7fb6807e5197",
+      "occurred_at": "2026-08-26T05:43:40Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@cba63fe19a0bbbf992cc0938297eeb48b5e0d28b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Refresh dot timeline release evidence",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/cba63fe19a0bbbf992cc0938297eeb48b5e0d28b",
+      "occurred_at": "2026-08-26T05:43:40Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@86c086d6428c431b023d35a4679a28c1652b2e51",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Use compact 24-hour agenda times",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/86c086d6428c431b023d35a4679a28c1652b2e51",
+      "occurred_at": "2026-08-26T05:36:13Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@eed5b8c51dd00dee45c9df44ab3a23b21036c547",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Remove graph node card styling",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/eed5b8c51dd00dee45c9df44ab3a23b21036c547",
+      "occurred_at": "2026-08-26T05:33:59Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@da7bdc5bf675e20a70036772ed2b28615ec17fac",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Redesign current-note navigation",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/da7bdc5bf675e20a70036772ed2b28615ec17fac",
+      "occurred_at": "2026-08-26T05:31:14Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@d6ffd4b7d8f2c2198fb3c78651731ae8a0298c37",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Replace calendar cards with timeline navigation",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/d6ffd4b7d8f2c2198fb3c78651731ae8a0298c37",
+      "occurred_at": "2026-08-26T05:31:14Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@9da86ab66055acb5a37aad12aa8fd34bee466b35",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Release 1.0.1",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/9da86ab66055acb5a37aad12aa8fd34bee466b35",
+      "occurred_at": "2026-08-26T04:43:10Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@e9916bc3a9c78f418a41cbb5a562540e1071ac92",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Release 3.0.1",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/e9916bc3a9c78f418a41cbb5a562540e1071ac92",
+      "occurred_at": "2026-08-26T04:43:10Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@92fd278e250a708014f953db3dbdf99f4134c18f",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Replace unreadable Linked Graph capture",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/92fd278e250a708014f953db3dbdf99f4134c18f",
+      "occurred_at": "2026-08-26T04:40:19Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@7d134fcfb7cceeb9c6cb3776a0ccdf676a0a2b64",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Replace compressed calendar release media",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/7d134fcfb7cceeb9c6cb3776a0ccdf676a0a2b64",
+      "occurred_at": "2026-08-26T04:40:19Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@9a518d9e6c600f6dec44efd7a47c84dfae5d090a",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Fix stale expanded branch loading",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/9a518d9e6c600f6dec44efd7a47c84dfae5d090a",
+      "occurred_at": "2026-08-26T04:35:30Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@b17d9ad93d2680a426245e10f0ce80ce020c297a",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Align agenda links for scanning",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/b17d9ad93d2680a426245e10f0ce80ce020c297a",
+      "occurred_at": "2026-08-26T04:28:01Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@213528ea3cf33f197bc39d08308b6522f66482de",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Align Linked Graph labels for scanning",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/213528ea3cf33f197bc39d08308b6522f66482de",
+      "occurred_at": "2026-08-26T04:27:58Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@0d05e0a5887fa0eec44e87eb734f5235b3c02539",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Tone down selected event surfaces",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/0d05e0a5887fa0eec44e87eb734f5235b3c02539",
+      "occurred_at": "2026-08-26T04:25:24Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@dc91ab7ed7aa1a5f02c567c08718a11422229aee",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Normalize sidebar tree surfaces",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/dc91ab7ed7aa1a5f02c567c08718a11422229aee",
+      "occurred_at": "2026-08-26T04:23:57Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@3048a8470972916384a5bee2f9c3919f027b226a",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "Improve Linked Graph navigation hierarchy",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/3048a8470972916384a5bee2f9c3919f027b226a",
+      "occurred_at": "2026-08-26T04:22:36Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@48874724703c8bad29b3be731b048ad7059fc38a",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "Refine calendar event hierarchy",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/48874724703c8bad29b3be731b048ad7059fc38a",
+      "occurred_at": "2026-08-26T04:22:36Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@7a4fabcc885fc8cfeb51ca5b78e152395ae2c10f",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "test: remove host timezone assumption",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/7a4fabcc885fc8cfeb51ca5b78e152395ae2c10f",
+      "occurred_at": "2026-08-25T18:39:26Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@ed1e07dd99738ad037b06e2a9676e299aa94eb32",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "test: make calendar selection timezone-stable",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/ed1e07dd99738ad037b06e2a9676e299aa94eb32",
+      "occurred_at": "2026-08-25T18:37:57Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@0024a7a234e79261271a9d5ce930fb6a00f659b8",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "merge: supersede Context Calendar 2.1.3 with Link Calendar",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/0024a7a234e79261271a9d5ce930fb6a00f659b8",
+      "occurred_at": "2026-08-25T18:37:30Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@7aee15ec6e4d00cb2715796872c25e92b529e256",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: remove legacy code block collision",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/7aee15ec6e4d00cb2715796872c25e92b529e256",
+      "occurred_at": "2026-08-25T18:03:36Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@8a220e21175095199c6eae94c8559beca2eb2108",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "refactor: namespace Link Calendar UI",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/8a220e21175095199c6eae94c8559beca2eb2108",
+      "occurred_at": "2026-08-25T18:00:58Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@ac9f96580fcea0158b68d43aa0606ecf6ae3cc6b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: isolate Link Calendar migration namespace",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/ac9f96580fcea0158b68d43aa0606ecf6ae3cc6b",
+      "occurred_at": "2026-08-25T18:00:27Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@ff07710db5efb35177f3f2c869d6049fa8b73a8d",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "refactor!: replace Context Calendar with canonical-note Link Calendar",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/ff07710db5efb35177f3f2c869d6049fa8b73a8d",
+      "occurred_at": "2026-08-25T17:56:08Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@9b2dd4350f7d1e7f3bc92b49fc7cd76a6734a5f5",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: show canonical document title in sidebar context",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/9b2dd4350f7d1e7f3bc92b49fc7cd76a6734a5f5",
+      "occurred_at": "2026-08-25T17:38:11Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@d554a19244606fadb3e255ae335881e530d2db97",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: keep current-note navigation compact and canonical",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/d554a19244606fadb3e255ae335881e530d2db97",
+      "occurred_at": "2026-08-25T17:36:53Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@bb49522e5ef36f8485f9fe56890e5ff497f3edb0",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "refactor!: replace Linked Canvas with current-note Linked Graph",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/bb49522e5ef36f8485f9fe56890e5ff497f3edb0",
+      "occurred_at": "2026-08-25T17:34:39Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@5f877c636bca3b25bb10db70d1fa6ff8203aab07",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "merge: 0.5.13 릴리스 변경을 통합",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/5f877c636bca3b25bb10db70d1fa6ff8203aab07",
+      "occurred_at": "2026-08-25T14:03:04Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@14aab0548287ba41067ace73c086b4ebc5befd9d",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: 노트 링크 중심 탐색과 그래프 시각 품질을 개선",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/14aab0548287ba41067ace73c086b4ebc5befd9d",
+      "occurred_at": "2026-08-25T14:01:17Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@9ccefa35b933da501bff4627244e462d58d2761b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "test: fix calendar date selection across timezones",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/9ccefa35b933da501bff4627244e462d58d2761b",
+      "occurred_at": "2026-08-24T16:14:16Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@140da2630bc94c67d49a81b548d97311c3885ace",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: refine Linked Canvas release workflow",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/140da2630bc94c67d49a81b548d97311c3885ace",
+      "occurred_at": "2026-08-24T16:12:25Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@c11c55c83fc639092f24343325cb0d686a16080b",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: polish Context Calendar release experience",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/c11c55c83fc639092f24343325cb0d686a16080b",
+      "occurred_at": "2026-08-24T16:12:25Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@33137bbaa5fdfa99ebbefbd71cd27cb81cfc50cd",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: Vault 파일 중심 Linked Canvas 흐름을 구현",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/33137bbaa5fdfa99ebbefbd71cd27cb81cfc50cd",
+      "occurred_at": "2026-08-24T12:14:16Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@bf3ac5928fa5ffc9ed108000a64401c5a51144e9",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: add a Cupertino-guided product tour",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/bf3ac5928fa5ffc9ed108000a64401c5a51144e9",
+      "occurred_at": "2026-08-24T11:26:51Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@961fae378af127fc7c9125d12de6019c3b1ca298",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: make context relations open Markdown pages",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/961fae378af127fc7c9125d12de6019c3b1ca298",
+      "occurred_at": "2026-08-24T11:13:05Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@b45dd43c21cfaaf53d1b3f4c72ac40988d744f00",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: refine Linked Canvas visual hierarchy",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/b45dd43c21cfaaf53d1b3f4c72ac40988d744f00",
+      "occurred_at": "2026-08-24T10:32:57Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@ce16d0ebf8f18993485f986a60e381ac3d8b9552",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: make Linked Canvas the primary workspace",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/ce16d0ebf8f18993485f986a60e381ac3d8b9552",
+      "occurred_at": "2026-08-24T09:53:08Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@691ef8717a6f748a9897b63dedf3e6a140c4f9d4",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "fix: refine calendar interactions and card layout",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/691ef8717a6f748a9897b63dedf3e6a140c4f9d4",
+      "occurred_at": "2026-08-24T09:37:41Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@d7cef4b4c4cd5fb3ac6f68c06b0d5e11437d6cba",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: sharpen contextual month navigation",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/d7cef4b4c4cd5fb3ac6f68c06b0d5e11437d6cba",
+      "occurred_at": "2026-08-24T09:30:26Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@155cc9348fff062d7e74e772807c44a189e10102",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: embed independent calendar design system",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/155cc9348fff062d7e74e772807c44a189e10102",
+      "occurred_at": "2026-08-24T09:12:42Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@6db1b3de282b90d00095286177dffbe1ef8db015",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: inherit active theme components",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/6db1b3de282b90d00095286177dffbe1ef8db015",
+      "occurred_at": "2026-08-24T08:56:28Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@de405d7659d780e61f46ebac61bb0a3385f5be34",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "refactor: centralize adaptive calendar styling",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/de405d7659d780e61f46ebac61bb0a3385f5be34",
+      "occurred_at": "2026-08-24T08:43:48Z"
+    },
+    {
+      "id": "woonyong-kr/link-calendar@63075f9f4b1e9668d30bf0d85f3132ee0cdce270",
+      "kind": "commit",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
+      "title": "feat: refine calendar event properties",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/63075f9f4b1e9668d30bf0d85f3132ee0cdce270",
+      "occurred_at": "2026-08-24T08:35:40Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@878bd627e0c352188685541db16749f89e044b66",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "feat: evolve Context Graph into Linked Canvas",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/878bd627e0c352188685541db16749f89e044b66",
+      "occurred_at": "2026-08-24T05:25:08Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@ab27201599ab9c2b26b029138727f49683d3f7a6",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
+      "title": "fix: restore readable graph depth",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/ab27201599ab9c2b26b029138727f49683d3f7a6",
+      "occurred_at": "2026-08-24T02:57:30Z"
+    },
+    {
+      "id": "woonyong-kr/linked-graph@0f388f7bc07a44a38b3bc76a8fdca02f8b37e0d6",
+      "kind": "commit",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
       "title": "fix: clear Community release review warnings",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/0f388f7bc07a44a38b3bc76a8fdca02f8b37e0d6",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/0f388f7bc07a44a38b3bc76a8fdca02f8b37e0d6",
       "occurred_at": "2026-08-23T13:19:44Z"
     },
     {
-      "id": "woonyong-kr/context-tree@2da74c5e5626455412bd0505a8977510042d909e",
+      "id": "woonyong-kr/linked-graph@2da74c5e5626455412bd0505a8977510042d909e",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
+      "project": "linked-graph",
+      "repository": "woonyong-kr/linked-graph",
       "title": "feat: refine document-first reading maps",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/2da74c5e5626455412bd0505a8977510042d909e",
+      "url": "https://github.com/woonyong-kr/linked-graph/commit/2da74c5e5626455412bd0505a8977510042d909e",
       "occurred_at": "2026-08-23T12:59:38Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
+      "id": "woonyong-kr/link-calendar@fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "feat: improve calendar source and context navigation",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/fbc2cd64f1de3fc485b29552c87cc0805c47b09d",
       "occurred_at": "2026-08-23T11:56:44Z"
     },
     {
-      "id": "woonyong-kr/context-tree@207e431b5686172f33781c93c59f6fe6101076b8",
+      "id": "woonyong-kr/link-calendar@fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: focus Context Graph on linked-note reading",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/207e431b5686172f33781c93c59f6fe6101076b8",
-      "occurred_at": "2026-08-23T11:54:42Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: remove redundant input event assertion",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/fd3fca553f4ae321cb4a876338f6f5cbec783f6f",
       "occurred_at": "2026-08-23T11:12:50Z"
     },
     {
-      "id": "woonyong-kr/context-tree@b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7",
+      "id": "woonyong-kr/link-calendar@e77007dc12c5afc8f8c5f1f0de493017493a453a",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "perf: narrow Vault enumeration in focus graphs",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/b066b4b9677b7f4a8281af0dfc0f4e5dce108ab7",
-      "occurred_at": "2026-08-23T11:09:33Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@e77007dc12c5afc8f8c5f1f0de493017493a453a",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: satisfy Obsidian automated review",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/e77007dc12c5afc8f8c5f1f0de493017493a453a",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/e77007dc12c5afc8f8c5f1f0de493017493a453a",
       "occurred_at": "2026-08-23T11:01:34Z"
     },
     {
-      "id": "woonyong-kr/context-tree@2975c369f56acad11262e88663b07e93de77589c",
+      "id": "woonyong-kr/link-calendar@e8492834fcc820959f537295982a2a995b106a62",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: satisfy Community review recommendations",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/2975c369f56acad11262e88663b07e93de77589c",
-      "occurred_at": "2026-08-23T10:58:56Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@37f4e6b487b5e243752496019bd8a2d768aa9ee9",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "release: prepare Context Graph 0.5.1",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/37f4e6b487b5e243752496019bd8a2d768aa9ee9",
-      "occurred_at": "2026-08-23T10:51:03Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@e8492834fcc820959f537295982a2a995b106a62",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "feat: redesign the month calendar experience",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/e8492834fcc820959f537295982a2a995b106a62",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/e8492834fcc820959f537295982a2a995b106a62",
       "occurred_at": "2026-08-23T10:41:03Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
+      "id": "woonyong-kr/link-calendar@97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "refactor: remove inline calendar styling",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/97916992ce3ee7c2a2d6858a7cc9659ef3feb76e",
       "occurred_at": "2026-08-23T10:30:29Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@683b14216d5d964c2efc47c643502c7d046df0fb",
+      "id": "woonyong-kr/link-calendar@683b14216d5d964c2efc47c643502c7d046df0fb",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "feat: prepare Context Calendar 2.0.0",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/683b14216d5d964c2efc47c643502c7d046df0fb",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/683b14216d5d964c2efc47c643502c7d046df0fb",
       "occurred_at": "2026-08-23T10:20:38Z"
     },
     {
-      "id": "woonyong-kr/context-tree@53817096f1b1a1875df5361c057e1da738c95604",
+      "id": "woonyong-kr/link-calendar@7e70db6a622ebfc6fd4e412e93368b79dcd74996",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: simplify graph actions and preserve exploration layout",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/53817096f1b1a1875df5361c057e1da738c95604",
-      "occurred_at": "2026-08-23T09:50:58Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@e1496fdc296be25d78a6fd9fa44cd57312d65a5e",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: complete current-note graph workflow",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/e1496fdc296be25d78a6fd9fa44cd57312d65a5e",
-      "occurred_at": "2026-08-23T07:47:47Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@3628289e4ac27b3a906aabc0521161880a46503f",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: use native Obsidian Markdown reading frame",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/3628289e4ac27b3a906aabc0521161880a46503f",
-      "occurred_at": "2026-08-21T00:19:59Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@165764196e916041908e71a37369ee4d248c3c2d",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: stabilize canvas zoom and markdown reading",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/165764196e916041908e71a37369ee4d248c3c2d",
-      "occurred_at": "2026-08-21T00:06:36Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@8a8761a9fb31b495427a787f1369dd3528785882",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: 저장된 그래프 화면 위치 복원",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/8a8761a9fb31b495427a787f1369dd3528785882",
-      "occurred_at": "2026-08-20T15:58:39Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@8290a7c07e7b9e2a083ebc9c6ea9188215e78157",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: simplify graph toolbar",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/8290a7c07e7b9e2a083ebc9c6ea9188215e78157",
-      "occurred_at": "2026-08-20T13:57:37Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@e3694f662f06db68cce5b8056befa221363a454b",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: make card headers draggable",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/e3694f662f06db68cce5b8056befa221363a454b",
-      "occurred_at": "2026-08-20T12:15:03Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@26741bb566f56c1c92abf221a2447d190c452ff1",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: keep source card frame draggable",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/26741bb566f56c1c92abf221a2447d190c452ff1",
-      "occurred_at": "2026-08-20T12:09:34Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@b0d7283abbc9ceec219e2b73d6a807cb1b95a099",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: keep edited cards anchored",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/b0d7283abbc9ceec219e2b73d6a807cb1b95a099",
-      "occurred_at": "2026-08-20T10:07:10Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@7e70db6a622ebfc6fd4e412e93368b79dcd74996",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: render events before metadata cache settles",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/7e70db6a622ebfc6fd4e412e93368b79dcd74996",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/7e70db6a622ebfc6fd4e412e93368b79dcd74996",
       "occurred_at": "2026-08-20T09:25:03Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
+      "id": "woonyong-kr/link-calendar@6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "feat: make calendar sources and categories portable",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/6703d0b42c2a42b20c310e36e6c71f26c54f8d12",
       "occurred_at": "2026-08-20T09:17:41Z"
     },
     {
-      "id": "woonyong-kr/context-tree@a2bbeb3d04c8b8655206ad8be5de8137eba494a7",
+      "id": "woonyong-kr/link-calendar@6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "test: cover pointer-owned wheel surface",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/a2bbeb3d04c8b8655206ad8be5de8137eba494a7",
-      "occurred_at": "2026-08-20T02:51:39Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@413bf6731fcba0498f3b15799c77dd440118dd1e",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: complete context graph text scale contract",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/413bf6731fcba0498f3b15799c77dd440118dd1e",
-      "occurred_at": "2026-08-20T02:47:04Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@8706b59c817dd4c194a70bcc801d283f945c4901",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: harden graph UX and release readiness",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/8706b59c817dd4c194a70bcc801d283f945c4901",
-      "occurred_at": "2026-08-20T02:39:41Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@f790116fe4b2d2ff739d8bb8934437ca34e7f071",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: enforce context graph UX contract",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/f790116fe4b2d2ff739d8bb8934437ca34e7f071",
-      "occurred_at": "2026-08-20T02:15:36Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: increase calendar card text scale",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/6f6590cd796ce1a9dad425d145952cbb8f1e28ff",
       "occurred_at": "2026-08-18T14:03:31Z"
     },
     {
-      "id": "woonyong-kr/context-tree@149c766c9d112aff946c3c4b47ded1f2908cc5f7",
+      "id": "woonyong-kr/link-calendar@463aad59a8a0bdde742f6d9168ae25a75ca7c471",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: 카드 편집과 그래프 상호작용 안정화",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/149c766c9d112aff946c3c4b47ded1f2908cc5f7",
-      "occurred_at": "2026-08-18T13:16:55Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@463aad59a8a0bdde742f6d9168ae25a75ca7c471",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: reduce calendar card text scale",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/463aad59a8a0bdde742f6d9168ae25a75ca7c471",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/463aad59a8a0bdde742f6d9168ae25a75ca7c471",
       "occurred_at": "2026-08-18T13:09:14Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
+      "id": "woonyong-kr/link-calendar@33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: compact calendar card typography",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/33384c9dc8b2e70ea5d5fa8c42204c0a10545ff8",
       "occurred_at": "2026-08-18T13:06:30Z"
     },
     {
-      "id": "woonyong-kr/context-tree@ceb3c94ea0d8cd234e197e347a6a000b800f4391",
+      "id": "woonyong-kr/link-calendar@cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: 카드 편집 전환 레이아웃 안정화",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/ceb3c94ea0d8cd234e197e347a6a000b800f4391",
-      "occurred_at": "2026-08-18T11:30:17Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@638bd0aef3fb5edd01d2893538836b1a03d54431",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: 지식 그래프 작업공간을 확장",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/638bd0aef3fb5edd01d2893538836b1a03d54431",
-      "occurred_at": "2026-08-18T11:22:47Z"
-    },
-    {
-      "id": "woonyong-kr/simple-calendar@cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
-      "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: tighten calendar card density",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/cbedd7efdd11a6eed82b30fdbf3b769071212d9a",
       "occurred_at": "2026-08-18T11:15:51Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@fe0da1de938f3033d60a9e1b627946b585b78a18",
+      "id": "woonyong-kr/link-calendar@fe0da1de938f3033d60a9e1b627946b585b78a18",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: refine calendar card emphasis",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/fe0da1de938f3033d60a9e1b627946b585b78a18",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/fe0da1de938f3033d60a9e1b627946b585b78a18",
       "occurred_at": "2026-08-18T11:08:48Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
+      "id": "woonyong-kr/link-calendar@eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "fix: package dashboard layout with the plugin",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/eb10d8f141dbd4e4fd7aabf2d8b53480bd2c7959",
       "occurred_at": "2026-08-18T11:01:59Z"
     },
     {
-      "id": "woonyong-kr/simple-calendar@c5709af66fcd6c22f55ff68bec634137d737050c",
+      "id": "woonyong-kr/link-calendar@c5709af66fcd6c22f55ff68bec634137d737050c",
       "kind": "commit",
-      "project": "simple-calendar",
-      "repository": "woonyong-kr/simple-calendar",
+      "project": "link-calendar",
+      "repository": "woonyong-kr/link-calendar",
       "title": "feat: add simple calendar Obsidian plugin",
-      "url": "https://github.com/woonyong-kr/simple-calendar/commit/c5709af66fcd6c22f55ff68bec634137d737050c",
+      "url": "https://github.com/woonyong-kr/link-calendar/commit/c5709af66fcd6c22f55ff68bec634137d737050c",
       "occurred_at": "2026-08-18T11:01:23Z"
     },
     {
-      "id": "woonyong-kr/context-tree@1ec7c0476e3f9df000b4a7e5da841bc3173b1de3",
+      "id": "woonyong-kr/k8s-clue-python-reference@e1a9c795cffd2658268e66a7f2be2835bde76f18",
       "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: edit context cards in place",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/1ec7c0476e3f9df000b4a7e5da841bc3173b1de3",
-      "occurred_at": "2026-08-17T07:46:17Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@bfd42e99e142b25d3511c05d91c1eb101dadf6e4",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: render knowledge as force-directed context graph",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/bfd42e99e142b25d3511c05d91c1eb101dadf6e4",
-      "occurred_at": "2026-08-17T07:36:20Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@17e0719e9683870d91db60f1296830180c649633",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: add radial knowledge canvas",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/17e0719e9683870d91db60f1296830180c649633",
-      "occurred_at": "2026-08-17T07:17:53Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@b70d120967586d50ce5d96a8abee32523f95df79",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: preserve malformed topic links",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/b70d120967586d50ce5d96a8abee32523f95df79",
-      "occurred_at": "2026-08-17T07:10:59Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@2a0029c777fd63dd5f034226cd87ad706e65b7cb",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "fix: make test command portable",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/2a0029c777fd63dd5f034226cd87ad706e65b7cb",
-      "occurred_at": "2026-08-17T07:03:48Z"
-    },
-    {
-      "id": "woonyong-kr/context-tree@8f84487fecf5c7c1e951f2acd03d828a9e2ea02a",
-      "kind": "commit",
-      "project": "context-tree",
-      "repository": "woonyong-kr/context-tree",
-      "title": "feat: add expandable Markdown context tree",
-      "url": "https://github.com/woonyong-kr/context-tree/commit/8f84487fecf5c7c1e951f2acd03d828a9e2ea02a",
-      "occurred_at": "2026-08-17T07:02:30Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e1a9c795cffd2658268e66a7f2be2835bde76f18",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
+      "project": "k8s-clue-python-reference",
+      "repository": "woonyong-kr/k8s-clue-python-reference",
       "title": "fix: requirements 재현성 / OpenTelemetry 정렬 / CI 게이트",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e1a9c795cffd2658268e66a7f2be2835bde76f18",
+      "url": "https://github.com/woonyong-kr/k8s-clue-python-reference/commit/e1a9c795cffd2658268e66a7f2be2835bde76f18",
       "occurred_at": "2026-08-17T02:55:58Z"
     },
     {
-      "id": "woonyong-kr/k8s-ops@a8219c3059c53bfc128cd197a8c881f35ef631c1",
+      "id": "woonyong-kr/k8s-clue-python-reference@a8219c3059c53bfc128cd197a8c881f35ef631c1",
       "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
+      "project": "k8s-clue-python-reference",
+      "repository": "woonyong-kr/k8s-clue-python-reference",
       "title": "refactor: 이벤트 버스 모드 검증과 생성을 분리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a8219c3059c53bfc128cd197a8c881f35ef631c1",
+      "url": "https://github.com/woonyong-kr/k8s-clue-python-reference/commit/a8219c3059c53bfc128cd197a8c881f35ef631c1",
       "occurred_at": "2026-08-15T04:39:59Z"
     },
     {
@@ -415,21 +1369,12 @@
       "occurred_at": "2026-08-14T07:25:03Z"
     },
     {
-      "id": "woonyong-kr/k8s-ops@572abb78cf52b20369b27a99e22b751a2fc83807",
+      "id": "woonyong-kr/k8s-clue-python-reference@ff2e8c98807f879856258e7785bd8912f7ffc9ed",
       "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "리팩터링: Opsia를 Kyro로 명칭 전환",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/572abb78cf52b20369b27a99e22b751a2fc83807",
-      "occurred_at": "2026-08-14T07:16:05Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@ff2e8c98807f879856258e7785bd8912f7ffc9ed",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
+      "project": "k8s-clue-python-reference",
+      "repository": "woonyong-kr/k8s-clue-python-reference",
       "title": "refactor: Opsia를 Kyro로 명칭 전환",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ff2e8c98807f879856258e7785bd8912f7ffc9ed",
+      "url": "https://github.com/woonyong-kr/k8s-clue-python-reference/commit/ff2e8c98807f879856258e7785bd8912f7ffc9ed",
       "occurred_at": "2026-08-14T07:16:05Z"
     },
     {
@@ -1126,12 +2071,12 @@
       "occurred_at": "2026-08-06T04:00:44Z"
     },
     {
-      "id": "woonyong-kr/k8s-ops@b749f3b1999201b5237f12aa78862b65b43f7d26",
+      "id": "woonyong-kr/k8s-clue-python-reference@b749f3b1999201b5237f12aa78862b65b43f7d26",
       "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
+      "project": "k8s-clue-python-reference",
+      "repository": "woonyong-kr/k8s-clue-python-reference",
       "title": "feat: Kubernetes 장애 복구 / GitOps 워크플로 / 검증 기준",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b749f3b1999201b5237f12aa78862b65b43f7d26",
+      "url": "https://github.com/woonyong-kr/k8s-clue-python-reference/commit/b749f3b1999201b5237f12aa78862b65b43f7d26",
       "occurred_at": "2026-08-03T20:07:29Z"
     },
     {
@@ -1241,816 +2186,6 @@
       "title": "feat: B+Tree 인덱스 범위 스캔 추가",
       "url": "https://github.com/woonyong-kr/minidb/commit/c1049b0a02f15660fdb80568524eeed48ff27aa8",
       "occurred_at": "2026-08-01T19:44:29Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@8c9e546fece4345fbac01c07c3d71f49c9b1da46",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: 평가로 찾은 규칙 판별 결함 5건 개선",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8c9e546fece4345fbac01c07c3d71f49c9b1da46",
-      "occurred_at": "2026-08-01T17:35:28Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@44862e5a7b202e2782f3434ce6a5573f19674bb3",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "test: 규칙 엔진 합성 골든셋 평가 하네스 추가",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/44862e5a7b202e2782f3434ce6a5573f19674bb3",
-      "occurred_at": "2026-08-01T17:02:19Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@8b88696384e2dfd69f519c35cfeb9e5963216af7",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 저장소 프로토콜 / 워커 계약 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8b88696384e2dfd69f519c35cfeb9e5963216af7",
-      "occurred_at": "2026-08-01T08:11:51Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@671d0cc2411f61d68cf930b9692ffe9909a8a136",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 컨테이너 정규화 / 중복 보조기 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/671d0cc2411f61d68cf930b9692ffe9909a8a136",
-      "occurred_at": "2026-08-01T08:10:53Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@0d8a85bd842330e8b843743196aa9e4e9c960fdb",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 대시보드 조회 / RCA 원장 보존",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/0d8a85bd842330e8b843743196aa9e4e9c960fdb",
-      "occurred_at": "2026-08-01T08:09:34Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3088215929240c49c1e3e72b8b1618936b836f67",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 제한 상수 / 시드 표식 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3088215929240c49c1e3e72b8b1618936b836f67",
-      "occurred_at": "2026-08-01T08:04:30Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@1b07db29fcf9e80ebdb8a3df9cc9ac33caab1c15",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 API 경로 / 공개 계약 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/1b07db29fcf9e80ebdb8a3df9cc9ac33caab1c15",
-      "occurred_at": "2026-08-01T08:02:59Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b42769ef6f368457757fbad895ee34d3a4594f5e",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 고립 재고 계약 / 접근 모델 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b42769ef6f368457757fbad895ee34d3a4594f5e",
-      "occurred_at": "2026-08-01T07:58:56Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e5b55c06930ddb328aea332ab4e79f3c865d8446",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 응답 계약 / 공개 모델 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e5b55c06930ddb328aea332ab4e79f3c865d8446",
-      "occurred_at": "2026-08-01T07:57:10Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3d00d2f9dfc709ab71cc2217d86015810060dfe2",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 요청 계약 / 공개 모델 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3d00d2f9dfc709ab71cc2217d86015810060dfe2",
-      "occurred_at": "2026-08-01T07:54:18Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@ef27b85f5251ffb81e4b041868f74c1784a7d613",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 제어 설정 / 터미널 정책 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ef27b85f5251ffb81e4b041868f74c1784a7d613",
-      "occurred_at": "2026-08-01T07:48:57Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@64e017d11ff4bfb01b0aa036223780c749b49c34",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 진단 응답 / 상태 경로 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/64e017d11ff4bfb01b0aa036223780c749b49c34",
-      "occurred_at": "2026-08-01T07:47:27Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@2948e564a5a710e66d79402c0da72bb076d64e2b",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 새로고침 정책 / 브라우저 계약 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2948e564a5a710e66d79402c0da72bb076d64e2b",
-      "occurred_at": "2026-08-01T07:45:55Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@2988e379034050cca7aae75352e77ab2903077d7",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 권장 크기 기능 / 재고 저장소 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2988e379034050cca7aae75352e77ab2903077d7",
-      "occurred_at": "2026-08-01T07:44:36Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@565eb84812dfcf119d9cccc56c20f61cc7bb045a",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 GitOps 조회 계약 / 응답 모델 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/565eb84812dfcf119d9cccc56c20f61cc7bb045a",
-      "occurred_at": "2026-08-01T07:41:27Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@39ab3bb2c17eb78cb0c4183de3e89fc84f891882",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 제거 기능 계약 / 게이트웨이 재노출 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/39ab3bb2c17eb78cb0c4183de3e89fc84f891882",
-      "occurred_at": "2026-08-01T07:40:09Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@8da6a94dcc2f44cd3d27172a90a263ea06248bd8",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 선언 전용 경로 상수 / 공개 표면 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/8da6a94dcc2f44cd3d27172a90a263ea06248bd8",
-      "occurred_at": "2026-08-01T07:37:43Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@89c1d8f7e1e1299f7a09ab78bd4f3ba880867cb6",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 타임라인 API / 원장 계약 보존",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/89c1d8f7e1e1299f7a09ab78bd4f3ba880867cb6",
-      "occurred_at": "2026-08-01T07:36:04Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@a858c2158ab357164b609d835f08299a289b30d6",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 이슈 조회 / 대시보드 경로 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a858c2158ab357164b609d835f08299a289b30d6",
-      "occurred_at": "2026-08-01T07:33:40Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@1e0323586bdd0ff4044628b3d72598ec7c68a2d9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 변경 조회 / 타임라인 경로 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/1e0323586bdd0ff4044628b3d72598ec7c68a2d9",
-      "occurred_at": "2026-08-01T07:32:25Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@9cc7c4d6ab6fb1729c666beeaa85660053ac81f3",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 GitOps 조회 / 저장소 상속 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/9cc7c4d6ab6fb1729c666beeaa85660053ac81f3",
-      "occurred_at": "2026-08-01T07:30:56Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@a436f7fdde7b5bcc622ca0562d8c63c66d774e15",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 애플리케이션 조회 / 경로 계약 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a436f7fdde7b5bcc622ca0562d8c63c66d774e15",
-      "occurred_at": "2026-08-01T07:29:20Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@ecaf99ef430e91055f3d6edb8d2b8c82f37ee5c0",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 활동 조회 / 경로 계약 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ecaf99ef430e91055f3d6edb8d2b8c82f37ee5c0",
-      "occurred_at": "2026-08-01T07:27:51Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@0248a959689f52cacd75d1f33190c561653c6d84",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 이슈 투영 / 변경 행 변환 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/0248a959689f52cacd75d1f33190c561653c6d84",
-      "occurred_at": "2026-08-01T07:25:06Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@73619897ad65520f07e0bdc7f3197793c47e3dd5",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 재고 수집기 / 변환 경로 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/73619897ad65520f07e0bdc7f3197793c47e3dd5",
-      "occurred_at": "2026-08-01T07:24:02Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@148b05e46ded48dbaeb133f09a44a6822d78ed02",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 GitOps 투영 / 자원 경로 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/148b05e46ded48dbaeb133f09a44a6822d78ed02",
-      "occurred_at": "2026-08-01T07:22:50Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@bfccd8e4fa18911fcdf119c9307fdaef9028a626",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 조회 보조기 / 승인 식별 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bfccd8e4fa18911fcdf119c9307fdaef9028a626",
-      "occurred_at": "2026-08-01T07:21:10Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@6ca45e31e6ac3144e10a098018c88fc9ceb41332",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 재고 표현 계층 / 단독 테스트 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6ca45e31e6ac3144e10a098018c88fc9ceb41332",
-      "occurred_at": "2026-08-01T07:17:43Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@93a6f7a84bba8d4eed522ccc3f9fa181aa3891af",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 검사 알림 경로 / 공개 계약 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/93a6f7a84bba8d4eed522ccc3f9fa181aa3891af",
-      "occurred_at": "2026-08-01T07:15:39Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b08db013a020550baf3656adb9ae5dcd2480b233",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 Helm 공개 표면 / 잔여 계약 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b08db013a020550baf3656adb9ae5dcd2480b233",
-      "occurred_at": "2026-08-01T07:14:44Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@cf4606168d68b1f703e82c2639818332c42ed089",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 Helm 계약 / 설정 잔여 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/cf4606168d68b1f703e82c2639818332c42ed089",
-      "occurred_at": "2026-08-01T07:12:52Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@5764fe36affa355c88aac5780b174a17df863566",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 진단 계약 / 라우트 잔여 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/5764fe36affa355c88aac5780b174a17df863566",
-      "occurred_at": "2026-08-01T07:11:45Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@6d8f407ff7d3242a588b423b4d601be8120eda14",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 비교 기능 / 라우트 계약 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6d8f407ff7d3242a588b423b4d601be8120eda14",
-      "occurred_at": "2026-08-01T07:10:38Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3eb44a8ebaa8bc6b17cde02dfdd589c1da11e642",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 검사 기능 / 계약 계층 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3eb44a8ebaa8bc6b17cde02dfdd589c1da11e642",
-      "occurred_at": "2026-08-01T07:09:27Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@d5fc91994cd59f07f9bffc005ce6a2ddf7f0a7ef",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 롤아웃 이벤트 / 계약 잔여 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d5fc91994cd59f07f9bffc005ce6a2ddf7f0a7ef",
-      "occurred_at": "2026-08-01T07:08:03Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@72d3a0d276971e42971bb682da0226b77534a374",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 알림 API 계약 / 공개 표면 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/72d3a0d276971e42971bb682da0226b77534a374",
-      "occurred_at": "2026-08-01T07:04:57Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@bf4fcc4b178a9339b43dffdd09b16529dc022394",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 알림 규칙 / 원장 저장소 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bf4fcc4b178a9339b43dffdd09b16529dc022394",
-      "occurred_at": "2026-08-01T07:04:42Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e210082ca6aab571a35e7df7adcde7f33c6f7bbd",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: 소비자 없는 알림 발행 / 미연결 전송 계층 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e210082ca6aab571a35e7df7adcde7f33c6f7bbd",
-      "occurred_at": "2026-08-01T06:58:27Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3ca7496a8dcd481078a71798ab7885714316b7f6",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 재고 이벤트 / 계약 파일 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3ca7496a8dcd481078a71798ab7885714316b7f6",
-      "occurred_at": "2026-08-01T06:55:04Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@f9dd8693914b1d159f44122389a7dd5dfe38dd1a",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 대상 이벤트 / 계약 잔여 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f9dd8693914b1d159f44122389a7dd5dfe38dd1a",
-      "occurred_at": "2026-08-01T06:53:56Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@695b4007e16f949ef58eb51371f40afddc4934ee",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 이벤트 재노출 / 계약 표면 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/695b4007e16f949ef58eb51371f40afddc4934ee",
-      "occurred_at": "2026-08-01T06:52:09Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@05cad855b7c3e83bf88b141c02604dfdaa0a6ac9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 이벤트 주제 / 스트림 범위 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/05cad855b7c3e83bf88b141c02604dfdaa0a6ac9",
-      "occurred_at": "2026-08-01T06:51:03Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3c66494272ef3199a93dfbff6d272dcf82961312",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: 런타임 의존성 분류 / 잠금 파일 동기화",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3c66494272ef3199a93dfbff6d272dcf82961312",
-      "occurred_at": "2026-08-01T06:47:17Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@ee9882978fab7e09cdc144aa0c8b7a2ea5919c53",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: Python 버전 진단 / manifest 실행 환경",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ee9882978fab7e09cdc144aa0c8b7a2ea5919c53",
-      "occurred_at": "2026-08-01T06:41:19Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@7dc4cfc52fe38401af37af0994209cf8f4eafb1a",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "test: 삭제된 Bruno 계약 / 거짓 skip 제거",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/7dc4cfc52fe38401af37af0994209cf8f4eafb1a",
-      "occurred_at": "2026-08-01T06:36:29Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@4ec537fe55c39fc8f0634986f2402f3687442979",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미사용 정리 API / 저장소 표면 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/4ec537fe55c39fc8f0634986f2402f3687442979",
-      "occurred_at": "2026-08-01T06:34:35Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@ab29bbcc28a05a2f493bc9d08f3228aeac5bf0f9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 미연결 보존 계층 / 실행 근거 정합성",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/ab29bbcc28a05a2f493bc9d08f3228aeac5bf0f9",
-      "occurred_at": "2026-08-01T06:32:52Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@338541591e2807b81a197d70603495c62d23650b",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: Python 런타임 선택 / uv 실행 복구",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/338541591e2807b81a197d70603495c62d23650b",
-      "occurred_at": "2026-08-01T06:29:44Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@f317ad950a17296742bf24d79c986a5775c8ebb9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 공개 명칭 / 개인 저장소 링크 / PR 안내",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f317ad950a17296742bf24d79c986a5775c8ebb9",
-      "occurred_at": "2026-07-30T16:12:51Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@256b1010f38fc6cc4847bd344b4a3c6af5c6035a",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: Alembic import 순서 / 품질 게이트",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/256b1010f38fc6cc4847bd344b4a3c6af5c6035a",
-      "occurred_at": "2026-07-30T16:12:46Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@bfcbf34760b9941bb64c330c93e17f2b0b9a2853",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: Draft PR 강제 / base SHA 재검증 / 직접 쓰기 차단",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bfcbf34760b9941bb64c330c93e17f2b0b9a2853",
-      "occurred_at": "2026-07-30T13:43:13Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@c2b3d9bb6795d70f680cbe64998578b5978ef329",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 명령 영속 계층 / 비실행 모델 격리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/c2b3d9bb6795d70f680cbe64998578b5978ef329",
-      "occurred_at": "2026-07-30T10:01:40Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@00af3957d58b572868e96b7c956fe2af036ba275",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: 읽기 전용 증거 수집 / 직접 실행 경로 제거 / 핵심 서비스 축소",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/00af3957d58b572868e96b7c956fe2af036ba275",
-      "occurred_at": "2026-07-30T09:59:39Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@73ab5c333b8f68abb489de07b5ff0635037bdf75",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "refactor: Golden Path UI / 미사용 화면 제거 / 번들 분할",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/73ab5c333b8f68abb489de07b5ff0635037bdf75",
-      "occurred_at": "2026-07-30T09:12:56Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@18331a1eea8a3729f8688be6527bc3ab86e41957",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: 심화과정 연장 계획 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/18331a1eea8a3729f8688be6527bc3ab86e41957",
-      "occurred_at": "2026-07-28T23:40:28Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b1f04060be2a9593c57f6e16defb70d0cf289470",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: 심화과정 제출본 본문 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b1f04060be2a9593c57f6e16defb70d0cf289470",
-      "occurred_at": "2026-07-28T23:10:38Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@37813f13c7d5c57f0196f9018cb61a7f147303e9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: 심화과정 공통 계획 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/37813f13c7d5c57f0196f9018cb61a7f147303e9",
-      "occurred_at": "2026-07-28T22:39:15Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@2580e662b20b99b90cf805dc3377dfec7d982fb3",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: 심화과정 계획 인덱스 추가",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2580e662b20b99b90cf805dc3377dfec7d982fb3",
-      "occurred_at": "2026-07-28T22:15:35Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@892c4c71c00e61c7997ab2a1412418d54b013c5d",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: 외부 제품명 표현 정리",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/892c4c71c00e61c7997ab2a1412418d54b013c5d",
-      "occurred_at": "2026-07-27T11:00:11Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@6be0c37ac3b676094e6b00b817fff75f16930106",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "문서: docs 루트와 검증 테스트 추가",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/6be0c37ac3b676094e6b00b817fff75f16930106",
-      "occurred_at": "2026-07-26T20:29:04Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@2724af33d4dd52fd86422407c1dd31fc1a956a3f",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: isolate Safe PR branches per approval attempt",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/2724af33d4dd52fd86422407c1dd31fc1a956a3f",
-      "occurred_at": "2026-07-25T02:36:28Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@d7399293d006c19a1f952bb1ed7b3aca1a5b887b",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: keep recovery outcome title readable",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d7399293d006c19a1f952bb1ed7b3aca1a5b887b",
-      "occurred_at": "2026-07-25T02:27:21Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@c4c5559e262cfbd3aa16dde5380f9ceb5bc1b68e",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: retry failed Safe PR creation with fresh authority",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/c4c5559e262cfbd3aa16dde5380f9ceb5bc1b68e",
-      "occurred_at": "2026-07-25T02:22:23Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e50734a2a85598bfc8610f924fbd4046125d2859",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: preserve PIN attempts and allow already-applied recovery PRs",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e50734a2a85598bfc8610f924fbd4046125d2859",
-      "occurred_at": "2026-07-25T02:08:32Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@19bc83a242b03e821c4693701ce5745b5c46a734",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "test: reproduce stale recovery PIN and already-applied PR failures",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/19bc83a242b03e821c4693701ce5745b5c46a734",
-      "occurred_at": "2026-07-25T02:07:26Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@14fb964dd9bd79cd786821ea0d0982f24a8af6c7",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "fix: preserve recovery PIN authority through repeated analysis",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/14fb964dd9bd79cd786821ea0d0982f24a8af6c7",
-      "occurred_at": "2026-07-25T01:50:48Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@92e6c8376b3baa973994ae362dd444d45b2b2c72",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-session-gateway-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/92e6c8376b3baa973994ae362dd444d45b2b2c72",
-      "occurred_at": "2026-07-25T01:47:13Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@153a0e4117eef6ab8ca8149f9afbfcde92e744dc",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/153a0e4117eef6ab8ca8149f9afbfcde92e744dc",
-      "occurred_at": "2026-07-25T01:47:13Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@a43aa5cd78849c4277057eabcbacc884863d9765",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a43aa5cd78849c4277057eabcbacc884863d9765",
-      "occurred_at": "2026-07-25T01:47:11Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@30717613f232a3254cc991f304de3fd4b4ebc345",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-canary-room-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/30717613f232a3254cc991f304de3fd4b4ebc345",
-      "occurred_at": "2026-07-25T01:47:09Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b214ee93d5d55ca1ebbbd2a6dd358da84bbb15c3",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b214ee93d5d55ca1ebbbd2a6dd358da84bbb15c3",
-      "occurred_at": "2026-07-25T01:47:08Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@a37512c6b0c3d7c33f19eb3a4ef7ced14a9321dc",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a37512c6b0c3d7c33f19eb3a4ef7ced14a9321dc",
-      "occurred_at": "2026-07-25T01:47:07Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@48c2495b30080e88da7aa39e9c97e10fd9cc13ef",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-3-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/48c2495b30080e88da7aa39e9c97e10fd9cc13ef",
-      "occurred_at": "2026-07-25T01:47:05Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e682250ca117459301ebc4603b50683e95dfa307",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e682250ca117459301ebc4603b50683e95dfa307",
-      "occurred_at": "2026-07-25T01:47:04Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@f3c9be520ea772a2deca636e46dce7976fe894ad",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/f3c9be520ea772a2deca636e46dce7976fe894ad",
-      "occurred_at": "2026-07-25T01:47:02Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@bdeb8e4f058502b8640f0e34ec7aafc6a0f8201d",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-1-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/bdeb8e4f058502b8640f0e34ec7aafc6a0f8201d",
-      "occurred_at": "2026-07-25T01:47:00Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b7dee67c4f1346cd27d117497e20dfe5248689a7",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b7dee67c4f1346cd27d117497e20dfe5248689a7",
-      "occurred_at": "2026-07-25T01:46:59Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@fe3bff5b6dbf8f6800e5afc55287476dd26c9cbd",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/fe3bff5b6dbf8f6800e5afc55287476dd26c9cbd",
-      "occurred_at": "2026-07-25T01:46:58Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@cc423b88cf7add5da3a875cb2626f7ddfbabe3a9",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-2-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/cc423b88cf7add5da3a875cb2626f7ddfbabe3a9",
-      "occurred_at": "2026-07-25T01:46:56Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@11bdccbdab3a902cfb5dbdf3d05eef84663d1d50",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/11bdccbdab3a902cfb5dbdf3d05eef84663d1d50",
-      "occurred_at": "2026-07-25T01:46:55Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@b5a0f786ec9032b16e6594e0f2cd53a76f6f93e6",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/b5a0f786ec9032b16e6594e0f2cd53a76f6f93e6",
-      "occurred_at": "2026-07-25T01:46:54Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@839d3ac67fc676520031606749d7ce44f64c080f",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-0-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/839d3ac67fc676520031606749d7ce44f64c080f",
-      "occurred_at": "2026-07-25T01:46:51Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@a12834e2efbed0f30662487b0f78a52cf63cc455",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/a12834e2efbed0f30662487b0f78a52cf63cc455",
-      "occurred_at": "2026-07-25T01:46:51Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@5afe5d93ceefb85d088cd85bae4c0c011b3e9d6d",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/5afe5d93ceefb85d088cd85bae4c0c011b3e9d6d",
-      "occurred_at": "2026-07-25T01:46:49Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@77fb019a2d5e8a2e1e04394e51a37bc77fb425b4",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-canary-validation-bot-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/77fb019a2d5e8a2e1e04394e51a37bc77fb425b4",
-      "occurred_at": "2026-07-25T01:46:47Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3fca415567b210be72679606316d30509a1bd000",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3fca415567b210be72679606316d30509a1bd000",
-      "occurred_at": "2026-07-25T01:46:46Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@30daf26a23d731d646b5cc955cc52ceb82c79e86",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/30daf26a23d731d646b5cc955cc52ceb82c79e86",
-      "occurred_at": "2026-07-25T01:46:45Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@e634e109ebb5943a468ef2c48f0b2b46337baf80",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: .gitops/rollback/workflow-56b372b023d94a46ca63cb5228882c79/deployment-game-room-4-base.yaml",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/e634e109ebb5943a468ef2c48f0b2b46337baf80",
-      "occurred_at": "2026-07-25T01:46:43Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@3225f62fe40c0e8008b39fdec89247290b43106a",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply manifest patch: deploy/k8s/base",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/3225f62fe40c0e8008b39fdec89247290b43106a",
-      "occurred_at": "2026-07-25T01:46:42Z"
-    },
-    {
-      "id": "woonyong-kr/k8s-ops@d2c981afdb9ef1b3f38c7d049654c431a87bde93",
-      "kind": "commit",
-      "project": "k8s-ops",
-      "repository": "woonyong-kr/k8s-ops",
-      "title": "Apply sandbox manifest",
-      "url": "https://github.com/woonyong-kr/k8s-ops/commit/d2c981afdb9ef1b3f38c7d049654c431a87bde93",
-      "occurred_at": "2026-07-25T01:46:40Z"
     },
     {
       "id": "woonyong-kr/pintos@c98f51bae9376fcf52b50fc461a8acfc18e447a3",
