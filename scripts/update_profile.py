@@ -8,7 +8,7 @@ import ast
 from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
-from html import escape
+from html import escape, unescape
 import json
 import os
 from pathlib import Path
@@ -123,6 +123,12 @@ class BlogPost:
     tags: tuple[str, ...]
 
 
+class GitHubApiError(RuntimeError):
+    def __init__(self, status: int, detail: str) -> None:
+        super().__init__(f"GitHub API {status}: {detail}")
+        self.status = status
+
+
 def github_request(
     url: str,
     token: str,
@@ -146,7 +152,7 @@ def github_request(
             return json.load(response)
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"GitHub API {error.code}: {detail}") from error
+        raise GitHubApiError(error.code, detail) from error
 
 
 def public_text_request(url: str) -> str:
@@ -340,10 +346,47 @@ def discover_blog_posts(login: str) -> list[BlogPost]:
         index,
     )
     if not entry:
-        raise RuntimeError("Published Vite JavaScript entrypoint is missing")
+        archive = public_text_request(f"{base_url}blog/index.html")
+        return parse_jekyll_blog_posts(archive)
     main_path = entry.group("src").removeprefix("./").removeprefix("/")
     bundle = public_text_request(f"{base_url}{main_path}")
     return parse_blog_posts(bundle)
+
+
+def html_text(value: str) -> str:
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", "", value))).strip()
+
+
+def parse_jekyll_blog_posts(page: str) -> list[BlogPost]:
+    pattern = re.compile(
+        r'<h2\b[^>]*>.*?<a\s+href="/blog/(?P<slug>[^"/]+)/">'
+        r"(?P<name>.*?)</a>\s*</h2>\s*"
+        r"<p>(?P<date>\d{4}\.\d{2}\.\d{2})\s*·\s*(?P<tags>.*?)</p>\s*"
+        r"<p>(?P<subtitle>.*?)</p>",
+        re.S,
+    )
+    posts: list[BlogPost] = []
+    for order, match in enumerate(pattern.finditer(page)):
+        year, month, day = match.group("date").split(".")
+        posts.append(
+            BlogPost(
+                slug=match.group("slug"),
+                name=html_text(match.group("name")),
+                subtitle=html_text(match.group("subtitle")),
+                published_at=f"{year}-{month}-{day}",
+                order=order,
+                tags=tuple(
+                    tag.strip()
+                    for tag in html_text(match.group("tags")).split(",")
+                    if tag.strip()
+                ),
+            )
+        )
+    if not posts:
+        raise RuntimeError("Published Jekyll blog posts were not found")
+    # Jekyll renders the archive in its publication order, which is already
+    # newest first and is more precise than its day-only visible dates.
+    return posts[:6]
 
 
 def parse_blog_posts(bundle: str) -> list[BlogPost]:
@@ -441,10 +484,17 @@ def collect_snapshots(
 ) -> list[RepositorySnapshot]:
     snapshots: list[RepositorySnapshot] = []
     for repository in repositories:
-        commits = github_request(
-            f"https://api.github.com/repos/{repository.name_with_owner}/commits?per_page=100",
-            token,
-        )
+        try:
+            commits = github_request(
+                f"https://api.github.com/repos/{repository.name_with_owner}/commits?per_page=100",
+                token,
+            )
+        except GitHubApiError as error:
+            # GitHub returns 409, not an empty list, for an initialized-but-empty
+            # repository. It has no profile snapshot to contribute yet.
+            if error.status == 409:
+                continue
+            raise
         if not isinstance(commits, list):
             raise RuntimeError(f"Commit history lookup failed: {repository.name_with_owner}")
         if not commits:
@@ -851,10 +901,7 @@ def escape_table(value: str) -> str:
 def render_blog(posts: list[BlogPost]) -> str:
     rows: list[str] = []
     for post in posts:
-        url = (
-            "https://woonyong-kr.github.io/#/posts/"
-            f"{urllib.parse.quote(post.slug)}"
-        )
+        url = f"https://woonyong-kr.github.io/blog/{urllib.parse.quote(post.slug)}/"
         tags = " · ".join(escape_table(tag) for tag in post.tags) or "기록"
         row = (
             f'- <span lang="ko">**{tags}** · '

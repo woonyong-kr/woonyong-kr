@@ -92,8 +92,6 @@ jobs:
               raise SystemExit("commit history is empty")
           if readme.count("assets/generated/repo-") != 6:
               raise SystemExit("repository card count is not six")
-          if readme.count("https://woonyong-kr.github.io/#/posts/") != 6:
-              raise SystemExit("recent blog post count is not six")
           ci_section = readme[
               readme.index("<!-- ci_status:start -->"):
               readme.index("<!-- ci_status:end -->")
@@ -102,6 +100,8 @@ jobs:
               readme.index("<!-- recent_posts:start -->"):
               readme.index("<!-- recent_posts:end -->")
           ]
+          if blog_section.count("https://woonyong-kr.github.io/blog/") != 6:
+              raise SystemExit("recent blog post count is not six")
           if '<table width="100%">' not in ci_section:
               raise SystemExit("verification table is not full width")
           if "기술 범위" not in ci_section or "최근 검증" not in ci_section:
