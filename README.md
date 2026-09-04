@@ -9,8 +9,8 @@
 ## <span lang="ko">지난 12개월</span>
 
 <!-- activity_summary:start -->
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Contributions 11,300" src="https://img.shields.io/badge/Contributions-11%2C300-0969DA?style=flat-square"></a>
-<a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Commits 8,235" src="https://img.shields.io/badge/Commits-8%2C235-238636?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Contributions 11,302" src="https://img.shields.io/badge/Contributions-11%2C302-0969DA?style=flat-square"></a>
+<a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Commits 8,236" src="https://img.shields.io/badge/Commits-8%2C236-238636?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Pull Requests 123" src="https://img.shields.io/badge/Pull_Requests-123-8250DF?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Issues 132" src="https://img.shields.io/badge/Issues-132-D29922?style=flat-square"></a>
 <a href="https://github.com/woonyong-kr?tab=overview&from=2025-09-04&to=2026-09-04"><img alt="Reviews 2" src="https://img.shields.io/badge/Reviews-2-1F6FEB?style=flat-square"></a>
